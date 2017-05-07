@@ -1,0 +1,28 @@
+<section class="important-dates">
+  <div class="container">
+    <h2>Important Dates:</h2>
+
+  {{ range $.Site.Data.important.dates }}
+    <div class="imp-date {{.type}}">
+
+      <h3>{{dateFormat "Monday" .date}} <strong>{{dateFormat "January 2" .date}}</strong></h3>
+      <p>
+        <strong>{{dateFormat "15:04" .date}}</strong>
+        {{.text}}
+      </p>
+    </div>
+  {{ end }}
+
+    <div class="clear"></div>
+
+    <div class="what-now">
+    <h2>What now?</h2>
+
+    <a href="" class="btn session">Submit Session</a>
+    <a href="" class="btn vote">Vote on Session(s)</a>
+    <span></span>
+    <a href="" class="btn book">Book Now</a>
+    <a href="" class="btn">Contact Us</a>
+    </div>
+  </div>
+</section>

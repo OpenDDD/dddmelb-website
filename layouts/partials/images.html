@@ -1,0 +1,8 @@
+{{ $files := readDir "/static/images/strip" }}
+{{ if $files }}
+<section class="image-strip">
+  {{ range $files }}
+    <img src="/images/strip/{{.Name}}" alt="DDD Melbourne">
+  {{ end }}
+</section>
+{{ end }}

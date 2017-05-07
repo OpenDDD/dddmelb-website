@@ -1,0 +1,14 @@
+{{ $currentPage := . }}
+
+<nav class="main">
+  <div class="container">
+    <a href="#" class="pull hidden-sm hidden-md hidden-lg"><span></span><span></span><span></span></a>
+    <ul>
+      {{ range .Site.Menus.main.ByWeight }}
+        <li>
+          <a{{if $currentPage.IsMenuCurrent "main" . }} class="active"{{end}} href="{{ .URL  | relLangURL }}">{{ .Name }}</a>
+        </li>
+      {{ end }}
+		</ul>
+  </div>
+</nav>

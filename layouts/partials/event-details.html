@@ -1,0 +1,26 @@
+<section class="countdown grey">
+  <div class="container">
+    <h2>Countdown to Next Event:</h2>
+    <span id="clock"></span>
+    <hr>
+
+    <div class="next-event">
+      <div class="row">
+        <div class="col-xs-12">
+          <p><span>Venue</span>{{.Site.Data.event.venue}}</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-12 col-sm-5 col-md-4">
+          <p><span>Date</span>{{dateFormat .Site.Params.dateFormat .Site.Data.event.date}}</p>
+        </div>
+        <div class="col-xs-12 col-sm-3 col-md-4">
+          <p><span>Cost</span>{{.Site.Data.event.price}}</p>
+        </div>
+        <div class="col-xs-12 col-sm-4 col-md-4">
+          <a href="#" class="btn">Read More</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

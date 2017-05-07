@@ -1,0 +1,25 @@
+dates:
+  - date: 2017-05-23T09:00:00+10:00
+    text: Call for content opens
+    type: content
+  - date: 2017-06-05T18:00:00+10:00
+    text: Call for content closes
+    type: content
+  - date: 2017-06-06T10:00:00+10:00
+    text: Voting opens
+    type: voting
+  - date: 2017-06-06T10:00:00+10:00
+    text: Ticket Wave 1 opens
+    type: tickets
+  - date: 2017-06-13T12:00:00+10:00
+    text: Ticket wave 2 opens
+    type: tickets
+  - date: 2017-06-20T18:00:00+10:00
+    text: Ticket wave 3 opens
+    type: tickets
+  - date: 2017-06-27T10:00:00+10:00
+    text: Voting closes
+    type: voting
+  - date: 2017-07-04T09:00:00+10:00
+    text: Agenda Published
+    type: agenda
