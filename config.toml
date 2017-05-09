@@ -19,26 +19,6 @@ metaDataFormat = "yaml"
   flickr = "photos/92981424@N05/albums/72157634918888979"
 
 [[menu.main]]
-    name = "Agenda"
-    weight = 2
-
-[[menu.main]]
-    name = "Venue"
-    weight = 3
-
-[[menu.main]]
-    name = "Sponsor"
-    weight = 4
-
-[[menu.main]]
-  name = "FAQ"
-  weight = 5
-
-[[menu.main]]
     name = "Blog"
     url = "https://blog.dddmelbourne.com/"
     weight = 6
-
-[[menu.main]]
-    name = "Contact"
-    weight = 7

@@ -1,0 +1,6 @@
+<h3>Important Dates</h3>
+<div class="important-dates-right slick">
+  {{ range $.Site.Data.important.dates }}
+    {{ partial "important-date.html" . }}
+  {{ end }}
+</div>

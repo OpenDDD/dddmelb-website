@@ -1,3 +1,79 @@
 {{ define "main" }}
-  {{ .Content }}
+  {{ if .Params.fullWidth }}
+  <section class="full-width">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 left-col">
+          <h1>{{ .Title }}</h1>
+          {{ .Content }}
+        </div>
+        <div class="col-xs-12 right-col">
+          <div class="inner">
+            {{ partial "event-details-right.html" . }}
+            {{ partial "important-dates-right.html" . }}
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  {{ else }}
+  <section class="right-sidebar">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 col-sm-7 col-md-7 col-sm-8 left-col">
+          <h1>{{ .Title }}</h1>
+          {{ .Content }}
+        </div>
+        <div class="col-xs-12 col-sm-5 col-md-5 col-lg-4 right-col">
+          <div class="inner">
+            {{ partial "event-details-right.html" . }}
+            {{ partial "important-dates-right.html" . }}
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  {{ end }}
+  {{ if .Params.showTravelInfo }}
+    <section class="right-sidebar" id="travelinfo">
+      <div class="container directions equal-heights">
+        <div class="col">
+          <div class="top">
+            <i class="fa fa-car" aria-hidden="true"></i>
+            <h3>Car</h3>
+          </div>
+          <div class="txt">
+            <p>Although parking is available around the university we recommend that delegates travel by train to Caulfield Railway Station and then walk to the university (about 2 minutes).</p>
+          </div>
+        </div>
+        <div class="col">
+          <div class="top">
+            <i class="fa fa-train" aria-hidden="true"></i>
+            <h3>Train</h3>
+          </div>
+          <div class="txt">
+            <p>The nearest train station is Caulfield and Monash University is a 2 minute walk from there.</p>
+          </div>
+        </div>
+        <div class="col">
+          <div class="top">
+            <i class="fa fa-subway" aria-hidden="true"></i>
+            <h3>Tram</h3>
+          </div>
+          <div class="txt">
+            <p><a href="http://ptv.vic.gov.au/route/view/761" target="_blank">Tram route 3</a> stops at the Caulfield station.</p>
+          </div>
+        </div>
+        <div class="col">
+          <div class="top">
+            <i class="fa fa-car" aria-hidden="true"></i>
+            <h3>Parking</h3>
+          </div>
+          <div class="txt">
+            <p>Free parking is available in building J on level 4 and 5 only, by parking in the blue bays on the campus.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  {{ end }}
 {{ end }}

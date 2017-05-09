@@ -3,14 +3,7 @@
     <h2>Important Dates:</h2>
 
   {{ range $.Site.Data.important.dates }}
-    <div class="imp-date {{.type}}">
-
-      <h3>{{dateFormat "Monday" .date}} <strong>{{dateFormat "January 2" .date}}</strong></h3>
-      <p>
-        <strong>{{dateFormat "15:04" .date}}</strong>
-        {{.text}}
-      </p>
-    </div>
+    {{ partial "important-date.html" . }}
   {{ end }}
 
     <div class="clear"></div>

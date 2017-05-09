@@ -35,22 +35,23 @@
   </div>
 </footer>
 
-<script src="js/jquery-3.2.0.min.js"></script>
+<script src="{{ "js/jquery-3.2.0.min.js" | absURL }}"></script>
 <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-<script src="js/countdown.js"></script>
-<script src="js/slick.min.js"></script>
-<script src="js/site.js"></script>
-<script>
-  $('#clock').countdown({{dateFormat "2006/01/02 15:04:05" .Site.Data.event.date}}, function(event) {
-  var $this = $(this).html(event.strftime(''
-  + '<span><strong>%m</strong> months </span> '
-  + '<span><strong>%d</strong> days </span> '
-  + '<span><strong>%H</strong> hours </span> '
-  + '<span><strong>%M</strong> mins </span> '
-  + '<span><strong>%S</strong> secs </span>'));
-  });
+<script src="{{ "js/countdown.js" | absURL }}"></script>
+<script src="{{ "js/slick.min.js" | absURL }}"></script>
+<script src="{{ "js/site.js" | absURL }}"></script>
 
+<script>
   $(document).ready(function(){
+    $('#clock').countdown({{dateFormat "2006/01/02 15:04:05" .Site.Data.event.date}}, function(event) {
+    var $this = $(this).html(event.strftime(''
+      + '<span><strong>%m</strong> months </span> '
+      + '<span><strong>%d</strong> days </span> '
+      + '<span><strong>%H</strong> hours </span> '
+      + '<span><strong>%M</strong> mins </span> '
+      + '<span><strong>%S</strong> secs </span>'));
+    });
+
     $('.slick.important-dates-right').slick({
       vertical: true,
       infinite: false,
