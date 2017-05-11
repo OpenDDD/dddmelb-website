@@ -1,3 +1,4 @@
+{{ if $.Site.Data.sponsors.platinum or $.Site.Data.sponsors.gold or $.Site.Data.sponsors.silver }}
 <section class="sponsors">
 {{ if $.Site.Data.sponsors.platinum }}
   <h2>Platinum Sponsor</h2>
@@ -20,3 +21,4 @@
   {{ end }}
 {{ end }}
 </section>
+{{ end }}

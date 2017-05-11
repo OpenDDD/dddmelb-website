@@ -12,11 +12,11 @@ metaDataFormat = "yaml"
 
 [Author]
   name = "DDD Melbourne"
-  email = "dddmelbourne@gmail.com"
-  github = "OpenDDD"
+  #email = "dddmelbourne@gmail.com"
+  #github = "OpenDDD"
   twitter = "dddmelb"
-  instagram = "dddmelb"
-  flickr = "photos/92981424@N05/albums/72157634918888979"
+  #instagram = "dddmelb"
+  #flickr = "photos/92981424@N05/albums/72157634918888979"
 
 [[menu.main]]
     name = "Blog"
