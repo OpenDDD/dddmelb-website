@@ -2,7 +2,7 @@
 title: Sponsor
 menu:
   main:
-    weight: 4
+    weight: 5
 fullWidth: true
 ---
 Although we will be charging delegates a fee, we are still looking for sponsorships to cover the majority of the costs.  

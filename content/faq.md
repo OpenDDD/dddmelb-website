@@ -2,7 +2,7 @@
 title: FAQ
 menu:
   main:
-    weight: 5
+    weight: 6
 ---
 Please review the following frequently asked questions...
 

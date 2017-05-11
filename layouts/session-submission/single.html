@@ -1,0 +1,61 @@
+{{ define "main" }}
+  <section class="right-sidebar">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 col-sm-7 col-md-7 col-sm-8 left-col">
+          <h1>{{ .Title }}</h1>
+          {{ .Content }}
+          <form action="https://dddmelb.azurewebsites.net/submit-a-session" method="post">
+            <fieldset>
+              <ul>
+                <li>
+                  <label for="SessionTitle">Session title</label>
+                  <input type="text" name="SessionTitle" id="SessionTitle" />
+                </li>
+                <li>
+                  <label for="SessionAbstract">Session abstract</label>
+                  <textarea name="SessionAbstract" id="SessionAbstract"></textarea>
+                </li>
+                <li>
+                  <label for="PresenterName">Presenter name</label>
+                  <input type="text" name="PresenterName" id="PresenterName" />
+                </li>
+                <li>
+                  <label for="PresenterBio">A bit about you</label>
+                  <textarea name="PresenterBio" id="PresenterBio"></textarea>
+                </li>
+                <li>
+                  <label for="PresenterMobileNumber">Mobile number</label>
+                  <input type="tel" name="PresenterMobileNumber" id="PresenterMobileNumber" />
+                </li>
+                <li>
+                  <label for="PresenterEmail">Email</label>
+                  <input type="email" name="PresenterEmail" id="PresenterEmail" />
+                </li>
+                <li>
+                  <label for="PresenterTwitterAlias">Twitter alias (optional)</label>
+                  <input type="text" name="PresenterTwitterAlias" id="PresenterTwitterAlias" />
+                </li>
+                <li>
+                  <label for="PresenterWebsite">Website (optional)</label>
+                  <input type="text" name="PresenterWebsite" id="PresenterWebsite" />
+                </li>
+                <li>
+                  <label for="RecommendedAudience">Recommended audience (any pre-req knowledge etc?)</label>
+                  <input type="text" name="RecommendedAudience" id="RecommendedAudience" />
+                </li>
+                <li><input type="submit" value="Submit" /></li>
+              </ul>
+            </fieldset>
+          </form>
+        </div>
+        <div class="col-xs-12 col-sm-5 col-md-5 col-lg-4 right-col">
+          <div class="inner">
+            {{ partial "event-details-right.html" . }}
+            {{ partial "important-dates-right.html" . }}
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+{{ end }}
