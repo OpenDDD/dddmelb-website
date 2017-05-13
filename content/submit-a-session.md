@@ -1,7 +1,6 @@
 ---
 title: Submit a Session
 type: session-submission
-draft: true
 menu:
   main:
     name: Submit

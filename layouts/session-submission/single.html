@@ -5,7 +5,7 @@
         <div class="col-xs-12 col-sm-7 col-md-7 col-sm-8 left-col">
           <h1>{{ .Title }}</h1>
           {{ .Content }}
-          <form action="https://dddmelb.azurewebsites.net/submit-a-session" method="post">
+          <form action="https://dddmelb.azurewebsites.net/add-session" method="post">
             <fieldset>
               <ul>
                 <li>
@@ -43,6 +43,10 @@
                 <li>
                   <label for="RecommendedAudience">Recommended audience (any pre-req knowledge etc?)</label>
                   <input type="text" name="RecommendedAudience" id="RecommendedAudience" />
+                </li>
+                <li>
+                  <label></label>
+                  <div class="g-recaptcha" data-sitekey="6LezOSEUAAAAAFBSycA2Wm8j-UKqhSEi1rBM9F-o"></div>
                 </li>
                 <li><input type="submit" value="Submit" /></li>
               </ul>
