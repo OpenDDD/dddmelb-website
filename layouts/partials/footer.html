@@ -47,11 +47,11 @@
   $(document).ready(function(){
     $('#clock').countdown({{dateFormat "2006/01/02 15:04:05" .Site.Data.event.date}}, function(event) {
     var $this = $(this).html(event.strftime(''
-      + '<span><strong>%m</strong> months </span> '
-      + '<span><strong>%d</strong> days </span> '
-      + '<span><strong>%H</strong> hours </span> '
-      + '<span><strong>%M</strong> mins </span> '
-      + '<span><strong>%S</strong> secs </span>'));
+      + '<span><strong>%m</strong> month%!m </span> '
+      + '<span><strong>%n</strong> day%!n </span> '
+      + '<span><strong>%H</strong> hour%!H </span> '
+      + '<span><strong>%M</strong> min%!M </span> '
+      + '<span><strong>%S</strong> sec%!S </span>'));
     });
 
     $('.slick.important-dates-right').slick({
