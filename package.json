@@ -1,0 +1,8 @@
+{
+  "name": "dddmelb-website",
+  "version": "1.0.0",
+  "description": "The DDD Melbourne Website",
+  "devDependencies": {
+    "firebase-tools": "3.7.0"
+  }
+}
