@@ -3,8 +3,7 @@ box: node
 build:
   steps:
     - npm-install
-
-    - arjen/hugo-build@1.16.3
+    - arjen/hugo-build@1.16.3:
       version: "0.20.7"
       disable_pygments: true
 
