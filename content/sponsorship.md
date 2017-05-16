@@ -1,5 +1,5 @@
 ---
-title: Sponsor
+title: Sponsorship
 menu:
   main:
     weight: 5
@@ -9,9 +9,9 @@ Although we will be charging delegates a fee, we are still looking for sponsorsh
 This year we have 4 sponsorship tiers:
 
 <div class="sponsor equal-heights">
-  <div class="col">  
+  <div class="col">
     <h2>Platinum</h2>
-    <p>Provide sponsorship of $6,000</p>
+    <p>Sold Out</p>
   </div>
   <div class="col">
     <h2>Gold</h2>
