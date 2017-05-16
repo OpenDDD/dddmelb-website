@@ -1,0 +1,31 @@
+{{ define "main" }}
+  <section class="full-width">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 left-col">
+          <h1>{{ .Title }}</h1>
+          {{ .Content }}
+          {{ if $.Site.Data.sessions }}
+            <p>{{len $.Site.Data.sessions}} Sessions</p>
+            {{ range $.Site.Data.sessions }}
+              <div class="session content">
+                <h3>{{.title}}</h3>
+                <p>
+                  {{.name}} {{ if .twitter }}[<a href="https://twitter.com/{{.twitter}}" class="targetBlank">@{{.twitter}}</a>]{{ end }}
+                  {{ if .website }}<br /><a href="{{.website}}" class="targetBlank">{{.website}}</a>{{ end }}
+                </p>
+                <p>{{.abstract}}</p>
+              </div>
+            {{ end }}
+          {{ end }}
+        </div>
+        <div class="col-xs-12 right-col">
+          <div class="inner">
+            {{ partial "event-details-right.html" . }}
+            {{ partial "important-dates-right.html" . }}
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+{{ end }}

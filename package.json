@@ -3,6 +3,8 @@
   "version": "1.0.0",
   "description": "The DDD Melbourne Website",
   "devDependencies": {
-    "firebase-tools": "3.7.0"
+    "firebase-tools": "3.7.0",
+    "azure-storage": "2.1.0",
+    "lodash": "4.17.4"
   }
 }
