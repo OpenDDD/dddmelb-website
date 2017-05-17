@@ -105,7 +105,7 @@ $(document).ready(function() {
 			// Please add the class .equal-heights to the columns container and .col to each column:
 			if(windowWidth > 768) {
 				$('.equal-heights').each(function(){
-					
+
 					$('.col').height('');
 
 					var highestBox = 0;
@@ -132,6 +132,9 @@ $(document).ready(function() {
 
 	}();
 
-
-
+	$('.captcha-form input[type="submit"]').attr("disabled", "disabled");
 });
+
+var recaptchaComplete = function() {
+	$('.captcha-form input[type="submit"]').removeAttr("disabled");
+};

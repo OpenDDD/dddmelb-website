@@ -12,3 +12,7 @@
 .session h3 {
   margin: 0;
 }
+
+input[type="submit"]:disabled {
+  background-color: #d3d3d3;
+}
