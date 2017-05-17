@@ -14,3 +14,10 @@ deploy:
       code: |
           node ./node_modules/firebase-tools/bin/firebase use production
           node ./node_modules/firebase-tools/bin/firebase deploy --token $FIREBASE_TOKEN
+
+generate-sessions:
+  steps:
+    - script:
+      name: generate sessions
+      code: |
+          node ./scripts/generate-sessions-data.js
