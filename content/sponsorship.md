@@ -6,6 +6,8 @@ menu:
 fullWidth: true
 ---
 Although we will be charging delegates a fee, we are still looking for sponsorships to cover the majority of the costs.  
+If you are interested in sponsoring DDD Melbourne, please email as at [dddmelbourne@gmail.com](mailto:dddmelbourne@gmail.com).   
+
 This year we have 4 sponsorship tiers:
 
 <div class="sponsor equal-heights">

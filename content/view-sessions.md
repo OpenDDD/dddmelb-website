@@ -1,6 +1,10 @@
 ---
 title: Sessions
 type: sessions
+menu:
+  main:
+    name: Sessions
+    weight: 3
 ---
-Below are the sessions that have been submitted.
-Please not that we manually approve all entries so don't worry if you have just submitted a session and it is not appearing yet.
+Below are the sessions that have been submitted for voting.  
+Please note that we manually approve all entries so don't worry if you have just submitted a session and it's not appearing yet.

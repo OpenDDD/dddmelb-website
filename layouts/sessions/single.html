@@ -6,15 +6,15 @@
           <h1>{{ .Title }}</h1>
           {{ .Content }}
           {{ if $.Site.Data.sessions }}
-            <p>{{len $.Site.Data.sessions}} Sessions</p>
+            <p>{{len $.Site.Data.sessions}} Session(s) have been submitted</p>
             {{ range $.Site.Data.sessions }}
-              <div class="session content">
+              <div class="submitted-session content">
                 <h3>{{.title}}</h3>
                 <p>
                   {{.name}} {{ if .twitter }}[<a href="https://twitter.com/{{.twitter}}" class="targetBlank">@{{.twitter}}</a>]{{ end }}
                   {{ if .website }}<br /><a href="{{.website}}" class="targetBlank">{{.website}}</a>{{ end }}
                 </p>
-                <p>{{.abstract}}</p>
+                <p>{{.abstract | markdownify}}</p>
               </div>
             {{ end }}
           {{ end }}

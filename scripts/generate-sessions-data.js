@@ -21,7 +21,7 @@ var abbreviatePresenterName = function(name) {
 
 var normaliseWebsite = function(url) {
   if(url == null || url === '') {
-    return null;
+    return undefined;
   }
 
   if(!url.startsWith('http://') && !url.startsWith('https://')) {
@@ -33,7 +33,7 @@ var normaliseWebsite = function(url) {
 
 var normaliseTwitterHandle = function(twitterHandle) {
   if(twitterHandle == null || twitterHandle === '') {
-    return null;
+    return undefined;
   }
 
   return twitterHandle.replace('@', '');
@@ -62,11 +62,11 @@ var getApprovedSessions = function(callback) {
       var entry = entries[i];
       var session = {
         id: entry.RowKey._,
-        title: entry.SessionTitle._,
-        name: abbreviatePresenterName(entry.PresenterName._),
-        twitter: normaliseTwitterHandle(entry.PresenterTwitterAlias._),
-        website: normaliseWebsite(entry.PresenterWebsite._),
-        abstract: entry.SessionAbstract._
+        title: entry.SessionTitle != null ? entry.SessionTitle._ : '',
+        name: abbreviatePresenterName(entry.PresenterName != null ? entry.PresenterName._ : ''),
+        twitter: normaliseTwitterHandle(entry.PresenterTwitterAlias != null ? entry.PresenterTwitterAlias._ : ''),
+        website: normaliseWebsite(entry.PresenterWebsite != null ? entry.PresenterWebsite._ : ''),
+        abstract: entry.SessionAbstract != null ? entry.SessionAbstract._ : ''
       };
       sessions.push(session);
     }

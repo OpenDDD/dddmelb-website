@@ -2,16 +2,17 @@
   <div class="container">
     <h2>Important Dates:</h2>
 
-  {{ range $.Site.Data.important.dates }}
-    {{ partial "important-date.html" . }}
-  {{ end }}
+    {{ range $.Site.Data.important.dates }}
+      {{ partial "important-date.html" . }}
+    {{ end }}
 
     <div class="clear"></div>
 
     <div class="what-now">
       <h2>What now?</h2>
 
-      <a href="/submit-a-session" class="btn session">Submit Session</a>
+      <a href="/submit-a-session/" class="btn session">Submit Session</a>
+      <a href="/view-sessions/" class="btn vote">View Session(s)</a>
       <!--<a href="" class="btn vote">Vote on Session(s)</a>
       <span></span>
       <a href="" class="btn book">Book Now</a>
