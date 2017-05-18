@@ -10,8 +10,6 @@ We welcome sessions from any dev related topic. Previously we have had a wide ra
 
 Before submitting a session please consider the following:
 
-- You should be comfortable giving your presentation in front of an audience of between 50-150 people
-- The audience will be largely technical and can be quite vocal on some topics!
 - Sessions are not a sales presentation although you are welcome to have a slide or two about yourself and your company
 - You will probably not have internet access
 - We will open voting about a month prior to the event. If your session gets voted in and you agree to present, then this is a serious commitment
