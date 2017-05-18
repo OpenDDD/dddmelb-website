@@ -1,0 +1,18 @@
+{{ define "main" }}
+  <section class="right-sidebar">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 col-sm-7 col-md-7 col-sm-8 left-col">
+          <h1>Page Not Found</h1>
+          Sorry this page could not be found.
+        </div>
+        <div class="col-xs-12 col-sm-5 col-md-5 col-lg-4 right-col">
+          <div class="inner">
+            {{ partial "event-details-right.html" . }}
+            {{ partial "important-dates-right.html" . }}
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+{{ end }}
