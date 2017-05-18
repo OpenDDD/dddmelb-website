@@ -15,9 +15,18 @@ deploy:
           node ./node_modules/firebase-tools/bin/firebase use production
           node ./node_modules/firebase-tools/bin/firebase deploy --token $FIREBASE_TOKEN
 
-generate-sessions:
+refresh-data:
   steps:
     - script:
       name: generate sessions
       code: |
           node ./scripts/generate-sessions-data.js
+    - script:
+      name: commit data updates
+      code: |
+        git config --local user.email "dddmelbourne@gmail.com"
+        git config --local user.name "Wercker Deployment"
+        git checkout master
+        git add -A
+        git commit -m "[refresh data] Refreshing site data" || true
+        git push origin master
