@@ -22,3 +22,11 @@
   {{ end }}
   </section>
 {{ end }}
+
+{{ if $.Site.Data.sponsors.standard }}
+  <section class="sponsors grey">
+    {{ range $.Site.Data.sponsors.standard }}
+      <a href="{{.url}}" class="targetBlank"><img src="/images/sponsors/{{.img}}" alt="{{.text}}" /></a>
+    {{ end }}
+  </section>
+{{ end }}
