@@ -1,5 +1,28 @@
 [
   {
+    "id": "8de116c9-2b0e-4c27-98ee-d411f5403db6",
+    "title": "Culture as a Product",
+    "name": "M. Boudreau",
+    "website": "http://codinghitchhiker.com",
+    "abstract": "Forget SaaS, IaaS and PaaS, CaaP is where it's at.  People seem to ignore the importance of the culture and it's direct affect on creativity, research and the overall product.  I'm here to prove to you, beautiful audience member, that Product is more than just the technology or it's utility, at it's core, it's the culture that shines through; ignoring it could mean doom for your business."
+  },
+  {
+    "id": "15f9d668-20ef-4df9-b44c-85caa2be228d",
+    "title": "TypeScript + React",
+    "name": "B. Ali Syed",
+    "twitter": "basarat",
+    "website": "http://basarat.com",
+    "abstract": "TypeScript's recent claim to fame is its adaption by the Angular Team. That said perhaps you want to see what TypeScript + React looks like. \r\n\r\nThis session shows you benefits of this combo."
+  },
+  {
+    "id": "3e5be020-cc44-4a2e-82a0-d642bc1d9c83",
+    "title": "Depression - software developer strain",
+    "name": "I. Gorelik",
+    "twitter": "rogik",
+    "website": "http://igorelikblog.wordpress.com/",
+    "abstract": "Everyone heard about depression. But most of us are sure that this won't happen to us. As we are strong and, as software developers, we are very logical. And depression is illogical. Right? It depends. Come to this session to hear some facts about depression, listen about my personal experience, and, the most important, what you can do about it."
+  },
+  {
     "id": "cfdae985-e611-4cda-9119-79b8b63d29b5",
     "title": "How Blizzard turned a regular shit show into an amazing user experience",
     "name": "V. Love",
