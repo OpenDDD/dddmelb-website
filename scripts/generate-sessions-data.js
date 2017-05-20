@@ -4,9 +4,9 @@ var fs = require('fs');
 var path = require('path');
 var _ = require('lodash');
 
-var abbreviatePresenterName = function(name) {
+var abbreviatePresenterNames = function(name) {
   if(name == null || name === '') {
-    return '';
+    return undefined;
   }
 
   var nameSplit = name.split(',');
@@ -16,27 +16,39 @@ var abbreviatePresenterName = function(name) {
     names.push(name);
   }
 
-  return names.join(', ').trim();
+  return names;
 };
 
-var normaliseWebsite = function(url) {
+var normaliseWebsites = function(url) {
   if(url == null || url === '') {
     return undefined;
   }
 
-  if(!url.startsWith('http://') && !url.startsWith('https://')) {
-    return 'http://'+url;
+  var websiteSplit = url.split(',');
+  var websites = [];
+  for(var i = 0; i < websiteSplit.length; i++) {
+  	var website = websiteSplit[i];
+    if(!website.startsWith('http://') && !website.startsWith('https://')) {
+      website = 'http://'+website.trim();
+    }
+    websites.push(website);
   }
 
-  return url;
+  return websites;
 };
 
-var normaliseTwitterHandle = function(twitterHandle) {
+var normaliseTwitterHandles = function(twitterHandle) {
   if(twitterHandle == null || twitterHandle === '') {
     return undefined;
   }
 
-  return twitterHandle.replace('@', '');
+  var twitterHandleSplit = twitterHandle.split(',');
+  var twitterHandles = [];
+  for(var i = 0; i < twitterHandleSplit.length; i++) {
+    twitterHandles.push(twitterHandleSplit[i].replace('@', '').trim());
+  }
+
+  return twitterHandles;
 };
 
 var getApprovedSessions = function(callback) {
@@ -63,9 +75,9 @@ var getApprovedSessions = function(callback) {
       var session = {
         id: entry.RowKey._,
         title: entry.SessionTitle != null ? entry.SessionTitle._ : '',
-        name: abbreviatePresenterName(entry.PresenterName != null ? entry.PresenterName._ : ''),
-        twitter: normaliseTwitterHandle(entry.PresenterTwitterAlias != null ? entry.PresenterTwitterAlias._ : ''),
-        website: normaliseWebsite(entry.PresenterWebsite != null ? entry.PresenterWebsite._ : ''),
+        names: abbreviatePresenterNames(entry.PresenterName != null ? entry.PresenterName._ : ''),
+        twitters: normaliseTwitterHandles(entry.PresenterTwitterAlias != null ? entry.PresenterTwitterAlias._ : ''),
+        websites: normaliseWebsites(entry.PresenterWebsite != null ? entry.PresenterWebsite._ : ''),
         abstract: entry.SessionAbstract != null ? entry.SessionAbstract._ : ''
       };
       sessions.push(session);

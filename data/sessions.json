@@ -2,39 +2,65 @@
   {
     "id": "3e5be020-cc44-4a2e-82a0-d642bc1d9c83",
     "title": "Depression - software developer strain",
-    "name": "I. Gorelik",
-    "twitter": "rogik",
-    "website": "http://igorelikblog.wordpress.com/",
+    "names": [
+      "I. Gorelik"
+    ],
+    "twitters": [
+      "rogik"
+    ],
+    "websites": [
+      "http://igorelikblog.wordpress.com/"
+    ],
     "abstract": "Everyone heard about depression. But most of us are sure that this won't happen to us. As we are strong and, as software developers, we are very logical. And depression is illogical. Right? It depends. Come to this session to hear some facts about depression, listen about my personal experience, and, the most important, what you can do about it."
   },
   {
     "id": "653fe001-3a88-4118-b11f-2f547448708c",
     "title": "How I stopped worrying and learned to love the JavaScript",
-    "name": "B. Forster",
-    "twitter": "shiftkey",
-    "website": "http://brendanforster.com",
+    "names": [
+      "B. Forster"
+    ],
+    "twitters": [
+      "shiftkey"
+    ],
+    "websites": [
+      "http://brendanforster.com"
+    ],
     "abstract": "About a year ago, I joined a team that was starting from scratch on a new project.\r\n\r\n\"And we're going to do it in JavaScript!\"\r\n\r\nIf you feel uncomfortable at hearing that detail, come along and hear about how we (a team of developers who weren't strong in JavaScript skills) shipped the project a year later and found it a (mostly) pleasant experience.\r\n\r\nI'll talk about how we settled on TypeScript, the tooling around TypeScript that helps keep everything under control, and show how you can put together a toolchain and process that balances moving quickly with producing correct code!"
   },
   {
     "id": "8de116c9-2b0e-4c27-98ee-d411f5403db6",
     "title": "Culture as a Product",
-    "name": "M. Boudreau",
-    "website": "http://codinghitchhiker.com",
+    "names": [
+      "M. Boudreau"
+    ],
+    "websites": [
+      "http://codinghitchhiker.com"
+    ],
     "abstract": "Forget SaaS, IaaS and PaaS, CaaP is where it's at.  People seem to ignore the importance of the culture and it's direct affect on creativity, research and the overall product.  I'm here to prove to you, beautiful audience member, that Product is more than just the technology or it's utility, at it's core, it's the culture that shines through; ignoring it could mean doom for your business."
   },
   {
     "id": "15f9d668-20ef-4df9-b44c-85caa2be228d",
     "title": "TypeScript + React",
-    "name": "B. Ali Syed",
-    "twitter": "basarat",
-    "website": "http://basarat.com",
+    "names": [
+      "B. Ali Syed"
+    ],
+    "twitters": [
+      "basarat"
+    ],
+    "websites": [
+      "http://basarat.com"
+    ],
     "abstract": "TypeScript's recent claim to fame is its adaption by the Angular Team. That said perhaps you want to see what TypeScript + React looks like. \r\n\r\nThis session shows you benefits of this combo."
   },
   {
     "id": "cfdae985-e611-4cda-9119-79b8b63d29b5",
     "title": "How Blizzard turned a regular shit show into an amazing user experience",
-    "name": "V. Love",
-    "twitter": "fly401",
+    "names": [
+      "V. Love"
+    ],
+    "twitters": [
+      "fly401"
+    ],
     "abstract": "You’ve burned your reputation, you’ve over promised, you’ve lost trust. This was the case for Blizzard Entertainment and their World of Warcraft subscribers. I know, I am one of them. Late August the Legion expansion was launched, and we all held our breath.\r\n\r\nI spent 3 days playing a game, and it was the best technology experience I have ever had. I will discuss the history of past releases, the user experience and how it was communicated to us. We will learn a bit about the technology and solutions behind the problems that had plagued them in the past. The promises given, the expectations and the results.\r\n\r\nWorking in IT I saw a lot of correlations in this experience to releasing software. Come to this session and learn how you can bring users around and the expected results when you do."
   }
 ]

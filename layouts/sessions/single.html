@@ -11,8 +11,16 @@
               <div class="submitted-session content">
                 <h3>{{.title}}</h3>
                 <p>
-                  {{.name}} {{ if .twitter }}[<a href="https://twitter.com/{{.twitter}}" class="targetBlank">@{{.twitter}}</a>]{{ end }}
-                  {{ if .website }}<br /><a href="{{.website}}" class="targetBlank">{{.website}}</a>{{ end }}
+                  {{ if .names }}
+                    {{ range $index, $names := .names }}{{if $index}},&nbsp;{{end}}{{.}}{{ end }}
+                  {{ end }}
+                  {{ if .twitters }}
+                    [{{ range $index, $twitters := .twitters }}{{if $index}},&nbsp;{{end}}<a href="https://twitter.com/{{.}}" class="targetBlank">@{{.}}</a>{{ end }}]
+                  {{ end }}
+                  {{ if .websites }}
+                    <br />
+                    {{ range $index, $websites := .websites }}{{if $index}},&nbsp;{{end}}<a href="{{.}}" class="targetBlank">{{.}}</a>{{ end }}
+                  {{ end }}
                 </p>
                 <p>{{.abstract | markdownify}}</p>
               </div>
