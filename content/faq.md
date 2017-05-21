@@ -10,7 +10,7 @@ Please review the following frequently asked questions...
   <li>
     <a class="toggleAccordion" href="javascript:void(0);">When and where?</a>
     <div class="inner">
-      <p>The event will be held on Sat Aug 13th 2016 at Monash University Caulfield Campus with doors opening at 08:30 and ending 17:00 (ish). After the event is finished the after party will be held at The Orrong Hotel, 709 High St Armadale.</p>
+      <p>The event will be held on Sat Aug 12th 2017 at Monash University Caulfield Campus with doors opening at 08:30 and ending 17:00 (ish). After the event is finished there will be an afterparty, details will be announced closer to the date.</p>
     </div>
   </li>
 
