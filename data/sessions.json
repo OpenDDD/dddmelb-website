@@ -1,5 +1,33 @@
 [
   {
+    "id": "4d89701f-261a-4fe3-96f9-367b7532b93e",
+    "title": "Microservices Management using Consul",
+    "names": [
+      "H. Eskandari"
+    ],
+    "twitters": [
+      "hadi_es"
+    ],
+    "websites": [
+      "http://www.seesharpsoftware.com.au/"
+    ],
+    "abstract": "You have designed and deployed your application using Microservices patterns and deployed to production but it won't take too long to realize managing tens, hundred or even thousand instances of services manually can quickly become a nightmare. How do you make sure your services are healthy? You do you do load balancing? What about configuration management across your services? Does your service rely on another service? How do you do service discoveries locally, let alone acorss multi-data centers? \r\n\r\nCome to my talk and I'll show you how this can be done relatively easily using Consul."
+  },
+  {
+    "id": "136443a9-4d1e-4e85-b3f9-5e8aa6017784",
+    "title": "Microservices UI Patterns",
+    "names": [
+      "H. Eskandari"
+    ],
+    "twitters": [
+      "hadi_es"
+    ],
+    "websites": [
+      "http://www.seesharpsoftware.com.au/"
+    ],
+    "abstract": "There's a lot of buzz around using Microservices patterns to design your backend system, but surprisingly not a lot of people talk about how these services are ultimately tied back together on the frontend. This talk is about challenges you face when creating a UI for your Microservices and challenges you face to ensure service boundaries are respected while the code is still maintainable and loosely coupled."
+  },
+  {
     "id": "3e5be020-cc44-4a2e-82a0-d642bc1d9c83",
     "title": "Depression - software developer strain",
     "names": [
