@@ -1,1 +1,119 @@
-[]
+[
+  {
+    "id": "0e871481-eb76-4fdf-b77f-7f515a76c45c",
+    "title": "Graph Databases - what you need to know",
+    "names": [
+      "J. Gallagher"
+    ],
+    "twitters": [
+      "joelgall"
+    ],
+    "abstract": "With the rise of Big Data & social networks, traditional Relational Databases have reached the limits of their abilities to handle inter-connected entities.\r\n\r\nAs a result, Graph databases have become more popular, with the likes of Microsoft and GitHub recently offering Graph solutions. \r\n\r\nThis talk will explain the theory behind Graph databases, when (and when not) to use them, and then demonstrate their power using Neo4j, one of the more popular graph databases."
+  },
+  {
+    "id": "564b4a21-8d00-4123-812a-67c88dee0f8d",
+    "title": "\"The hills are alive with the sound of your smelly code\"",
+    "names": [
+      "A. Marks"
+    ],
+    "twitters": [
+      "andee_marks"
+    ],
+    "websites": [
+      "http://vampwillow.wordpress.com"
+    ],
+    "abstract": "This is a demonstration of a code quality analysis tool that doesn’t visualise the metrics – it “audiolises” them.\r\n\r\nThe concepts of poor code having smell and colour (usually red) is commonly accepted, but what about appealing to our sense of hearing as well as eyes and nose?  Aeolian is an open source tool (written by the author) that generates MIDI music from code quality metrics, which begs the question:\r\n\r\nWhat does poor quality code sound like? Justin Beiber’s latest? A Phillip Glass soundtrack? A Phil Spector wall of sound cacophony? Modern Jazz? 🙂\r\n\r\nLikewise, what does good quality code sound like? Mozart? White noise?\r\n\r\nHow do commonly accepted musical concepts (keys, tempo, verse, chorus) apply when illustrating code quality.\r\n\r\nThe author (an amateur musician and long time producer of smelly code) will talk through the concepts of Aeolian and provide plenty of examples of how you can map code quality to music. \r\n\r\nThis will be a light-hearted talk and no knowledge of music theory is needed."
+  },
+  {
+    "id": "4d89701f-261a-4fe3-96f9-367b7532b93e",
+    "title": "Microservices Management using Consul",
+    "names": [
+      "H. Eskandari"
+    ],
+    "twitters": [
+      "hadi_es"
+    ],
+    "websites": [
+      "http://www.seesharpsoftware.com.au/"
+    ],
+    "abstract": "You have designed and deployed your application using Microservices patterns and deployed to production but it won't take too long to realize managing tens, hundred or even thousand instances of services manually can quickly become a nightmare. How do you make sure your services are healthy? You do you do load balancing? What about configuration management across your services? Does your service rely on another service? How do you do service discoveries locally, let alone acorss multi-data centers? \r\n\r\nCome to my talk and I'll show you how this can be done relatively easily using Consul."
+  },
+  {
+    "id": "136443a9-4d1e-4e85-b3f9-5e8aa6017784",
+    "title": "Microservices UI Patterns",
+    "names": [
+      "H. Eskandari"
+    ],
+    "twitters": [
+      "hadi_es"
+    ],
+    "websites": [
+      "http://www.seesharpsoftware.com.au/"
+    ],
+    "abstract": "There's a lot of buzz around using Microservices patterns to design your backend system, but surprisingly not a lot of people talk about how these services are ultimately tied back together on the frontend. This talk is about challenges you face when creating a UI for your Microservices and challenges you face to ensure service boundaries are respected while the code is still maintainable and loosely coupled."
+  },
+  {
+    "id": "3e5be020-cc44-4a2e-82a0-d642bc1d9c83",
+    "title": "Depression - software developer strain",
+    "names": [
+      "I. Gorelik"
+    ],
+    "twitters": [
+      "rogik"
+    ],
+    "websites": [
+      "http://igorelikblog.wordpress.com/"
+    ],
+    "abstract": "Everyone heard about depression. But most of us are sure that this won't happen to us. As we are strong and, as software developers, we are very logical. And depression is illogical. Right? It depends. Come to this session to hear some facts about depression, listen about my personal experience, and, the most important, what you can do about it."
+  },
+  {
+    "id": "653fe001-3a88-4118-b11f-2f547448708c",
+    "title": "How I stopped worrying and learned to love the JavaScript",
+    "names": [
+      "B. Forster"
+    ],
+    "twitters": [
+      "shiftkey"
+    ],
+    "websites": [
+      "http://brendanforster.com"
+    ],
+    "abstract": "About a year ago, I joined a team that was starting from scratch on a new project.\r\n\r\n\"And we're going to do it in JavaScript!\"\r\n\r\nIf you feel uncomfortable at hearing that detail, come along and hear about how we (a team of developers who weren't strong in JavaScript skills) shipped the project a year later and found it a (mostly) pleasant experience.\r\n\r\nI'll talk about how we settled on TypeScript, the tooling around TypeScript that helps keep everything under control, and show how you can put together a toolchain and process that balances moving quickly with producing correct code!"
+  },
+  {
+    "id": "8de116c9-2b0e-4c27-98ee-d411f5403db6",
+    "title": "Culture as a Product",
+    "names": [
+      "M. Boudreau"
+    ],
+    "websites": [
+      "http://codinghitchhiker.com"
+    ],
+    "abstract": "Forget SaaS, IaaS and PaaS, CaaP is where it's at.  People seem to ignore the importance of the culture and it's direct affect on creativity, research and the overall product.  I'm here to prove to you, beautiful audience member, that Product is more than just the technology or it's utility, at it's core, it's the culture that shines through; ignoring it could mean doom for your business."
+  },
+  {
+    "id": "15f9d668-20ef-4df9-b44c-85caa2be228d",
+    "title": "TypeScript + React",
+    "names": [
+      "B. Ali Syed"
+    ],
+    "twitters": [
+      "basarat"
+    ],
+    "websites": [
+      "http://basarat.com"
+    ],
+    "abstract": "TypeScript's recent claim to fame is its adaption by the Angular Team. That said perhaps you want to see what TypeScript + React looks like. \r\n\r\nThis session shows you benefits of this combo."
+  },
+  {
+    "id": "cfdae985-e611-4cda-9119-79b8b63d29b5",
+    "title": "How Blizzard turned a regular shit show into an amazing user experience",
+    "names": [
+      "V. Love"
+    ],
+    "twitters": [
+      "fly401"
+    ],
+    "abstract": "You’ve burned your reputation, you’ve over promised, you’ve lost trust. This was the case for Blizzard Entertainment and their World of Warcraft subscribers. I know, I am one of them. Late August the Legion expansion was launched, and we all held our breath.\r\n\r\nI spent 3 days playing a game, and it was the best technology experience I have ever had. I will discuss the history of past releases, the user experience and how it was communicated to us. We will learn a bit about the technology and solutions behind the problems that had plagued them in the past. The promises given, the expectations and the results.\r\n\r\nWorking in IT I saw a lot of correlations in this experience to releasing software. Come to this session and learn how you can bring users around and the expected results when you do."
+  }
+]
