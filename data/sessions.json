@@ -1,5 +1,19 @@
 [
   {
+    "id": "813415af-a6bc-453f-8581-a13b2cb489e9",
+    "title": "Notes from the (Bleeding) Edge",
+    "names": [
+      "E. van der Koogh"
+    ],
+    "twitters": [
+      "evanderkoogh"
+    ],
+    "websites": [
+      "http://bitgenics.io"
+    ],
+    "abstract": "As the founder of a tech startup I get to make all the decisions about what technologies to use. And we have tried all[1] of them and even kept some of them.\r\nJoin me in a series of HonestTrailers for some of the hottest technologies out there. Amongst others: Server-Side Rendering, Lambda, New JavaScript Features, Honeycomb, All[2] of the new AWS products & Vue.js.\r\n\r\n[1] Of course not actually *all* of them. It would take an infinite amount of monkey and laptops to try *just* the new JavaScript Frameworks..\r\n[2] Maybe not all of these either. Amazon is only less prolific than open source JavaScript developers"
+  },
+  {
     "id": "88426429-c864-48e6-ac58-590ef2c2cefb",
     "title": "Azure Logic Apps and the Magic of Serverless Integration",
     "names": [
