@@ -18,8 +18,8 @@ input[type="submit"]:disabled {
   background-color: #d3d3d3;
 }
 
-.sponsors > a {
-  margin: 0 15px 0 15px;
+.sponsors > a > img {
+  margin: 10px 15px 10px 15px;
 }
 
 /*font size in menu @ 768*/
