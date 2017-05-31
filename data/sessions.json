@@ -1,5 +1,61 @@
 [
   {
+    "id": "5bf917ce-805f-41ae-b53a-3bf17c547b2c",
+    "title": "Building security at scale: making DevOps less terrible",
+    "names": [
+      "A. Chapman"
+    ],
+    "twitters": [
+      "agc93"
+    ],
+    "websites": [
+      "http://blog.achapman.com"
+    ],
+    "abstract": "DevOps allows development teams to build faster, release more often and manage operations on the fly! It also allows developers to ship wildly insecure products and skip over the most basic information security principles in the name of agility! \r\n\r\nIn this talk, I will be exploring the pitfalls of DevOps from a security point of view and looking at the common mistakes that development teams make that leads to security bugs. This will include every stage of the development process from code to deployment.\r\n\r\nAdditionally, I will be looking at the many ways you can quickly and easily improve the security standing of your codebase without sacrificing the agility and rapid release cadence that businesses and managers have come to expect from “DevOps teams”. \r\n\r\nFinally, I will provide a brief insight into how to move your team from DevOps to SecDevOps, integrating information and product security into every layer of your development team and organisation, for the best results, all without compromising your development team’s trademark agility."
+  },
+  {
+    "id": "207c4875-3689-4ae5-bc9e-3152c7b3f340",
+    "title": "Working smarter, not harder: automating the pain out of open-source maintenance",
+    "names": [
+      "A. Chapman"
+    ],
+    "twitters": [
+      "agc93"
+    ],
+    "websites": [
+      "http://blog.achapman.com"
+    ],
+    "abstract": "Maintaining open-source software can be a complex and time-intensive task. In today's world of open-source maintainers often being restricted to their free time, how do we maximise the time developers can spend delivering features and minimise the time spent on chores and project maintenance?\r\n\r\nThis talk will be delivering a brief summary of using automation, testing, and release software to simplify and streamline maintaining open-source projects. Using Cake (C# Make) as a case study, this presentation includes both high-level guidelines and a practical guide to using a combination of process, documentation, automation and community engagement to reduce the burden on project maintainers and improve project quality.\r\n\r\nThis talk is especially valuable to open-source project maintainers but will be of value to anyone involved in the open-source community at any level. Maintainers will understand how to improve efficiency and rely on automation to make maintenance easier; contributors will learn how to make maintenance and review easier, getting features merged faster."
+  },
+  {
+    "id": "0ce42e11-3149-4fd2-a970-2932d99be9ae",
+    "title": "Making cross-platform builds a piece of Cake",
+    "names": [
+      "A. Chapman"
+    ],
+    "twitters": [
+      "agc93"
+    ],
+    "websites": [
+      "http://blog.achapman.com"
+    ],
+    "abstract": "This session will be an in-depth dive into using Cake (C# Make) to automate, orchestrate and supercharge your builds.\r\n\r\nDuring the session I will be covering getting started with Cake, putting together your first build script and how to take your builds to the next level including build, test, packaging, publishing and deployment across any platform.\r\nI'll also be outlining how to integrate Cake with your favourite editors, tools, cloud platforms and CI providers, across Windows, macOS and Linux! From Visual Studio to Azure, AppVeyor to Yeoman, Cake makes it easy to automate and control your builds, all with the full power of C# and .NET!\r\nThis session will include simple demos to go from a basic .NET solution to a complete cross-platform CI and CD pipeline using a single Cake script."
+  },
+  {
+    "id": "b45408f7-f83a-4c80-89bc-e9ec1ce4c68a",
+    "title": "Using Docker to supercharge .NET development on Linux",
+    "names": [
+      "A. Chapman"
+    ],
+    "twitters": [
+      "agc93"
+    ],
+    "websites": [
+      "http://blog.achapman.com"
+    ],
+    "abstract": "With the release of .NET Core, the long-awaited dream of running .NET natively on Linux is finally here! Even better, .NET Core has arrived just in time for the coming container revolution! \r\n\r\nIn this talk I will be covering getting started with .NET Core on Linux, including a progressive approach to introducing Docker starting with CLI and tooling all the way up to a fully containerised application in a short, but practical development scenario.\r\n\r\nIn this session, we will get started with a basic Hello, World! in C# on a Linux host and demonstrate how Docker can be used not just in production, but also during development to not just simplify the Linux development experience, but also to enable powerful new capabilities including cross-platform scripting, seamless scaling, reproducible builds and simple testing."
+  },
+  {
     "id": "7e286d8f-7dea-46a4-8f5e-41ff285eb49f",
     "title": "A lap around Azure data platform",
     "names": [
