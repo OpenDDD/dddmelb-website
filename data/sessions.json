@@ -1,5 +1,28 @@
 [
   {
+    "id": "9eb0154e-daeb-4415-90cd-a1f9fae646e1",
+    "title": "Coming to grips with Progressive Web Apps",
+    "names": [
+      "W. Tulloch"
+    ],
+    "twitters": [
+      "wtulloch"
+    ],
+    "abstract": "Another year, another buzzword. Progressive Web Applications (PWA) is a concept that first came out of Google in 2015. The core idea is to create web sites  that act and feel like native mobile apps. \r\n\r\nIn this talk we will look at what exactly is a Progressive Web App both in terms of the concepts that  underpin it and the key technologies that it is built on. \r\nFrom there we get down and dirty with some code to see what it takes to write a PWA. \r\nFinally we will step back into the real world and ask the question are PWAs the band or just the bandwagon."
+  },
+  {
+    "id": "4bdcacb7-559e-4557-8c50-0fa1ead0badb",
+    "title": "How to be an Opinionated Git",
+    "names": [
+      "S. Baldwin",
+      "S. Kumar"
+    ],
+    "twitters": [
+      "scottjbaldwin"
+    ],
+    "abstract": "Although Git is an amazingly powerful distributed source control system that has quickly become the industry default, it is surprising to see its true potential go almost completely unused in so many projects. Fear and/or lack of confidence force many developers to use only the bare minimum of Git's capabilities, but like many things in our professional practice, time and energy spent up-front in understanding and using Git better will stand your projects in good stead, and enable faster more reliable delivery of software features to end users.\r\nThis talk is aimed at presenting an unashamedly \"opinionated\" approach to using Git in a team environment. We will endeavour to demonstrate how features like rebase, cherry-pick, bisect and others can be used to create branch histories that are easier to review, safer to merge, and a breeze when it comes understanding where a bug or \"feature\" was introduced. This talk will change the way you view your source control, from merely a background tool that you use to submit code to a first class partner in quality software development."
+  },
+  {
     "id": "cd91c2fe-bd4f-4b73-8768-a462a1678190",
     "title": "HOWTO: Server-Side Rendering with React",
     "names": [
