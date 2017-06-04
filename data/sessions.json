@@ -1,5 +1,47 @@
 [
   {
+    "id": "cd91c2fe-bd4f-4b73-8768-a462a1678190",
+    "title": "HOWTO: Server-Side Rendering with React",
+    "names": [
+      "E. van der Koogh"
+    ],
+    "twitters": [
+      "evanderkoogh"
+    ],
+    "websites": [
+      "http://bitgenics.io"
+    ],
+    "abstract": "So you love to use the latest technology and give your customers the most amazing experience so you would love to use React. But you work for a business that actually needs to make money from the website, so SEO, Social Sharing and fast Time to First Render are actually important?\r\n\r\nServer-Side Rendering (SSR) to the rescue! Whenever a user comes to your website you first render a page and send good old fashioned HTML to them and have React take over after that. Amazing for SEO, Sharing, speed *\r\n\r\nIt looks like React already supports SSR out of the box, but that is only true if you don't want to do anything interesting, like making an API call or reading something from a database.\r\n\r\nIn this talk we will be exploring a few different strategies for Server-Side Rendering our code."
+  },
+  {
+    "id": "9aa4d2f7-33cf-48b2-83af-b14c19d9089f",
+    "title": "Project forecasting using Monte Carlo method",
+    "names": [
+      "D. Raniszewski"
+    ],
+    "twitters": [
+      "dominikran"
+    ],
+    "websites": [
+      "http://devblog.xyz/"
+    ],
+    "abstract": "This talk is about using Monte Carlo simulations for creating project forecasts. I was using this method when delivering solutions for a financial institution undergoing a transformation towards Agile processes.\r\n\r\nI would like to share my experiences about how it helped me to educate Product Owner and stakeholders on differences between forecasts and commitments, keep stakeholders involved in backlog prioritization and provide a forecast that can be easily turned into a release plan."
+  },
+  {
+    "id": "94240edd-22a6-4aef-8542-226f105298a3",
+    "title": "Solving real life problems with machine learning",
+    "names": [
+      "D. Raniszewski"
+    ],
+    "twitters": [
+      "dominikran"
+    ],
+    "websites": [
+      "http://devblog.xyz/"
+    ],
+    "abstract": "Have you ever thought about machine learning but didn't know where to start? This session is about how to take something from your day to day life and turn it into a machine learning problem. \r\n\r\nI'm going to describe fundamentals of a problem space identification, first steps of creating machine learning based solution and share with you how I turned one of my problems into a functioning, end-to-end application"
+  },
+  {
     "id": "503061c3-37c3-4e9a-a2f5-0e164b23b6ad",
     "title": "GraphQL - A query language to empower your API consumers",
     "names": [
