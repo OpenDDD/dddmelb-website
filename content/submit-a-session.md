@@ -4,7 +4,7 @@ type: session-submission
 menu:
   main:
     name: Submit Session
-    weight: 2
+    weight: 3
 ---
 We welcome sessions from any dev related topic. Previously we have had a wide range of sessions from agile to C++ to JavaScript to Haskell. If voters think your session is relevant or interesting it's in!
 
