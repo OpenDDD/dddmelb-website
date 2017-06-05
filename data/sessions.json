@@ -1,5 +1,16 @@
 [
   {
+    "id": "7411ca66-6746-48fd-a88f-d8d7c10fc8ad",
+    "title": "Case Study: How Serverless Applications Have Helped Enterprise Turn Their ITSM More Agile",
+    "names": [
+      "J. Yoo"
+    ],
+    "twitters": [
+      "justinchronicle"
+    ],
+    "abstract": "The term, \"Serverless\" is not a buzz any longer. Many enterprises actively adopt serverless applications into their business cases. In addition, Those serverless applications don't have to lock in a certain vendor at all. Why bother? From the business perspective, as long as their services are up and running, they are happy. \r\n \r\nIn this session, Justin will talk about a case study that he (and/or company he works for) delivered a few serverless applications to his customer, using Azure Functions, Azure Logic Apps and AWS Lambda. He will also show that those applications helped the customer save a lot of time and resources for their ITSM infrastructure. He will also share a few tips to consider for developing serverless applications."
+  },
+  {
     "id": "9eb0154e-daeb-4415-90cd-a1f9fae646e1",
     "title": "Coming to grips with Progressive Web Apps",
     "names": [
