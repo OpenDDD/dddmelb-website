@@ -1,5 +1,33 @@
 [
   {
+    "id": "22137f63-c6b8-41ac-8cd0-f55c4c36526f",
+    "title": "MicroPython!",
+    "names": [
+      "N. Moore"
+    ],
+    "twitters": [
+      "nickzoic"
+    ],
+    "websites": [
+      "http://nick@zoic.org"
+    ],
+    "abstract": "MicroPython is a very easy to use language which runs on very cheap SoC platforms, perfect for the development of the Internet of Things or just messing around with toys.\r\n\r\nThis talk looks at a widely available WiFi enabled SoC, the ESP32, and how to install and use MicroPython to make it do interesting stuff connecting sensors and actuators to the Internet."
+  },
+  {
+    "id": "098a6308-29ba-444d-8753-d43c77651cb3",
+    "title": "The Internet of (Not Shit) Things",
+    "names": [
+      "N. Moore"
+    ],
+    "twitters": [
+      "nickzoic"
+    ],
+    "websites": [
+      "http://nick.zoic.org/"
+    ],
+    "abstract": "The Internet of Things! Existential menace or meaningless buzzword? Automating away drudgery or just eroding privacy? Cornucopia or Panopticon?\r\n\r\nThe negative side of the argument is eloquently expressed, often under the catchy name “The Internet of Shit”. But why such skepticism in a world of rampant technophilia? Why are we not, in fact, welcoming our robot overlords?\r\n\r\nThis talk looks at the very real problems of the IoT, with examples from recent news, and looks at how to learn from the criticisms to identify potential solutions."
+  },
+  {
     "id": "7411ca66-6746-48fd-a88f-d8d7c10fc8ad",
     "title": "Case Study: How Serverless Applications Have Helped Enterprise Turn Their ITSM More Agile",
     "names": [
