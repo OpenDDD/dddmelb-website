@@ -1,5 +1,19 @@
 [
   {
+    "id": "6ef02979-9e21-4e38-af80-f0fd8e82f507",
+    "title": "Everything’s a stream. An introduction to RxJS and avoiding anti-patterns",
+    "names": [
+      "P. Heasley"
+    ],
+    "twitters": [
+      "pheasley"
+    ],
+    "websites": [
+      "http://phdesign.com.au/"
+    ],
+    "abstract": "To reactive extensions, everything's a stream. RxJS simplifies concurrent and async programming in JavaScript by producing and transforming immutable streams, allowing you to easily reason about the events. This talk will give an introduction to using RxJS including common anti-patterns and how to avoid them."
+  },
+  {
     "id": "14a11e96-921d-4ee3-836b-ee3abac5792d",
     "title": "Congrats you are a Solution Architect, now what?",
     "names": [
