@@ -7,6 +7,9 @@
     "azure-storage": "2.1.0",
     "lodash": "4.17.4",
     "gulp": "3.9.1",
-    "gulp-less": "3.3.0"
+    "gulp-less": "3.3.0",
+    "gulp-clean-css": "3.4.1",
+    "gulp-concat": "2.6.1",
+    "gulp-uglify": "3.0.0"
   }
 }
