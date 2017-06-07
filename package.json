@@ -5,6 +5,8 @@
   "devDependencies": {
     "firebase-tools": "3.7.0",
     "azure-storage": "2.1.0",
-    "lodash": "4.17.4"
+    "lodash": "4.17.4",
+    "gulp": "3.9.1",
+    "gulp-less": "3.3.0"
   }
 }
