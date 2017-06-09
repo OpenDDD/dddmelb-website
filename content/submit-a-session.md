@@ -6,7 +6,9 @@ menu:
     name: Submit Session
     weight: 3
 ---
-We welcome sessions from any dev related topic. Previously we have had a wide range of sessions from agile to C++ to JavaScript to Haskell. If voters think your session is relevant or interesting it's in!
+We welcome sessions from any dev related topic. Previously we have had a wide range of sessions from Agile to C++ to JavaScript to Haskell. If voters or our in-house Panel think your session is relevant or interesting it's in!
+
+This year we have two entry options. Submit to Open Voting using the inline form below and your session will go on this website for voting via ticket holders! Alternatively, you can submit to the in-house Panel where a number of industry people will carefully select sessions, they will not go through the Open Voting process. You can only submit the same talk via one of these options. 
 
 Before submitting a session please consider the following:
 
@@ -15,4 +17,6 @@ Before submitting a session please consider the following:
 - We will open voting about a month prior to the event. If your session gets voted in and you agree to present, then this is a serious commitment
 - Experienced presenter, Author & MVP Guy Smith Ferrier has some great advice on [how to give a great presentation](http://guysmithferrier.com/Downloads/HowToGiveGreatPresentations.pdf)
 
-To submit a session please enter the following details (and please don't enter any HTML otherwise you will get an error after submission & you'll have to do it again):
+To submit a session to the in-house Panel for the private selection process please enter the session details on [this form here](https://goo.gl/forms/HN2RR22JkyEsSaCI3)
+
+To submit a session to Open Voting please enter the following details (and please don't enter any HTML otherwise you will get an error after submission & you'll have to do it again):
