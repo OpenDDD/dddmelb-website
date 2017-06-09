@@ -1,5 +1,78 @@
 [
   {
+    "id": "fc137520-a69a-4378-8c12-6a0af6f64371",
+    "title": "Making cars smarter",
+    "names": [
+      "P. Oborin",
+      "T. Quach"
+    ],
+    "abstract": "Nowadays smart devices are becoming an everyday fact. We have smart phones, smart TVs, smart watches, the list can go on.\r\nWhat if cars could be smarter? What if your car could report a potential issue before it was a problem? Could we make better decisions based on vehicle data?\r\nThere are a number of ways to make a car smarter:\r\n· Phone voice assistants (e.g Siri, Cortana)\r\n· Vehicle OBD2 dongles\r\n· Dashboard proprietary frameworks (linking your phone to your car)\r\n· Build it in! (eg: Tesla)\r\n\r\nWe’ll focus on what we can do with dongles and frameworks to link smart phones and cars. Pros, cons, how to get started, and other considerations (your headunit is not an iPad!)"
+  },
+  {
+    "id": "b8afd624-4ac6-4f30-95a8-2062f6950160",
+    "title": "Electron for the Skeptical Developer",
+    "names": [
+      "B. Forster"
+    ],
+    "twitters": [
+      "shiftkey"
+    ],
+    "websites": [
+      "http://brendanforster.com"
+    ],
+    "abstract": "Electron is a new framework for building cross-platform applications using Node and web technologies. For curious developers, whether you build desktop or web applications, you may want to know more but aren't sure how to get started.\r\n\r\nIn this talk I'll share my experience having my world turned upside down:\r\n\r\n - using React and Node (and some C++) to replace my WPF and C# experience\r\n - how the Electron architecture differs from other GUI technologies\r\n - the fun and shenanigans that come with doing JavaScript day-to-day\r\n - navigating the Electron and Node ecosystems, and some of the amazing community work you should check out\r\n - war stories from the development of GitHub Desktop\r\n\r\nLearning a new stack and shipping something soon was a big change but ultimately a really enjoyable experience, and with everything being open source it's been great to be able to contribute back to the technologies I rely on.\r\n\r\nThis is a lot of ground to cover in a short time, but please bring your questions, curiosity and heckling!"
+  },
+  {
+    "id": "c2eabea3-501c-46c9-8d2e-91553082f50e",
+    "title": "Applying microservices principles to front-end",
+    "names": [
+      "A. Elharouny"
+    ],
+    "twitters": [
+      "harouny"
+    ],
+    "websites": [
+      "http://www.harouny.com"
+    ],
+    "abstract": "So, you have successfully separated your back-end into smaller, focused,  independently deployable services that can be handed to separate teams in your organization. But you still have a problem; your front-end is  still a big monolith! \r\n\r\nIs there another product/website -inside or outside your organization- that is interested in embedding your product's functionality?\r\n\r\nxcomponent toolkit is built by a team in PayPal to meet this need. Its used now by PayPal to embed checkout plugin into other websites. Its a cross-domain component toolkit, supporting rendering components in an iframe or popup on a different domain, and passing down properties as you expect from a native component. \r\n\r\nI will be showing how to use xcomponent to breakup your traditional monolithic web app into smaller components that is sandboxed, separately deployable, easy to build and works cross domain."
+  },
+  {
+    "id": "ade40a1d-6d2a-4d31-bf58-c5301b796d48",
+    "title": "Swift for micro services",
+    "names": [
+      "P. Oborin"
+    ],
+    "twitters": [
+      "poborin"
+    ],
+    "abstract": "Swift is a cross platform open source functional language beloved by thousands of developers worldwide. Many leading IT companies, such as IBM, Apple (troll face) or Google (double troll face) are using Swift for many different domains. It is one of the most popular languages around the globe (in the top 20 according to the Tiobe index) mainly due to mobile development. However, Swift is a very powerful tool for micro services development. \r\n\r\nIn this workshop, we will go step by step through creating a functional micro service. We will install a swift compiler, a back-end framework and write a simple restful service.\r\n\r\nPrerequisites: macOS Sierra, Ubuntu 14.04, internet connection"
+  },
+  {
+    "id": "26a147c6-9ea3-411e-af10-454e09dcd36f",
+    "title": "Introduction to Swift",
+    "names": [
+      "P. Oborin"
+    ],
+    "twitters": [
+      "poborin"
+    ],
+    "abstract": "Swift is a cross platform open source functional language beloved by thousands of developers worldwide. It is known for its simplicity and flexibility, and hence is an extremely powerful language to build mobile applications as well as micro services. It was released just 3 years ago and so far, has already made the Tiobe top 20.\r\n\r\nIn this session, I will introduce you to Swift’s syntax. I will explain how flexible and self-describing the language is. I will cover most common patterns and approaches. Moreover, I will also talk about some known gaps and challenges developers are facing in everyday development."
+  },
+  {
+    "id": "6ef02979-9e21-4e38-af80-f0fd8e82f507",
+    "title": "Everything’s a stream. An introduction to RxJS and avoiding anti-patterns",
+    "names": [
+      "P. Heasley"
+    ],
+    "twitters": [
+      "pheasley"
+    ],
+    "websites": [
+      "http://phdesign.com.au/"
+    ],
+    "abstract": "To reactive extensions, everything's a stream. RxJS simplifies concurrent and async programming in JavaScript by producing and transforming immutable streams, allowing you to easily reason about the events. This talk will give an introduction to using RxJS including common anti-patterns and how to avoid them."
+  },
+  {
     "id": "14a11e96-921d-4ee3-836b-ee3abac5792d",
     "title": "Congrats you are a Solution Architect, now what?",
     "names": [
