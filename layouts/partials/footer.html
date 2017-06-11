@@ -21,10 +21,13 @@
           <li><a rel="nofollow" class="gh targetBlank" href="https://github.com/{{ .Site.Author.github }}"></a></li>
           {{ end }}
           {{ if $.Site.Author.instagram }}
-          <li><a rel="nofollow" class="in targetBlank" href="https://www.instagram.com/{{ .Site.Author.instagram }}"></a></li>
+          <li><a rel="nofollow" class="ig targetBlank" href="https://www.instagram.com/{{ .Site.Author.instagram }}"></a></li>
           {{ end }}
           {{ if $.Site.Author.flickr }}
           <li><a rel="nofollow" class="fr targetBlank" href="https://www.flickr.com/{{ .Site.Author.flickr }}"></a></li>
+          {{ end }}
+          {{ if $.Site.Author.email }}
+          <li><a rel="nofollow" class="em" href="mailto:{{ .Site.Author.email }}"></a></li>
           {{ end }}
         </ul>
       </div>

@@ -12,11 +12,11 @@ googleAnalytics = "UA-99087610-1"
 
 [Author]
   name = "DDD Melbourne"
-  #email = "dddmelbourne@gmail.com"
-  #github = "OpenDDD"
+  email = "dddmelbourne@gmail.com"
+  github = "OpenDDD"
   twitter = "dddmelb"
-  #instagram = "dddmelb"
-  #flickr = "photos/92981424@N05/albums/72157634918888979"
+  instagram = "dddmelb"
+  flickr = "photos/135717775@N07/"
 
 [[menu.main]]
     name = "Blog"

@@ -11,6 +11,10 @@ build:
         type: rsa
     - npm-install
     - script:
+      name: build
+      code: |
+          node ./node_modules/gulp/bin/gulp.js build
+    - script:
       name: refresh data
       code: |
           node ./scripts/generate-sessions-data.js
