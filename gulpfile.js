@@ -26,3 +26,5 @@ gulp.task("watch", ["less", "js"], function () {
   gulp.watch("src/less/**/*.less", ["less"]);
   gulp.watch("src/js/**/*.js", ["js"]);
 });
+
+gulp.task("build", ["less", "js"]);

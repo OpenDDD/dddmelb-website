@@ -1,6 +1,8 @@
 public
 node_modules
 *.orig
+static/css/screen.css
+static/js/site.js
 
 # Windows image file caches
 Thumbs.db
