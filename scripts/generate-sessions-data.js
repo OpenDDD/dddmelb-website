@@ -58,9 +58,7 @@ var getApprovedSessions = function(callback) {
 
   tableSvc.queryEntities('Sessions', query, null, function(err, result, response) {
     if(err != null) {
-      console.error('Error finding sessions', err);
-      callback(sessions);
-      return;
+      throw new Error('Error finding sessions: ' + err.message);
     }
 
     if(!result.entries || result.entries.length == 0) {
@@ -91,7 +89,7 @@ function writeSessionsAsData(sessions) {
   var filePath = path.join(__dirname, '..', 'data', 'sessions.json');
   fs.writeFile(filePath, JSON.stringify(sessions, null, 2), 'utf8', function(err) {
     if(err != null) {
-        return console.error('Error writing sessions file', err);
+      throw new Error('Error writing sessions file: ' + err.message);
     }
     console.log('Sessions written to ' + filePath);
 });
