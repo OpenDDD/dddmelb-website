@@ -54,7 +54,7 @@ Please review the following frequently asked questions...
     <div class="inner">
       <p>Due to the popularity of last years event, we are running 3 separate ticket waves to give everyone an opportunity to obtain a ticket.<br/>
       Wave 1: Sat 10th June @ 10am AEST<br/>
-      Wave 2: Sat 17th June @ 12pm AEST<br/>
+      Wave 2: Mon 19th June @ 12pm AEST<br/>
       The ticket price will stay at $49 for each wave.</p>
     </div>
   </li>
