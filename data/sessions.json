@@ -1,5 +1,44 @@
 [
   {
+    "id": "b43a26e7-ef55-4a02-a619-e82e85dd26c8",
+    "title": "The History of .NET",
+    "names": [
+      "R. Campbell"
+    ],
+    "twitters": [
+      "richcampbell"
+    ],
+    "abstract": "The .NET Framework is more than fifteen years old! Or is it? Join Richard Campbell on a tour of the history of .NET, Visual Studio and the related tools that have been the principal way that developers build software in the Microsoft space. The conversation explores the relationship between development tools, operating systems and the hardware that runs it all - the winding path of .NET is influenced by many things - and the future is only getting more interesting!"
+  },
+  {
+    "id": "1af3ccaa-b7b1-4b45-a163-a6bfbd89d346",
+    "title": "The Development Platform Landscape in 2017",
+    "names": [
+      "R. Campbell"
+    ],
+    "twitters": [
+      "richcampbell"
+    ],
+    "websites": [
+      "http://www.dotnetrocks.com"
+    ],
+    "abstract": "Join Richard Campbell as he takes you on a tour of the broad range of subjects explored while recording more than 1400 episodes of .NET Rocks over the past 10+ years. The development world today is evolving rapidly, but a look at the history of development can help inform the path we're on and where we're going. Along the way you'll hear some great stories from the various .NET Rocks episodes and get some ideas of how you can take your career and your company into the future of technology."
+  },
+  {
+    "id": "5cd8f694-f8de-4f8a-bcae-071670641919",
+    "title": "Saving the World One App at a Time – The Humanitarian Toolbox",
+    "names": [
+      "R. Campbell"
+    ],
+    "twitters": [
+      "richcampbell"
+    ],
+    "websites": [
+      "http://www.htbox.org"
+    ],
+    "abstract": "Join Richard Campbell as he tells his story of software, hardware and charity that ultimately has led him to the Humanitarian Toolbox (htbox.org). The Humanitarian Toolbox is an open source initiative to build software for disaster relief – both for the Non-Governmental Organizations that are involved in disaster relief, the citizen volunteers that donate their time to assist during a disaster and the disaster victims themselves. Richard will take you along on his journey of experiences with technology over several decades to show how you can help change the world with software."
+  },
+  {
     "id": "1bedd9c6-44e0-4100-913d-468e52fbf19b",
     "title": "Atari 2600 for a developer in 2017",
     "names": [
