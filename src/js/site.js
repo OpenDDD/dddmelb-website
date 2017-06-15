@@ -56,8 +56,6 @@ $(document).ready(function() {
     // Open first accordion on load
     $('.toggleAccordion').eq(0).addClass('active');
     $('.toggleAccordion').eq(0).next().addClass('show');
-
-
   }();
 
 

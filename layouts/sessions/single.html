@@ -1,4 +1,6 @@
 {{ define "main" }}
+  {{ $voting := .Params.voting}}
+
   <section class="full-width">
     <div class="container">
       <div class="row">
@@ -6,6 +8,13 @@
           <h1>{{ .Title }}</h1>
           {{ .Content }}
           <p>{{len $.Site.Data.sessions}} Session(s) have been submitted</p>
+          <div id="submit-votes">
+            <span>Votes Remaining: <span class="remaining-votes">10</span></span>
+            <label>Order Number:</label><input type="text" />
+            <label>Order Email:</label><input type="email" />
+            <input type="submit" text="Submit" />
+          </div>
+
           {{ if $.Site.Data.sessions }}
             {{ range $.Site.Data.sessions }}
               <div class="submitted-session content">
@@ -23,6 +32,9 @@
                   {{ end }}
                 </p>
                 <p>{{.abstract | markdownify}}</p>
+                {{ if $voting }}
+                  <a href="#" class="vote" data-session-id="{{.id}}">+</a>
+                {{ end }}
               </div>
             {{ end }}
           {{ end }}

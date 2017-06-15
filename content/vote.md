@@ -1,9 +1,10 @@
 ---
-title: Sessions
+title: Vote
 type: sessions
+voting: true
 menu:
   main:
-    name: Sessions
+    name: Vote
     weight: 4
 ---
 Below are the sessions that have been submitted for voting.  
