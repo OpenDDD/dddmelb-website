@@ -1,5 +1,30 @@
 [
   {
+    "id": "db65a130-db86-4ecb-85e2-ffad6f2d2257",
+    "title": "Quantum Computing Fundamentals",
+    "names": [
+      "C. Belle"
+    ],
+    "websites": [
+      "http://www.eliasdigital.com/"
+    ],
+    "abstract": "Last time the good people of DDD land deemed me worthy of delivering a talk on quantum computing, and so I set out to ensure that my presentation would give everyone in the room a firm grounding in quantum computing fundamentals. This could have been done better!\r\n\r\nGiven a second chance, this time around, we will explore quantum computing as compared to classical computing (from an OO developer’s perspective), we’ll tour terminology to allow anyone to interpret currently used notation, and most importantly, there will be no protracted droning on about matrix algebra!\r\n\r\nSo join me to get the skinny on quantum computing basics including: an under-the-hood look at how a quantum computer functions, how quantum-y people notate things (and therefore how to read what quantum-y people have written), why quantum computing will be useful, and how a quantum system compares to the systems we use today."
+  },
+  {
+    "id": "258296f8-e817-406f-9f57-fc2cf40f6f3c",
+    "title": "Expose your most valuable assets, the API-First approach",
+    "names": [
+      "P. Heasley"
+    ],
+    "twitters": [
+      "pheasley"
+    ],
+    "websites": [
+      "http://phdesign.com.au/"
+    ],
+    "abstract": "Too often we build our user interfaces first, then we build disjointed APIs to expose specific functionality or to connect to other systems. The API-First approach advocates for designing a coherent, complete API before anything else, analogous to a Mobile First approach. A clear API designed for developers will be easier to extend with new interfaces (like IoT) as well as enabling future integrations that couldn’t be imagined today."
+  },
+  {
     "id": "b43a26e7-ef55-4a02-a619-e82e85dd26c8",
     "title": "The History of .NET",
     "names": [
