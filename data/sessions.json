@@ -1,5 +1,36 @@
 [
   {
+    "id": "3fe53bcd-a936-4192-ac6a-e17b761a62b9",
+    "title": "5 Steps to Runtime Scaffolding in Angular(4)",
+    "names": [
+      "S. Harris"
+    ],
+    "websites": [
+      "http://kiandra.com.au/"
+    ],
+    "abstract": "For those both interested in rapid delivery and unexcited by writing boilerplate code, dynamic scaffolding is an appealing concept.\r\n\r\nMost major software systems need to manage reference data. Data such as countries, states, medication lists and biodiversity categories all need basic create/read/update/delete (CRUD) functionality. Runtime scaffolding presents an opportunity to quickly provide CRUD functionality for these data sets.\r\n\r\nThis session uses Angular(4) and Swagger to build up a dynamic scaffolding component against a REST API. The REST API will use .NET Core but the technique is not specific to this platform.  The dynamic scaffolding component is simply configured with the URL to swagger.json and some additional options.\r\n\r\nWe will follow these 5 steps\r\n- Overview of Swagger and swagger.json\r\n- Reading the API's swagger.json from Angular\r\n- Generate search and update forms\r\n- Propagate updates to the API\r\n- Hook it up to your Angular App!"
+  },
+  {
+    "id": "eec877bd-97bf-492b-8c6a-abb4625de3db",
+    "title": "Blockchain: reconciling one block at a time",
+    "names": [
+      "S. Kaul",
+      "M. Kakaiya"
+    ],
+    "twitters": [
+      "kakaiya"
+    ],
+    "abstract": "Blockchain technology will fundamentally change the Internet, and revolutionising all industries as they go along. \r\nBut what is it, and what does it mean? \r\nWhere can you use it, and where you shouldn't?\r\nWe'll take you through the basics of blockchain and how Webjet developed blockchain based solution to simplify reconciliation in the travel industry."
+  },
+  {
+    "id": "15968752-aaa7-4669-b084-6bd8059e99ff",
+    "title": "Computer Scientists hate him! Two essential 10-point lists for your support developer needs!",
+    "names": [
+      "R. Evans"
+    ],
+    "abstract": "Software support can sometimes be a very different beast compared to the initial development phase of a project, be it agile or otherwise. They can come in all manner of shapes and sizes and be taken on under a variety of circumstances - particularly in the world of consultation.\r\nIn this presentation I'll go over two areas of key importance to support software developers with a 10 point list covering each.\r\nFirst, with an emphasis on client engagement and maintaining existing software, support work comes with a different set of challenges to greenfield development. I'll go over my top 10 list of skills and qualities that make an effective support developer, complete with some do and don't examples.\r\nAdditionally, we'll look at a 10 item handover checklist I have developed that covers things that a support developer would love to have when getting started. They can be taken as a useful template or starting point, which can come in handy if you're looking for a way to improve or update your support development processes."
+  },
+  {
     "id": "677111d7-3355-4e91-8f95-4512f88c0728",
     "title": "Develop hybrid mobile apps with ionic framework",
     "names": [
