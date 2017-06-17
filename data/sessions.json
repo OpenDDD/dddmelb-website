@@ -1,5 +1,16 @@
 [
   {
+    "id": "b81c0039-d4e1-4dbf-ba6e-0fce6e0c7364",
+    "title": "A dilettante's guide to Web Components",
+    "names": [
+      "W. Tulloch"
+    ],
+    "twitters": [
+      "wtulloch"
+    ],
+    "abstract": "Late last year V1 of the Web Components specs was released, but in the face of frameworks such as Angular and ReactJS  is it too little, too late or is it an idea whose time has come?\r\nIn this talk we will take a step back from the precipice and review what Web Components actually are, what they offer and what it takes to write one from scratch. From there we will take a brief tour of Polymer, one of the main libraries that has hitched it's wagon to the Web Component paradigm.\r\nFinally we will take a critical look at where Web Components sit in the broader web development eco-system both strengths and weaknesses."
+  },
+  {
     "id": "3fe53bcd-a936-4192-ac6a-e17b761a62b9",
     "title": "5 Steps to Runtime Scaffolding in Angular(4)",
     "names": [
