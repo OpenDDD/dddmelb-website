@@ -1,11 +1,51 @@
 [
   {
-    "id": "677111d7-3355-4e91-8f95-4512f88c0728",
-    "title": "Develop hybrid mobile apps with ionic framework",
+    "id": "3fe53bcd-a936-4192-ac6a-e17b761a62b9",
+    "title": "5 Steps to Runtime Scaffolding in Angular(4)",
     "names": [
-      "V. Bilyachat"
+      "S. Harris"
     ],
-    "abstract": "Another look to develop native mobile apps.  Its not only way to prototype but way to build production ready apps. \r\nI will talk about how to run a project, how to use framework, how to run and debug application."
+    "websites": [
+      "http://kiandra.com.au/"
+    ],
+    "abstract": "For those both interested in rapid delivery and unexcited by writing boilerplate code, dynamic scaffolding is an appealing concept.\r\n\r\nMost major software systems need to manage reference data. Data such as countries, states, medication lists and biodiversity categories all need basic create/read/update/delete (CRUD) functionality. Runtime scaffolding presents an opportunity to quickly provide CRUD functionality for these data sets.\r\n\r\nThis session uses Angular(4) and Swagger to build up a dynamic scaffolding component against a REST API. The REST API will use .NET Core but the technique is not specific to this platform.  The dynamic scaffolding component is simply configured with the URL to swagger.json and some additional options.\r\n\r\nWe will follow these 5 steps\r\n- Overview of Swagger and swagger.json\r\n- Reading the API's swagger.json from Angular\r\n- Generate search and update forms\r\n- Propagate updates to the API\r\n- Hook it up to your Angular App!"
+  },
+  {
+    "id": "b81c0039-d4e1-4dbf-ba6e-0fce6e0c7364",
+    "title": "A dilettante's guide to Web Components",
+    "names": [
+      "W. Tulloch"
+    ],
+    "twitters": [
+      "wtulloch"
+    ],
+    "abstract": "Late last year V1 of the Web Components specs was released, but in the face of frameworks such as Angular and ReactJS  is it too little, too late or is it an idea whose time has come?\r\nIn this talk we will take a step back from the precipice and review what Web Components actually are, what they offer and what it takes to write one from scratch. From there we will take a brief tour of Polymer, one of the main libraries that has hitched it's wagon to the Web Component paradigm.\r\nFinally we will take a critical look at where Web Components sit in the broader web development eco-system both strengths and weaknesses."
+  },
+  {
+    "id": "7e286d8f-7dea-46a4-8f5e-41ff285eb49f",
+    "title": "A lap around Azure data platform",
+    "names": [
+      "P. Khasnabis"
+    ],
+    "twitters": [
+      "softveda"
+    ],
+    "websites": [
+      "http://www.softveda.com.au"
+    ],
+    "abstract": "Microsoft Azure cloud platform provides a number of options for storing all kinds of Data both Relational and NoSQL, and performing actions on Data. With so many available choices it can be difficult to know the right Azure service to use for a given scenario. This session is about discovering the options of storing data in Azure and processing them. There will be guidance provided for application developers, solution architects and data analysts in choosing the right services and tools. You will learn the key features and differences between\n\n* Azure Blob Storage\n* Azure Table Storage\n* Azure SQL DB\n* Azure SQL on VM (IAAS)\n* Azure SQL Managed Instance\n* Azure Data Lake Store\n* Azure CosmosDB (formerly DocumentDB)\n* Azure Redis Cache\n* and more\n\nThe talk will also touch on some associated services to build a streaming data pipeline like\n\n* Azure Event Hub\n* Azure Stream Analytics\n* Azure Data Factory\n* Power BI\n\nThere will be a specific focus on CosmosDB (announced in Build 2017) which is a multi-model NoSQL DB with guaranteed SLA on cloud, the first of its kind. \nWe will look at CosmosDB architecture and using the DocumentDB API to store and query JSON documents. This is a session for all who wants to work with data in Azure."
+  },
+  {
+    "id": "b56e0923-c8be-427d-8b88-7a10acd8f9bb",
+    "title": "Alexa, it's all just code and customers in the end",
+    "names": [
+      "G. Collins",
+      "K. Hall"
+    ],
+    "twitters": [
+      "gregcollins"
+    ],
+    "abstract": "Alexa is Amazon's virtual personal assistant, has been around for about two years and we have been extending it into the Australian Unity domain. It seems simple enough but when you start working with it changes the way you build UX, products and the way you think about your customers. It also comes with all the old software maturity practises that still need to solve i.e. CI/CD, Security, Debugging as well as Test  and Learn.\r\n\r\nWe'd like to take you through what we have found. What was easy, what wasn't and most importantly what we would have done differently."
   },
   {
     "id": "71a2e6f1-b2ed-43ba-98cb-72fd795a1a0e",
@@ -17,160 +57,6 @@
       "liamosaur"
     ],
     "abstract": "We all want to build secure, resilient software. However, real-world software development with budget and time pressures is a fine balancing act of compromises and risk taking. So how do we decide which controls to implement and which can be left out? How many controls do you need to be secure?\r\n \r\nIn this talk, Liam will draw upon lessons learned from historical fortifications and use real world technical examples to illustrate how simple criteria can be used to assess security controls, and how these controls can be combined into secure architectural patterns."
-  },
-  {
-    "id": "db65a130-db86-4ecb-85e2-ffad6f2d2257",
-    "title": "Quantum Computing Fundamentals",
-    "names": [
-      "C. Belle"
-    ],
-    "websites": [
-      "http://www.eliasdigital.com/"
-    ],
-    "abstract": "Last time the good people of DDD land deemed me worthy of delivering a talk on quantum computing, and so I set out to ensure that my presentation would give everyone in the room a firm grounding in quantum computing fundamentals. This could have been done better!\r\n\r\nGiven a second chance, this time around, we will explore quantum computing as compared to classical computing (from an OO developer’s perspective), we’ll tour terminology to allow anyone to interpret currently used notation, and most importantly, there will be no protracted droning on about matrix algebra!\r\n\r\nSo join me to get the skinny on quantum computing basics including: an under-the-hood look at how a quantum computer functions, how quantum-y people notate things (and therefore how to read what quantum-y people have written), why quantum computing will be useful, and how a quantum system compares to the systems we use today."
-  },
-  {
-    "id": "258296f8-e817-406f-9f57-fc2cf40f6f3c",
-    "title": "Expose your most valuable assets, the API-First approach",
-    "names": [
-      "P. Heasley"
-    ],
-    "twitters": [
-      "pheasley"
-    ],
-    "websites": [
-      "http://phdesign.com.au/"
-    ],
-    "abstract": "Too often we build our user interfaces first, then we build disjointed APIs to expose specific functionality or to connect to other systems. The API-First approach advocates for designing a coherent, complete API before anything else, analogous to a Mobile First approach. A clear API designed for developers will be easier to extend with new interfaces (like IoT) as well as enabling future integrations that couldn’t be imagined today."
-  },
-  {
-    "id": "b43a26e7-ef55-4a02-a619-e82e85dd26c8",
-    "title": "The History of .NET",
-    "names": [
-      "R. Campbell"
-    ],
-    "twitters": [
-      "richcampbell"
-    ],
-    "abstract": "The .NET Framework is more than fifteen years old! Or is it? Join Richard Campbell on a tour of the history of .NET, Visual Studio and the related tools that have been the principal way that developers build software in the Microsoft space. The conversation explores the relationship between development tools, operating systems and the hardware that runs it all - the winding path of .NET is influenced by many things - and the future is only getting more interesting!"
-  },
-  {
-    "id": "1af3ccaa-b7b1-4b45-a163-a6bfbd89d346",
-    "title": "The Development Platform Landscape in 2017",
-    "names": [
-      "R. Campbell"
-    ],
-    "twitters": [
-      "richcampbell"
-    ],
-    "websites": [
-      "http://www.dotnetrocks.com"
-    ],
-    "abstract": "Join Richard Campbell as he takes you on a tour of the broad range of subjects explored while recording more than 1400 episodes of .NET Rocks over the past 10+ years. The development world today is evolving rapidly, but a look at the history of development can help inform the path we're on and where we're going. Along the way you'll hear some great stories from the various .NET Rocks episodes and get some ideas of how you can take your career and your company into the future of technology."
-  },
-  {
-    "id": "5cd8f694-f8de-4f8a-bcae-071670641919",
-    "title": "Saving the World One App at a Time – The Humanitarian Toolbox",
-    "names": [
-      "R. Campbell"
-    ],
-    "twitters": [
-      "richcampbell"
-    ],
-    "websites": [
-      "http://www.htbox.org"
-    ],
-    "abstract": "Join Richard Campbell as he tells his story of software, hardware and charity that ultimately has led him to the Humanitarian Toolbox (htbox.org). The Humanitarian Toolbox is an open source initiative to build software for disaster relief – both for the Non-Governmental Organizations that are involved in disaster relief, the citizen volunteers that donate their time to assist during a disaster and the disaster victims themselves. Richard will take you along on his journey of experiences with technology over several decades to show how you can help change the world with software."
-  },
-  {
-    "id": "1bedd9c6-44e0-4100-913d-468e52fbf19b",
-    "title": "Atari 2600 for a developer in 2017",
-    "names": [
-      "C. Prieto"
-    ],
-    "twitters": [
-      "cprieto"
-    ],
-    "websites": [
-      "http://cprieto.com"
-    ],
-    "abstract": "Atari, it was out in 1977, it gave to many of us our first glance of home video games. How did they work? I mean, I am pretty sure there was not C# in 1977!\r\nVote and come to my talk to listen to a short story of hardcore development (no, seriously, hardcore), inspiring engineering tales and a moment to go full geek into the overlooked marriage between software and hardware.\r\nI promise no assembler knowledge required... Well, mostly."
-  },
-  {
-    "id": "3f7b5a67-95d9-4978-91d5-2f6fd3d2b317",
-    "title": "Stop Mocking – start testing.",
-    "names": [
-      "R. Haddad"
-    ],
-    "twitters": [
-      "raphhaddadaus"
-    ],
-    "websites": [
-      "http://www.raph.ws/"
-    ],
-    "abstract": "How much value do your automated tests really provide? I will demonstrate common and regular pitfalls in automated testing. Namely, that of mis-defining what a ‘unit’ is and disregard for integration tests. Among other things I will also demonstrate how stale tests – be they failing or passing are a problem as well.\r\n\r\nTesting is a good thing, testing a lot for the sake of it is NOT. Stop mocking and actually start testing to provide the highest amount of value in your application with the least amount of code."
-  },
-  {
-    "id": "907bb73e-e523-41d5-99f8-a02b4f1ccdd5",
-    "title": "Hypothesis driven development with Application Insights",
-    "names": [
-      "R. Haddad"
-    ],
-    "twitters": [
-      "raphhaddadaus"
-    ],
-    "websites": [
-      "http://www.raph.ws/"
-    ],
-    "abstract": "‘I think the user will…’, ‘I don’t think the user will…’. Stop guessing.\r\n\r\n‘This API is used…’, ‘this one is not….’. Stop speculating.\r\n\r\nHere, I will demonstrate the power of Application insights to increase performance, relevance and usability for your users. Stop guessing, stop speculating and start using real information to make your product better."
-  },
-  {
-    "id": "6249e493-265e-4403-9abe-b2e6a9e1c9f4",
-    "title": "Building a conversational UI with the Microsoft Bot Framework",
-    "names": [
-      "S. Bittar Rosas"
-    ],
-    "twitters": [
-      "samir_br"
-    ],
-    "websites": [
-      "http://www.samirbittar.com"
-    ],
-    "abstract": "The popularity of Conversational User Interfaces has grown thanks to the availability of services like Cortana, Google Now and Siri. The conversational experience is becoming an expectation in user’s digital interaction with applications and services. However, few developers have the expertise required to create conversational experiences in their applications and services. This is where the Microsoft Bot Framework and the Language Understanding Intelligent Service (LUIS) comes to the rescue!\r\n\r\nThe Microsoft Bot Framework and LUIS provide tools to help write high-quality conversational bots and publish them to services such as Skype, Facebook and Slack, all while sharing the same code base!\r\n\r\nJoin me as I take you through the building blocks of the Microsoft Bot Framework, to prototyping your first chat bot in minutes, and adding natural language understanding capabilities with LUIS."
-  },
-  {
-    "id": "ecd87158-9feb-4234-8f58-1d1778ab350f",
-    "title": "File >> New >> Bot",
-    "names": [
-      "L. Bon"
-    ],
-    "twitters": [
-      "luizbon"
-    ],
-    "abstract": "Do you ever want to start playing with Bots but think it is too hard? \r\nLet me help you. \r\n\r\nIn that talk, I will show how simple is to write a Bot with the support of the BotFramework. \r\n\r\nLet's understand what a Bot, BotBuilder, BotConnector, LUIS and other technologies which enrich the user experience. \r\n\r\nAfter this presentation, you will be able to start hacking your Bot and deploy it to Facebook, Slack and Skype with easy."
-  },
-  {
-    "id": "fc137520-a69a-4378-8c12-6a0af6f64371",
-    "title": "Making cars smarter",
-    "names": [
-      "P. Oborin",
-      "T. Quach"
-    ],
-    "abstract": "Nowadays smart devices are becoming an everyday fact. We have smart phones, smart TVs, smart watches, the list can go on.\r\nWhat if cars could be smarter? What if your car could report a potential issue before it was a problem? Could we make better decisions based on vehicle data?\r\nThere are a number of ways to make a car smarter:\r\n· Phone voice assistants (e.g Siri, Cortana)\r\n· Vehicle OBD2 dongles\r\n· Dashboard proprietary frameworks (linking your phone to your car)\r\n· Build it in! (eg: Tesla)\r\n\r\nWe’ll focus on what we can do with dongles and frameworks to link smart phones and cars. Pros, cons, how to get started, and other considerations (your headunit is not an iPad!)"
-  },
-  {
-    "id": "b8afd624-4ac6-4f30-95a8-2062f6950160",
-    "title": "Electron for the Skeptical Developer",
-    "names": [
-      "B. Forster"
-    ],
-    "twitters": [
-      "shiftkey"
-    ],
-    "websites": [
-      "http://brendanforster.com"
-    ],
-    "abstract": "Electron is a new framework for building cross-platform applications using Node and web technologies. For curious developers, whether you build desktop or web applications, you may want to know more but aren't sure how to get started.\r\n\r\nIn this talk I'll share my experience having my world turned upside down:\r\n\r\n - using React and Node (and some C++) to replace my WPF and C# experience\r\n - how the Electron architecture differs from other GUI technologies\r\n - the fun and shenanigans that come with doing JavaScript day-to-day\r\n - navigating the Electron and Node ecosystems, and some of the amazing community work you should check out\r\n - war stories from the development of GitHub Desktop\r\n\r\nLearning a new stack and shipping something soon was a big change but ultimately a really enjoyable experience, and with everything being open source it's been great to be able to contribute back to the technologies I rely on.\r\n\r\nThis is a lot of ground to cover in a short time, but please bring your questions, curiosity and heckling!"
   },
   {
     "id": "c2eabea3-501c-46c9-8d2e-91553082f50e",
@@ -187,96 +73,72 @@
     "abstract": "So, you have successfully separated your back-end into smaller, focused,  independently deployable services that can be handed to separate teams in your organization. But you still have a problem; your front-end is  still a big monolith! \r\n\r\nIs there another product/website -inside or outside your organization- that is interested in embedding your product's functionality?\r\n\r\nxcomponent toolkit is built by a team in PayPal to meet this need. Its used now by PayPal to embed checkout plugin into other websites. Its a cross-domain component toolkit, supporting rendering components in an iframe or popup on a different domain, and passing down properties as you expect from a native component. \r\n\r\nI will be showing how to use xcomponent to breakup your traditional monolithic web app into smaller components that is sandboxed, separately deployable, easy to build and works cross domain."
   },
   {
-    "id": "ade40a1d-6d2a-4d31-bf58-c5301b796d48",
-    "title": "Swift for micro services",
+    "id": "1bedd9c6-44e0-4100-913d-468e52fbf19b",
+    "title": "Atari 2600 for a developer in 2017",
     "names": [
-      "P. Oborin"
+      "C. Prieto"
     ],
     "twitters": [
-      "poborin"
-    ],
-    "abstract": "Swift is a cross platform open source functional language beloved by thousands of developers worldwide. Many leading IT companies, such as IBM, Apple (troll face) or Google (double troll face) are using Swift for many different domains. It is one of the most popular languages around the globe (in the top 20 according to the Tiobe index) mainly due to mobile development. However, Swift is a very powerful tool for micro services development. \r\n\r\nIn this workshop, we will go step by step through creating a functional micro service. We will install a swift compiler, a back-end framework and write a simple restful service.\r\n\r\nPrerequisites: macOS Sierra, Ubuntu 14.04, internet connection"
-  },
-  {
-    "id": "26a147c6-9ea3-411e-af10-454e09dcd36f",
-    "title": "Introduction to Swift",
-    "names": [
-      "P. Oborin"
-    ],
-    "twitters": [
-      "poborin"
-    ],
-    "abstract": "Swift is a cross platform open source functional language beloved by thousands of developers worldwide. It is known for its simplicity and flexibility, and hence is an extremely powerful language to build mobile applications as well as micro services. It was released just 3 years ago and so far, has already made the Tiobe top 20.\r\n\r\nIn this session, I will introduce you to Swift’s syntax. I will explain how flexible and self-describing the language is. I will cover most common patterns and approaches. Moreover, I will also talk about some known gaps and challenges developers are facing in everyday development."
-  },
-  {
-    "id": "6ef02979-9e21-4e38-af80-f0fd8e82f507",
-    "title": "Everything’s a stream. An introduction to RxJS and avoiding anti-patterns",
-    "names": [
-      "P. Heasley"
-    ],
-    "twitters": [
-      "pheasley"
+      "cprieto"
     ],
     "websites": [
-      "http://phdesign.com.au/"
+      "http://cprieto.com"
     ],
-    "abstract": "To reactive extensions, everything's a stream. RxJS simplifies concurrent and async programming in JavaScript by producing and transforming immutable streams, allowing you to easily reason about the events. This talk will give an introduction to using RxJS including common anti-patterns and how to avoid them."
+    "abstract": "Atari, it was out in 1977, it gave to many of us our first glance of home video games. How did they work? I mean, I am pretty sure there was not C# in 1977!\r\nVote and come to my talk to listen to a short story of hardcore development (no, seriously, hardcore), inspiring engineering tales and a moment to go full geek into the overlooked marriage between software and hardware.\r\nI promise no assembler knowledge required... Well, mostly."
   },
   {
-    "id": "14a11e96-921d-4ee3-836b-ee3abac5792d",
-    "title": "Congrats you are a Solution Architect, now what?",
+    "id": "88426429-c864-48e6-ac58-590ef2c2cefb",
+    "title": "Azure Logic Apps and the Magic of Serverless Integration",
     "names": [
-      "H. AlTaiar"
+      "P. de la Cruz"
     ],
     "twitters": [
-      "hasaltaiar"
+      "pacodelacruz"
     ],
     "websites": [
-      "http://www.hasaltaiar.com.au"
+      "http://pacodelacruzag.wordpress.com/"
     ],
-    "abstract": "Ok so you have been made a tech lead/architect and you have been tasked to build an elegant, performant, scalable, cloud application. What would you do? There are a lot of decisions that you are going to make and you are accountable for these. Things like what cloud provider to choose? What data storage you choose? What compute unit to choose? How to secure it? How to protect it? How to communicate the design well to the devs to implement it? What messaging components to use? How to verify you design against functional and non functional specs? And the list goes on and on\r\nI have been lucky enough to be involved and leading some of the great projects in my career and I was there from day 1 ( in some cases). I have had to make many of these decisions. Some of them were good and others turned out not too great.\r\nIn this talk, I will share with you my experience and the approach that I have developed. My process works for most project and it creates a good recipe for rinse and repeat. The talk would be full of demos to demo the impact of these decision."
+    "abstract": "Apps have transformed the way we work and do things; but they only truly work when they are connected. Traditionally, connecting applications required specialised skills and niche integration knowledge that not every developer wanted to learn. \r\n\r\nHowever, the increasing diversity of apps and the growing availability of APIs result in much greater integration demands. Luckily, now we have Azure Logic Apps, a rich, robust, fully-managed and very cool Integration Platform as a Service (iPaaS) that enable us to integrate, with speed and ease, not only the new and shiny apps, but also those legacy systems that were born before the API era.\r\n\r\nIn this presentation, Paco will share the magic of Logic Apps and show how to easily build “serverless” integration apps based on this Azure offering."
   },
   {
-    "id": "50db2ca8-82d2-4d96-9ddf-3c99b4e895d5",
-    "title": "Common causes of death and memory leaks",
+    "id": "eec877bd-97bf-492b-8c6a-abb4625de3db",
+    "title": "Blockchain: reconciling one block at a time",
     "names": [
-      "H. AlTaiar"
+      "S. Kaul",
+      "M. Kakaiya"
     ],
     "twitters": [
-      "hasaltaiar"
+      "kakaiya"
     ],
-    "websites": [
-      "http://www.hasaltaiar.com.au"
-    ],
-    "abstract": "Ok, it is not as dramatic as death, but you do not want your app to crash, do you?\r\nYou would be amazed by how seemingly innocent line of code could double or triple your app's memory footprint. I have been doing mobile apps for the last 5 years, and I have done lots of work on performance and memory optimisation. \r\nI would like to show you common causes of memory leaks and performance bottlenecks. I would show you figures, so we talk in quantifiable numbers, not just in terms of what's good to do. The talk will also include live profiling of apps to show the impact of small adjustments."
+    "abstract": "Blockchain technology will fundamentally change the Internet, and revolutionising all industries as they go along. \r\nBut what is it, and what does it mean? \r\nWhere can you use it, and where you shouldn't?\r\nWe'll take you through the basics of blockchain and how Webjet developed blockchain based solution to simplify reconciliation in the travel industry."
   },
   {
-    "id": "22137f63-c6b8-41ac-8cd0-f55c4c36526f",
-    "title": "MicroPython!",
+    "id": "6249e493-265e-4403-9abe-b2e6a9e1c9f4",
+    "title": "Building a conversational UI with the Microsoft Bot Framework",
     "names": [
-      "N. Moore"
+      "S. Bittar Rosas"
     ],
     "twitters": [
-      "nickzoic"
+      "samir_br"
     ],
     "websites": [
-      "http://nick@zoic.org"
+      "http://www.samirbittar.com"
     ],
-    "abstract": "MicroPython is a very easy to use language which runs on very cheap SoC platforms, perfect for the development of the Internet of Things or just messing around with toys.\r\n\r\nThis talk looks at a widely available WiFi enabled SoC, the ESP32, and how to install and use MicroPython to make it do interesting stuff connecting sensors and actuators to the Internet."
+    "abstract": "The popularity of Conversational User Interfaces has grown thanks to the availability of services like Cortana, Google Now and Siri. The conversational experience is becoming an expectation in user’s digital interaction with applications and services. However, few developers have the expertise required to create conversational experiences in their applications and services. This is where the Microsoft Bot Framework and the Language Understanding Intelligent Service (LUIS) comes to the rescue!\r\n\r\nThe Microsoft Bot Framework and LUIS provide tools to help write high-quality conversational bots and publish them to services such as Skype, Facebook and Slack, all while sharing the same code base!\r\n\r\nJoin me as I take you through the building blocks of the Microsoft Bot Framework, to prototyping your first chat bot in minutes, and adding natural language understanding capabilities with LUIS."
   },
   {
-    "id": "098a6308-29ba-444d-8753-d43c77651cb3",
-    "title": "The Internet of (Not Shit) Things",
+    "id": "5bf917ce-805f-41ae-b53a-3bf17c547b2c",
+    "title": "Building security at scale: making DevOps less terrible",
     "names": [
-      "N. Moore"
+      "A. Chapman"
     ],
     "twitters": [
-      "nickzoic"
+      "agc93"
     ],
     "websites": [
-      "http://nick.zoic.org/"
+      "http://blog.achapman.com"
     ],
-    "abstract": "The Internet of Things! Existential menace or meaningless buzzword? Automating away drudgery or just eroding privacy? Cornucopia or Panopticon?\r\n\r\nThe negative side of the argument is eloquently expressed, often under the catchy name “The Internet of Shit”. But why such skepticism in a world of rampant technophilia? Why are we not, in fact, welcoming our robot overlords?\r\n\r\nThis talk looks at the very real problems of the IoT, with examples from recent news, and looks at how to learn from the criticisms to identify potential solutions."
+    "abstract": "DevOps allows development teams to build faster, release more often and manage operations on the fly! It also allows developers to ship wildly insecure products and skip over the most basic information security principles in the name of agility! \r\n\r\nIn this talk, I will be exploring the pitfalls of DevOps from a security point of view and looking at the common mistakes that development teams make that leads to security bugs. This will include every stage of the development process from code to deployment.\r\n\r\nAdditionally, I will be looking at the many ways you can quickly and easily improve the security standing of your codebase without sacrificing the agility and rapid release cadence that businesses and managers have come to expect from “DevOps teams”. \r\n\r\nFinally, I will provide a brief insight into how to move your team from DevOps to SecDevOps, integrating information and product security into every layer of your development team and organisation, for the best results, all without compromising your development team’s trademark agility."
   },
   {
     "id": "7411ca66-6746-48fd-a88f-d8d7c10fc8ad",
@@ -301,206 +163,40 @@
     "abstract": "Another year, another buzzword. Progressive Web Applications (PWA) is a concept that first came out of Google in 2015. The core idea is to create web sites  that act and feel like native mobile apps. \r\n\r\nIn this talk we will look at what exactly is a Progressive Web App both in terms of the concepts that  underpin it and the key technologies that it is built on. \r\nFrom there we get down and dirty with some code to see what it takes to write a PWA. \r\nFinally we will step back into the real world and ask the question are PWAs the band or just the bandwagon."
   },
   {
-    "id": "4bdcacb7-559e-4557-8c50-0fa1ead0badb",
-    "title": "How to be an Opinionated Git",
+    "id": "50db2ca8-82d2-4d96-9ddf-3c99b4e895d5",
+    "title": "Common causes of death and memory leaks",
     "names": [
-      "S. Baldwin",
-      "S. Kumar"
+      "H. AlTaiar"
     ],
     "twitters": [
-      "scottjbaldwin"
-    ],
-    "abstract": "Although Git is an amazingly powerful distributed source control system that has quickly become the industry default, it is surprising to see its true potential go almost completely unused in so many projects. Fear and/or lack of confidence force many developers to use only the bare minimum of Git's capabilities, but like many things in our professional practice, time and energy spent up-front in understanding and using Git better will stand your projects in good stead, and enable faster more reliable delivery of software features to end users.\r\nThis talk is aimed at presenting an unashamedly \"opinionated\" approach to using Git in a team environment. We will endeavour to demonstrate how features like rebase, cherry-pick, bisect and others can be used to create branch histories that are easier to review, safer to merge, and a breeze when it comes understanding where a bug or \"feature\" was introduced. This talk will change the way you view your source control, from merely a background tool that you use to submit code to a first class partner in quality software development."
-  },
-  {
-    "id": "cd91c2fe-bd4f-4b73-8768-a462a1678190",
-    "title": "HOWTO: Server-Side Rendering with React",
-    "names": [
-      "E. van der Koogh"
-    ],
-    "twitters": [
-      "evanderkoogh"
+      "hasaltaiar"
     ],
     "websites": [
-      "http://bitgenics.io"
+      "http://www.hasaltaiar.com.au"
     ],
-    "abstract": "So you love to use the latest technology and give your customers the most amazing experience so you would love to use React. But you work for a business that actually needs to make money from the website, so SEO, Social Sharing and fast Time to First Render are actually important?\r\n\r\nServer-Side Rendering (SSR) to the rescue! Whenever a user comes to your website you first render a page and send good old fashioned HTML to them and have React take over after that. Amazing for SEO, Sharing, speed *\r\n\r\nIt looks like React already supports SSR out of the box, but that is only true if you don't want to do anything interesting, like making an API call or reading something from a database.\r\n\r\nIn this talk we will be exploring a few different strategies for Server-Side Rendering our code."
+    "abstract": "Ok, it is not as dramatic as death, but you do not want your app to crash, do you?\r\nYou would be amazed by how seemingly innocent line of code could double or triple your app's memory footprint. I have been doing mobile apps for the last 5 years, and I have done lots of work on performance and memory optimisation. \r\nI would like to show you common causes of memory leaks and performance bottlenecks. I would show you figures, so we talk in quantifiable numbers, not just in terms of what's good to do. The talk will also include live profiling of apps to show the impact of small adjustments."
   },
   {
-    "id": "9aa4d2f7-33cf-48b2-83af-b14c19d9089f",
-    "title": "Project forecasting using Monte Carlo method",
+    "id": "15968752-aaa7-4669-b084-6bd8059e99ff",
+    "title": "Computer Scientists hate him! Two essential 10-point lists for your support developer needs!",
     "names": [
-      "D. Raniszewski"
+      "R. Evans"
+    ],
+    "abstract": "Software support can sometimes be a very different beast compared to the initial development phase of a project, be it agile or otherwise. They can come in all manner of shapes and sizes and be taken on under a variety of circumstances - particularly in the world of consultation.\r\nIn this presentation I'll go over two areas of key importance to support software developers with a 10 point list covering each.\r\nFirst, with an emphasis on client engagement and maintaining existing software, support work comes with a different set of challenges to greenfield development. I'll go over my top 10 list of skills and qualities that make an effective support developer, complete with some do and don't examples.\r\nAdditionally, we'll look at a 10 item handover checklist I have developed that covers things that a support developer would love to have when getting started. They can be taken as a useful template or starting point, which can come in handy if you're looking for a way to improve or update your support development processes."
+  },
+  {
+    "id": "14a11e96-921d-4ee3-836b-ee3abac5792d",
+    "title": "Congrats you are a Solution Architect, now what?",
+    "names": [
+      "H. AlTaiar"
     ],
     "twitters": [
-      "dominikran"
+      "hasaltaiar"
     ],
     "websites": [
-      "http://devblog.xyz/"
+      "http://www.hasaltaiar.com.au"
     ],
-    "abstract": "This talk is about using Monte Carlo simulations for creating project forecasts. I was using this method when delivering solutions for a financial institution undergoing a transformation towards Agile processes.\r\n\r\nI would like to share my experiences about how it helped me to educate Product Owner and stakeholders on differences between forecasts and commitments, keep stakeholders involved in backlog prioritization and provide a forecast that can be easily turned into a release plan."
-  },
-  {
-    "id": "94240edd-22a6-4aef-8542-226f105298a3",
-    "title": "Solving real life problems with machine learning",
-    "names": [
-      "D. Raniszewski"
-    ],
-    "twitters": [
-      "dominikran"
-    ],
-    "websites": [
-      "http://devblog.xyz/"
-    ],
-    "abstract": "Have you ever thought about machine learning but didn't know where to start? This session is about how to take something from your day to day life and turn it into a machine learning problem. \r\n\r\nI'm going to describe fundamentals of a problem space identification, first steps of creating machine learning based solution and share with you how I turned one of my problems into a functioning, end-to-end application"
-  },
-  {
-    "id": "503061c3-37c3-4e9a-a2f5-0e164b23b6ad",
-    "title": "GraphQL - A query language to empower your API consumers",
-    "names": [
-      "R. Crowley"
-    ],
-    "twitters": [
-      "robdcrowley"
-    ],
-    "abstract": "The API economy is here, fueling disruption across many established industries. REST, as specified in Roy Fielding’s seminal dissertation, has become the architectural pattern of choice for APIs and when applied correctly allows for clients and servers to evolve in a loosely coupled manner. There are areas however where REST can deliver less than ideal client experiences. Often many HTTP requests are required to render a single view. \r\n\r\nWhile this may be a minor concern for a web app running on a WAN with low latency and high bandwidth, it can yield poor client experiences for mobile clients in particular. GraphQL is Facebook’s response to this challenge and it is quickly proving itself as an exciting alternative to RESTful APIs for a wide range of contexts. GraphQL is a query language that provides a clean and simple syntax for consumers to interrogate your APIs. These queries are strongly typed, hierarchical and enable clients to retrieve only the data they need.\r\n\r\nIn this session, we will take a hands-on look at GraphQL and see how it can be used to build APIs that are a joy to use."
-  },
-  {
-    "id": "3e867b1a-ec86-4459-b4f6-a1a68667f9bc",
-    "title": "HTTP/2 - The future of the web today",
-    "names": [
-      "R. Crowley"
-    ],
-    "twitters": [
-      "robdcrowley"
-    ],
-    "abstract": "Client side web technologies continue to advance at breakneck speed. The quest to deliver richer user experiences is relentless and due to the limitations of HTTP/1.x, we have been forced to develop various workarounds (domain sharding, spriting, resource concatenation and inlining) in a bid to optimize performance. \r\n\r\nHTTP/2 has been designed with the modern web in mind and eliminates the need for such compensating hacks. In this session we'll take an in-depth look at web performance optimization; the best practices that have evolved; the game changing new features of HTTP/2; and most importantly what you need to do to deliver a world class HTTP/2 experience:\r\n\r\n- Why domain sharding, resource concatenation and image sprites are now anti-patterns\r\n- How server push is effectively resource inlining on steroids \r\n- What new best practices are possible with HTTP/2\r\n- What techniques to apply during the transitional period from HTTP/1.x to HTTP/2\r\n\r\nAdditionally, we will look at the tooling available for working with HTTP/2 traffic and how we can ensure that we're getting the full benefit of HTTP/2 both client and server side."
-  },
-  {
-    "id": "5bf917ce-805f-41ae-b53a-3bf17c547b2c",
-    "title": "Building security at scale: making DevOps less terrible",
-    "names": [
-      "A. Chapman"
-    ],
-    "twitters": [
-      "agc93"
-    ],
-    "websites": [
-      "http://blog.achapman.com"
-    ],
-    "abstract": "DevOps allows development teams to build faster, release more often and manage operations on the fly! It also allows developers to ship wildly insecure products and skip over the most basic information security principles in the name of agility! \r\n\r\nIn this talk, I will be exploring the pitfalls of DevOps from a security point of view and looking at the common mistakes that development teams make that leads to security bugs. This will include every stage of the development process from code to deployment.\r\n\r\nAdditionally, I will be looking at the many ways you can quickly and easily improve the security standing of your codebase without sacrificing the agility and rapid release cadence that businesses and managers have come to expect from “DevOps teams”. \r\n\r\nFinally, I will provide a brief insight into how to move your team from DevOps to SecDevOps, integrating information and product security into every layer of your development team and organisation, for the best results, all without compromising your development team’s trademark agility."
-  },
-  {
-    "id": "207c4875-3689-4ae5-bc9e-3152c7b3f340",
-    "title": "Working smarter, not harder: automating the pain out of open-source maintenance",
-    "names": [
-      "A. Chapman"
-    ],
-    "twitters": [
-      "agc93"
-    ],
-    "websites": [
-      "http://blog.achapman.com"
-    ],
-    "abstract": "Maintaining open-source software can be a complex and time-intensive task. In today's world of open-source maintainers often being restricted to their free time, how do we maximise the time developers can spend delivering features and minimise the time spent on chores and project maintenance?\r\n\r\nThis talk will be delivering a brief summary of using automation, testing, and release software to simplify and streamline maintaining open-source projects. Using Cake (C# Make) as a case study, this presentation includes both high-level guidelines and a practical guide to using a combination of process, documentation, automation and community engagement to reduce the burden on project maintainers and improve project quality.\r\n\r\nThis talk is especially valuable to open-source project maintainers but will be of value to anyone involved in the open-source community at any level. Maintainers will understand how to improve efficiency and rely on automation to make maintenance easier; contributors will learn how to make maintenance and review easier, getting features merged faster."
-  },
-  {
-    "id": "0ce42e11-3149-4fd2-a970-2932d99be9ae",
-    "title": "Making cross-platform builds a piece of Cake",
-    "names": [
-      "A. Chapman"
-    ],
-    "twitters": [
-      "agc93"
-    ],
-    "websites": [
-      "http://blog.achapman.com"
-    ],
-    "abstract": "This session will be an in-depth dive into using Cake (C# Make) to automate, orchestrate and supercharge your builds.\r\n\r\nDuring the session I will be covering getting started with Cake, putting together your first build script and how to take your builds to the next level including build, test, packaging, publishing and deployment across any platform.\r\nI'll also be outlining how to integrate Cake with your favourite editors, tools, cloud platforms and CI providers, across Windows, macOS and Linux! From Visual Studio to Azure, AppVeyor to Yeoman, Cake makes it easy to automate and control your builds, all with the full power of C# and .NET!\r\nThis session will include simple demos to go from a basic .NET solution to a complete cross-platform CI and CD pipeline using a single Cake script."
-  },
-  {
-    "id": "b45408f7-f83a-4c80-89bc-e9ec1ce4c68a",
-    "title": "Using Docker to supercharge .NET development on Linux",
-    "names": [
-      "A. Chapman"
-    ],
-    "twitters": [
-      "agc93"
-    ],
-    "websites": [
-      "http://blog.achapman.com"
-    ],
-    "abstract": "With the release of .NET Core, the long-awaited dream of running .NET natively on Linux is finally here! Even better, .NET Core has arrived just in time for the coming container revolution! \r\n\r\nIn this talk I will be covering getting started with .NET Core on Linux, including a progressive approach to introducing Docker starting with CLI and tooling all the way up to a fully containerised application in a short, but practical development scenario.\r\n\r\nIn this session, we will get started with a basic Hello, World! in C# on a Linux host and demonstrate how Docker can be used not just in production, but also during development to not just simplify the Linux development experience, but also to enable powerful new capabilities including cross-platform scripting, seamless scaling, reproducible builds and simple testing."
-  },
-  {
-    "id": "7e286d8f-7dea-46a4-8f5e-41ff285eb49f",
-    "title": "A lap around Azure data platform",
-    "names": [
-      "P. Khasnabis"
-    ],
-    "twitters": [
-      "softveda"
-    ],
-    "websites": [
-      "http://www.softveda.com.au"
-    ],
-    "abstract": "Microsoft Azure cloud platform provides a number of options for storing all kinds of Data both Relational and NoSQL, and performing actions on Data. With so many available choices it can be difficult to know the right Azure service to use for a given scenario. This session is about discovering the options of storing data in Azure and processing them. There will be guidance provided for application developers, solution architects and data analysts in choosing the right services and tools. You will learn the key features and differences between\n\n* Azure Blob Storage\n* Azure Table Storage\n* Azure SQL DB\n* Azure SQL on VM (IAAS)\n* Azure SQL Managed Instance\n* Azure Data Lake Store\n* Azure CosmosDB (formerly DocumentDB)\n* Azure Redis Cache\n* and more\n\nThe talk will also touch on some associated services to build a streaming data pipeline like\n\n* Azure Event Hub\n* Azure Stream Analytics\n* Azure Data Factory\n* Power BI\n\nThere will be a specific focus on CosmosDB (announced in Build 2017) which is a multi-model NoSQL DB with guaranteed SLA on cloud, the first of its kind. \nWe will look at CosmosDB architecture and using the DocumentDB API to store and query JSON documents. This is a session for all who wants to work with data in Azure."
-  },
-  {
-    "id": "9f019bc1-47cb-41df-a6fc-1b8a0dca7f05",
-    "title": "The beauty of stupid ideas",
-    "names": [
-      "A. Powell"
-    ],
-    "twitters": [
-      "slace"
-    ],
-    "websites": [
-      "http://www.aaron-powell.com"
-    ],
-    "abstract": "We spend all our days striving to write the perfect code, code that is well thought out and will stand the test of time.\r\nThis is not a talk about that code. This is a talk about all that code you don't write because it's stupid, it doesn't solve a \"real\" problem or doesn't make any sense.\r\nWe'll explore some of my own stupid ideas, like writing my own number system in .NET or writing an IoC container in JavaScript, what I learnt from these stupid ideas and why exploring stupidity is important."
-  },
-  {
-    "id": "cdf28234-9d2f-47a2-ae12-9a0c68963cd1",
-    "title": "Lessons from 8 years of DDD Melbourne",
-    "names": [
-      "A. Powell"
-    ],
-    "twitters": [
-      "slace"
-    ],
-    "websites": [
-      "http://www.aaron-powell.com"
-    ],
-    "abstract": "It's been 8 years since the first DDD Melbourne launched and 8 years is a long time in IT. From talks about jQuery, the new C# async feature, different XAML libraries for WPF or Odata, to Serverless Computing, React, Haskell and GraphQL. My how times have changed!\r\n\r\nAs someone who's had the opportunity to be involved in nearly every DDD Melbourne watching the shift in the years about what we've been talking about has given a fascinating insight into the industry that we work in.\r\n\r\nSo let's have a trip down the history of DDD and look back at what we were talking about, learn where we've come from as a community and see if we can make some predictions about where we're going."
-  },
-  {
-    "id": "4f00bc59-752f-4e1c-8742-14059d49a8bc",
-    "title": "Docker, FROM scratch",
-    "names": [
-      "A. Powell"
-    ],
-    "twitters": [
-      "slace"
-    ],
-    "websites": [
-      "http://www.aaron-powell.com"
-    ],
-    "abstract": "Docker's popularity has exploded over the last couple of years, especially in the DevOps space, but unless you've spent a lot of time in that area it can be a confusing technology to wrap your head around.\r\nSo let's step back and start looking at Docker from, well, FROM scratch (and we'll understand just what that means).\r\n\r\nWith minimal starting knowledge of Docker we'll look into what it is, cover off all the core concepts from images to containers, volumes to networks, and how we can compose environments. We'll also look at how to use Docker in Dev, not just DevOps and how containers can be useful tools without being something to run production infrastructure on."
-  },
-  {
-    "id": "1c795043-00db-4548-8b1f-f25e19f24669",
-    "title": "Deep dive into Azure API Management",
-    "names": [
-      "P. Khasnabis"
-    ],
-    "twitters": [
-      "softveda"
-    ],
-    "websites": [
-      "http://www.softveda.com.au"
-    ],
-    "abstract": "Azure API Management (APIM) is a platform as a service offering that allows publishing HTTP APIs to both external apps, B2B partners and even internal developers. It allows crating API gateways quickly with security, policies and monitoring support.\r\nThis talk is from my own experience with using Azure APIM at my work to create an API ecosystem on Azure. This talk is about using APIM for enterprise integration with client apps from internet calling into APIs deployed to Azure and in turn the APIs calling into on-premises services.\r\n\r\n* Overview of Azure APIM and the features it provides\r\n* How policies work and a look at some policies.\r\n* Publishing an API\r\n* Using APIM within a private Virtual Network\r\n* Custom domain name with subdomains\r\n* Mutual authentication with client certificate\r\n* JWT Validation\r\n* Proxying SOAP web services \r\n* Logging API calls\r\n* Monitoring\r\n* Disaster recovery\r\nI will talk of some lessons learned from the field about Azure APIM."
+    "abstract": "Ok so you have been made a tech lead/architect and you have been tasked to build an elegant, performant, scalable, cloud application. What would you do? There are a lot of decisions that you are going to make and you are accountable for these. Things like what cloud provider to choose? What data storage you choose? What compute unit to choose? How to secure it? How to protect it? How to communicate the design well to the devs to implement it? What messaging components to use? How to verify you design against functional and non functional specs? And the list goes on and on\r\nI have been lucky enough to be involved and leading some of the great projects in my career and I was there from day 1 ( in some cases). I have had to make many of these decisions. Some of them were good and others turned out not too great.\r\nIn this talk, I will share with you my experience and the approach that I have developed. My process works for most project and it creates a good recipe for rinse and repeat. The talk would be full of demos to demo the impact of these decision."
   },
   {
     "id": "b4938ba3-8b81-4d0c-b76e-fc1d5dbb6e09",
@@ -517,16 +213,15 @@
     "abstract": "So you, or your workplace, identifies you as an architect, what now?\r\n\r\nThere are countless amounts of available material on software architecture and design patterns, but comparatively little on how to be a software architect.  Being an effective architect is a whole lot more than having a toolkit of patterns and practices!\r\n\r\nIn this talk Stephen will draw upon his years of experience working on architectural solutions and mentoring other architects.  Among other things, the talk will cover:\r\n\r\n- Attitudes and behaviours\r\n- Getting your way\r\n- Gaining the respect of the business\r\n- Considerations outside those of a developer\r\n\r\nThis talk is for practitioners from those early in their software architecture foray, to those just seeking some group therapy."
   },
   {
-    "id": "b56e0923-c8be-427d-8b88-7a10acd8f9bb",
-    "title": "Alexa, it's all just code and customers in the end",
+    "id": "8de116c9-2b0e-4c27-98ee-d411f5403db6",
+    "title": "Culture as a Product",
     "names": [
-      "G. Collins",
-      "K. Hall"
+      "M. Boudreau"
     ],
-    "twitters": [
-      "gregcollins"
+    "websites": [
+      "http://codinghitchhiker.com"
     ],
-    "abstract": "Alexa is Amazon's virtual personal assistant, has been around for about two years and we have been extending it into the Australian Unity domain. It seems simple enough but when you start working with it changes the way you build UX, products and the way you think about your customers. It also comes with all the old software maturity practises that still need to solve i.e. CI/CD, Security, Debugging as well as Test  and Learn.\r\n\r\nWe'd like to take you through what we have found. What was easy, what wasn't and most importantly what we would have done differently."
+    "abstract": "Forget SaaS, IaaS and PaaS - CaaP is where it’s at. People seem to ignore the importance of the culture and how it directly affects creativity, research, morale and the overall product. I’m here to prove to you, beautiful audience members, that a product is more than just the methodology, the technology or its utility; in the end, it's the culture that will define the product and differentiate it from the plethora of competitors.  Ignoring culture, and by extension your employees, could very well mean doom for your business."
   },
   {
     "id": "a1b6fff5-1a0b-49c0-a7af-f1daeaf650bc",
@@ -540,15 +235,68 @@
     "abstract": "DDD helps us tame the inherent complexity of non-trivial software development. CQRS supports the same goal goal, while providing other tangible benefits like optimisation and scalability. ORMs take the heavy lifting out of transalting between the worlds of Object Oriented software and relational persistance layers.\r\n\r\nFinding the sweet spot between these approaches can be a challenge. Some popular ORMs (cough Entity Framework cough) place burdensome constraints on DDD implementations, causing them to bend and contort in wierd and less-than-wonderful ways. They can also be sub-optimal for CQRS concerns. CQRS at times is viewed as introducing unwarranted overhead and complexity where it isn't needed.\r\n\r\nIn this session we will explore a less-than-wonderful domain model that utilises a single ORM for all of its concerns, and then look at how we can break it apart utilizing a CQRS approach that employs the best tool for the job for each concern, while keeping complexity to a minimum."
   },
   {
-    "id": "40264cec-0a94-467a-ab2d-45ebe8f8994c",
-    "title": "Gold Class Delivery",
+    "id": "1c795043-00db-4548-8b1f-f25e19f24669",
+    "title": "Deep dive into Azure API Management",
     "names": [
-      "A. Best"
+      "P. Khasnabis"
     ],
     "twitters": [
-      "_andrewb"
+      "softveda"
     ],
-    "abstract": "Software development. Solution architecture. Test driven development. Domain driven design. Cloud. Static vs dynamic typing. Test coverage. Pull requests. Package management. Infrastructure automation. Identity management. Security.\r\n\r\nThe above represent the tip of the successful delivery iceberg.\r\n\r\nSoftware exists for people, and working with those people is the key to succesful delivery. Success in software delivery starts before the team's boots hit the ground, and continues to be measured beyond the final sprint review.\r\n\r\nIn this session we will take a look at some targeted, specific non-technical practices and behaviours you and your team can employ to vastly increase your chances of a successful software delivery."
+    "websites": [
+      "http://www.softveda.com.au"
+    ],
+    "abstract": "Azure API Management (APIM) is a platform as a service offering that allows publishing HTTP APIs to both external apps, B2B partners and even internal developers. It allows crating API gateways quickly with security, policies and monitoring support.\r\nThis talk is from my own experience with using Azure APIM at my work to create an API ecosystem on Azure. This talk is about using APIM for enterprise integration with client apps from internet calling into APIs deployed to Azure and in turn the APIs calling into on-premises services.\r\n\r\n* Overview of Azure APIM and the features it provides\r\n* How policies work and a look at some policies.\r\n* Publishing an API\r\n* Using APIM within a private Virtual Network\r\n* Custom domain name with subdomains\r\n* Mutual authentication with client certificate\r\n* JWT Validation\r\n* Proxying SOAP web services \r\n* Logging API calls\r\n* Monitoring\r\n* Disaster recovery\r\nI will talk of some lessons learned from the field about Azure APIM."
+  },
+  {
+    "id": "3e5be020-cc44-4a2e-82a0-d642bc1d9c83",
+    "title": "Depression - software developer strain",
+    "names": [
+      "I. Gorelik"
+    ],
+    "twitters": [
+      "rogik"
+    ],
+    "websites": [
+      "http://igorelikblog.wordpress.com/"
+    ],
+    "abstract": "Everyone heard about depression. But most of us are sure that this won't happen to us. As we are strong and, as software developers, we are very logical. And depression is illogical. Right? It depends. Come to this session to hear some facts about depression, listen about my personal experience, and, the most important, what you can do about it."
+  },
+  {
+    "id": "677111d7-3355-4e91-8f95-4512f88c0728",
+    "title": "Develop hybrid mobile apps with ionic framework",
+    "names": [
+      "V. Bilyachat"
+    ],
+    "abstract": "Another look to develop native mobile apps.  Its not only way to prototype but way to build production ready apps. \r\nI will talk about how to run a project, how to use framework, how to run and debug application."
+  },
+  {
+    "id": "4f00bc59-752f-4e1c-8742-14059d49a8bc",
+    "title": "Docker, FROM scratch",
+    "names": [
+      "A. Powell"
+    ],
+    "twitters": [
+      "slace"
+    ],
+    "websites": [
+      "http://www.aaron-powell.com"
+    ],
+    "abstract": "Docker's popularity has exploded over the last couple of years, especially in the DevOps space, but unless you've spent a lot of time in that area it can be a confusing technology to wrap your head around.\r\nSo let's step back and start looking at Docker from, well, FROM scratch (and we'll understand just what that means).\r\n\r\nWith minimal starting knowledge of Docker we'll look into what it is, cover off all the core concepts from images to containers, volumes to networks, and how we can compose environments. We'll also look at how to use Docker in Dev, not just DevOps and how containers can be useful tools without being something to run production infrastructure on."
+  },
+  {
+    "id": "b8afd624-4ac6-4f30-95a8-2062f6950160",
+    "title": "Electron for the Skeptical Developer",
+    "names": [
+      "B. Forster"
+    ],
+    "twitters": [
+      "shiftkey"
+    ],
+    "websites": [
+      "http://brendanforster.com"
+    ],
+    "abstract": "Electron is a new framework for building cross-platform applications using Node and web technologies. For curious developers, whether you build desktop or web applications, you may want to know more but aren't sure how to get started.\r\n\r\nIn this talk I'll share my experience having my world turned upside down:\r\n\r\n - using React and Node (and some C++) to replace my WPF and C# experience\r\n - how the Electron architecture differs from other GUI technologies\r\n - the fun and shenanigans that come with doing JavaScript day-to-day\r\n - navigating the Electron and Node ecosystems, and some of the amazing community work you should check out\r\n - war stories from the development of GitHub Desktop\r\n\r\nLearning a new stack and shipping something soon was a big change but ultimately a really enjoyable experience, and with everything being open source it's been great to be able to contribute back to the technologies I rely on.\r\n\r\nThis is a lot of ground to cover in a short time, but please bring your questions, curiosity and heckling!"
   },
   {
     "id": "cd5b0a4a-4281-457e-8ecf-4e895c9cf819",
@@ -562,65 +310,54 @@
     "abstract": "Not A Very Long Time Ago, In a Galaxy Not Very Far, Far Away.\r\n\r\nThere are a myriad of JavaScript frameworks that promises to solve the problems of frontend development in their own way, causing confusion amongst frontend developers.\r\n\r\nOut of the shadows appears a framework that takes a different approach to building reliable web applications, an approach that generates no runtime exceptions and friendly (not just at compile time) errors. A functional programming language called Elm.\r\n\r\n\r\nElm is a functional programming language, it builds on the same concepts of a virtual DOM and unidirectional dataflow that React and Redux use but uses a type inference system to find problems at compile time and provides friendly hints. Elm compiles down to JavaScript, which makes it easy to convert parts of your existing JavaScript web application to Elm and embedding it into your existing application.\r\n\r\nIn this session, we will explore how to build a web application using Elm. We'll start with the basics and move on to exploring the Elm architecture which is a simple pattern for architecting web applications. It allows us to create complex web applications that are easy to maintain and add new features to.\r\n\r\nThis talk requires no previous experience with functional programming languages, such as Haskell or F#, and is aimed at frontend developers that want to learn how to build reliable web applications with great performance and no runtime exceptions."
   },
   {
-    "id": "5878c33c-a149-4304-a983-5411e2b736a3",
-    "title": "Spec-Driven Development – API Mocking for Lean Development – MuleSoft API Manager, Azure API Management & Amazon API Gateway",
+    "id": "6ef02979-9e21-4e38-af80-f0fd8e82f507",
+    "title": "Everything’s a stream. An introduction to RxJS and avoiding anti-patterns",
     "names": [
-      "J. Yoo"
+      "P. Heasley"
     ],
     "twitters": [
-      "justinchronicle"
-    ],
-    "abstract": "As a front-end, full-stack and/or mobile app developer, using APIs is inevitable. However, what if those APIs are not yet implemented? Should I wait for back-end developers to complete API implementation? Nah, we don't need to wait for them as long as those API definitions are defined via RAML or Swagger. \r\n \r\nIn this session, Justin will talk about how beneficial API design-first approach will be, then how API spec is designed and mocked on MuleSoft API Manager, Azure API Management and Amazon API Gateway so that front-end, full-stack and/or mobile app developers can play around until the actual API implementations are done."
-  },
-  {
-    "id": "7073ce46-818b-44b1-9519-8985ccacc3d9",
-    "title": "Testing, Testing, Testing! Are Serverless Applications Testable? - Azure Functions & Logic Apps",
-    "names": [
-      "J. Yoo"
-    ],
-    "twitters": [
-      "justinchronicle"
-    ],
-    "abstract": "Testing applications is more than important nowadays. Traditionally, developers perform unit tests and/or integration tests in variety of environments. Now, we see serverless applications. How can we test those applications? That's a tricky question. \r\n \r\nIn this session, Justin will demo how serverless applications, especially Azure Functions and Logic Apps, are written with considering testability. Then he will also show how those apps can be tested in a continuous integration pipeline, with various approach."
-  },
-  {
-    "id": "8de116c9-2b0e-4c27-98ee-d411f5403db6",
-    "title": "Culture as a Product",
-    "names": [
-      "M. Boudreau"
+      "pheasley"
     ],
     "websites": [
-      "http://codinghitchhiker.com"
+      "http://phdesign.com.au/"
     ],
-    "abstract": "Forget SaaS, IaaS and PaaS - CaaP is where it’s at. People seem to ignore the importance of the culture and how it directly affects creativity, research, morale and the overall product. I’m here to prove to you, beautiful audience members, that a product is more than just the methodology, the technology or its utility; in the end, it's the culture that will define the product and differentiate it from the plethora of competitors.  Ignoring culture, and by extension your employees, could very well mean doom for your business."
+    "abstract": "To reactive extensions, everything's a stream. RxJS simplifies concurrent and async programming in JavaScript by producing and transforming immutable streams, allowing you to easily reason about the events. This talk will give an introduction to using RxJS including common anti-patterns and how to avoid them."
   },
   {
-    "id": "813415af-a6bc-453f-8581-a13b2cb489e9",
-    "title": "Notes from the (Bleeding) Edge",
+    "id": "258296f8-e817-406f-9f57-fc2cf40f6f3c",
+    "title": "Expose your most valuable assets, the API-First approach",
     "names": [
-      "E. van der Koogh"
+      "P. Heasley"
     ],
     "twitters": [
-      "evanderkoogh"
+      "pheasley"
     ],
     "websites": [
-      "http://bitgenics.io"
+      "http://phdesign.com.au/"
     ],
-    "abstract": "As the founder of a tech startup I get to make all the decisions about what technologies to use. And we have tried all[1] of them and even kept some of them.\r\nJoin me in a series of HonestTrailers for some of the hottest technologies out there. Amongst others: Server-Side Rendering, Lambda, New JavaScript Features, Honeycomb, All[2] of the new AWS products & Vue.js.\r\n\r\n[1] Of course not actually *all* of them. It would take an infinite amount of monkey and laptops to try *just* the new JavaScript Frameworks..\r\n[2] Maybe not all of these either. Amazon is only less prolific than open source JavaScript developers"
+    "abstract": "Too often we build our user interfaces first, then we build disjointed APIs to expose specific functionality or to connect to other systems. The API-First approach advocates for designing a coherent, complete API before anything else, analogous to a Mobile First approach. A clear API designed for developers will be easier to extend with new interfaces (like IoT) as well as enabling future integrations that couldn’t be imagined today."
   },
   {
-    "id": "88426429-c864-48e6-ac58-590ef2c2cefb",
-    "title": "Azure Logic Apps and the Magic of Serverless Integration",
+    "id": "ecd87158-9feb-4234-8f58-1d1778ab350f",
+    "title": "File >> New >> Bot",
     "names": [
-      "P. de la Cruz"
+      "L. Bon"
     ],
     "twitters": [
-      "pacodelacruz"
+      "luizbon"
     ],
-    "websites": [
-      "http://pacodelacruzag.wordpress.com/"
+    "abstract": "Do you ever want to start playing with Bots but think it is too hard? \r\nLet me help you. \r\n\r\nIn that talk, I will show how simple is to write a Bot with the support of the BotFramework. \r\n\r\nLet's understand what a Bot, BotBuilder, BotConnector, LUIS and other technologies which enrich the user experience. \r\n\r\nAfter this presentation, you will be able to start hacking your Bot and deploy it to Facebook, Slack and Skype with easy."
+  },
+  {
+    "id": "40264cec-0a94-467a-ab2d-45ebe8f8994c",
+    "title": "Gold Class Delivery",
+    "names": [
+      "A. Best"
     ],
-    "abstract": "Apps have transformed the way we work and do things; but they only truly work when they are connected. Traditionally, connecting applications required specialised skills and niche integration knowledge that not every developer wanted to learn. \r\n\r\nHowever, the increasing diversity of apps and the growing availability of APIs result in much greater integration demands. Luckily, now we have Azure Logic Apps, a rich, robust, fully-managed and very cool Integration Platform as a Service (iPaaS) that enable us to integrate, with speed and ease, not only the new and shiny apps, but also those legacy systems that were born before the API era.\r\n\r\nIn this presentation, Paco will share the magic of Logic Apps and show how to easily build “serverless” integration apps based on this Azure offering."
+    "twitters": [
+      "_andrewb"
+    ],
+    "abstract": "Software development. Solution architecture. Test driven development. Domain driven design. Cloud. Static vs dynamic typing. Test coverage. Pull requests. Package management. Infrastructure automation. Identity management. Security.\r\n\r\nThe above represent the tip of the successful delivery iceberg.\r\n\r\nSoftware exists for people, and working with those people is the key to succesful delivery. Success in software delivery starts before the team's boots hit the ground, and continues to be measured beyond the final sprint review.\r\n\r\nIn this session we will take a look at some targeted, specific non-technical practices and behaviours you and your team can employ to vastly increase your chances of a successful software delivery."
   },
   {
     "id": "0e871481-eb76-4fdf-b77f-7f515a76c45c",
@@ -634,18 +371,153 @@
     "abstract": "With the rise of Big Data & social networks, traditional Relational Databases have reached the limits of their abilities to handle inter-connected entities.\r\n\r\nAs a result, Graph databases have become more popular, with the likes of Microsoft and GitHub recently offering Graph solutions. \r\n\r\nThis talk will explain the theory behind Graph databases, when (and when not) to use them, and then demonstrate their power using Neo4j, one of the more popular graph databases."
   },
   {
-    "id": "564b4a21-8d00-4123-812a-67c88dee0f8d",
-    "title": "\"The hills are alive with the sound of your smelly code\"",
+    "id": "503061c3-37c3-4e9a-a2f5-0e164b23b6ad",
+    "title": "GraphQL - A query language to empower your API consumers",
     "names": [
-      "A. Marks"
+      "R. Crowley"
     ],
     "twitters": [
-      "andee_marks"
+      "robdcrowley"
+    ],
+    "abstract": "The API economy is here, fueling disruption across many established industries. REST, as specified in Roy Fielding’s seminal dissertation, has become the architectural pattern of choice for APIs and when applied correctly allows for clients and servers to evolve in a loosely coupled manner. There are areas however where REST can deliver less than ideal client experiences. Often many HTTP requests are required to render a single view. \r\n\r\nWhile this may be a minor concern for a web app running on a WAN with low latency and high bandwidth, it can yield poor client experiences for mobile clients in particular. GraphQL is Facebook’s response to this challenge and it is quickly proving itself as an exciting alternative to RESTful APIs for a wide range of contexts. GraphQL is a query language that provides a clean and simple syntax for consumers to interrogate your APIs. These queries are strongly typed, hierarchical and enable clients to retrieve only the data they need.\r\n\r\nIn this session, we will take a hands-on look at GraphQL and see how it can be used to build APIs that are a joy to use."
+  },
+  {
+    "id": "cd91c2fe-bd4f-4b73-8768-a462a1678190",
+    "title": "HOWTO: Server-Side Rendering with React",
+    "names": [
+      "E. van der Koogh"
+    ],
+    "twitters": [
+      "evanderkoogh"
     ],
     "websites": [
-      "http://vampwillow.wordpress.com"
+      "http://bitgenics.io"
     ],
-    "abstract": "This is a demonstration of a code quality analysis tool that doesn’t visualise the metrics – it “audiolises” them.\r\n\r\nThe concepts of poor code having smell and colour (usually red) is commonly accepted, but what about appealing to our sense of hearing as well as eyes and nose?  Aeolian is an open source tool (written by the author) that generates MIDI music from code quality metrics, which begs the question:\r\n\r\nWhat does poor quality code sound like? Justin Beiber’s latest? A Phillip Glass soundtrack? A Phil Spector wall of sound cacophony? Modern Jazz? 🙂\r\n\r\nLikewise, what does good quality code sound like? Mozart? White noise?\r\n\r\nHow do commonly accepted musical concepts (keys, tempo, verse, chorus) apply when illustrating code quality.\r\n\r\nThe author (an amateur musician and long time producer of smelly code) will talk through the concepts of Aeolian and provide plenty of examples of how you can map code quality to music. \r\n\r\nThis will be a light-hearted talk and no knowledge of music theory is needed."
+    "abstract": "So you love to use the latest technology and give your customers the most amazing experience so you would love to use React. But you work for a business that actually needs to make money from the website, so SEO, Social Sharing and fast Time to First Render are actually important?\r\n\r\nServer-Side Rendering (SSR) to the rescue! Whenever a user comes to your website you first render a page and send good old fashioned HTML to them and have React take over after that. Amazing for SEO, Sharing, speed *\r\n\r\nIt looks like React already supports SSR out of the box, but that is only true if you don't want to do anything interesting, like making an API call or reading something from a database.\r\n\r\nIn this talk we will be exploring a few different strategies for Server-Side Rendering our code."
+  },
+  {
+    "id": "3e867b1a-ec86-4459-b4f6-a1a68667f9bc",
+    "title": "HTTP/2 - The future of the web today",
+    "names": [
+      "R. Crowley"
+    ],
+    "twitters": [
+      "robdcrowley"
+    ],
+    "abstract": "Client side web technologies continue to advance at breakneck speed. The quest to deliver richer user experiences is relentless and due to the limitations of HTTP/1.x, we have been forced to develop various workarounds (domain sharding, spriting, resource concatenation and inlining) in a bid to optimize performance. \r\n\r\nHTTP/2 has been designed with the modern web in mind and eliminates the need for such compensating hacks. In this session we'll take an in-depth look at web performance optimization; the best practices that have evolved; the game changing new features of HTTP/2; and most importantly what you need to do to deliver a world class HTTP/2 experience:\r\n\r\n- Why domain sharding, resource concatenation and image sprites are now anti-patterns\r\n- How server push is effectively resource inlining on steroids \r\n- What new best practices are possible with HTTP/2\r\n- What techniques to apply during the transitional period from HTTP/1.x to HTTP/2\r\n\r\nAdditionally, we will look at the tooling available for working with HTTP/2 traffic and how we can ensure that we're getting the full benefit of HTTP/2 both client and server side."
+  },
+  {
+    "id": "cfdae985-e611-4cda-9119-79b8b63d29b5",
+    "title": "How Blizzard turned a regular shit show into an amazing user experience",
+    "names": [
+      "V. Love"
+    ],
+    "twitters": [
+      "fly401"
+    ],
+    "abstract": "You’ve burned your reputation, you’ve over promised, you’ve lost trust. This was the case for Blizzard Entertainment and their World of Warcraft subscribers. I know, I am one of them. Late August the Legion expansion was launched, and we all held our breath.\r\n\r\nI spent 3 days playing a game, and it was the best technology experience I have ever had. I will discuss the history of past releases, the user experience and how it was communicated to us. We will learn a bit about the technology and solutions behind the problems that had plagued them in the past. The promises given, the expectations and the results.\r\n\r\nWorking in IT I saw a lot of correlations in this experience to releasing software. Come to this session and learn how you can bring users around and the expected results when you do."
+  },
+  {
+    "id": "653fe001-3a88-4118-b11f-2f547448708c",
+    "title": "How I stopped worrying and learned to love the JavaScript",
+    "names": [
+      "B. Forster"
+    ],
+    "twitters": [
+      "shiftkey"
+    ],
+    "websites": [
+      "http://brendanforster.com"
+    ],
+    "abstract": "About a year ago, I joined a team that was starting from scratch on a new project.\r\n\r\n\"And we're going to do it in JavaScript!\"\r\n\r\nIf you feel uncomfortable at hearing that detail, come along and hear about how we (a team of developers who weren't strong in JavaScript skills) shipped the project a year later and found it a (mostly) pleasant experience.\r\n\r\nI'll talk about how we settled on TypeScript, the tooling around TypeScript that helps keep everything under control, and show how you can put together a toolchain and process that balances moving quickly with producing correct code!"
+  },
+  {
+    "id": "4bdcacb7-559e-4557-8c50-0fa1ead0badb",
+    "title": "How to be an Opinionated Git",
+    "names": [
+      "S. Baldwin",
+      "S. Kumar"
+    ],
+    "twitters": [
+      "scottjbaldwin"
+    ],
+    "abstract": "Although Git is an amazingly powerful distributed source control system that has quickly become the industry default, it is surprising to see its true potential go almost completely unused in so many projects. Fear and/or lack of confidence force many developers to use only the bare minimum of Git's capabilities, but like many things in our professional practice, time and energy spent up-front in understanding and using Git better will stand your projects in good stead, and enable faster more reliable delivery of software features to end users.\r\nThis talk is aimed at presenting an unashamedly \"opinionated\" approach to using Git in a team environment. We will endeavour to demonstrate how features like rebase, cherry-pick, bisect and others can be used to create branch histories that are easier to review, safer to merge, and a breeze when it comes understanding where a bug or \"feature\" was introduced. This talk will change the way you view your source control, from merely a background tool that you use to submit code to a first class partner in quality software development."
+  },
+  {
+    "id": "907bb73e-e523-41d5-99f8-a02b4f1ccdd5",
+    "title": "Hypothesis driven development with Application Insights",
+    "names": [
+      "R. Haddad"
+    ],
+    "twitters": [
+      "raphhaddadaus"
+    ],
+    "websites": [
+      "http://www.raph.ws/"
+    ],
+    "abstract": "‘I think the user will…’, ‘I don’t think the user will…’. Stop guessing.\r\n\r\n‘This API is used…’, ‘this one is not….’. Stop speculating.\r\n\r\nHere, I will demonstrate the power of Application insights to increase performance, relevance and usability for your users. Stop guessing, stop speculating and start using real information to make your product better."
+  },
+  {
+    "id": "26a147c6-9ea3-411e-af10-454e09dcd36f",
+    "title": "Introduction to Swift",
+    "names": [
+      "P. Oborin"
+    ],
+    "twitters": [
+      "poborin"
+    ],
+    "abstract": "Swift is a cross platform open source functional language beloved by thousands of developers worldwide. It is known for its simplicity and flexibility, and hence is an extremely powerful language to build mobile applications as well as micro services. It was released just 3 years ago and so far, has already made the Tiobe top 20.\r\n\r\nIn this session, I will introduce you to Swift’s syntax. I will explain how flexible and self-describing the language is. I will cover most common patterns and approaches. Moreover, I will also talk about some known gaps and challenges developers are facing in everyday development."
+  },
+  {
+    "id": "cdf28234-9d2f-47a2-ae12-9a0c68963cd1",
+    "title": "Lessons from 8 years of DDD Melbourne",
+    "names": [
+      "A. Powell"
+    ],
+    "twitters": [
+      "slace"
+    ],
+    "websites": [
+      "http://www.aaron-powell.com"
+    ],
+    "abstract": "It's been 8 years since the first DDD Melbourne launched and 8 years is a long time in IT. From talks about jQuery, the new C# async feature, different XAML libraries for WPF or Odata, to Serverless Computing, React, Haskell and GraphQL. My how times have changed!\r\n\r\nAs someone who's had the opportunity to be involved in nearly every DDD Melbourne watching the shift in the years about what we've been talking about has given a fascinating insight into the industry that we work in.\r\n\r\nSo let's have a trip down the history of DDD and look back at what we were talking about, learn where we've come from as a community and see if we can make some predictions about where we're going."
+  },
+  {
+    "id": "fc137520-a69a-4378-8c12-6a0af6f64371",
+    "title": "Making cars smarter",
+    "names": [
+      "P. Oborin",
+      "T. Quach"
+    ],
+    "abstract": "Nowadays smart devices are becoming an everyday fact. We have smart phones, smart TVs, smart watches, the list can go on.\r\nWhat if cars could be smarter? What if your car could report a potential issue before it was a problem? Could we make better decisions based on vehicle data?\r\nThere are a number of ways to make a car smarter:\r\n· Phone voice assistants (e.g Siri, Cortana)\r\n· Vehicle OBD2 dongles\r\n· Dashboard proprietary frameworks (linking your phone to your car)\r\n· Build it in! (eg: Tesla)\r\n\r\nWe’ll focus on what we can do with dongles and frameworks to link smart phones and cars. Pros, cons, how to get started, and other considerations (your headunit is not an iPad!)"
+  },
+  {
+    "id": "0ce42e11-3149-4fd2-a970-2932d99be9ae",
+    "title": "Making cross-platform builds a piece of Cake",
+    "names": [
+      "A. Chapman"
+    ],
+    "twitters": [
+      "agc93"
+    ],
+    "websites": [
+      "http://blog.achapman.com"
+    ],
+    "abstract": "This session will be an in-depth dive into using Cake (C# Make) to automate, orchestrate and supercharge your builds.\r\n\r\nDuring the session I will be covering getting started with Cake, putting together your first build script and how to take your builds to the next level including build, test, packaging, publishing and deployment across any platform.\r\nI'll also be outlining how to integrate Cake with your favourite editors, tools, cloud platforms and CI providers, across Windows, macOS and Linux! From Visual Studio to Azure, AppVeyor to Yeoman, Cake makes it easy to automate and control your builds, all with the full power of C# and .NET!\r\nThis session will include simple demos to go from a basic .NET solution to a complete cross-platform CI and CD pipeline using a single Cake script."
+  },
+  {
+    "id": "22137f63-c6b8-41ac-8cd0-f55c4c36526f",
+    "title": "MicroPython!",
+    "names": [
+      "N. Moore"
+    ],
+    "twitters": [
+      "nickzoic"
+    ],
+    "websites": [
+      "http://nick@zoic.org"
+    ],
+    "abstract": "MicroPython is a very easy to use language which runs on very cheap SoC platforms, perfect for the development of the Internet of Things or just messing around with toys.\r\n\r\nThis talk looks at a widely available WiFi enabled SoC, the ESP32, and how to install and use MicroPython to make it do interesting stuff connecting sensors and actuators to the Internet."
   },
   {
     "id": "4d89701f-261a-4fe3-96f9-367b7532b93e",
@@ -676,32 +548,185 @@
     "abstract": "There's a lot of buzz around using Microservices patterns to design your backend system, but surprisingly not a lot of people talk about how these services are ultimately tied back together on the frontend. This talk is about challenges you face when creating a UI for your Microservices and challenges you face to ensure service boundaries are respected while the code is still maintainable and loosely coupled."
   },
   {
-    "id": "3e5be020-cc44-4a2e-82a0-d642bc1d9c83",
-    "title": "Depression - software developer strain",
+    "id": "813415af-a6bc-453f-8581-a13b2cb489e9",
+    "title": "Notes from the (Bleeding) Edge",
     "names": [
-      "I. Gorelik"
+      "E. van der Koogh"
     ],
     "twitters": [
-      "rogik"
+      "evanderkoogh"
     ],
     "websites": [
-      "http://igorelikblog.wordpress.com/"
+      "http://bitgenics.io"
     ],
-    "abstract": "Everyone heard about depression. But most of us are sure that this won't happen to us. As we are strong and, as software developers, we are very logical. And depression is illogical. Right? It depends. Come to this session to hear some facts about depression, listen about my personal experience, and, the most important, what you can do about it."
+    "abstract": "As the founder of a tech startup I get to make all the decisions about what technologies to use. And we have tried all[1] of them and even kept some of them.\r\nJoin me in a series of HonestTrailers for some of the hottest technologies out there. Amongst others: Server-Side Rendering, Lambda, New JavaScript Features, Honeycomb, All[2] of the new AWS products & Vue.js.\r\n\r\n[1] Of course not actually *all* of them. It would take an infinite amount of monkey and laptops to try *just* the new JavaScript Frameworks..\r\n[2] Maybe not all of these either. Amazon is only less prolific than open source JavaScript developers"
   },
   {
-    "id": "653fe001-3a88-4118-b11f-2f547448708c",
-    "title": "How I stopped worrying and learned to love the JavaScript",
+    "id": "9aa4d2f7-33cf-48b2-83af-b14c19d9089f",
+    "title": "Project forecasting using Monte Carlo method",
     "names": [
-      "B. Forster"
+      "D. Raniszewski"
     ],
     "twitters": [
-      "shiftkey"
+      "dominikran"
     ],
     "websites": [
-      "http://brendanforster.com"
+      "http://devblog.xyz/"
     ],
-    "abstract": "About a year ago, I joined a team that was starting from scratch on a new project.\r\n\r\n\"And we're going to do it in JavaScript!\"\r\n\r\nIf you feel uncomfortable at hearing that detail, come along and hear about how we (a team of developers who weren't strong in JavaScript skills) shipped the project a year later and found it a (mostly) pleasant experience.\r\n\r\nI'll talk about how we settled on TypeScript, the tooling around TypeScript that helps keep everything under control, and show how you can put together a toolchain and process that balances moving quickly with producing correct code!"
+    "abstract": "This talk is about using Monte Carlo simulations for creating project forecasts. I was using this method when delivering solutions for a financial institution undergoing a transformation towards Agile processes.\r\n\r\nI would like to share my experiences about how it helped me to educate Product Owner and stakeholders on differences between forecasts and commitments, keep stakeholders involved in backlog prioritization and provide a forecast that can be easily turned into a release plan."
+  },
+  {
+    "id": "db65a130-db86-4ecb-85e2-ffad6f2d2257",
+    "title": "Quantum Computing Fundamentals",
+    "names": [
+      "C. Belle"
+    ],
+    "websites": [
+      "http://www.eliasdigital.com/"
+    ],
+    "abstract": "Last time the good people of DDD land deemed me worthy of delivering a talk on quantum computing, and so I set out to ensure that my presentation would give everyone in the room a firm grounding in quantum computing fundamentals. This could have been done better!\r\n\r\nGiven a second chance, this time around, we will explore quantum computing as compared to classical computing (from an OO developer’s perspective), we’ll tour terminology to allow anyone to interpret currently used notation, and most importantly, there will be no protracted droning on about matrix algebra!\r\n\r\nSo join me to get the skinny on quantum computing basics including: an under-the-hood look at how a quantum computer functions, how quantum-y people notate things (and therefore how to read what quantum-y people have written), why quantum computing will be useful, and how a quantum system compares to the systems we use today."
+  },
+  {
+    "id": "5cd8f694-f8de-4f8a-bcae-071670641919",
+    "title": "Saving the World One App at a Time – The Humanitarian Toolbox",
+    "names": [
+      "R. Campbell"
+    ],
+    "twitters": [
+      "richcampbell"
+    ],
+    "websites": [
+      "http://www.htbox.org"
+    ],
+    "abstract": "Join Richard Campbell as he tells his story of software, hardware and charity that ultimately has led him to the Humanitarian Toolbox (htbox.org). The Humanitarian Toolbox is an open source initiative to build software for disaster relief – both for the Non-Governmental Organizations that are involved in disaster relief, the citizen volunteers that donate their time to assist during a disaster and the disaster victims themselves. Richard will take you along on his journey of experiences with technology over several decades to show how you can help change the world with software."
+  },
+  {
+    "id": "94240edd-22a6-4aef-8542-226f105298a3",
+    "title": "Solving real life problems with machine learning",
+    "names": [
+      "D. Raniszewski"
+    ],
+    "twitters": [
+      "dominikran"
+    ],
+    "websites": [
+      "http://devblog.xyz/"
+    ],
+    "abstract": "Have you ever thought about machine learning but didn't know where to start? This session is about how to take something from your day to day life and turn it into a machine learning problem. \r\n\r\nI'm going to describe fundamentals of a problem space identification, first steps of creating machine learning based solution and share with you how I turned one of my problems into a functioning, end-to-end application"
+  },
+  {
+    "id": "5878c33c-a149-4304-a983-5411e2b736a3",
+    "title": "Spec-Driven Development – API Mocking for Lean Development – MuleSoft API Manager, Azure API Management & Amazon API Gateway",
+    "names": [
+      "J. Yoo"
+    ],
+    "twitters": [
+      "justinchronicle"
+    ],
+    "abstract": "As a front-end, full-stack and/or mobile app developer, using APIs is inevitable. However, what if those APIs are not yet implemented? Should I wait for back-end developers to complete API implementation? Nah, we don't need to wait for them as long as those API definitions are defined via RAML or Swagger. \r\n \r\nIn this session, Justin will talk about how beneficial API design-first approach will be, then how API spec is designed and mocked on MuleSoft API Manager, Azure API Management and Amazon API Gateway so that front-end, full-stack and/or mobile app developers can play around until the actual API implementations are done."
+  },
+  {
+    "id": "3f7b5a67-95d9-4978-91d5-2f6fd3d2b317",
+    "title": "Stop Mocking – start testing.",
+    "names": [
+      "R. Haddad"
+    ],
+    "twitters": [
+      "raphhaddadaus"
+    ],
+    "websites": [
+      "http://www.raph.ws/"
+    ],
+    "abstract": "How much value do your automated tests really provide? I will demonstrate common and regular pitfalls in automated testing. Namely, that of mis-defining what a ‘unit’ is and disregard for integration tests. Among other things I will also demonstrate how stale tests – be they failing or passing are a problem as well.\r\n\r\nTesting is a good thing, testing a lot for the sake of it is NOT. Stop mocking and actually start testing to provide the highest amount of value in your application with the least amount of code."
+  },
+  {
+    "id": "ade40a1d-6d2a-4d31-bf58-c5301b796d48",
+    "title": "Swift for micro services",
+    "names": [
+      "P. Oborin"
+    ],
+    "twitters": [
+      "poborin"
+    ],
+    "abstract": "Swift is a cross platform open source functional language beloved by thousands of developers worldwide. Many leading IT companies, such as IBM, Apple (troll face) or Google (double troll face) are using Swift for many different domains. It is one of the most popular languages around the globe (in the top 20 according to the Tiobe index) mainly due to mobile development. However, Swift is a very powerful tool for micro services development. \r\n\r\nIn this workshop, we will go step by step through creating a functional micro service. We will install a swift compiler, a back-end framework and write a simple restful service.\r\n\r\nPrerequisites: macOS Sierra, Ubuntu 14.04, internet connection"
+  },
+  {
+    "id": "7073ce46-818b-44b1-9519-8985ccacc3d9",
+    "title": "Testing, Testing, Testing! Are Serverless Applications Testable? - Azure Functions & Logic Apps",
+    "names": [
+      "J. Yoo"
+    ],
+    "twitters": [
+      "justinchronicle"
+    ],
+    "abstract": "Testing applications is more than important nowadays. Traditionally, developers perform unit tests and/or integration tests in variety of environments. Now, we see serverless applications. How can we test those applications? That's a tricky question. \r\n \r\nIn this session, Justin will demo how serverless applications, especially Azure Functions and Logic Apps, are written with considering testability. Then he will also show how those apps can be tested in a continuous integration pipeline, with various approach."
+  },
+  {
+    "id": "1af3ccaa-b7b1-4b45-a163-a6bfbd89d346",
+    "title": "The Development Platform Landscape in 2017",
+    "names": [
+      "R. Campbell"
+    ],
+    "twitters": [
+      "richcampbell"
+    ],
+    "websites": [
+      "http://www.dotnetrocks.com"
+    ],
+    "abstract": "Join Richard Campbell as he takes you on a tour of the broad range of subjects explored while recording more than 1400 episodes of .NET Rocks over the past 10+ years. The development world today is evolving rapidly, but a look at the history of development can help inform the path we're on and where we're going. Along the way you'll hear some great stories from the various .NET Rocks episodes and get some ideas of how you can take your career and your company into the future of technology."
+  },
+  {
+    "id": "b43a26e7-ef55-4a02-a619-e82e85dd26c8",
+    "title": "The History of .NET",
+    "names": [
+      "R. Campbell"
+    ],
+    "twitters": [
+      "richcampbell"
+    ],
+    "abstract": "The .NET Framework is more than fifteen years old! Or is it? Join Richard Campbell on a tour of the history of .NET, Visual Studio and the related tools that have been the principal way that developers build software in the Microsoft space. The conversation explores the relationship between development tools, operating systems and the hardware that runs it all - the winding path of .NET is influenced by many things - and the future is only getting more interesting!"
+  },
+  {
+    "id": "098a6308-29ba-444d-8753-d43c77651cb3",
+    "title": "The Internet of (Not Shit) Things",
+    "names": [
+      "N. Moore"
+    ],
+    "twitters": [
+      "nickzoic"
+    ],
+    "websites": [
+      "http://nick.zoic.org/"
+    ],
+    "abstract": "The Internet of Things! Existential menace or meaningless buzzword? Automating away drudgery or just eroding privacy? Cornucopia or Panopticon?\r\n\r\nThe negative side of the argument is eloquently expressed, often under the catchy name “The Internet of Shit”. But why such skepticism in a world of rampant technophilia? Why are we not, in fact, welcoming our robot overlords?\r\n\r\nThis talk looks at the very real problems of the IoT, with examples from recent news, and looks at how to learn from the criticisms to identify potential solutions."
+  },
+  {
+    "id": "9f019bc1-47cb-41df-a6fc-1b8a0dca7f05",
+    "title": "The beauty of stupid ideas",
+    "names": [
+      "A. Powell"
+    ],
+    "twitters": [
+      "slace"
+    ],
+    "websites": [
+      "http://www.aaron-powell.com"
+    ],
+    "abstract": "We spend all our days striving to write the perfect code, code that is well thought out and will stand the test of time.\r\nThis is not a talk about that code. This is a talk about all that code you don't write because it's stupid, it doesn't solve a \"real\" problem or doesn't make any sense.\r\nWe'll explore some of my own stupid ideas, like writing my own number system in .NET or writing an IoC container in JavaScript, what I learnt from these stupid ideas and why exploring stupidity is important."
+  },
+  {
+    "id": "564b4a21-8d00-4123-812a-67c88dee0f8d",
+    "title": "The hills are alive with the sound of your smelly code",
+    "names": [
+      "A. Marks"
+    ],
+    "twitters": [
+      "andee_marks"
+    ],
+    "websites": [
+      "http://vampwillow.wordpress.com"
+    ],
+    "abstract": "This is a demonstration of a code quality analysis tool that doesn’t visualise the metrics – it “audiolises” them.\r\n\r\nThe concepts of poor code having smell and colour (usually red) is commonly accepted, but what about appealing to our sense of hearing as well as eyes and nose?  Aeolian is an open source tool (written by the author) that generates MIDI music from code quality metrics, which begs the question:\r\n\r\nWhat does poor quality code sound like? Justin Beiber’s latest? A Phillip Glass soundtrack? A Phil Spector wall of sound cacophony? Modern Jazz? 🙂\r\n\r\nLikewise, what does good quality code sound like? Mozart? White noise?\r\n\r\nHow do commonly accepted musical concepts (keys, tempo, verse, chorus) apply when illustrating code quality.\r\n\r\nThe author (an amateur musician and long time producer of smelly code) will talk through the concepts of Aeolian and provide plenty of examples of how you can map code quality to music. \r\n\r\nThis will be a light-hearted talk and no knowledge of music theory is needed."
   },
   {
     "id": "15f9d668-20ef-4df9-b44c-85caa2be228d",
@@ -718,14 +743,31 @@
     "abstract": "TypeScript's recent claim to fame is its adaption by the Angular Team. That said perhaps you want to see what TypeScript + React looks like. \r\n\r\nThis session shows you benefits of this combo."
   },
   {
-    "id": "cfdae985-e611-4cda-9119-79b8b63d29b5",
-    "title": "How Blizzard turned a regular shit show into an amazing user experience",
+    "id": "b45408f7-f83a-4c80-89bc-e9ec1ce4c68a",
+    "title": "Using Docker to supercharge .NET development on Linux",
     "names": [
-      "V. Love"
+      "A. Chapman"
     ],
     "twitters": [
-      "fly401"
+      "agc93"
     ],
-    "abstract": "You’ve burned your reputation, you’ve over promised, you’ve lost trust. This was the case for Blizzard Entertainment and their World of Warcraft subscribers. I know, I am one of them. Late August the Legion expansion was launched, and we all held our breath.\r\n\r\nI spent 3 days playing a game, and it was the best technology experience I have ever had. I will discuss the history of past releases, the user experience and how it was communicated to us. We will learn a bit about the technology and solutions behind the problems that had plagued them in the past. The promises given, the expectations and the results.\r\n\r\nWorking in IT I saw a lot of correlations in this experience to releasing software. Come to this session and learn how you can bring users around and the expected results when you do."
+    "websites": [
+      "http://blog.achapman.com"
+    ],
+    "abstract": "With the release of .NET Core, the long-awaited dream of running .NET natively on Linux is finally here! Even better, .NET Core has arrived just in time for the coming container revolution! \r\n\r\nIn this talk I will be covering getting started with .NET Core on Linux, including a progressive approach to introducing Docker starting with CLI and tooling all the way up to a fully containerised application in a short, but practical development scenario.\r\n\r\nIn this session, we will get started with a basic Hello, World! in C# on a Linux host and demonstrate how Docker can be used not just in production, but also during development to not just simplify the Linux development experience, but also to enable powerful new capabilities including cross-platform scripting, seamless scaling, reproducible builds and simple testing."
+  },
+  {
+    "id": "207c4875-3689-4ae5-bc9e-3152c7b3f340",
+    "title": "Working smarter, not harder: automating the pain out of open-source maintenance",
+    "names": [
+      "A. Chapman"
+    ],
+    "twitters": [
+      "agc93"
+    ],
+    "websites": [
+      "http://blog.achapman.com"
+    ],
+    "abstract": "Maintaining open-source software can be a complex and time-intensive task. In today's world of open-source maintainers often being restricted to their free time, how do we maximise the time developers can spend delivering features and minimise the time spent on chores and project maintenance?\r\n\r\nThis talk will be delivering a brief summary of using automation, testing, and release software to simplify and streamline maintaining open-source projects. Using Cake (C# Make) as a case study, this presentation includes both high-level guidelines and a practical guide to using a combination of process, documentation, automation and community engagement to reduce the burden on project maintainers and improve project quality.\r\n\r\nThis talk is especially valuable to open-source project maintainers but will be of value to anyone involved in the open-source community at any level. Maintainers will understand how to improve efficiency and rely on automation to make maintenance easier; contributors will learn how to make maintenance and review easier, getting features merged faster."
   }
 ]
