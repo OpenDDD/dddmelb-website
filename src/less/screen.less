@@ -27,22 +27,38 @@ hr {border-top: 3px solid #dcdcdc;}
   background: @primary-color;
   color: #fff!important;
 }
+
   .btn:after {content: "\f0da"; font-family: "FontAwesome"; color: #000; .opacity(0.3); display: inline-block; margin: 0 0 0 10px; font-size: 16px; max-width: 20px; vertical-align: middle; position: relative; top: -1px; }
   .btn:hover {background: darken(@primary-color, 5%); color: #fff}
+  .btn:focus {outline: 0;}
 
   // Back Button
   .btn.back:after {float: left; margin: 0 15px 0 -5px; .transform(rotateY(180deg))}
 
   // Button Colours
-  .btn.session {background-color: @call-content}
-    .btn.session:hover {background-color: darken(@call-content, 5%)}
+  .btn.session, .btn.remove-vote {background-color: @call-content}
+    .btn.session:hover, .btn.remove-vote:hover {background-color: darken(@call-content, 5%)}
 
   .btn.vote {background-color: @voting}
     .btn.vote:hover {background-color: darken(@voting, 5%)}
 
-  .btn.book {background-color: @tickets}
-    .btn.book:hover {background-color: darken(@tickets, 5%)}
+  .btn.book, .btn.add-vote {background-color: @tickets}
+    .btn.book:hover, .btn.add-vote:hover {background-color: darken(@tickets, 5%)}
 
+.btn.add-vote:after, .btn.remove-vote:after {
+  display: inline-block;
+  margin: 0px;
+  padding: 0px;
+  top: 0px;
+}
+
+.btn.add-vote:after {
+  content: "\f067";
+}
+
+.btn.remove-vote:after {
+  content: "\f068";
+}
 
 // Sprite
 footer ul.social a,
@@ -608,6 +624,10 @@ ul.accordion {
 @media only screen and (max-width: 480px) {
   .blog-photo {margin-bottom: 10px; min-width: 100px}
   .blog-intro {width: 100%!important}
+
+  #submit-votes.affix + .submitted-session {
+    margin-top: 183px !important;
+  }
 }
 
 
@@ -684,7 +704,9 @@ ul.accordion {
     .col, a.col {float: left; width: 47%; margin: 0 3% 15px 0}
   }
 
-
+  #submit-votes.affix + .submitted-session {
+    margin-top: 186px !important;
+  }
 }
 
 
@@ -879,6 +901,10 @@ ul.accordion {
   // Agenda
   .agenda-list {
     .col, a.col {float: left; width: 31.25%; margin: 0 2% 20px 0}
+  }
+
+  #submit-votes.affix + .submitted-session {
+    margin-top: 200px !important;
   }
 
 }
@@ -1370,7 +1396,6 @@ ul.accordion {
     }
   }
 
-
   // Blog
   .blog-list-post {
     margin: 60px 0 30px 0;
@@ -1396,14 +1421,96 @@ ul.accordion {
 
 }
 
+// Sessions and Vote
 
 .submitted-session {
   background: #f0f0f0;
   border-right: 7px solid #ff9600;
   padding: 10px 15px 2px;
   margin-bottom: 10px;
+
+  h3 {
+    margin: 0;
+    display: inline;
+    cursor: pointer;
+  }
+
+  .session-title {
+    margin-bottom: 10px;
+
+    h3:after {
+      content: "\f0d7";
+      font-family: "FontAwesome";
+      color: #000; .opacity(0.3);
+      display: inline-block;
+      margin: 0 0 0 10px;
+      font-size: 24px;
+      max-width: 26px;
+      vertical-align: middle;
+      position: relative;
+      top: -2px;
+    }
+
+    .vote-for-session {
+      float: right;
+      padding: 3px 20px;
+      margin-left: 5px;
+    }
+  }
+
+  .session-content {
+    display: none;
+
+    p {
+      margin: 18px 0;
+    }
+  }
+
+  &.open {
+    .session-title {
+      h3:after {
+        content: "\f0d8";
+      }
+    }
+
+    .session-content {
+      display: block;
+    }
+  }
 }
 
-.submitted-session h3 {
-  margin: 0;
+#submit-votes {
+  margin: 0 0 10px 0;
+  padding: 0;
+  background-color: #f0f0f0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+
+  h3 {
+    margin: 10px 0 0 0;
+    text-align: center;
+  }
+
+  li.form-group {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  li.submit input {
+    margin-top: 0px;
+  }
+
+  form {
+    padding: 10px;
+  }
+}
+
+#submit-votes.affix {
+  top: 0;
+  position: fixed;
+
+  + .submitted-session {
+    margin-top: 220px;
+  }
 }

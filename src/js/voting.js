@@ -1,36 +1,72 @@
 $(document).ready(function() {
-  var totalVotes = 4;
+  var totalVotes = 10;
   var votes = [];
+  var addVoteClass = 'add-vote';
+  var removeVoteClass = 'remove-vote';
 
-  $('.vote').on('click', function(e) {
-    e.preventDefault();
+  var submitVotes = $('#submit-votes');
+  var submitVotesTopOffset = submitVotes.offset().top;
+
+  submitVotes.affix({
+    offset: {
+      top: submitVotesTopOffset
+    }
+  });
+
+  $('.vote-for-session').on('click', function(e) {
     var voteBtn = $(this);
-    if(voteBtn.text() === '+') {
+    if(voteBtn.hasClass(addVoteClass)) {
       if(votes.length >= totalVotes) { return; }
       addVote(voteBtn.data('session-id'));
-      voteBtn.text('-');
+      voteBtn.removeClass(addVoteClass)
+        .addClass(removeVoteClass);
     } else {
       removeVote(voteBtn.data('session-id'));
-      voteBtn.text('+');
+      voteBtn.removeClass(removeVoteClass)
+        .addClass(addVoteClass);
     }
 
-    $('#submit-votes .remaining-votes').text(totalVotes - votes.length);
+    submitVotes.find('.remaining-votes').text(totalVotes - votes.length);
   });
 
-  $('#submit-votes input[type="submit"]').on('click', function() {
+  $('.session-title h3').on('click', function() {
+    var sessionTitle = $(this);
+    sessionTitle.closest('.submitted-session')
+      .toggleClass('open');
+  });
+
+  submitVotes.find('form').on('submit', function(e) {
+    e.preventDefault();
+
+    if(votes.length !== totalVotes) {
+      alert('You must use all ' + totalVotes + ' votes');
+      return;
+    }
+
+    var submitVotesForm = $(this);
+    var orderNumber = submitVotesForm.find('#OrderNumber').val();
+    var orderEmail = submitVotesForm.find('#OrderEmail').val();
+
+    if(!orderNumber || !orderEmail) {
+      alert('You must enter an order number and email');
+      return;
+    }
+
+    submitVotesForm.find('input[type="submit"]').attr('disabled', true);
+
     $.ajax({
-      type: "POST",
+      type: 'POST',
       url: 'https://dddmelb.azurewebsites.net/Voting/SubmitVote',
-      data: {
+      data: JSON.stringify({
         sessionIds: votes,
-        orderNumber: '',
-        orderEmail: ''
-      },
-      success: function() {},
-      dataType: 'json'
+        orderNumber: orderNumber,
+        orderEmail: orderEmail
+      }),
+      contentType: 'application/json; charset=utf-8',
+      success: function(data) { window.location = '/vote/success/'; },
+      error: function() { window.location = '/vote/failure/'; }
     });
   });
-
 
   function addVote(sessionId) {
     votes.push(sessionId);
