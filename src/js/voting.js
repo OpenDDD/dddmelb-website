@@ -8,7 +8,7 @@ $(document).ready(function() {
   $('.submitted-session').on('click', '.vote-for-session, .session-title h3', function(e) {
     var target = $(this);
     if(target.hasClass('vote-for-session')) {
-      voteForSession(target);
+      toggleSessionVote(target);
     } else if(target.prop("tagName") === "H3") {
       toggleSessionDetails(target);
     }
@@ -57,7 +57,7 @@ $(document).ready(function() {
     });
   }
 
-  function voteForSession(voteBtn) {
+  function toggleSessionVote(voteBtn) {
     if(voteBtn.hasClass(addVoteClass)) {
       if(votes.length >= totalVotes) { return; }
       addVote(voteBtn.data('session-id'));
