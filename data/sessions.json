@@ -299,17 +299,6 @@
     "abstract": "Electron is a new framework for building cross-platform applications using Node and web technologies. For curious developers, whether you build desktop or web applications, you may want to know more but aren't sure how to get started.\r\n\r\nIn this talk I'll share my experience having my world turned upside down:\r\n\r\n - using React and Node (and some C++) to replace my WPF and C# experience\r\n - how the Electron architecture differs from other GUI technologies\r\n - the fun and shenanigans that come with doing JavaScript day-to-day\r\n - navigating the Electron and Node ecosystems, and some of the amazing community work you should check out\r\n - war stories from the development of GitHub Desktop\r\n\r\nLearning a new stack and shipping something soon was a big change but ultimately a really enjoyable experience, and with everything being open source it's been great to be able to contribute back to the technologies I rely on.\r\n\r\nThis is a lot of ground to cover in a short time, but please bring your questions, curiosity and heckling!"
   },
   {
-    "id": "cd5b0a4a-4281-457e-8ecf-4e895c9cf819",
-    "title": "Elm: The (Functional) Future of Web Applications",
-    "names": [
-      "H. Andersson"
-    ],
-    "twitters": [
-      "hnrkndrssn"
-    ],
-    "abstract": "Not A Very Long Time Ago, In a Galaxy Not Very Far, Far Away.\r\n\r\nThere are a myriad of JavaScript frameworks that promises to solve the problems of frontend development in their own way, causing confusion amongst frontend developers.\r\n\r\nOut of the shadows appears a framework that takes a different approach to building reliable web applications, an approach that generates no runtime exceptions and friendly (not just at compile time) errors. A functional programming language called Elm.\r\n\r\n\r\nElm is a functional programming language, it builds on the same concepts of a virtual DOM and unidirectional dataflow that React and Redux use but uses a type inference system to find problems at compile time and provides friendly hints. Elm compiles down to JavaScript, which makes it easy to convert parts of your existing JavaScript web application to Elm and embedding it into your existing application.\r\n\r\nIn this session, we will explore how to build a web application using Elm. We'll start with the basics and move on to exploring the Elm architecture which is a simple pattern for architecting web applications. It allows us to create complex web applications that are easy to maintain and add new features to.\r\n\r\nThis talk requires no previous experience with functional programming languages, such as Haskell or F#, and is aimed at frontend developers that want to learn how to build reliable web applications with great performance and no runtime exceptions."
-  },
-  {
     "id": "6ef02979-9e21-4e38-af80-f0fd8e82f507",
     "title": "Everything’s a stream. An introduction to RxJS and avoiding anti-patterns",
     "names": [
