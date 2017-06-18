@@ -67,7 +67,7 @@ var getApprovedSessions = function(callback) {
       return;
     }
 
-    var entries = _.orderBy(result.entries, [function(entry) { return entry.Timestamp._.toISOString(); }], ['desc'])
+    var entries = _.orderBy(result.entries, [function(entry) { return entry.SessionTitle._ }], ['asc'])
     for(var i = 0; i < entries.length; i++) {
       var entry = entries[i];
       var session = {

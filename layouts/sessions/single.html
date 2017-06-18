@@ -1,4 +1,6 @@
 {{ define "main" }}
+  {{ $voting := .Params.voting}}
+
   <section class="full-width">
     <div class="container">
       <div class="row">
@@ -6,26 +8,59 @@
           <h1>{{ .Title }}</h1>
           {{ .Content }}
           <p>{{len $.Site.Data.sessions}} Session(s) have been submitted</p>
+
+          {{ if $voting }}
+            <div id="submit-votes" class="row">
+              <div class="col-md-6 col-md-offset-3">
+                <h3>Votes Remaining: <span class="remaining-votes">10</span></h3>
+                <form>
+                  <fieldset>
+                    <ul>
+                      <li class="form-group">
+                        <label class="sr-only" for="OrderNumber">Order Number</label>
+                        <input type="text" name="OrderNumber" id="OrderNumber" placeholder="Order Number (required)" data-error="Please provide your order number" required />
+                      </li>
+                      <li class="form-group">
+                        <label class="sr-only" for="OrderEmail">Order Email</label>
+                        <input type="email" name="OrderEmail" id="OrderEmail" placeholder="Order Email (required)" data-error="Please provide your order email" required />
+                      </li>
+                      <li class="submit"><input type="submit" value="Submit" /></li>
+                    </ul>
+                  </fieldset>
+                </form>
+
+              </div>
+            </div>
+          {{ end }}
+
           {{ if $.Site.Data.sessions }}
             {{ range $.Site.Data.sessions }}
               <div class="submitted-session content">
-                <h3>{{.title}}</h3>
-                <p>
-                  {{ if .names }}
-                    {{ range $index, $names := .names }}{{if $index}},&nbsp;{{end}}{{.}}{{ end }}
+                <div class="session-title">
+                  {{ if $voting }}
+                    <button class="vote-for-session btn add-vote" data-session-id="{{.id}}"></button>
                   {{ end }}
-                  {{ if .twitters }}
-                    [{{ range $index, $twitters := .twitters }}{{if $index}},&nbsp;{{end}}<a href="https://twitter.com/{{.}}" class="targetBlank">@{{.}}</a>{{ end }}]
-                  {{ end }}
-                  {{ if .websites }}
-                    <br />
-                    {{ range $index, $websites := .websites }}{{if $index}},&nbsp;{{end}}<a href="{{.}}" class="targetBlank">{{.}}</a>{{ end }}
-                  {{ end }}
-                </p>
-                <p>{{.abstract | markdownify}}</p>
+                  <h3>{{.title}}</h3>
+                </div>
+                <div class="session-content">
+                  <p>
+                    {{ if .names }}
+                      {{ range $index, $names := .names }}{{if $index}},&nbsp;{{end}}{{.}}{{ end }}
+                    {{ end }}
+                    {{ if .twitters }}
+                      [{{ range $index, $twitters := .twitters }}{{if $index}},&nbsp;{{end}}<a href="https://twitter.com/{{.}}" class="targetBlank">@{{.}}</a>{{ end }}]
+                    {{ end }}
+                    {{ if .websites }}
+                      <br />
+                      {{ range $index, $websites := .websites }}{{if $index}},&nbsp;{{end}}<a href="{{.}}" class="targetBlank">{{.}}</a>{{ end }}
+                    {{ end }}
+                  </p>
+                  <p>{{.abstract | markdownify}}</p>
+                </div>
               </div>
             {{ end }}
           {{ end }}
+          <img src="https://dddmelb.azurewebsites.net/Content/images/p.gif" />
         </div>
         <div class="col-xs-12 right-col">
           <div class="inner">
