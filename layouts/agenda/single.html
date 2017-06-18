@@ -1,0 +1,447 @@
+{{ define "main" }}
+  <section class="full-width">
+    <div class="container">
+      <div class="row agenda-row">
+        <div class="col-xs-12 left-col">
+          <h1>{{ .Title }}</h1>
+          {{ .Content }}
+
+          <div class="agenda-list equal-heights">
+            <h3>08:00 - 08:45</h3>
+            <div class="col" style="height: 155.979px;">
+              <span class="area">Registration Area</span>
+              <span class="info">Registration</span>
+              <span class="speaker"></span>
+            </div>
+          </div>
+
+          <div class="agenda-list equal-heights">
+            <h3>08:45 - 09:00</h3>
+            <div class="col room2" style="height: 181.313px;">
+              <span class="area">Room 2</span>
+              <span class="info">Welcome and house keeping</span>
+              <span class="speaker"></span>
+            </div>
+          </div>
+
+          <div class="agenda-list equal-heights">
+            <h3>09:00 - 09:45</h3>
+            <a class="col room2" href="" data-toggle="modal" data-target="#modal1" style="height: 206.646px;">
+              <span class="area">Room 2</span>
+              <span class="info">Keynote - The Future is Awesome (and what you can do about it)</span>
+              <span class="speaker">Paul Fenwick</span>
+              <span class="abstract">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eu nibh et sem ultrices pulvinar. Nam velit nibh, maximus sit amet dapibus eu, ullamcorper eu leo. Vestibulum augue nunc, vestibulum feugiat lorem eget, interdum dapibus neque. Ut et mauris at mi congue vestibulum tempor ac ex. Duis fermentum velit a faucibus vehicula. Maecenas vel egestas odio.</p>
+                <p>Aenean est justo, mattis quis faucibus tincidunt, dapibus in nulla. Nulla facilisi. Suspendisse pellentesque lacus a mi aliquam congue. Nunc interdum nibh quis eros dapibus, id rutrum magna tincidunt. Maecenas turpis arcu, auctor ut accumsan vel, venenatis ac elit. Cras ut est vestibulum, ultrices leo et, egestas lacus. Vivamus at lorem a lorem euismod iaculis. Etiam ac condimentum est.</p>
+              </span>
+            </a>
+          </div>
+
+          <div class="agenda-list equal-heights">
+            <h3>09:45 - 10:00</h3>
+            <div class="col room2" style="height: 155.979px;">
+              <span class="area">Room 2</span>
+              <span class="info">Morning Tea</span>
+              <span class="speaker"></span>
+            </div>
+          </div>
+
+          <div class="agenda-list equal-heights">
+            <h3>10:00 - 10:45</h3>
+            <a class="col room1" href="" data-toggle="modal" data-target="#modal2" style="height: 206.646px;">
+              <span class="area">Room 1</span>
+              <span class="info">Recapping C# 6 and a first look into C# 7</span>
+              <span class="speaker">Pratik Khasnabis</span>
+            </a>
+            <!-- Begin Modal -->
+            <div class="modal fade" id="modal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+              <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                <h4 class="modal-title" id="myModalLabel">Room 1: Recapping C# 6 and a first look into C# 7</h4>
+                <p>Pratik Khasnabis</p>
+                </div>
+                <div class="modal-body">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eu nibh et sem ultrices pulvinar. Nam velit nibh, maximus sit amet dapibus eu, ullamcorper eu leo. Vestibulum augue nunc, vestibulum feugiat lorem eget, interdum dapibus neque. Ut et mauris at mi congue vestibulum tempor ac ex. Duis fermentum velit a faucibus vehicula. Maecenas vel egestas odio.</p>
+                <p>Aenean est justo, mattis quis faucibus tincidunt, dapibus in nulla. Nulla facilisi. Suspendisse pellentesque lacus a mi aliquam congue. Nunc interdum nibh quis eros dapibus, id rutrum magna tincidunt. Maecenas turpis arcu, auctor ut accumsan vel, venenatis ac elit. Cras ut est vestibulum, ultrices leo et, egestas lacus. Vivamus at lorem a lorem euismod iaculis. Etiam ac condimentum est.</p>
+                </div>
+                <div class="modal-footer">
+                <a href="" class="btn">Book Now</a>
+                </div>
+              </div>
+              </div>
+            </div>
+            <!-- /End Modal -->
+            <a class="col room2" href="" data-toggle="modal" data-target="#modal3" style="height: 206.646px;">
+              <span class="area">Room 2</span>
+              <span class="info">Thinking in React</span>
+              <span class="speaker">Mohammad Helmy</span>
+            </a>
+            <!-- Begin Modal -->
+            <div class="modal fade" id="modal3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+              <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                <h4 class="modal-title" id="myModalLabel">Room 2: Thinking in React</h4>
+                <p>Mohammad Helmy</p>
+                </div>
+                <div class="modal-body">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eu nibh et sem ultrices pulvinar. Nam velit nibh, maximus sit amet dapibus eu, ullamcorper eu leo. Vestibulum augue nunc, vestibulum feugiat lorem eget, interdum dapibus neque. Ut et mauris at mi congue vestibulum tempor ac ex. Duis fermentum velit a faucibus vehicula. Maecenas vel egestas odio.</p>
+                <p>Aenean est justo, mattis quis faucibus tincidunt, dapibus in nulla. Nulla facilisi. Suspendisse pellentesque lacus a mi aliquam congue. Nunc interdum nibh quis eros dapibus, id rutrum magna tincidunt. Maecenas turpis arcu, auctor ut accumsan vel, venenatis ac elit. Cras ut est vestibulum, ultrices leo et, egestas lacus. Vivamus at lorem a lorem euismod iaculis. Etiam ac condimentum est.</p>
+                </div>
+                <div class="modal-footer">
+                <a href="" class="btn">Book Now</a>
+                </div>
+              </div>
+              </div>
+            </div>
+            <!-- /End Modal -->
+            <a class="col room3" href="" data-toggle="modal" data-target="#modal4" style="height: 206.646px;">
+              <span class="area">Room 3</span>
+              <span class="info">Building a conversational user interface</span>
+              <span class="speaker">Norman Noble</span>
+            </a>
+            <!-- Begin Modal -->
+            <div class="modal fade" id="modal4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+              <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                <h4 class="modal-title" id="myModalLabel">Room 3: Building a conversational user interface</h4>
+                <p>Norman Noble</p>
+                </div>
+                <div class="modal-body">
+                <p>Aenean est justo, mattis quis faucibus tincidunt, dapibus in nulla. Nulla facilisi. Suspendisse pellentesque lacus a mi aliquam congue. Nunc interdum nibh quis eros dapibus, id rutrum magna tincidunt. Maecenas turpis arcu, auctor ut accumsan vel, venenatis ac elit. Cras ut est vestibulum, ultrices leo et, egestas lacus. Vivamus at lorem a lorem euismod iaculis. Etiam ac condimentum est. Proin eu nibh et sem ultrices pulvinar. Nam velit nibh, maximus sit amet dapibus eu, ullamcorper eu leo. Vestibulum augue nunc, vestibulum feugiat lorem eget, interdum dapibus neque. Ut et mauris at mi congue vestibulum tempor ac ex. Duis fermentum velit a faucibus vehicula. Maecenas vel egestas odio.</p>
+                </div>
+                <div class="modal-footer">
+                <a href="" class="btn">Book Now</a>
+                </div>
+              </div>
+              </div>
+            </div>
+            <!-- /End Modal -->
+            <a class="col room4" href="" data-toggle="modal" data-target="#modal5" style="height: 206.646px;">
+              <span class="area">Room 4</span>
+              <span class="info">Random Failures of Architecture I Have Committed</span>
+              <span class="speaker">Colin Scott</span>
+            </a>
+            <!-- Begin Modal -->
+            <div class="modal fade" id="modal5" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+              <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                <h4 class="modal-title" id="myModalLabel">Room 4: Random Failures of Architecture I Have Committed</h4>
+                <p>Colin Scott</p>
+                </div>
+                <div class="modal-body">
+                <p>Proin eu nibh et sem ultrices pulvinar. Nam velit nibh, maximus sit amet dapibus eu, ullamcorper eu leo. Vestibulum augue nunc, vestibulum feugiat lorem eget, interdum dapibus neque. Ut et mauris at mi congue vestibulum tempor ac ex. Duis fermentum velit a faucibus vehicula. Maecenas vel egestas odio.</p>
+                <p>Aenean est justo, mattis quis faucibus tincidunt, dapibus in nulla. Nulla facilisi. Suspendisse pellentesque lacus a mi aliquam congue. Nunc interdum nibh quis eros dapibus, id rutrum magna tincidunt.</p>
+                </div>
+                <div class="modal-footer">
+                <a href="" class="btn">Book Now</a>
+                </div>
+              </div>
+              </div>
+            </div>
+            <!-- /End Modal -->
+            <a class="col room5" href="" data-toggle="modal" data-target="#modal6" style="height: 206.646px;">
+              <span class="area">Room 5</span>
+              <span class="info">Workshop: Getting in deep with React (Part 1)</span>
+              <span class="speaker">Aaron Powell</span>
+            </a>
+            <!-- Begin Modal -->
+            <div class="modal fade" id="modal6" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+              <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                <h4 class="modal-title" id="myModalLabel">Room 5: Workshop: Getting in deep with React (Part 1)</h4>
+                <p>Aaron Powell</p>
+                </div>
+                <div class="modal-body">
+                <p>Proin eu nibh et sem ultrices pulvinar. Nam velit nibh, maximus sit amet dapibus eu, ullamcorper eu leo. Vestibulum augue nunc, vestibulum feugiat lorem eget, interdum dapibus neque. Ut et mauris at mi congue vestibulum tempor ac ex. Duis fermentum velit a faucibus vehicula. Maecenas vel egestas odio.</p>
+                <p>Aenean est justo, mattis quis faucibus tincidunt, dapibus in nulla. Nulla facilisi. Suspendisse pellentesque lacus a mi aliquam congue. Nunc interdum nibh quis eros dapibus, id rutrum magna tincidunt.</p>
+                </div>
+                <div class="modal-footer">
+                <a href="" class="btn">Book Now</a>
+                </div>
+              </div>
+              </div>
+            </div>
+            <!-- /End Modal -->
+            <a class="col room6" href="" data-toggle="modal" data-target="#modal7" style="height: 206.646px;">
+              <span class="area">Room 6</span>
+              <span class="info">Workshop: ASP.NET Core From Scratch (Part 1)</span>
+              <span class="speaker">Shawn Wildermuth</span>
+            </a>
+            <!-- Begin Modal -->
+            <div class="modal fade" id="modal7" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+              <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                <h4 class="modal-title" id="myModalLabel">Room 6: Workshop: ASP.NET Core From Scratch (Part 1)</h4>
+                <p>Shawn Wildermuth</p>
+                </div>
+                <div class="modal-body">
+                <p>Proin eu nibh et sem ultrices pulvinar. Nam velit nibh, maximus sit amet dapibus eu, ullamcorper eu leo. Vestibulum augue nunc, vestibulum feugiat lorem eget, interdum dapibus neque. Ut et mauris at mi congue vestibulum tempor ac ex. Duis fermentum velit a faucibus vehicula. Maecenas vel egestas odio.</p>
+                <p>Aenean est justo, mattis quis faucibus tincidunt, dapibus in nulla. Nulla facilisi. Suspendisse pellentesque lacus a mi aliquam congue. Nunc interdum nibh quis eros dapibus, id rutrum magna tincidunt.</p>
+                <p>Proin eu nibh et sem ultrices pulvinar. Nam velit nibh, maximus sit amet dapibus eu, ullamcorper eu leo. Vestibulum augue nunc, vestibulum feugiat lorem eget, interdum dapibus neque. Ut et mauris at mi congue vestibulum tempor ac ex. Duis fermentum velit a faucibus vehicula. Maecenas vel egestas odio.</p>
+                </div>
+                <div class="modal-footer">
+                <a href="" class="btn">Book Now</a>
+                </div>
+              </div>
+              </div>
+            </div>
+            <!-- /End Modal -->
+          </div>
+
+          <div class="agenda-list equal-heights">
+            <h3>10:45 - 11:00</h3>
+            <div class="col" style="height: 155.979px;">
+              <span class="area"></span>
+              <span class="info">Change over</span>
+              <span class="speaker"></span>
+            </div>
+          </div>
+
+          <div class="agenda-list equal-heights">
+            <h3>11:00 - 11:45</h3>
+            <a href="" class="col room1" style="height: 231.979px;">
+              <span class="area">Room 1</span>
+              <span class="info">Event Driven Cloud Computing: Azure Functions vs AWS Lambda</span>
+              <span class="speaker">Justin Yoo</span>
+            </a>
+            <a href="" class="col room2" style="height: 231.979px;">
+              <span class="area">Room 2</span>
+              <span class="info">ESNext and TSNext</span>
+              <span class="speaker">Basarat Ali Syed</span>
+            </a>
+            <a href="" class="col room3" style="height: 231.979px;">
+              <span class="area">Room 3</span>
+              <span class="info">Deploying Straight to Production: A Guide to the Holy Grail</span>
+              <span class="speaker">Damian Brady</span>
+            </a>
+            <a href="" class="col room4" style="height: 231.979px;">
+              <span class="area">Room 4</span>
+              <span class="info">Haskell in Production - Not just a theory</span>
+              <span class="speaker">Daniel Chambers</span>
+            </a>
+            <a href="" class="col room5" style="height: 231.979px;">
+              <span class="area">Room 5</span>
+              <span class="info">Workshop: Getting in deep with React (Part 2)</span>
+              <span class="speaker">Aaron Powell</span>
+            </a>
+            <a href="" class="col room6" style="height: 231.979px;">
+              <span class="area">Room 6</span>
+              <span class="info">Workshop: ASP.NET Core From Scratch (Part 2)</span>
+              <span class="speaker">Shawn Wildermuth</span>
+            </a>
+          </div>
+
+          <div class="agenda-list equal-heights">
+            <h3>11:45 - 12:00</h3>
+            <div class="col" style="height: 155.979px;">
+              <span class="area"></span>
+              <span class="info">Change over</span>
+              <span class="speaker"></span>
+            </div>
+          </div>
+
+          <div class="agenda-list equal-heights">
+            <h3>12:00 - 12:45</h3>
+            <a href="" class="col room1" style="height: 231.979px;">
+              <span class="area">Room 1</span>
+              <span class="info">The Actor/Model pattern in .NET: Akka.Net vs Orleans for the curious</span>
+              <span class="speaker">William Tulloch</span>
+            </a>
+            <a href="" class="col room2" style="height: 231.979px;">
+              <span class="area">Room 2</span>
+              <span class="info">Redux, beyond React</span>
+              <span class="speaker">Aaron Powell</span>
+            </a>
+            <a href="" class="col room3" style="height: 231.979px;">
+              <span class="area">Room 3</span>
+              <span class="info">Thinking like a hacker</span>
+              <span class="speaker">Julian Berton</span>
+            </a>
+            <a href="" class="col room4" style="height: 231.979px;">
+              <span class="area">Room 4</span>
+              <span class="info">"Native Containers on Windows 10 using docker" - a game changer for developers</span>
+              <span class="speaker">Jorge Arteiro</span>
+            </a>
+            <a href="" class="col room5" style="height: 231.979px;">
+              <span class="area">Room 5</span>
+              <span class="info">Making games 101</span>
+              <span class="speaker">Igor Gorelik</span>
+            </a>
+            <a href="" class="col room6" style="height: 231.979px;">
+              <span class="area">Room 6</span>
+              <span class="info">Quantum Computing fundamentals via OO</span>
+              <span class="speaker">Carl Belle</span>
+            </a>
+          </div>
+
+          <div class="agenda-list equal-heights">
+            <h3>12:45</h3>
+            <div class="col" style="height: 155.979px;">
+              <span class="area"></span>
+              <span class="info">Lunch</span>
+              <span class="speaker"></span>
+            </div>
+          </div>
+
+          <div class="agenda-list equal-heights">
+            <h3>13:45 - 14:30</h3>
+            <a href="" class="col room1" style="height: 231.979px;">
+              <span class="area">Room 1</span>
+              <span class="info">10 tools and libraries to enhance .NET Unit Testing</span>
+              <span class="speaker">David Gardiner</span>
+            </a>
+            <a href="" class="col room2" style="height: 231.979px;">
+              <span class="area">Room 2</span>
+              <span class="info">Web Components and modern web frameworks</span>
+              <span class="speaker">Ahmad Atighechi</span>
+            </a>
+            <a href="" class="col room3" style="height: 231.979px;">
+              <span class="area">Room 3</span>
+              <span class="info">Soft skills for the developer</span>
+              <span class="speaker">Mahesh Krishnan</span>
+            </a>
+            <a href="" class="col room4" style="height: 231.979px;">
+              <span class="area">Room 4</span>
+              <span class="info">A Swift Lap for .NET Devs</span>
+              <span class="speaker">JT</span>
+            </a>
+            <a href="" class="col room5" style="height: 231.979px;">
+              <span class="area">Room 5</span>
+              <span class="info">Workshop: Jumpstart into Virtual Actors with Orleans (Part 1)</span>
+              <span class="speaker">Alexey Shcherbak &amp; Reuben Bond</span>
+            </a>
+            <a href="" class="col room6" style="height: 231.979px;">
+              <span class="area">Room 6</span>
+              <span class="info">Workshop: Introduction to Property Based Testing (using F#) (Part 1)</span>
+              <span class="speaker">Jeremy Clough</span>
+            </a>
+          </div>
+
+          <div class="agenda-list equal-heights">
+            <h3>14:30 - 15:00</h3>
+            <div class="col" style="height: 155.979px;">
+              <span class="area"></span>
+              <span class="info">Afternoon tea</span>
+              <span class="speaker"></span>
+            </div>
+          </div>
+
+          <div class="agenda-list equal-heights">
+            <h3>12:00 - 12:45</h3>
+            <a href="" class="col room1" style="height: 231.979px;">
+              <span class="area">Room 1</span>
+              <span class="info">Microservice Scars</span>
+              <span class="speaker">David Gardiner</span>
+            </a>
+            <a href="" class="col room2" style="height: 231.979px;">
+              <span class="area">Room 2</span>
+              <span class="info">Let's Build a Native Mobile App with NativeScript and Angular 2</span>
+              <span class="speaker">John Bristowe</span>
+            </a>
+            <a href="" class="col room3" style="height: 231.979px;">
+              <span class="area">Room 3</span>
+              <span class="info">Better APIs with GraphQL</span>
+              <span class="speaker">Josh Price</span>
+            </a>
+            <a href="" class="col room4" style="height: 231.979px;">
+              <span class="area">Room 4</span>
+              <span class="info">Look Mom! No Servers!</span>
+              <span class="speaker">Erwin van der Koogh</span>
+            </a>
+            <a href="" class="col room5" style="height: 231.979px;">
+              <span class="area">Room 5</span>
+              <span class="info">Workshop: Jumpstart into Virtual Actors with Orleans (Part 2)</span>
+              <span class="speaker">Alexey Shcherbak &amp; Reuben Bond</span>
+            </a>
+            <a href="" class="col room6" style="height: 231.979px;">
+              <span class="area">Room 6</span>
+              <span class="info">Workshop: Introduction to Property Based Testing (using F#) (Part 2)</span>
+              <span class="speaker">Jeremy Clough</span>
+            </a>
+          </div>
+
+          <div class="agenda-list equal-heights">
+            <h3>11:45 - 12:00</h3>
+            <div class="col" style="height: 155.979px;">
+              <span class="area"></span>
+              <span class="info">Change over</span>
+              <span class="speaker"></span>
+            </div>
+          </div>
+
+          <div class="agenda-list equal-heights">
+            <h3>09:00 - 09:45</h3>
+            <a class="col room2" href="" style="height: 231.979px;">
+              <span class="area">Room 2</span>
+              <span class="info">Keynote - Being a Better Developer: Learning Skills That Aren't On Your Resume</span>
+              <span class="speaker">Shawn Wildermuth</span>
+            </a>
+          </div>
+
+          <div class="agenda-list equal-heights">
+            <h3>16:45</h3>
+            <div class="col" style="height: 155.979px;">
+              <span class="area"></span>
+              <span class="info">Giveaways and wrap-up</span>
+              <span class="speaker"></span>
+            </div>
+          </div>
+
+          <div class="agenda-list equal-heights">
+            <h3>18:00</h3>
+            <div class="col" style="height: 282.646px;">
+              <span class="area"></span>
+              <span class="info">Afterparty at 'The Orrong Hotel'</span>
+              <span class="speaker"></span>
+            </div>
+            <div class="col" style="height: 282.646px;">
+              <span class="area"></span>
+              <span class="info">Afterparty at 'The Orrong Hotel' Afterparty at 'The Orrong Hotel' Afterparty at 'The Orrong Hotel'</span>
+              <span class="speaker"></span>
+            </div>
+          </div>
+
+          <!-- Begin Modal -->
+          <div class="modal fade" id="agenda-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+              <h4 class="modal-title" id="myModalLabel">Room 2: Keynote - The Future is Awesome (and what you can do about it)</h4>
+              <p>Paul Fenwick</p>
+              </div>
+              <div class="modal-body">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin eu nibh et sem ultrices pulvinar. Nam velit nibh, maximus sit amet dapibus eu, ullamcorper eu leo. Vestibulum augue nunc, vestibulum feugiat lorem eget, interdum dapibus neque. Ut et mauris at mi congue vestibulum tempor ac ex. Duis fermentum velit a faucibus vehicula. Maecenas vel egestas odio.</p>
+              <p>Aenean est justo, mattis quis faucibus tincidunt, dapibus in nulla. Nulla facilisi. Suspendisse pellentesque lacus a mi aliquam congue. Nunc interdum nibh quis eros dapibus, id rutrum magna tincidunt. Maecenas turpis arcu, auctor ut accumsan vel, venenatis ac elit. Cras ut est vestibulum, ultrices leo et, egestas lacus. Vivamus at lorem a lorem euismod iaculis. Etiam ac condimentum est.</p>
+              </div>
+              <div class="modal-footer">
+              <a href="" class="btn">Book Now</a>
+              </div>
+            </div>
+            </div>
+          </div>
+          <!-- /End Modal -->
+
+        </div>
+        <div class="col-xs-12 right-col">
+          <div class="inner">
+            {{ partial "event-details-right.html" . }}
+            {{ partial "important-dates-right.html" . }}
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+{{ end }}

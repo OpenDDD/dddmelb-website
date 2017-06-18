@@ -1,7 +1,8 @@
 ---
 title: Agenda
+type: agenda
 menu:
   main:
     weight: 4
-draft: true
 ---
+Click on a session to display more detail
