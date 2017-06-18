@@ -1,5 +1,19 @@
 [
   {
+    "id": "564b4a21-8d00-4123-812a-67c88dee0f8d",
+    "title": "The hills are alive with the sound of your smelly code",
+    "names": [
+      "A. Marks"
+    ],
+    "twitters": [
+      "andee_marks"
+    ],
+    "websites": [
+      "http://vampwillow.wordpress.com"
+    ],
+    "abstract": "This is a demonstration of a code quality analysis tool that doesn’t visualise the metrics – it “audiolises” them.\r\n\r\nThe concepts of poor code having smell and colour (usually red) is commonly accepted, but what about appealing to our sense of hearing as well as eyes and nose?  Aeolian is an open source tool (written by the author) that generates MIDI music from code quality metrics, which begs the question:\r\n\r\nWhat does poor quality code sound like? Justin Beiber’s latest? A Phillip Glass soundtrack? A Phil Spector wall of sound cacophony? Modern Jazz? 🙂\r\n\r\nLikewise, what does good quality code sound like? Mozart? White noise?\r\n\r\nHow do commonly accepted musical concepts (keys, tempo, verse, chorus) apply when illustrating code quality.\r\n\r\nThe author (an amateur musician and long time producer of smelly code) will talk through the concepts of Aeolian and provide plenty of examples of how you can map code quality to music. \r\n\r\nThis will be a light-hearted talk and no knowledge of music theory is needed."
+  },
+  {
     "id": "b81c0039-d4e1-4dbf-ba6e-0fce6e0c7364",
     "title": "A dilettante's guide to Web Components",
     "names": [
@@ -593,17 +607,6 @@
     "abstract": "Software development. Solution architecture. Test driven development. Domain driven design. Cloud. Static vs dynamic typing. Test coverage. Pull requests. Package management. Infrastructure automation. Identity management. Security.\r\n\r\nThe above represent the tip of the successful delivery iceberg.\r\n\r\nSoftware exists for people, and working with those people is the key to succesful delivery. Success in software delivery starts before the team's boots hit the ground, and continues to be measured beyond the final sprint review.\r\n\r\nIn this session we will take a look at some targeted, specific non-technical practices and behaviours you and your team can employ to vastly increase your chances of a successful software delivery."
   },
   {
-    "id": "cd5b0a4a-4281-457e-8ecf-4e895c9cf819",
-    "title": "Elm: The (Functional) Future of Web Applications",
-    "names": [
-      "H. Andersson"
-    ],
-    "twitters": [
-      "hnrkndrssn"
-    ],
-    "abstract": "Not A Very Long Time Ago, In a Galaxy Not Very Far, Far Away.\r\n\r\nThere are a myriad of JavaScript frameworks that promises to solve the problems of frontend development in their own way, causing confusion amongst frontend developers.\r\n\r\nOut of the shadows appears a framework that takes a different approach to building reliable web applications, an approach that generates no runtime exceptions and friendly (not just at compile time) errors. A functional programming language called Elm.\r\n\r\n\r\nElm is a functional programming language, it builds on the same concepts of a virtual DOM and unidirectional dataflow that React and Redux use but uses a type inference system to find problems at compile time and provides friendly hints. Elm compiles down to JavaScript, which makes it easy to convert parts of your existing JavaScript web application to Elm and embedding it into your existing application.\r\n\r\nIn this session, we will explore how to build a web application using Elm. We'll start with the basics and move on to exploring the Elm architecture which is a simple pattern for architecting web applications. It allows us to create complex web applications that are easy to maintain and add new features to.\r\n\r\nThis talk requires no previous experience with functional programming languages, such as Haskell or F#, and is aimed at frontend developers that want to learn how to build reliable web applications with great performance and no runtime exceptions."
-  },
-  {
     "id": "5878c33c-a149-4304-a983-5411e2b736a3",
     "title": "Spec-Driven Development – API Mocking for Lean Development – MuleSoft API Manager, Azure API Management & Amazon API Gateway",
     "names": [
@@ -674,20 +677,6 @@
       "joelgall"
     ],
     "abstract": "With the rise of Big Data & social networks, traditional Relational Databases have reached the limits of their abilities to handle inter-connected entities.\r\n\r\nAs a result, Graph databases have become more popular, with the likes of Microsoft and GitHub recently offering Graph solutions. \r\n\r\nThis talk will explain the theory behind Graph databases, when (and when not) to use them, and then demonstrate their power using Neo4j, one of the more popular graph databases."
-  },
-  {
-    "id": "564b4a21-8d00-4123-812a-67c88dee0f8d",
-    "title": "\"The hills are alive with the sound of your smelly code\"",
-    "names": [
-      "A. Marks"
-    ],
-    "twitters": [
-      "andee_marks"
-    ],
-    "websites": [
-      "http://vampwillow.wordpress.com"
-    ],
-    "abstract": "This is a demonstration of a code quality analysis tool that doesn’t visualise the metrics – it “audiolises” them.\r\n\r\nThe concepts of poor code having smell and colour (usually red) is commonly accepted, but what about appealing to our sense of hearing as well as eyes and nose?  Aeolian is an open source tool (written by the author) that generates MIDI music from code quality metrics, which begs the question:\r\n\r\nWhat does poor quality code sound like? Justin Beiber’s latest? A Phillip Glass soundtrack? A Phil Spector wall of sound cacophony? Modern Jazz? 🙂\r\n\r\nLikewise, what does good quality code sound like? Mozart? White noise?\r\n\r\nHow do commonly accepted musical concepts (keys, tempo, verse, chorus) apply when illustrating code quality.\r\n\r\nThe author (an amateur musician and long time producer of smelly code) will talk through the concepts of Aeolian and provide plenty of examples of how you can map code quality to music. \r\n\r\nThis will be a light-hearted talk and no knowledge of music theory is needed."
   },
   {
     "id": "4d89701f-261a-4fe3-96f9-367b7532b93e",
