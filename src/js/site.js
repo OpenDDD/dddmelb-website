@@ -9,8 +9,7 @@ $(document).ready(function() {
     $(window).resize(function() {
         getWinWidth();
     });
-    }();
-
+  }();
 
   mobileNav = function() {
     var $navPull = $('nav.main .pull');
@@ -20,21 +19,18 @@ $(document).ready(function() {
       $mainNav.toggleClass('active');
       $(this).toggleClass('active');
     });
-
   }();
 
-
   targetBlank = function() {
-      $('a.targetBlank').click(function() {
-        window.open(this.href);
-        return false;
-      });
-      $('.targetBlank a').click(function() {
-        window.open(this.href);
-        return false;
-      });
-    }();
-
+    $('a.targetBlank').click(function() {
+      window.open(this.href);
+      return false;
+    });
+    $('.targetBlank a').click(function() {
+      window.open(this.href);
+      return false;
+    });
+  }();
 
   accordion = function() {
     $('.toggleAccordion').click(function(e) {
@@ -57,7 +53,6 @@ $(document).ready(function() {
     $('.toggleAccordion').eq(0).addClass('active');
     $('.toggleAccordion').eq(0).next().addClass('show');
   }();
-
 
   smoothScroll = function(){
     $('a[href*="#"]')
@@ -97,7 +92,6 @@ $(document).ready(function() {
     });
   }();
 
-
   equalHeights = function(){
     adjustHeight = function() {
       // Please add the class .equal-heights to the columns container and .col to each column:
@@ -130,11 +124,9 @@ $(document).ready(function() {
     adjustHeight();
 
     $(window).resize(function() {
-            setTimeout(adjustHeight(), 100);
-        });
-
+        setTimeout(adjustHeight(), 100);
+    });
   }();
-
 
   eventDoneIcon = function(){
     $('.imp-date').each(function(){

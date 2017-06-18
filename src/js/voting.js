@@ -5,6 +5,15 @@ $(document).ready(function() {
   var removeVoteClass = 'remove-vote';
   var submitVotes = $('#submit-votes');
 
+  $('.submitted-session').on('click', '.vote-for-session, .session-title h3', function(e) {
+    var target = $(this);
+    if(target.hasClass('vote-for-session')) {
+      voteForSession(target);
+    } else if(target.prop("tagName") === "H3") {
+      toggleSessionDetails(target);
+    }
+  });
+
   if(submitVotes.length > 0) {
     var submitVotesTopOffset = submitVotes.offset().top;
 
@@ -12,22 +21,6 @@ $(document).ready(function() {
       offset: {
         top: submitVotesTopOffset
       }
-    });
-
-    $('.vote-for-session').on('click', function(e) {
-      var voteBtn = $(this);
-      if(voteBtn.hasClass(addVoteClass)) {
-        if(votes.length >= totalVotes) { return; }
-        addVote(voteBtn.data('session-id'));
-        voteBtn.removeClass(addVoteClass)
-          .addClass(removeVoteClass);
-      } else {
-        removeVote(voteBtn.data('session-id'));
-        voteBtn.removeClass(removeVoteClass)
-          .addClass(addVoteClass);
-      }
-
-      submitVotes.find('.remaining-votes').text(totalVotes - votes.length);
     });
 
     submitVotes.find('form').on('submit', function(e) {
@@ -64,11 +57,25 @@ $(document).ready(function() {
     });
   }
 
-  $('.session-title h3').on('click', function() {
-    var sessionTitle = $(this);
+  function voteForSession(voteBtn) {
+    if(voteBtn.hasClass(addVoteClass)) {
+      if(votes.length >= totalVotes) { return; }
+      addVote(voteBtn.data('session-id'));
+      voteBtn.removeClass(addVoteClass)
+        .addClass(removeVoteClass);
+    } else {
+      removeVote(voteBtn.data('session-id'));
+      voteBtn.removeClass(removeVoteClass)
+        .addClass(addVoteClass);
+    }
+
+    submitVotes.find('.remaining-votes').text(totalVotes - votes.length);
+  }
+
+  function toggleSessionDetails(sessionTitle) {
     sessionTitle.closest('.submitted-session')
       .toggleClass('open');
-  });
+  }
 
   function addVote(sessionId) {
     votes.push(sessionId);
