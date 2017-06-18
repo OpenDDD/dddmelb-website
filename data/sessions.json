@@ -213,6 +213,17 @@
     "abstract": "So you, or your workplace, identifies you as an architect, what now?\r\n\r\nThere are countless amounts of available material on software architecture and design patterns, but comparatively little on how to be a software architect.  Being an effective architect is a whole lot more than having a toolkit of patterns and practices!\r\n\r\nIn this talk Stephen will draw upon his years of experience working on architectural solutions and mentoring other architects.  Among other things, the talk will cover:\r\n\r\n- Attitudes and behaviours\r\n- Getting your way\r\n- Gaining the respect of the business\r\n- Considerations outside those of a developer\r\n\r\nThis talk is for practitioners from those early in their software architecture foray, to those just seeking some group therapy."
   },
   {
+    "id": "74a78195-9c94-42a9-ab7b-d6a3f295da16",
+    "title": "Content Security Policy (CSP): Solving XSS once and for all! (not really)",
+    "names": [
+      "M. Hasheminejad"
+    ],
+    "twitters": [
+      "dotmahdi"
+    ],
+    "abstract": "Handling cross-site scripting (XSS) attack is an age-old problem for web application developers and with all the tools and libraries built for it, still hackers tend to find innovative ways to bypass all the filters and validations. Content Security Policy (CSP) handles the problem at its source, i.e. the browser. Using CSP, browsers get smart enough to distinguish the legitimate scripts from malicious ones.\r\nIn this talk, we'll discuss major CSP use cases and review their common pitfalls and by the end you'll realise that CSP is the missing half you were always looking for."
+  },
+  {
     "id": "8de116c9-2b0e-4c27-98ee-d411f5403db6",
     "title": "Culture as a Product",
     "names": [
@@ -551,6 +562,25 @@
     "abstract": "As the founder of a tech startup I get to make all the decisions about what technologies to use. And we have tried all[1] of them and even kept some of them.\r\nJoin me in a series of HonestTrailers for some of the hottest technologies out there. Amongst others: Server-Side Rendering, Lambda, New JavaScript Features, Honeycomb, All[2] of the new AWS products & Vue.js.\r\n\r\n[1] Of course not actually *all* of them. It would take an infinite amount of monkey and laptops to try *just* the new JavaScript Frameworks..\r\n[2] Maybe not all of these either. Amazon is only less prolific than open source JavaScript developers"
   },
   {
+    "id": "8d35ea03-e324-45e3-bdd8-433afdbccd03",
+    "title": "Old man yells about REST",
+    "names": [
+      "JT"
+    ],
+    "abstract": "It's 2017 and everyone's claiming their API is RESTful this, and RESTful that. All REST, all the time.\r\n\r\nI ask them: \"What does REST mean to you?\", they answer excitedly, \"We use Post AS WELL AS Get aaaaand we serialise data to JSON.\" I cry myself to sleep that night.\r\n\r\nCome join me for what may be a talk, a lecture, a rant or possibly even the very public decline in to total madness as we discuss some real world lessons learned about: Why REST is more than just HTTP Verbs. Resource modelling. Why your front-end team will buy you cake if you implement HATEOAS. How to retrofit hypermedia to your existing API, and how does all of this tie together with fancy buzzwords the youth of today are using like \"Microservices\" and \"Backends for Frontends\"."
+  },
+  {
+    "id": "5382b81b-73fe-4e2e-8053-ec25ed7c0d99",
+    "title": "Practical Machine Learning for the average Joe developer",
+    "names": [
+      "M. Hasheminejad"
+    ],
+    "twitters": [
+      "dotmahdi"
+    ],
+    "abstract": "From smart recommendation systems to self driving cars, everyone is talking about how machine learning will change our future. Most developers think that in order to use machine learning in real-world applications, they need a group of data scientists [with PhD] and a huge budget for all the research and of course all the GPUs! However, you'll be surprised [I know I was] to know how much you can do with just a basic understanding of the main algorithms and cloud services or modern machine learning libraries.\r\nIn this talk, we'll briefly review basic concepts and then use that knowledge to build our own deep neural network to identify objects in the image, train it and build a mobile app to use the trained model, all in less than an hour."
+  },
+  {
     "id": "9aa4d2f7-33cf-48b2-83af-b14c19d9089f",
     "title": "Project forecasting using Monte Carlo method",
     "names": [
@@ -588,6 +618,17 @@
       "http://www.htbox.org"
     ],
     "abstract": "Join Richard Campbell as he tells his story of software, hardware and charity that ultimately has led him to the Humanitarian Toolbox (htbox.org). The Humanitarian Toolbox is an open source initiative to build software for disaster relief – both for the Non-Governmental Organizations that are involved in disaster relief, the citizen volunteers that donate their time to assist during a disaster and the disaster victims themselves. Richard will take you along on his journey of experiences with technology over several decades to show how you can help change the world with software."
+  },
+  {
+    "id": "fa1795df-4ca1-4024-a152-5d871a32b63a",
+    "title": "Service Workers: Closing the gap between Web and Native",
+    "names": [
+      "M. Hasheminejad"
+    ],
+    "twitters": [
+      "dotmahdi"
+    ],
+    "abstract": "Most people know Service workers as a replacement for the [infamous] AppCache but they can do much more than that. Using Service workers not only caching gets [relatively] painless and much smarter but also we can utilise new features like background sync and push notifications which blurs the line between web and native apps.\r\nIn this talk, after covering basic concepts behind service workers, we'll show how to use them to enhance our day-to-day web applications."
   },
   {
     "id": "94240edd-22a6-4aef-8542-226f105298a3",
