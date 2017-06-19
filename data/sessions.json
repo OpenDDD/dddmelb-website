@@ -683,6 +683,20 @@
     "abstract": "Last time the good people of DDD land deemed me worthy of delivering a talk on quantum computing, and so I set out to ensure that my presentation would give everyone in the room a firm grounding in quantum computing fundamentals. This could have been done better!\r\n\r\nGiven a second chance, this time around, we will explore quantum computing as compared to classical computing (from an OO developer’s perspective), we’ll tour terminology to allow anyone to interpret currently used notation, and most importantly, there will be no protracted droning on about matrix algebra!\r\n\r\nSo join me to get the skinny on quantum computing basics including: an under-the-hood look at how a quantum computer functions, how quantum-y people notate things (and therefore how to read what quantum-y people have written), why quantum computing will be useful, and how a quantum system compares to the systems we use today."
   },
   {
+    "id": "324fff5c-5df4-4b70-ab83-c4489c13391a",
+    "title": "React/Redux - What you should know before getting started",
+    "names": [
+      "S. Ginige"
+    ],
+    "twitters": [
+      "https://twitter.com/shiranginige"
+    ],
+    "websites": [
+      "http://www.linkedin.com/in/shiranginige/"
+    ],
+    "abstract": "Redux seems to be the popular choice when it comes to application state management with React. While doing a \"TODO Application\" is pretty straightforward, it could get tricky when managing a complex application with it. We have been using it for over 8 months in a large scale application and I will be sharing some of our experiences along the way. \r\n\r\n- React/Redux basics \r\n- What worked best for us \r\n- What are some of the difficulties we faced \r\n- What tools, frameworks worked best for us"
+  },
+  {
     "id": "ab4bd770-df06-45cb-92fc-6879549c6ec9",
     "title": "Robotics with Attitude - Programming a Real Life Pixar Character",
     "names": [
@@ -915,6 +929,14 @@
       "http://danijelmalik.com"
     ],
     "abstract": "Modern DevOps is a highway to greater business value and it works cross-platform. Automated deployments solved a handover problem, Application Monitoring Platforms closed the feedback and crash reporting gap, and containers made the “works on my machine” stereotype real. Next mission: automated environments.\r\nIn this session, Danijel will start by identifying the common bad practices to give you some quick wins. His experience starts from the smallest businesses and extends to the largest businesses including some of the largest banks. You will learn why Zero Based Infrastructure is the next step of a DevOps evolution, why Cloud is your best friend, and how to integrate this approach back into your deployment pipeline. You will walk away with a solid understanding of what Infrastructure as Code is and the main advantages, leaving you with nothing to worry about but your code."
+  },
+  {
+    "id": "ea27afb9-c315-4790-9f70-9bbafea2f8b8",
+    "title": "Why you didn't get the dream job, and why HR doesn't get developers",
+    "names": [
+      "T. Gandy"
+    ],
+    "abstract": "For most developers, looking for a new job is a nightmare. Applying for hundreds of jobs online, dealing with recruiters who think Java and JavaScript are \"pretty much the same\", interviews with HR, and maybe, if you somehow survive all of this, a technical interview.\r\n\r\n\"Tell me about a time when you resolved conflict within your team\"\r\n\"What are your biggest weaknesses?\"\r\n\"Where do you see yourself in 5 years?\"\r\n\r\nHow do you get past all of this junk to show off your actual skills? You're a developer after all, not a salesman. What do they even want to hear? Why can't they just ask me to discuss why tabs are better than spaces? Or how I'd implement middle-out compression to decrease storage requirements"
   },
   {
     "id": "207c4875-3689-4ae5-bc9e-3152c7b3f340",
