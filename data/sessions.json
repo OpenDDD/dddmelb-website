@@ -11,6 +11,20 @@
     "abstract": "For those both interested in rapid delivery and unexcited by writing boilerplate code, dynamic scaffolding is an appealing concept.\r\n\r\nMost major software systems need to manage reference data. Data such as countries, states, medication lists and biodiversity categories all need basic create/read/update/delete (CRUD) functionality. Runtime scaffolding presents an opportunity to quickly provide CRUD functionality for these data sets.\r\n\r\nThis session uses Angular(4) and Swagger to build up a dynamic scaffolding component against a REST API. The REST API will use .NET Core but the technique is not specific to this platform.  The dynamic scaffolding component is simply configured with the URL to swagger.json and some additional options.\r\n\r\nWe will follow these 5 steps\r\n- Overview of Swagger and swagger.json\r\n- Reading the API's swagger.json from Angular\r\n- Generate search and update forms\r\n- Propagate updates to the API\r\n- Hook it up to your Angular App!"
   },
   {
+    "id": "f3911df1-dbe8-4c46-952b-8f9ee7ba24de",
+    "title": "A Type of Checking: Flow and TypeScript",
+    "names": [
+      "R. Howard"
+    ],
+    "twitters": [
+      "damncabbage"
+    ],
+    "websites": [
+      "http://robhoward.id.au"
+    ],
+    "abstract": "It's easy to make mistakes when writing code. We have some commonly-used tools to help us with this, with tests and linters, but there's more out there. Tools like Flow[1] and TypeScript[2] can be used to have the computer help us check our code, and can act as another protective barrier to bugs and blunders.\r\n\r\nWe'll explore types and type-checking with Flow. You'll see common bugs it catches and, step-by-step, will learn both how to use it, and how to reduce the number of tests you need to write. We'll then walk through more advanced techniques, using unions, wrappers, gatekeepers, phantoms, and other things besides to build a small robust app.\r\n\r\nTo enjoy this talk, you'll ideally have an intermediate-level understanding of JavaScript. We'll start easy with types and Flow, but will ramp it up as we go to keep things interesting if you're a more experienced user of either.\r\n\r\n(Though this session uses Flow for its examples, but pretty much everything will be directly transferable to TypeScript with little effort.)"
+  },
+  {
     "id": "b81c0039-d4e1-4dbf-ba6e-0fce6e0c7364",
     "title": "A dilettante's guide to Web Components",
     "names": [
@@ -360,6 +374,20 @@
     "abstract": "Have you ever peeked over the fence into functional programming land and gazed into a seemingly alien landscape of weird symbols and crazily named concepts? Has your curiosity about functional programming been stymied by complicated words and abstractions? If so, this talk is for you.\r\n\r\nWe’re going to take a practical, example-based journey through complex-sounding but deceptively simple functional patterns such as functors, applicatives and the big bad monad. We’ll see how these patterns work, what they’re for and how they are used to make clean, composable code. We’ll also identify the places where functional patterns are quietly being used in our mainstream day to day languages. By the end of the talk, you will be better equipped to take further steps down the functional programming path of enlightenment."
   },
   {
+    "id": "d2805a0f-2467-4303-afa2-eec3a2c274e1",
+    "title": "Functional Programming: What, Why, How",
+    "names": [
+      "R. Howard"
+    ],
+    "twitters": [
+      "damncabbage"
+    ],
+    "websites": [
+      "http://robhoward.id.au"
+    ],
+    "abstract": "We spend a lot of time building libraries and applications. They can get complex, and feel like they can get out of control. Functional Programming is an approach that lets us zoom in and stay focused on small parts of a codebase at a time.\r\n\r\nWe'll dig down into what Functional Programming is, where things like \"immutability\", \"effects as values\" and \"functional-style\" code come from, and what practical benefit it all has.\r\n\r\nThis talk will demonstrate you can use this approach in pretty much any language, and will be illustrated with real examples from JavaScript and a smattering of other languages. Some experience with at least one language, though, is about all you'll need to follow along.\r\n\r\n(Warning: absolutely no type theory or abstract monadic contravariant functors will appear in this talk.)"
+  },
+  {
     "id": "40264cec-0a94-467a-ab2d-45ebe8f8994c",
     "title": "Gold Class Delivery",
     "names": [
@@ -492,6 +520,14 @@
       "http://www.aaron-powell.com"
     ],
     "abstract": "It's been 8 years since the first DDD Melbourne launched and 8 years is a long time in IT. From talks about jQuery, the new C# async feature, different XAML libraries for WPF or Odata, to Serverless Computing, React, Haskell and GraphQL. My how times have changed!\r\n\r\nAs someone who's had the opportunity to be involved in nearly every DDD Melbourne watching the shift in the years about what we've been talking about has given a fascinating insight into the industry that we work in.\r\n\r\nSo let's have a trip down the history of DDD and look back at what we were talking about, learn where we've come from as a community and see if we can make some predictions about where we're going."
+  },
+  {
+    "id": "293daa3d-7577-4b49-82db-d41a61143dc2",
+    "title": "Leveraging continuous deployment for thick 'legacy' clients with octopus deploy",
+    "names": [
+      "S. Paulo Andres"
+    ],
+    "abstract": "Taking the learnings from server side CI/CD to a thick windows client environment to achieve an uniform pipeline for developers to leverage benefits we get on the server side with octopus deploy."
   },
   {
     "id": "fc137520-a69a-4378-8c12-6a0af6f64371",
