@@ -11,20 +11,6 @@
     "abstract": "For those both interested in rapid delivery and unexcited by writing boilerplate code, dynamic scaffolding is an appealing concept.\r\n\r\nMost major software systems need to manage reference data. Data such as countries, states, medication lists and biodiversity categories all need basic create/read/update/delete (CRUD) functionality. Runtime scaffolding presents an opportunity to quickly provide CRUD functionality for these data sets.\r\n\r\nThis session uses Angular(4) and Swagger to build up a dynamic scaffolding component against a REST API. The REST API will use .NET Core but the technique is not specific to this platform.  The dynamic scaffolding component is simply configured with the URL to swagger.json and some additional options.\r\n\r\nWe will follow these 5 steps\r\n- Overview of Swagger and swagger.json\r\n- Reading the API's swagger.json from Angular\r\n- Generate search and update forms\r\n- Propagate updates to the API\r\n- Hook it up to your Angular App!"
   },
   {
-    "id": "f3911df1-dbe8-4c46-952b-8f9ee7ba24de",
-    "title": "A Type of Checking: Flow and TypeScript",
-    "names": [
-      "R. Howard"
-    ],
-    "twitters": [
-      "damncabbage"
-    ],
-    "websites": [
-      "http://robhoward.id.au"
-    ],
-    "abstract": "It's easy to make mistakes when writing code. We have some commonly-used tools to help us with this, with tests and linters, but there's more out there. Tools like Flow[1] and TypeScript[2] can be used to have the computer help us check our code, and can act as another protective barrier to bugs and blunders.\r\n\r\nWe'll explore types and type-checking with Flow. You'll see common bugs it catches and, step-by-step, will learn both how to use it, and how to reduce the number of tests you need to write. We'll then walk through more advanced techniques, using unions, wrappers, gatekeepers, phantoms, and other things besides to build a small robust app.\r\n\r\nTo enjoy this talk, you'll ideally have an intermediate-level understanding of JavaScript. We'll start easy with types and Flow, but will ramp it up as we go to keep things interesting if you're a more experienced user of either.\r\n\r\n(Though this session uses Flow for its examples, but pretty much everything will be directly transferable to TypeScript with little effort.)"
-  },
-  {
     "id": "b81c0039-d4e1-4dbf-ba6e-0fce6e0c7364",
     "title": "A dilettante's guide to Web Components",
     "names": [
@@ -127,6 +113,20 @@
     "abstract": "Blockchain technology will fundamentally change the Internet, and revolutionising all industries as they go along. \r\nBut what is it, and what does it mean? \r\nWhere can you use it, and where you shouldn't?\r\nWe'll take you through the basics of blockchain and how Webjet developed blockchain based solution to simplify reconciliation in the travel industry."
   },
   {
+    "id": "263f717f-08f2-4ad8-809a-622534e37a01",
+    "title": "Building Single Page Applications with ASP.NET Core",
+    "names": [
+      "J. Taylor"
+    ],
+    "twitters": [
+      "jasongtau"
+    ],
+    "websites": [
+      "http://www.codingflow.net"
+    ],
+    "abstract": "In this talk, we'll look at using ASP.NET Core JavaScript Services to build single page applications using Angular, Aurelia, Knockout, React, React+Redux or Vue. Using this approach you can develop on Windows, Mac, or Linux using your preferred source code editor. I'll demonstrate server-side prerendering, webpack dev middleware, hot module replacement (HMR), efficient production builds and much more. You will walk away ready to create single page applications using your favourite client-side framework and ASP.NET Core."
+  },
+  {
     "id": "6249e493-265e-4403-9abe-b2e6a9e1c9f4",
     "title": "Building a conversational UI with the Microsoft Bot Framework",
     "names": [
@@ -153,6 +153,20 @@
       "http://blog.achapman.com"
     ],
     "abstract": "DevOps allows development teams to build faster, release more often and manage operations on the fly! It also allows developers to ship wildly insecure products and skip over the most basic information security principles in the name of agility! \r\n\r\nIn this talk, I will be exploring the pitfalls of DevOps from a security point of view and looking at the common mistakes that development teams make that leads to security bugs. This will include every stage of the development process from code to deployment.\r\n\r\nAdditionally, I will be looking at the many ways you can quickly and easily improve the security standing of your codebase without sacrificing the agility and rapid release cadence that businesses and managers have come to expect from “DevOps teams”. \r\n\r\nFinally, I will provide a brief insight into how to move your team from DevOps to SecDevOps, integrating information and product security into every layer of your development team and organisation, for the best results, all without compromising your development team’s trademark agility."
+  },
+  {
+    "id": "b0189506-8c86-46fb-92de-9b525ba74b85",
+    "title": "Building the Real World with Software",
+    "names": [
+      "T. Comport"
+    ],
+    "twitters": [
+      "timcomport"
+    ],
+    "websites": [
+      "http://timcomport.com"
+    ],
+    "abstract": "So you've learnt from Lars about VR, AR and MR, now come and learn about the software behind ... Reality! Just like the Matrix, the world around you is built by machines, but rather than 0's and 1's it's G0's and G1's.\r\n\r\nIn this talk I will show you the door to additive manufacturing (3D printing), subtractive mnufacturing (Laser, Plasma, WaterJet, Milling, Grinding), G-code, CAD/CAM, motion control (CNC's) and more. You'll get a developer perspective into the field of industrial machine tools and the Australian software used to manufacture everything from smartphones to aircraft. Vote for my talk, and I show you how deep the rabbit hole goes."
   },
   {
     "id": "7411ca66-6746-48fd-a88f-d8d7c10fc8ad",
@@ -372,20 +386,6 @@
       "danielchmbrs"
     ],
     "abstract": "Have you ever peeked over the fence into functional programming land and gazed into a seemingly alien landscape of weird symbols and crazily named concepts? Has your curiosity about functional programming been stymied by complicated words and abstractions? If so, this talk is for you.\r\n\r\nWe’re going to take a practical, example-based journey through complex-sounding but deceptively simple functional patterns such as functors, applicatives and the big bad monad. We’ll see how these patterns work, what they’re for and how they are used to make clean, composable code. We’ll also identify the places where functional patterns are quietly being used in our mainstream day to day languages. By the end of the talk, you will be better equipped to take further steps down the functional programming path of enlightenment."
-  },
-  {
-    "id": "d2805a0f-2467-4303-afa2-eec3a2c274e1",
-    "title": "Functional Programming: What, Why, How",
-    "names": [
-      "R. Howard"
-    ],
-    "twitters": [
-      "damncabbage"
-    ],
-    "websites": [
-      "http://robhoward.id.au"
-    ],
-    "abstract": "We spend a lot of time building libraries and applications. They can get complex, and feel like they can get out of control. Functional Programming is an approach that lets us zoom in and stay focused on small parts of a codebase at a time.\r\n\r\nWe'll dig down into what Functional Programming is, where things like \"immutability\", \"effects as values\" and \"functional-style\" code come from, and what practical benefit it all has.\r\n\r\nThis talk will demonstrate you can use this approach in pretty much any language, and will be illustrated with real examples from JavaScript and a smattering of other languages. Some experience with at least one language, though, is about all you'll need to follow along.\r\n\r\n(Warning: absolutely no type theory or abstract monadic contravariant functors will appear in this talk.)"
   },
   {
     "id": "40264cec-0a94-467a-ab2d-45ebe8f8994c",
@@ -653,6 +653,20 @@
     "abstract": "Last time the good people of DDD land deemed me worthy of delivering a talk on quantum computing, and so I set out to ensure that my presentation would give everyone in the room a firm grounding in quantum computing fundamentals. This could have been done better!\r\n\r\nGiven a second chance, this time around, we will explore quantum computing as compared to classical computing (from an OO developer’s perspective), we’ll tour terminology to allow anyone to interpret currently used notation, and most importantly, there will be no protracted droning on about matrix algebra!\r\n\r\nSo join me to get the skinny on quantum computing basics including: an under-the-hood look at how a quantum computer functions, how quantum-y people notate things (and therefore how to read what quantum-y people have written), why quantum computing will be useful, and how a quantum system compares to the systems we use today."
   },
   {
+    "id": "ab4bd770-df06-45cb-92fc-6879549c6ec9",
+    "title": "Robotics with Attitude - Programming a Real Life Pixar Character",
+    "names": [
+      "T. Comport"
+    ],
+    "twitters": [
+      "timcomport"
+    ],
+    "websites": [
+      "http://timcomport.com"
+    ],
+    "abstract": "Anki's Cozmo palm-sized robot mixes Humour, Animation, AI and best of all - it's programmable! Learn what makes this robot tick and how to get started with the Cozmo SDK. Learn how to perform facial recognition, path planning, SLAM (Simultaneous Location and Mapping) and portray emotions without a 4 year degree in robotics. Building upon my DDD by Night lightning talk we will develop a simple application for Cozmo resulting in complex behaviour ... assuming he chooses to cooperate!"
+  },
+  {
     "id": "5cd8f694-f8de-4f8a-bcae-071670641919",
     "title": "Saving the World One App at a Time – The Humanitarian Toolbox",
     "names": [
@@ -806,6 +820,20 @@
     "abstract": "This is a demonstration of a code quality analysis tool that doesn’t visualise the metrics – it “audiolises” them.\r\n\r\nThe concepts of poor code having smell and colour (usually red) is commonly accepted, but what about appealing to our sense of hearing as well as eyes and nose?  Aeolian is an open source tool (written by the author) that generates MIDI music from code quality metrics, which begs the question:\r\n\r\nWhat does poor quality code sound like? Justin Beiber’s latest? A Phillip Glass soundtrack? A Phil Spector wall of sound cacophony? Modern Jazz? 🙂\r\n\r\nLikewise, what does good quality code sound like? Mozart? White noise?\r\n\r\nHow do commonly accepted musical concepts (keys, tempo, verse, chorus) apply when illustrating code quality.\r\n\r\nThe author (an amateur musician and long time producer of smelly code) will talk through the concepts of Aeolian and provide plenty of examples of how you can map code quality to music. \r\n\r\nThis will be a light-hearted talk and no knowledge of music theory is needed."
   },
   {
+    "id": "4feeb676-0b0b-4315-894b-77af81d45c59",
+    "title": "Thinking About Serverless? Let's Start With Functions",
+    "names": [
+      "T. Passos"
+    ],
+    "twitters": [
+      "thiagospassos"
+    ],
+    "websites": [
+      "http://passos.com.au"
+    ],
+    "abstract": "What's serverless? And why would you go serverless? Worry no more, these questions will be answered and I'll show you a great way to get started by using Azure Functions. \r\nYou don't need to move all your applications to the cloud right now, you can start with bits and pieces without compromising your existing applications and see for yourself how great it can be."
+  },
+  {
     "id": "15f9d668-20ef-4df9-b44c-85caa2be228d",
     "title": "TypeScript + React",
     "names": [
@@ -834,6 +862,20 @@
     "abstract": "With the release of .NET Core, the long-awaited dream of running .NET natively on Linux is finally here! Even better, .NET Core has arrived just in time for the coming container revolution! \r\n\r\nIn this talk I will be covering getting started with .NET Core on Linux, including a progressive approach to introducing Docker starting with CLI and tooling all the way up to a fully containerised application in a short, but practical development scenario.\r\n\r\nIn this session, we will get started with a basic Hello, World! in C# on a Linux host and demonstrate how Docker can be used not just in production, but also during development to not just simplify the Linux development experience, but also to enable powerful new capabilities including cross-platform scripting, seamless scaling, reproducible builds and simple testing."
   },
   {
+    "id": "0ecbab75-961a-4206-9ed7-33149f5fa924",
+    "title": "What a modern DevOps looks like today",
+    "names": [
+      "D. Malik"
+    ],
+    "twitters": [
+      "danijelmalik"
+    ],
+    "websites": [
+      "http://danijelmalik.com"
+    ],
+    "abstract": "Modern DevOps is a highway to greater business value and it works cross-platform. Automated deployments solved a handover problem, Application Monitoring Platforms closed the feedback and crash reporting gap, and containers made the “works on my machine” stereotype real. Next mission: automated environments.\r\nIn this session, Danijel will start by identifying the common bad practices to give you some quick wins. His experience starts from the smallest businesses and extends to the largest businesses including some of the largest banks. You will learn why Zero Based Infrastructure is the next step of a DevOps evolution, why Cloud is your best friend, and how to integrate this approach back into your deployment pipeline. You will walk away with a solid understanding of what Infrastructure as Code is and the main advantages, leaving you with nothing to worry about but your code."
+  },
+  {
     "id": "207c4875-3689-4ae5-bc9e-3152c7b3f340",
     "title": "Working smarter, not harder: automating the pain out of open-source maintenance",
     "names": [
@@ -846,5 +888,16 @@
       "http://blog.achapman.com"
     ],
     "abstract": "Maintaining open-source software can be a complex and time-intensive task. In today's world of open-source maintainers often being restricted to their free time, how do we maximise the time developers can spend delivering features and minimise the time spent on chores and project maintenance?\r\n\r\nThis talk will be delivering a brief summary of using automation, testing, and release software to simplify and streamline maintaining open-source projects. Using Cake (C# Make) as a case study, this presentation includes both high-level guidelines and a practical guide to using a combination of process, documentation, automation and community engagement to reduce the burden on project maintainers and improve project quality.\r\n\r\nThis talk is especially valuable to open-source project maintainers but will be of value to anyone involved in the open-source community at any level. Maintainers will understand how to improve efficiency and rely on automation to make maintenance easier; contributors will learn how to make maintenance and review easier, getting features merged faster."
+  },
+  {
+    "id": "4372cbfe-b400-4483-982a-eb288c04ddea",
+    "title": "X lessons of building software in startup",
+    "names": [
+      "A. Shcherbak and Matthew Barnes"
+    ],
+    "twitters": [
+      "centur"
+    ],
+    "abstract": "We want to talk about some hard learned lessons of working in startup.\r\nWorking in startup is a very different experience, comparing to established large company, and if you want to join one - one shall be prepared. So we want to share our views on what skills and mindsets are helpful for those who thinks to join a startup or to start one."
   }
 ]
