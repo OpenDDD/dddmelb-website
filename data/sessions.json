@@ -530,6 +530,14 @@
     "abstract": "Swift is a cross platform open source functional language beloved by thousands of developers worldwide. It is known for its simplicity and flexibility, and hence is an extremely powerful language to build mobile applications as well as micro services. It was released just 3 years ago and so far, has already made the Tiobe top 20.\r\n\r\nIn this session, I will introduce you to Swift’s syntax. I will explain how flexible and self-describing the language is. I will cover most common patterns and approaches. Moreover, I will also talk about some known gaps and challenges developers are facing in everyday development."
   },
   {
+    "id": "a071a970-9d6d-4a67-b1a8-9923357b73f8",
+    "title": "Is Satan an Artificial Super Intelligence?",
+    "names": [
+      "T. Waddell"
+    ],
+    "abstract": "Artificial Intelligence is considered by many to become a booming field in the coming years. However, Elon Musk and others has put a strong position of stopping artificial intelligence in our future. Last year we explored the coming social issues arising from automation. This year we will take it a step further and find out what dangers we could face with AI.\r\n\r\nIn this talk I'll present the limitations of AI, what effects data mining the hive mind could have on our control of life, the hard problem of consciousness and how robots could solve it, the ethical issues of trans-humanism and finally discuss whether our universe as a computer simulation. \r\n\r\nYou may leave with more questions than answers but hopefully you can have a head start to decide the future of the human race."
+  },
+  {
     "id": "cdf28234-9d2f-47a2-ae12-9a0c68963cd1",
     "title": "Lessons from 8 years of DDD Melbourne",
     "names": [
@@ -712,6 +720,17 @@
       "dotmahdi"
     ],
     "abstract": "Most people know Service workers as a replacement for the [infamous] AppCache but they can do much more than that. Using Service workers not only caching gets [relatively] painless and much smarter but also we can utilise new features like background sync and push notifications which blurs the line between web and native apps.\r\nIn this talk, after covering basic concepts behind service workers, we'll show how to use them to enhance our day-to-day web applications."
+  },
+  {
+    "id": "7142fb06-8c6f-473c-82eb-d66873430b27",
+    "title": "Software Craftsmanship For Corporates",
+    "names": [
+      "M. Ueckerman"
+    ],
+    "twitters": [
+      "dueckes"
+    ],
+    "abstract": "A number of software development consultancies have been influential in the Software Craftsmanship movement - names like 8th Light, Codurance & RoleModel Software are prominent in this space.  Organisations such as these have been influential in shaping the Software Craftsmanship Manifesto and placing themselves at the forefront of innovation in Software Craftsmanship.\r\n\r\nHowever, is Software Craftsmanship leadership, innovation and execution exclusive and sacred to consultancies only?  What can a largish corporate learn from these organisations and infuse in their Software Development culture?\r\n\r\nThis session will argue that the different perspectives on the discipline of Software Development are valid and complementary - be it an engineering discipline, a trade or a craft.  It will also paint a picture of how a Software Craftsmanship mindset can be exploited to positively influence an organisations overall Software Development culture."
   },
   {
     "id": "94240edd-22a6-4aef-8542-226f105298a3",
