@@ -1,6 +1,7 @@
 ---
 title: Submit a Session
 type: session-submission
+draft: true
 menu:
   main:
     name: Submit Session
@@ -8,7 +9,7 @@ menu:
 ---
 We welcome sessions from any dev related topic. Previously we have had a wide range of sessions from Agile to C++ to JavaScript to Haskell. If voters or our in-house Panel think your session is relevant or interesting it's in!
 
-This year we have two entry options. Submit to Open Voting using the inline form below and your session will go on this website for voting via ticket holders! Alternatively, you can submit to the in-house Panel where a number of industry people will carefully select sessions, they will not go through the Open Voting process. You can only submit the same talk via one of these options. 
+This year we have two entry options. Submit to Open Voting using the inline form below and your session will go on this website for voting via ticket holders! Alternatively, you can submit to the in-house Panel where a number of industry people will carefully select sessions, they will not go through the Open Voting process. You can only submit the same talk via one of these options.
 
 Before submitting a session please consider the following:
 
