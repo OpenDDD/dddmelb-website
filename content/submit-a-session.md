@@ -1,6 +1,7 @@
 ---
 title: Submit a Session
 type: session-submission
+hideOpenVotingForm: true
 ---
 We welcome sessions from any dev related topic. Previously we have had a wide range of sessions from Agile to C++ to JavaScript to Haskell. If voters or our in-house Panel think your session is relevant or interesting it's in!
 
