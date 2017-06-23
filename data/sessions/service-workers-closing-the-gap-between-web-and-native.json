@@ -1,0 +1,11 @@
+{
+  "id": "fa1795df-4ca1-4024-a152-5d871a32b63a",
+  "title": "Service Workers: Closing the gap between Web and Native",
+  "names": [
+    "M. Hasheminejad"
+  ],
+  "twitters": [
+    "dotmahdi"
+  ],
+  "abstract": "Most people know Service workers as a replacement for the [infamous] AppCache but they can do much more than that. Using Service workers not only caching gets [relatively] painless and much smarter but also we can utilise new features like background sync and push notifications which blurs the line between web and native apps.\r\nIn this talk, after covering basic concepts behind service workers, we'll show how to use them to enhance our day-to-day web applications."
+}

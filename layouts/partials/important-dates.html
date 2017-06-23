@@ -2,7 +2,7 @@
   <div class="container">
     <h2>Important Dates:</h2>
 
-    {{ range $.Site.Data.important.dates }}
+    {{ range $.Site.Data.event.dates }}
       {{ partial "important-date.html" . }}
     {{ end }}
 

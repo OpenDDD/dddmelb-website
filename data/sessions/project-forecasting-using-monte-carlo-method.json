@@ -1,0 +1,14 @@
+{
+  "id": "9aa4d2f7-33cf-48b2-83af-b14c19d9089f",
+  "title": "Project forecasting using Monte Carlo method",
+  "names": [
+    "D. Raniszewski"
+  ],
+  "twitters": [
+    "dominikran"
+  ],
+  "websites": [
+    "http://devblog.xyz/"
+  ],
+  "abstract": "This talk is about using Monte Carlo simulations for creating project forecasts. I was using this method when delivering solutions for a financial institution undergoing a transformation towards Agile processes.\r\n\r\nI would like to share my experiences about how it helped me to educate Product Owner and stakeholders on differences between forecasts and commitments, keep stakeholders involved in backlog prioritization and provide a forecast that can be easily turned into a release plan."
+}

@@ -1,0 +1,8 @@
+{
+  "id": "293daa3d-7577-4b49-82db-d41a61143dc2",
+  "title": "Leveraging continuous deployment for thick 'legacy' clients with octopus deploy",
+  "names": [
+    "S. Paulo Andres"
+  ],
+  "abstract": "Taking the learnings from server side CI/CD to a thick windows client environment to achieve an uniform pipeline for developers to leverage benefits we get on the server side with octopus deploy."
+}

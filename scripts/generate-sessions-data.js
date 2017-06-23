@@ -86,13 +86,25 @@ var getApprovedSessions = function(callback) {
 };
 
 function writeSessionsAsData(sessions) {
-  var filePath = path.join(__dirname, '..', 'data', 'sessions.json');
-  fs.writeFile(filePath, JSON.stringify(sessions, null, 2), 'utf8', function(err) {
-    if(err != null) {
-      throw new Error('Error writing sessions file: ' + err.message);
-    }
-    console.log('Sessions written to ' + filePath);
-});
+  var dirPath = path.join(__dirname, '..', 'data', 'sessions');
+
+  if(!fs.existsSync(dirPath)) {
+    fs.mkdirSync(dirPath);
+  }
+
+  for(var i = 0; i < sessions.length; i++) {
+    var session = sessions[i];
+    var fileName = session.title.replace(/ /g, '_').replace(/\W/g, '').replace(/_/g, '-').toLowerCase();
+    var filePath = path.join(dirPath, fileName+'.json');
+    fs.writeFile(filePath, JSON.stringify(session, null, 2), 'utf8', function(err) {
+      if(err != null) {
+        throw new Error('Error writing session file: ' + err.message);
+      }
+      console.log('Session written to ' + filePath);
+    });
+  }
+
+
 }
 
 getApprovedSessions(writeSessionsAsData);

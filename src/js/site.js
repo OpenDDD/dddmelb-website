@@ -137,28 +137,6 @@ $(document).ready(function() {
   }();
 
   $('.captcha-form input[type="submit"]').attr("disabled", "disabled");
-
-  /*
-  dropInModal = function(){
-    var $body = $('body');
-    var $modal = $('.modal-content');
-    var $modalLink = $('.modal-link');
-
-    if($modalLink.length) { // If required on page
-      $body.append('<div class="modal-overlay"></div>');
-      var $modalOverlay = $('.modal-overlay');
-
-      $modalLink.on('click', function(e){
-        e.preventDefault();
-        $(this).next($modal).addClass('active');
-        $modalOverlay.addClass('active');
-        $body.addClass('modal');
-      });
-    }
-
-
-  }();*/
-
 });
 
 var recaptchaComplete = function() {

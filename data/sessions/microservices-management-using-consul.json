@@ -1,0 +1,14 @@
+{
+  "id": "4d89701f-261a-4fe3-96f9-367b7532b93e",
+  "title": "Microservices Management using Consul",
+  "names": [
+    "H. Eskandari"
+  ],
+  "twitters": [
+    "hadi_es"
+  ],
+  "websites": [
+    "http://www.seesharpsoftware.com.au/"
+  ],
+  "abstract": "You have designed and deployed your application using Microservices patterns and deployed to production but it won't take too long to realize managing tens, hundred or even thousand instances of services manually can quickly become a nightmare. How do you make sure your services are healthy? You do you do load balancing? What about configuration management across your services? Does your service rely on another service? How do you do service discoveries locally, let alone acorss multi-data centers? \r\n\r\nCome to my talk and I'll show you how this can be done relatively easily using Consul."
+}

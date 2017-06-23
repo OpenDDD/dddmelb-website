@@ -1,0 +1,16 @@
+{
+  "id": "keynote",
+  "title": "The Keynote Talk is Awesome",
+  "names": [
+    "Jeff Jones", "Jane Jones"
+  ],
+  "websites": [
+    "https://www.dddmelbourne.com",
+    "https://www.dddmelbourne.com"
+  ],
+  "twitters": [
+    "jeff",
+    "jane"
+  ],
+  "abstract": "Hello World"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "207c4875-3689-4ae5-bc9e-3152c7b3f340",
+  "title": "Working smarter, not harder: automating the pain out of open-source maintenance",
+  "names": [
+    "A. Chapman"
+  ],
+  "twitters": [
+    "agc93"
+  ],
+  "websites": [
+    "http://blog.achapman.com"
+  ],
+  "abstract": "Maintaining open-source software can be a complex and time-intensive task. In today's world of open-source maintainers often being restricted to their free time, how do we maximise the time developers can spend delivering features and minimise the time spent on chores and project maintenance?\r\n\r\nThis talk will be delivering a brief summary of using automation, testing, and release software to simplify and streamline maintaining open-source projects. Using Cake (C# Make) as a case study, this presentation includes both high-level guidelines and a practical guide to using a combination of process, documentation, automation and community engagement to reduce the burden on project maintainers and improve project quality.\r\n\r\nThis talk is especially valuable to open-source project maintainers but will be of value to anyone involved in the open-source community at any level. Maintainers will understand how to improve efficiency and rely on automation to make maintenance easier; contributors will learn how to make maintenance and review easier, getting features merged faster."
+}

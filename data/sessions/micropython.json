@@ -1,0 +1,14 @@
+{
+  "id": "22137f63-c6b8-41ac-8cd0-f55c4c36526f",
+  "title": "MicroPython!",
+  "names": [
+    "N. Moore"
+  ],
+  "twitters": [
+    "nickzoic"
+  ],
+  "websites": [
+    "http://nick@zoic.org"
+  ],
+  "abstract": "MicroPython is a very easy to use language which runs on very cheap SoC platforms, perfect for the development of the Internet of Things or just messing around with toys.\r\n\r\nThis talk looks at a widely available WiFi enabled SoC, the ESP32, and how to install and use MicroPython to make it do interesting stuff connecting sensors and actuators to the Internet."
+}

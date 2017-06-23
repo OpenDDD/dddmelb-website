@@ -1,0 +1,11 @@
+{
+  "id": "9eb0154e-daeb-4415-90cd-a1f9fae646e1",
+  "title": "Coming to grips with Progressive Web Apps",
+  "names": [
+    "W. Tulloch"
+  ],
+  "twitters": [
+    "wtulloch"
+  ],
+  "abstract": "Another year, another buzzword. Progressive Web Applications (PWA) is a concept that first came out of Google in 2015. The core idea is to create web sites  that act and feel like native mobile apps. \r\n\r\nIn this talk we will look at what exactly is a Progressive Web App both in terms of the concepts that  underpin it and the key technologies that it is built on. \r\nFrom there we get down and dirty with some code to see what it takes to write a PWA. \r\nFinally we will step back into the real world and ask the question are PWAs the band or just the bandwagon."
+}

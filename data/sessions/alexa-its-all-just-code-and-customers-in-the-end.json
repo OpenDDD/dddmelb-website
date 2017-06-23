@@ -1,0 +1,12 @@
+{
+  "id": "b56e0923-c8be-427d-8b88-7a10acd8f9bb",
+  "title": "Alexa, it's all just code and customers in the end",
+  "names": [
+    "G. Collins",
+    "K. Hall"
+  ],
+  "twitters": [
+    "gregcollins"
+  ],
+  "abstract": "Alexa is Amazon's virtual personal assistant, has been around for about two years and we have been extending it into the Australian Unity domain. It seems simple enough but when you start working with it changes the way you build UX, products and the way you think about your customers. It also comes with all the old software maturity practises that still need to solve i.e. CI/CD, Security, Debugging as well as Test  and Learn.\r\n\r\nWe'd like to take you through what we have found. What was easy, what wasn't and most importantly what we would have done differently."
+}

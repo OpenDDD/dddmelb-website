@@ -1,0 +1,14 @@
+{
+  "id": "5bf917ce-805f-41ae-b53a-3bf17c547b2c",
+  "title": "Building security at scale: making DevOps less terrible",
+  "names": [
+    "A. Chapman"
+  ],
+  "twitters": [
+    "agc93"
+  ],
+  "websites": [
+    "http://blog.achapman.com"
+  ],
+  "abstract": "DevOps allows development teams to build faster, release more often and manage operations on the fly! It also allows developers to ship wildly insecure products and skip over the most basic information security principles in the name of agility! \r\n\r\nIn this talk, I will be exploring the pitfalls of DevOps from a security point of view and looking at the common mistakes that development teams make that leads to security bugs. This will include every stage of the development process from code to deployment.\r\n\r\nAdditionally, I will be looking at the many ways you can quickly and easily improve the security standing of your codebase without sacrificing the agility and rapid release cadence that businesses and managers have come to expect from “DevOps teams”. \r\n\r\nFinally, I will provide a brief insight into how to move your team from DevOps to SecDevOps, integrating information and product security into every layer of your development team and organisation, for the best results, all without compromising your development team’s trademark agility."
+}

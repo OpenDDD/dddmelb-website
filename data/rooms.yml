@@ -1,0 +1,15 @@
+rooms:
+  - id: registraion-area
+    text: Registration Area
+  - id: blue
+    text: Blue (B214)
+  - id: green
+    text: Green (K309)
+  - id: orange
+    text: Orange (B218)
+  - id: purple
+    text: Purple (K211)
+  - id: red
+    text: Red (B215)
+  - id: yellow
+    text: Yellow (K213)

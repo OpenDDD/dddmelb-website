@@ -1,0 +1,11 @@
+{
+  "id": "5382b81b-73fe-4e2e-8053-ec25ed7c0d99",
+  "title": "Practical Machine Learning for the average Joe developer",
+  "names": [
+    "M. Hasheminejad"
+  ],
+  "twitters": [
+    "dotmahdi"
+  ],
+  "abstract": "From smart recommendation systems to self driving cars, everyone is talking about how machine learning will change our future. Most developers think that in order to use machine learning in real-world applications, they need a group of data scientists [with PhD] and a huge budget for all the research and of course all the GPUs! However, you'll be surprised [I know I was] to know how much you can do with just a basic understanding of the main algorithms and cloud services or modern machine learning libraries.\r\nIn this talk, we'll briefly review basic concepts and then use that knowledge to build our own deep neural network to identify objects in the image, train it and build a mobile app to use the trained model, all in less than an hour."
+}

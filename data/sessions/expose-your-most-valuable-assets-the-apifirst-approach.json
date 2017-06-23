@@ -1,0 +1,14 @@
+{
+  "id": "258296f8-e817-406f-9f57-fc2cf40f6f3c",
+  "title": "Expose your most valuable assets, the API-First approach",
+  "names": [
+    "P. Heasley"
+  ],
+  "twitters": [
+    "pheasley"
+  ],
+  "websites": [
+    "http://phdesign.com.au/"
+  ],
+  "abstract": "Too often we build our user interfaces first, then we build disjointed APIs to expose specific functionality or to connect to other systems. The API-First approach advocates for designing a coherent, complete API before anything else, analogous to a Mobile First approach. A clear API designed for developers will be easier to extend with new interfaces (like IoT) as well as enabling future integrations that couldn’t be imagined today."
+}

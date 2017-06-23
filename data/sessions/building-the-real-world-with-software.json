@@ -1,0 +1,14 @@
+{
+  "id": "b0189506-8c86-46fb-92de-9b525ba74b85",
+  "title": "Building the Real World with Software",
+  "names": [
+    "T. Comport"
+  ],
+  "twitters": [
+    "timcomport"
+  ],
+  "websites": [
+    "http://timcomport.com"
+  ],
+  "abstract": "So you've learnt from Lars about VR, AR and MR, now come and learn about the software behind ... Reality! Just like the Matrix, the world around you is built by machines, but rather than 0's and 1's it's G0's and G1's.\r\n\r\nIn this talk I will show you the door to additive manufacturing (3D printing), subtractive mnufacturing (Laser, Plasma, WaterJet, Milling, Grinding), G-code, CAD/CAM, motion control (CNC's) and more. You'll get a developer perspective into the field of industrial machine tools and the Australian software used to manufacture everything from smartphones to aircraft. Vote for my talk, and I show you how deep the rabbit hole goes."
+}

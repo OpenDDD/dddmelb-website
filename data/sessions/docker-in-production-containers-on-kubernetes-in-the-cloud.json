@@ -1,0 +1,8 @@
+{
+  "id": "d6a7fbb4-fad4-4a51-a4f7-9652ce05f807",
+  "title": "Docker in Production: Containers on Kubernetes in the cloud",
+  "names": [
+    "M. Dempers"
+  ],
+  "abstract": "So I developed my application and built a Docker image. Now what ? \r\nWhere and how do I deploy it ? \r\nHow do I make sure it is healthy and always running ? \r\nHow do I get servers to host it ? \r\nHow do I manage those servers ? \r\n\r\nKubernetes on Azure container services solves this problem and in this session, we will do a deep dive on building micro services, containerising them and deploying them onto Azure container services"
+}

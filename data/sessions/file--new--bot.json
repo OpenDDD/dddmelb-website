@@ -1,0 +1,11 @@
+{
+  "id": "ecd87158-9feb-4234-8f58-1d1778ab350f",
+  "title": "File >> New >> Bot",
+  "names": [
+    "L. Bon"
+  ],
+  "twitters": [
+    "luizbon"
+  ],
+  "abstract": "Do you ever want to start playing with Bots but think it is too hard? \r\nLet me help you. \r\n\r\nIn that talk, I will show how simple is to write a Bot with the support of the BotFramework. \r\n\r\nLet's understand what a Bot, BotBuilder, BotConnector, LUIS and other technologies which enrich the user experience. \r\n\r\nAfter this presentation, you will be able to start hacking your Bot and deploy it to Facebook, Slack and Skype with easy."
+}
