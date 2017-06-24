@@ -1,0 +1,14 @@
+{
+  "id": "7e286d8f-7dea-46a4-8f5e-41ff285eb49f",
+  "title": "A lap around Azure data platform",
+  "names": [
+    "P. Khasnabis"
+  ],
+  "twitters": [
+    "softveda"
+  ],
+  "websites": [
+    "http://www.softveda.com.au"
+  ],
+  "abstract": "Microsoft Azure cloud platform provides a number of options for storing all kinds of Data both Relational and NoSQL, and performing actions on Data. With so many available choices it can be difficult to know the right Azure service to use for a given scenario. This session is about discovering the options of storing data in Azure and processing them. There will be guidance provided for application developers, solution architects and data analysts in choosing the right services and tools. You will learn the key features and differences between\n\n* Azure Blob Storage\n* Azure Table Storage\n* Azure SQL DB\n* Azure SQL on VM (IAAS)\n* Azure SQL Managed Instance\n* Azure Data Lake Store\n* Azure CosmosDB (formerly DocumentDB)\n* Azure Redis Cache\n* and more\n\nThe talk will also touch on some associated services to build a streaming data pipeline like\n\n* Azure Event Hub\n* Azure Stream Analytics\n* Azure Data Factory\n* Power BI\n\nThere will be a specific focus on CosmosDB (announced in Build 2017) which is a multi-model NoSQL DB with guaranteed SLA on cloud, the first of its kind. \nWe will look at CosmosDB architecture and using the DocumentDB API to store and query JSON documents. This is a session for all who wants to work with data in Azure."
+}

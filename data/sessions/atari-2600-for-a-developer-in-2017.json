@@ -1,0 +1,14 @@
+{
+  "id": "1bedd9c6-44e0-4100-913d-468e52fbf19b",
+  "title": "Atari 2600 for a developer in 2017",
+  "names": [
+    "C. Prieto"
+  ],
+  "twitters": [
+    "cprieto"
+  ],
+  "websites": [
+    "http://cprieto.com"
+  ],
+  "abstract": "Atari, it was out in 1977, it gave to many of us our first glance of home video games. How did they work? I mean, I am pretty sure there was not C# in 1977!\r\nVote and come to my talk to listen to a short story of hardcore development (no, seriously, hardcore), inspiring engineering tales and a moment to go full geek into the overlooked marriage between software and hardware.\r\nI promise no assembler knowledge required... Well, mostly."
+}
