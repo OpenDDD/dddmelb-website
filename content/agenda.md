@@ -1,6 +1,7 @@
 ---
 title: Agenda
 type: agenda
+draft: true
 menu:
   main:
     weight: 4
