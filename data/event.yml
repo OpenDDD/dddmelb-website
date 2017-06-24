@@ -14,12 +14,15 @@ dates:
   - date: 2017-06-19T12:00:00+10:00
     text: Ticket wave 2 opens
     type: tickets
+    done: true
   - date: 2017-06-19T18:00:00+10:00
     text: Call for content closes
     type: content
+    done: true
   - date: 2017-06-20T10:00:00+10:00
     text: Voting opens
     type: voting
+    done: true
   - date: 2017-06-29T10:00:00+10:00
     text: Voting closes
     type: voting

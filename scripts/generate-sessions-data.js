@@ -103,8 +103,6 @@ function writeSessionsAsData(sessions) {
       console.log('Session written to ' + filePath);
     });
   }
-
-
 }
 
 getApprovedSessions(writeSessionsAsData);

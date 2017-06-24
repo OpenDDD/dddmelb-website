@@ -5,62 +5,64 @@
         <div class="col-xs-12 col-sm-7 col-md-7 col-sm-8 left-col">
           <h1>{{ .Title }}</h1>
           {{ .Content }}
-          <form class="captcha-form" action="https://dddmelb.azurewebsites.net/add-session" method="post" role="form" data-toggle="validator" data-disable="false">
-            <fieldset>
-              <ul>
-                <li class="form-group">
-                  <label for="SessionTitle">Session title <span class="required">&#42;</span></label>
-                  <input type="text" name="SessionTitle" id="SessionTitle" data-error="Please provide your session title" required />
-                  <span class="help-block with-errors"></span>
-                </li>
-                <li class="form-group">
-                  <label for="SessionAbstract">Session abstract <span class="required">&#42;</span></label>
-                  <textarea name="SessionAbstract" id="SessionAbstract" data-error="Please provide your session abstract" required></textarea>
-                  <span class="help-block with-errors"></span>
-                </li>
-                <li class="form-group">
-                  <label for="PresenterName">Presenter name <span class="required">&#42;</span></label>
-                  <input type="text" name="PresenterName" id="PresenterName" data-error="Please provide your presenter name" required />
-                  <span class="help-block with-errors"></span>
-                </li>
-                <li class="form-group">
-                  <label for="PresenterBio">A bit about you <span class="required">&#42;</span></label>
-                  <textarea name="PresenterBio" id="PresenterBio" data-error="Please provide your presenter bio" required></textarea>
-                  <span class="help-block with-errors"></span>
-                </li>
-                <li class="form-group">
-                  <label for="PresenterMobileNumber">Mobile number <span class="required">&#42;</span></label>
-                  <input type="tel" name="PresenterMobileNumber" id="PresenterMobileNumber" data-error="Please provide your mobile number" required />
-                  <span class="help-block with-errors"></span>
-                </li>
-                <li class="form-group">
-                  <label for="PresenterEmail">Email <span class="required">&#42;</span></label>
-                  <input type="email" name="PresenterEmail" id="PresenterEmail" data-error="Please provide your email" required />
-                  <span class="help-block with-errors"></span>
-                </li>
-                <li class="form-group">
-                  <label for="PresenterTwitterAlias">Twitter alias (optional)</label>
-                  <input type="text" name="PresenterTwitterAlias" id="PresenterTwitterAlias" />
-                </li>
-                <li class="form-group">
-                  <label for="PresenterWebsite">Website (optional)</label>
-                  <input type="text" name="PresenterWebsite" id="PresenterWebsite" />
-                </li>
-                <li class="form-group">
-                  <label for="RecommendedAudience">Recommended audience (any pre-req knowledge etc?) <span class="required">&#42;</span></label>
-                  <input type="text" name="RecommendedAudience" id="RecommendedAudience" data-error="Please provide your recommended audience" required />
-                  <span class="help-block with-errors"></span>
-                </li>
-                <li>
-                  <label></label>
-                  <div class="g-recaptcha" data-sitekey="6LezOSEUAAAAAFBSycA2Wm8j-UKqhSEi1rBM9F-o" data-callback="recaptchaComplete"></div>
-                  <small><em>Please ensure reCAPTCHA verification is successful before submitting</em></small>
-                  <img src="https://dddmelb.azurewebsites.net/Content/images/p.gif" />
-                </li>
-                <li><input type="submit" value="Submit" /></li>
-              </ul>
-            </fieldset>
-          </form>
+          {{ if not .Params.hideOpenVotingForm }}
+            <form class="captcha-form" action="https://dddmelb.azurewebsites.net/add-session" method="post" role="form" data-toggle="validator" data-disable="false">
+              <fieldset>
+                <ul>
+                  <li class="form-group">
+                    <label for="SessionTitle">Session title <span class="required">&#42;</span></label>
+                    <input type="text" name="SessionTitle" id="SessionTitle" data-error="Please provide your session title" required />
+                    <span class="help-block with-errors"></span>
+                  </li>
+                  <li class="form-group">
+                    <label for="SessionAbstract">Session abstract <span class="required">&#42;</span></label>
+                    <textarea name="SessionAbstract" id="SessionAbstract" data-error="Please provide your session abstract" required></textarea>
+                    <span class="help-block with-errors"></span>
+                  </li>
+                  <li class="form-group">
+                    <label for="PresenterName">Presenter name <span class="required">&#42;</span></label>
+                    <input type="text" name="PresenterName" id="PresenterName" data-error="Please provide your presenter name" required />
+                    <span class="help-block with-errors"></span>
+                  </li>
+                  <li class="form-group">
+                    <label for="PresenterBio">A bit about you <span class="required">&#42;</span></label>
+                    <textarea name="PresenterBio" id="PresenterBio" data-error="Please provide your presenter bio" required></textarea>
+                    <span class="help-block with-errors"></span>
+                  </li>
+                  <li class="form-group">
+                    <label for="PresenterMobileNumber">Mobile number <span class="required">&#42;</span></label>
+                    <input type="tel" name="PresenterMobileNumber" id="PresenterMobileNumber" data-error="Please provide your mobile number" required />
+                    <span class="help-block with-errors"></span>
+                  </li>
+                  <li class="form-group">
+                    <label for="PresenterEmail">Email <span class="required">&#42;</span></label>
+                    <input type="email" name="PresenterEmail" id="PresenterEmail" data-error="Please provide your email" required />
+                    <span class="help-block with-errors"></span>
+                  </li>
+                  <li class="form-group">
+                    <label for="PresenterTwitterAlias">Twitter alias (optional)</label>
+                    <input type="text" name="PresenterTwitterAlias" id="PresenterTwitterAlias" />
+                  </li>
+                  <li class="form-group">
+                    <label for="PresenterWebsite">Website (optional)</label>
+                    <input type="text" name="PresenterWebsite" id="PresenterWebsite" />
+                  </li>
+                  <li class="form-group">
+                    <label for="RecommendedAudience">Recommended audience (any pre-req knowledge etc?) <span class="required">&#42;</span></label>
+                    <input type="text" name="RecommendedAudience" id="RecommendedAudience" data-error="Please provide your recommended audience" required />
+                    <span class="help-block with-errors"></span>
+                  </li>
+                  <li>
+                    <label></label>
+                    <div class="g-recaptcha" data-sitekey="6LezOSEUAAAAAFBSycA2Wm8j-UKqhSEi1rBM9F-o" data-callback="recaptchaComplete"></div>
+                    <small><em>Please ensure reCAPTCHA verification is successful before submitting</em></small>
+                    <img src="https://dddmelb.azurewebsites.net/Content/images/p.gif" />
+                  </li>
+                  <li><input type="submit" value="Submit" /></li>
+                </ul>
+              </fieldset>
+            </form>
+          {{ end }}
         </div>
         <div class="col-xs-12 col-sm-5 col-md-5 col-lg-4 right-col">
           <div class="inner">
