@@ -23,6 +23,15 @@ $(document).ready(function() {
       }
     });
 
+    var orderNumber = getUrlParameter('order');
+    if(orderNumber) {
+      submitVotes.find('#OrderNumber').val(orderNumber);
+    }
+    var orderEmail = getUrlParameter('email');
+    if(orderEmail) {
+      submitVotes.find('#OrderEmail').val(orderEmail);
+    }
+
     submitVotes.find('form').on('submit', function(e) {
       e.preventDefault();
 
@@ -87,4 +96,11 @@ $(document).ready(function() {
       votes.splice(sessionVoteIndex, 1);
     }
   }
+
+  function getUrlParameter(name) {
+    name = name.replace(/[\[]/, '\\[').replace(/[\]]/, '\\]');
+    var regex = new RegExp('[\\?&]' + name + '=([^&#]*)');
+    var results = regex.exec(location.search);
+    return results === null ? '' : decodeURIComponent(results[1].replace(/\+/g, ' '));
+  };
 });
