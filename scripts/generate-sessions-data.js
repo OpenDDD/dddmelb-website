@@ -12,7 +12,7 @@ var abbreviatePresenterNames = function(name) {
   var nameSplit = name.split(',');
   var names = [];
   for(var i = 0; i < nameSplit.length; i++) {
-  	var name = nameSplit[i].trim().replace(/(\b[a-zA-Z])[a-zA-Z]* /, '$1. ');
+    var name = nameSplit[i].trim().replace(/(\b[a-zA-Z])[a-zA-Z]* /, '$1. ');
     names.push(name);
   }
 
@@ -27,7 +27,7 @@ var normaliseWebsites = function(url) {
   var websiteSplit = url.split(',');
   var websites = [];
   for(var i = 0; i < websiteSplit.length; i++) {
-  	var website = websiteSplit[i];
+    var website = websiteSplit[i];
     if(!website.startsWith('http://') && !website.startsWith('https://')) {
       website = 'http://'+website.trim();
     }
@@ -88,9 +88,10 @@ var getApprovedSessions = function(callback) {
 function writeSessionsAsData(sessions) {
   var dirPath = path.join(__dirname, '..', 'data', 'sessions');
 
-  if(!fs.existsSync(dirPath)) {
-    fs.mkdirSync(dirPath);
+  if(fs.existsSync(dirPath)) {
+    rmdir(dirPath);
   }
+  fs.mkdirSync(dirPath);
 
   for(var i = 0; i < sessions.length; i++) {
     var session = sessions[i];
@@ -104,5 +105,21 @@ function writeSessionsAsData(sessions) {
     });
   }
 }
+
+var rmdir = function(dir) {
+  var list = fs.readdirSync(dir);
+  for(var i = 0; i < list.length; i++) {
+    var filename = path.join(dir, list[i]);
+    var stat = fs.statSync(filename);
+
+    if(filename == "." || filename == "..") {
+    } else if(stat.isDirectory()) {
+      rmdir(filename);
+    } else {
+      fs.unlinkSync(filename);
+    }
+  }
+  fs.rmdirSync(dir);
+};
 
 getApprovedSessions(writeSessionsAsData);
