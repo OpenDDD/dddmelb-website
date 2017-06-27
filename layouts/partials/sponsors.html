@@ -1,4 +1,4 @@
-{{ if or ($.Site.Data.sponsors.platinum) ($.Site.Data.sponsors.gold) ($.Site.Data.sponsors.silver) ($.Site.Data.sponsors.community) }}
+{{ if or ($.Site.Data.sponsors.platinum) ($.Site.Data.sponsors.gold) ($.Site.Data.sponsors.silver) ($.Site.Data.sponsors.services) ($.Site.Data.sponsors.community) }}
   <section class="sponsors">
   {{ if $.Site.Data.sponsors.platinum }}
     <h2>Platinum Partner</h2>
@@ -13,11 +13,20 @@
       <a href="{{.url}}" class="targetBlank"><img src="/images/sponsors/{{.img}}" alt="{{.text}}" /></a>
     {{ end }}
   {{ end }}
-
   {{ if $.Site.Data.sponsors.silver }}
     <h2>Silver Sponsors</h2>
     {{ range $.Site.Data.sponsors.silver }}
       <a href="{{.url}}" class="targetBlank"><img src="/images/sponsors/{{.img}}" alt="{{.text}}" /></a>
+    {{ end }}
+  {{ end }}
+
+  {{ if $.Site.Data.sponsors.services }}
+    <br /><br />
+    {{ range $.Site.Data.sponsors.services }}
+      <a href="{{.url}}" class="targetBlank">
+        <small>{{.service}}</small>
+        <img src="/images/sponsors/{{.img}}" alt="{{.text}}" />
+      </a>
     {{ end }}
   {{ end }}
 
