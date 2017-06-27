@@ -1,9 +1,9 @@
 ---
 title: Agenda
 type: agenda
-draft: true
 menu:
   main:
-    weight: 4
+    weight: 3
 ---
-Click on a session to display more detail
+The agenda is currently a work in progress and will be updated when voting has finished.  
+Click on a session to display more detail.

@@ -32,6 +32,9 @@
                       {{ if .abstract }}
                         <span class="abstract"><p>{{.abstract | markdownify}}</p></span>
                       {{ end }}
+                      {{ if .bio }}
+                        <span class="bio"><p>{{.bio | markdownify}}</p></span>
+                      {{ end }}
                     {{ if not .names }}
                     </div>
                     {{ else }}

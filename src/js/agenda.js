@@ -16,11 +16,12 @@ $(document).ready(function() {
     var speakerTwitter = agendaItem.find('.twitter').text() || '';
     var speakerWebsite = agendaItem.find('.website').text() || '';
     var sessionAbstract = agendaItem.find('.abstract').html() || '';
+    var speakerBio = agendaItem.find('.bio').html() || '';
     var modal = $(this);
 
     modal.find('.modal-title').text(room + ": " + sessionTitle);
     modal.find('.speaker').html(speaker + " " + speakerTwitter + "<br />" + speakerWebsite);
-    modal.find('.modal-body').html(sessionAbstract);
+    modal.find('.modal-body').html(sessionAbstract + speakerBio);
   });
 
   if(document.location.pathname.startsWith("/agenda") && document.location.hash) {

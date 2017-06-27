@@ -1,0 +1,15 @@
+{
+  "id": "keynote",
+  "title": "Wait, where did that command prompt come from?",
+  "names": [
+    "Barry Dorrans"
+  ],
+  "websites": [
+    "https://idunno.org"
+  ],
+  "twitters": [
+    "blowdart"
+  ],
+  "abstract": "We all know about SQL injection, we all know about XSS, but what about the more interesting security bugs? In this session Barry discusses security bugs deep inside .NET which caused sleepless nights and security bulletins, along with demonstrations of how you could be making the same mistakes inside your own code and how you fix it.",
+  "bio": "Barry is the security czar for ASP.NET which means he gets to look at the framework, tools and template code, searching for potential insecurities and sometimes even fixing them. He also triages publicly and privately reported vulnerabilities before getting someone else to fix them which means he gets all of the fun and none of the responsibility."
+}
