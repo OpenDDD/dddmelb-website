@@ -1,5 +1,14 @@
 $(document).ready(function() {
-  $('#agenda-modal').on('show.bs.modal', function(e) {
+
+  var agendaModal = $('#agenda-modal');
+
+  agendaModal.on('hide.bs.modal', function(e) {
+    if(history && history.replaceState) {
+      history.replaceState("", document.title, window.location.pathname);
+    }
+  });
+
+  agendaModal.on('show.bs.modal', function(e) {
     var agendaItem = $(e.relatedTarget);
 
     var id = agendaItem.attr('id');
