@@ -26,6 +26,7 @@ dates:
   - date: 2017-06-29T10:00:00+10:00
     text: Voting closes
     type: voting
+    done: true
   - date: 2017-07-07T09:00:00+10:00
     text: Agenda Published
     type: agenda
