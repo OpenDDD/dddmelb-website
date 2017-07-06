@@ -1,0 +1,14 @@
+{
+  "id": "324fff5c-5df4-4b70-ab83-c4489c13391a",
+  "title": "React/Redux - What you should know before getting started",
+  "names": [
+    "Shiran Ginige"
+  ],
+  "twitters": [
+    "https://twitter.com/shiranginige"
+  ],
+  "websites": [
+    "http://www.linkedin.com/in/shiranginige/"
+  ],
+  "abstract": "Redux seems to be the popular choice when it comes to application state management with React. While doing a \"TODO Application\" is pretty straightforward, it could get tricky when managing a complex application with it. We have been using it for over 8 months in a large scale application and I will be sharing some of our experiences along the way. \r\n\r\n- React/Redux basics \r\n- What worked best for us \r\n- What are some of the difficulties we faced \r\n- What tools, frameworks worked best for us"
+}

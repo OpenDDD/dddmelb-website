@@ -1,0 +1,14 @@
+{
+  "id": "136443a9-4d1e-4e85-b3f9-5e8aa6017784",
+  "title": "Microservices UI Patterns",
+  "names": [
+    "Hadi Eskandari"
+  ],
+  "twitters": [
+    "hadi_es"
+  ],
+  "websites": [
+    "http://www.seesharpsoftware.com.au/"
+  ],
+  "abstract": "There's a lot of buzz around using Microservices patterns to design your backend system, but surprisingly not a lot of people talk about how these services are ultimately tied back together on the frontend. This talk is about challenges you face when creating a UI for your Microservices and challenges you face to ensure service boundaries are respected while the code is still maintainable and loosely coupled."
+}

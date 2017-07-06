@@ -1,0 +1,11 @@
+{
+  "id": "0e871481-eb76-4fdf-b77f-7f515a76c45c",
+  "title": "Graph Databases - what you need to know",
+  "names": [
+    "Joel Gallagher"
+  ],
+  "twitters": [
+    "joelgall"
+  ],
+  "abstract": "With the rise of Big Data & social networks, traditional Relational Databases have reached the limits of their abilities to handle inter-connected entities.\r\n\r\nAs a result, Graph databases have become more popular, with the likes of Microsoft and GitHub recently offering Graph solutions. \r\n\r\nThis talk will explain the theory behind Graph databases, when (and when not) to use them, and then demonstrate their power using Neo4j, one of the more popular graph databases."
+}

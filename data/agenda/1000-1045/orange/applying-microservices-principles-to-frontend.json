@@ -1,0 +1,14 @@
+{
+  "id": "c2eabea3-501c-46c9-8d2e-91553082f50e",
+  "title": "Applying microservices principles to front-end",
+  "names": [
+    "Ahmed Elharouny"
+  ],
+  "twitters": [
+    "harouny"
+  ],
+  "websites": [
+    "http://www.harouny.com"
+  ],
+  "abstract": "So, you have successfully separated your back-end into smaller, focused,  independently deployable services that can be handed to separate teams in your organization. But you still have a problem; your front-end is  still a big monolith! \r\n\r\nIs there another product/website -inside or outside your organization- that is interested in embedding your product's functionality?\r\n\r\nxcomponent toolkit is built by a team in PayPal to meet this need. Its used now by PayPal to embed checkout plugin into other websites. Its a cross-domain component toolkit, supporting rendering components in an iframe or popup on a different domain, and passing down properties as you expect from a native component. \r\n\r\nI will be showing how to use xcomponent to breakup your traditional monolithic web app into smaller components that is sandboxed, separately deployable, easy to build and works cross domain."
+}

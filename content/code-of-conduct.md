@@ -30,7 +30,7 @@ Conference staff will be happy to help participants contact hotel/venue security
 We expect participants to follow these rules at conference and workshop venues and conference-related social events.
 
 ## Attendance Is At Your Own Risk
-Attendance at DDD Melbourne is at your own risk and by entering DDD Melbourne you agree not to hold DDD Melbourne, it’s organiser OzDec Inc, partners, subsidiaries or parent companies liable for any damage or distress incurred at an OzDev Inc event.
+Attendance at DDD Melbourne is at your own risk and by entering DDD Melbourne you agree not to hold DDD Melbourne, it's organiser OzDec Inc, partners, subsidiaries or parent companies liable for any damage or distress incurred at an OzDev Inc event.
 
 ## Photography & Video
 During DDD Melbourne events any person may be photographed or filmed as part of the occasion, either as an individual or as a member of a group by media personnel authorised by Oz Dev Inc. An individual may also appear in a photograph or video inadvertently, in the background. Permission is incorporated into the entry conditions to the event. You must inform said media personnel if you do not wish to be photographed or filmed.

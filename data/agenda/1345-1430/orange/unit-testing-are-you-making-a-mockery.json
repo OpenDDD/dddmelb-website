@@ -1,0 +1,11 @@
+{
+  "id": "8cf53f1a-e23f-4997-aec6-bf4d8bffa099",
+  "title": "Unit testing: are you making a Mock<ery>?",
+  "names": [
+    "Michelle Gleeson"
+  ],
+  "twitters": [
+    "shelleglee"
+  ],
+  "abstract": "Refactoring and cleaning our code is a must if we want to stay productive, but when the test suite becomes flaky and constantly breaks it can quickly end up rotting in the too hard basket. This is a practical example of how to unit test the behaviours of your dotnet core WebApi in memory at its system boundaries : using less mocks, making your test suite more trust worthy and your production code a dream to maintain "
+}
