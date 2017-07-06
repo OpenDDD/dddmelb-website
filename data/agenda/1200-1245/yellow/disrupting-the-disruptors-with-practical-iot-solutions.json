@@ -1,0 +1,15 @@
+{
+  "id": "a56f1309-4872-4809-bb08-83161e4af498",
+  "title": "Disrupting the Disruptors with Practical IOT Solutions",
+  "names": [
+    "Geoff Schaller",
+    "Chris Schaller"
+  ],
+  "twitters": [
+    "arcoflexiot"
+  ],
+  "websites": [
+    "http://www.arcoflex.com.au"
+  ],
+  "abstract": "Populist disruptor IOT solutions have headed down the path of using tiny CPUs or battery powered sensors sending tiny scraps of data through LoraWAN solutions. They claim to be remaking the AgTech landscape in particular. But in the Ag Tech space involving monitoring hot houses, irrigation systems or cool room complexes, there are tons of sensors, often streaming kilobits per hour per sensor and many of them interconnected. So how do you build low cost solutions for the client that has affordable bandwidth and can still yield trending data to intelligent dashboards? We'll show you one such solution vertical using a Microsoft stack: OS to cloud. Using a live prototype, we will show you that it is easy to remotely configure and manage data flows in real time with Raspberry Pi3 devices and Microsoft's IoT Azure Suite. In addition, we will explain how to use 4G as a coms pipe, yet keeping the costs down to an acceptable level. We will play with the sensors in the session and review the code blocks that deal with the data flow. If you want to learn how to add real data value to IOT solutions, this session is a must."
+}

@@ -1,0 +1,8 @@
+{
+  "id": "2edafe97-2ff0-4350-86ab-b0f7daa45667",
+  "title": "Monkey Testing with Xamarin",
+  "names": [
+    "Darmaine Cruz"
+  ],
+  "abstract": "Mobile Apps! Continuous Integration! Automation Testing! Let's join the bandwagon!\nWith all these buzzwords and hype about IoT, Mobile Apps, and Continuous integration, how can they actually benefit teams in real life?\n\nThis session will highlight AGL's Mobile App Automation Testing journey, using Xamarin Test Cloud. Just like every development team, we wanted to move faster, be more efficient, and have less manual and more automated tests. But by doing so, there were many challenges along the way. \n\nThis is a story about:\n\n* How our team created our own library to record and utilise mock data\n* Decoupled our automated tests from a beast backend\n* Refactored our whole automation testing code-base.\n\nAnd as a result, here we are - running nightly automation for our mobile app with clean, extensible code, written by developers in a cross-functional team."
+}

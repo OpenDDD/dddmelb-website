@@ -1,0 +1,14 @@
+{
+  "id": "afb79862-7d7c-41fd-9a26-84e81465b294",
+  "title": "Webpack/Taskrunners. What are they, and how to get to started",
+  "names": [
+    "Cameron Chong"
+  ],
+  "twitters": [
+    "cameronchong"
+  ],
+  "websites": [
+    "http://cameron.run"
+  ],
+  "abstract": "An overview of what task runners are and why they're awesome. Followed by a more in depth look at Webpack and how to use it."
+}

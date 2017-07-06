@@ -1,0 +1,14 @@
+{
+  "id": "c3d69f45-72d1-4868-a011-420f11e82699",
+  "title": "When is a DIV not a DIV? When it's a button",
+  "names": [
+    "Allison Ravenhall"
+  ],
+  "twitters": [
+    "ravenally"
+  ],
+  "websites": [
+    "http://intopia.digital"
+  ],
+  "abstract": "People with severe vision impairment rely on screen readers to use their computer and mobile phone. If the HTML isn't semantic, screen readers don't describe elements correctly and users get stuck.\nHow to make your HTML sing with ARIA markup and make your website work for more visitors."
+}
