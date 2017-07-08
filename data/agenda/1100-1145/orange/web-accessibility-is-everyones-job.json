@@ -7,5 +7,6 @@
   "twitters": [
     "rem_ram"
   ],
+  "length": 20,
   "abstract": "It's great to keep up to date with readings, meetups, and training, but until you embed accessibility thinking within your project or product delivery process, you'll struggle to build truly accessible solutions.\n\nRemya is going to share Seamless's journey in implementing a cross-functional working group and weaving accessibility into their web development process."
 }

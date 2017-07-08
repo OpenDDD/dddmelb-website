@@ -9,8 +9,11 @@
           {{ if $.Site.Data.agenda }}
             {{ range $time, $room := $.Site.Data.agenda }}
               <div class="agenda-list equal-heights">
-                <h3>{{(slicestr $time 0 2)}}:{{slicestr $time 2 4}} - {{(slicestr $time 5 7)}}:{{slicestr $time 7 9}}</h3>
+                {{ $startTime := substr $time 0 4 }}
+                {{ $endTime := substr $time 5 4 }}
+                <h3>{{(slicestr $startTime 0 2)}}:{{slicestr $startTime 2 4}} - {{if eq $endTime "Late"}}{{$endTime}}{{else}}{{(slicestr $startTime 0 2)}}:{{slicestr $startTime 2 4}}{{end}}</h3>
                 {{ range $roomName, $sessions := $room }}
+                  {{ $roomLength := $sessions | len }}
                   {{ range $sessions }}
                     {{ $roomText := (index $.Site.Data.rooms $roomName).text }}
                     {{ if not .names }}
@@ -18,7 +21,7 @@
                     {{ else }}
                     <a id="{{.id}}" class="col {{$roomName}}-room" href="#" data-toggle="modal" data-target="#agenda-modal">
                     {{ end }}
-                      <span class="area">{{$roomText}}</span>
+                      <span class="area">{{$roomText}}{{if gt ($roomLength) 1}} - {{.length}}mins{{end}}</span>
                       <span class="info">{{.title}}</span>
                       {{ if .names }}
                         <span class="speaker">{{ range $index, $names := .names }}{{if $index}},&nbsp;{{end}}{{.}}{{ end }}</span>
