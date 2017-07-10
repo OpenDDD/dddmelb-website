@@ -11,7 +11,7 @@
               <div class="agenda-list equal-heights">
                 {{ $startTime := substr $time 0 4 }}
                 {{ $endTime := substr $time 5 4 }}
-                <h3>{{(slicestr $startTime 0 2)}}:{{slicestr $startTime 2 4}} - {{if eq $endTime "Late"}}{{$endTime}}{{else}}{{(slicestr $startTime 0 2)}}:{{slicestr $startTime 2 4}}{{end}}</h3>
+                <h3>{{(slicestr $startTime 0 2)}}:{{slicestr $startTime 2 4}} - {{if eq $endTime "Late"}}{{$endTime}}{{else}}{{(slicestr $endTime 0 2)}}:{{slicestr $endTime 2 4}}{{end}}</h3>
                 {{ range $roomName, $sessions := $room }}
                   {{ $roomLength := $sessions | len }}
                   {{ range $sessions }}
