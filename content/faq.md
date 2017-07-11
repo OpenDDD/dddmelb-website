@@ -31,7 +31,12 @@ Please review the following frequently asked questions...
   <li>
     <a class="toggleAccordion" href="javascript:void(0);">Will wireless access be available?</a>
     <div class="inner">
-      <p>Probably not.</p>
+      <p>Monash Free WiFi is available to the general public on all Australian campuses. This free wifi is not encrypted so please consider the security of your device when connecting.</p>
+      <p>To connect: <br>
+         1. Select 'Monash Free WiFi' on your device<br>
+         2. Launch an internet browser, and <br>
+         3. Click the I accept button.
+      </p>
     </div>
   </li>
 
@@ -45,14 +50,14 @@ Please review the following frequently asked questions...
   <li>
     <a class="toggleAccordion" href="javascript:void(0);">Can I cancel/give my ticket to someone else?</a>
     <div class="inner">
-      <p>You are welcome to send someone else in your place. Please do this through the Eventbrite system. For help on how to do this, <a rel="nofollow" href="http://help.eventbrite.com/customer/en_us/portal/articles/430100-change-the-info-on-your-order-or-ticket" class="targetBlank">please refer to this article</a>.</p>
+      <p>You are welcome to send someone else in your place. Please do this through the Eventbrite system. For help on how to do this, <a rel="nofollow" href="https://www.eventbrite.com/support/articles/en_US/How_To/how-to-update-your-ticket-registration-information" class="targetBlank">please refer to this article</a>.</p>
     </div>
   </li>
 
   <li>
     <a class="toggleAccordion" href="javascript:void(0);">When does registration open?</a>
     <div class="inner">
-      <p>Due to the popularity of last years event, we are running 3 separate ticket waves to give everyone an opportunity to obtain a ticket.<br/>
+      <p>Due to the popularity of last years event, we are running 2 separate ticket waves to give everyone an opportunity to obtain a ticket.<br/>
       Wave 1: Sat 10th June @ 10am AEST<br/>
       Wave 2: Mon 19th June @ 12pm AEST<br/>
       The ticket price will stay at $49 for each wave.</p>
@@ -108,7 +113,7 @@ Please review the following frequently asked questions...
       <ul>
         <li><a rel="nofollow" href="http://melbjs.com/" class="targetBlank">MelbJS</a></li>
         <li><a rel="nofollow" href="http://melbourne.ozalt.net/" class="targetBlank">Alt.net</a></li>
-        <li>Vic .net (still doesnt have a website)</li>
+        <li><a rel="nofollow" href="https://www.meetup.com/VIC-NET-Meetup/" class="targetBlank">Vic .NET</a></li>
       </ul>
       <br />
     </div>
