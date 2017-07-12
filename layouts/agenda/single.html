@@ -16,7 +16,7 @@
                   {{ $roomLength := $sessions | len }}
                   {{ range $sessions }}
                     {{ $roomText := (index $.Site.Data.rooms $roomName).text }}
-                    {{ if not .names }}
+                    {{ if not .abstract }}
                     <div class="col {{$roomName}}-room">
                     {{ else }}
                     <a id="{{.id}}" class="col {{$roomName}}-room" href="#" data-toggle="modal" data-target="#agenda-modal">
@@ -38,7 +38,7 @@
                       {{ if .bio }}
                         <span class="bio"><p>{{.bio | markdownify}}</p></span>
                       {{ end }}
-                    {{ if not .names }}
+                    {{ if not .abstract }}
                     </div>
                     {{ else }}
                     </a>
