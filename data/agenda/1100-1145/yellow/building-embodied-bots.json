@@ -1,0 +1,14 @@
+{
+  "id": "a64224e2-8a2d-4b56-adcb-a0a5e6eed6e6",
+  "title": "Workshop - Building Embodied Bots (Part 2)",
+  "names": [
+    "Andrew Fisher"
+  ],
+  "twitters": [
+    "ajfisher"
+  ],
+  "websites": [
+    "http://ajfisher.me"
+  ],
+  "abstract": "Chatbots are popping up all around us, from those that can order your lunch to those who can retrieve analytics data for your website. Chat or speech is a natural interface for humans as we spend a considerable amount of time within messaging platforms.\n\nBut what if your bot could feel the world? How does allowing a bot to have access to sensor data or to directly affect the world change both the human's style of interaction but also the bot's understanding of the world around it?\n\nThis session will walk you through the basics of building a bot in JS using the Slack API. Once we've got something you can talk to we'll then use the NodeBots stack to give your bot a body that can measure its environment or influence it."
+}
