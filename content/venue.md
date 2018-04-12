@@ -5,19 +5,32 @@ menu:
     weight: 5
 showTravelInfo: true
 ---
+We're thrilled to announce this year's conference will be taking place at:
 
-DDD Melbourne will be held at the <strong>Monash University Caulfield Campus</strong>.  
-Registration will take place in K block in the foyer space outside K3.09.  
+<strong>Melbourne Town Hall</strong>  
+90-130 Swanston St, Melbourne VIC 3000.  
 [<i class="fa fa-angle-right" aria-hidden="true"></i> Travel Information][travel-info]
 
-## To enter K3.09...
-From the ground floor (level 1) use the internal stairs to level 2, at the top of the stairs turn right and walk outside.
-Turn directly right and enter through the glass doors, go up the stairs to K3.09 (level 3) and foyer space.
+!["Melbourne Town Hall"](/images/town_hall.jpg)
 
-Monash's website details the location and contains a map of the campus.
 
-K block looks like this:
-
-!["Monash Caulfield - K Block"](/images/monash_k_block.jpg)
+<ul class="accordion">
+  <li>
+    <a class="toggleAccordion" href="javascript:void(0);">Entrance</a>
+    <div class="inner">
+      <p>The main entrance of the Melbourne Town Hall is located on Swanston Street. Follow the flight of marble steps that lead up to main foyer.</p>
+      <p>
+      There is access for wheelchair patrons via a small door to the left of the main  entrance. This door leads to a ramp then to the lift up to foyer level. Please approach the door attendant or any event crew if you need assistance.
+      </p>
+    </div>
+  </li>
+   <li>
+    <a class="toggleAccordion" href="javascript:void(0);">Accessibility</a>
+    <div class="inner">
+      <p>Melbourne Town Hall is a accessible venue. There are also wheelchair accessible bathrooms located on the Ground and 3rd Floors.</p>
+      <p>We understand that everyone is different, and we have done, and will continue to do, what we can to provide an inclusive and accessible environment for all. If you have questions, please get in touch.</p>
+    </div>
+  </li>
+</ul>
 
 [travel-info]: #travelinfo

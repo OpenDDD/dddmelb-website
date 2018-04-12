@@ -1,9 +1,0 @@
-{
-  "id": "fc137520-a69a-4378-8c12-6a0af6f64371",
-  "title": "Making cars smarter",
-  "names": [
-    "P. Oborin",
-    "T. Quach"
-  ],
-  "abstract": "Nowadays smart devices are becoming an everyday fact. We have smart phones, smart TVs, smart watches, the list can go on.\r\nWhat if cars could be smarter? What if your car could report a potential issue before it was a problem? Could we make better decisions based on vehicle data?\r\nThere are a number of ways to make a car smarter:\r\n· Phone voice assistants (e.g Siri, Cortana)\r\n· Vehicle OBD2 dongles\r\n· Dashboard proprietary frameworks (linking your phone to your car)\r\n· Build it in! (eg: Tesla)\r\n\r\nWe’ll focus on what we can do with dongles and frameworks to link smart phones and cars. Pros, cons, how to get started, and other considerations (your headunit is not an iPad!)"
-}

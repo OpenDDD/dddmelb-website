@@ -1,7 +1,7 @@
 ---
 title: Vote
 type: sessions
-voting: true
+voting: false
 draft: true
 menu:
   main:
