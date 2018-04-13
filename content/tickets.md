@@ -1,6 +1,7 @@
 ---
 title: Tickets
 type: tickets
+draft: true
 menu:
   main:
     weight: 4

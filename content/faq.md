@@ -10,33 +10,35 @@ Please review the following frequently asked questions...
   <li>
     <a class="toggleAccordion" href="javascript:void(0);">When and where?</a>
     <div class="inner">
-      <p>The event will be held on Sat Aug 12th 2017 at Monash University Caulfield Campus with doors opening at 08:30 and ending 17:00 (ish). After the event is finished there will be an afterparty at Caulfield Glasshouse: Station Street, Caulfield East VIC 3145.</p>
+      <p>The event will be held on {{% eventdate %}} at {{% eventvenue %}} with doors opening at 08:30 and ending 17:00 (ish).</p>
     </div>
   </li>
 
   <li>
     <a class="toggleAccordion" href="javascript:void(0);">How much is the event?</a>
     <div class="inner">
-      <p>$49. DDD Melbourne is a non profit event and any excess will be kept as part of a fund for future events/donated to charity.</p>
+      <p>$79. DDD Melbourne is a non profit event and any excess will be kept as part of a fund for future events/donated to charity.</p>
       </div>
   </li>
 
   <li>
     <a class="toggleAccordion" href="javascript:void(0);">Will refreshments be provided?</a>
     <div class="inner">
-      <p>Yes, delegates will receive lunch and snacks throughout the day. Sadly we are restricted from running a coffee cart by the university but there are many cafes and coffee shops in the local area &amp; on campus.</p>
+      <p>Yes, delegates will receive lunch and snacks throughout the day. Sadly we are restricted from running a coffee cart by the venue but there are many cafes and coffee shops in the local area.</p>
     </div>
   </li>
 
   <li>
     <a class="toggleAccordion" href="javascript:void(0);">Will wireless access be available?</a>
     <div class="inner">
-      <p>Monash Free WiFi is available to the general public on all Australian campuses. This free wifi is not encrypted so please consider the security of your device when connecting.</p>
-      <p>To connect: <br>
-         1. Select 'Monash Free WiFi' on your device<br>
-         2. Launch an internet browser, and <br>
-         3. Click the I accept button.
-      </p>
+      <p>TBC</p>
+    </div>
+  </li>
+
+  <li>
+    <a class="toggleAccordion" href="javascript:void(0);">Will childcare be available?</a>
+    <div class="inner">
+      <p>We are hoping to introduce a childcare facility at this year's conference.</p>
     </div>
   </li>
 
@@ -50,7 +52,7 @@ Please review the following frequently asked questions...
   <li>
     <a class="toggleAccordion" href="javascript:void(0);">Can I cancel/give my ticket to someone else?</a>
     <div class="inner">
-      <p>You are welcome to send someone else in your place. Please do this through the Eventbrite system. For help on how to do this, <a rel="nofollow" href="https://www.eventbrite.com/support/articles/en_US/How_To/how-to-update-your-ticket-registration-information" class="targetBlank">please refer to this article</a>.</p>
+      <p>You are welcome to send someone else in your place. Please do this through <a rel="nofollow" href="https://www.eventbrite.com/support/articles/en_US/How_To/how-to-update-your-ticket-registration-information" class="targetBlank">Eventbrite</a>.</p>
     </div>
   </li>
 
@@ -58,9 +60,9 @@ Please review the following frequently asked questions...
     <a class="toggleAccordion" href="javascript:void(0);">When does registration open?</a>
     <div class="inner">
       <p>Due to the popularity of last years event, we are running 2 separate ticket waves to give everyone an opportunity to obtain a ticket.<br/>
-      Wave 1: Sat 10th June @ 10am AEST<br/>
-      Wave 2: Mon 19th June @ 12pm AEST<br/>
-      The ticket price will stay at $49 for each wave.</p>
+      Wave 1: Mon 07 May @ 10am AEST<br/>
+      Wave 2: Sat 02 June @ 12pm AEST<br/>
+      The ticket price will stay at $79 for each wave.</p>
     </div>
   </li>
 
@@ -74,14 +76,14 @@ Please review the following frequently asked questions...
   <li>
     <a class="toggleAccordion" href="javascript:void(0);">I want to be involved. Can I help?</a>
     <div class="inner">
-      <p>Thanks but we have enough assistance for running the event now. However we would love to have your session submission.</p>
+      <p>We are always looking for volunteers and sometimes looking for organisers! It takes a lot of effort to organise a volunteer-run conference like DDD Melbourne. Shoot us an email at <a href="mailto:dddmelbourne@gmail.com">dddmelbourne@gmail.com</a> and we can work with you to figure out the best way to assist.</p>
     </div>
   </li>
 
   <li>
     <a class="toggleAccordion" href="javascript:void(0);">How can I contact the organizers?</a>
     <div class="inner">
-      <p>We can be contacted via email at: <a href="mailto:dddmelbourne@gmail.com">dddmelbourne@gmail.com</a>.</p>
+      <p>We can be contacted via email at: <a href="mailto:dddmelbourne@gmail.com">dddmelbourne@gmail.com</a> and Twitter at <a href="https://twitter.com/DDDMelb">@DDDMelb</a></p>
     </div>
   </li>
 
@@ -115,7 +117,7 @@ Please review the following frequently asked questions...
         <li><a rel="nofollow" href="http://melbourne.ozalt.net/" class="targetBlank">Alt.net</a></li>
         <li><a rel="nofollow" href="https://www.meetup.com/VIC-NET-Meetup/" class="targetBlank">Vic .NET</a></li>
       </ul>
-      <br />
+      <p>Furthermore, you can see an up to date list of Australian conferences at <a rel="nofollow" href="https://github.com/readify/devevents" class="targetBlank">Readify's DevEvents repository</a>.</p>
     </div>
   </li>
 </ul>
