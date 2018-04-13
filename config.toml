@@ -1,4 +1,4 @@
-baseurl = "https://ddd-staging.firebaseapp.com"
+baseurl = "https://dddmelbourne.com"
 DefaultContentLanguage = "en"
 title = "DDD Melbourne"
 metaDataFormat = "yaml"
@@ -9,6 +9,7 @@ googleAnalytics = "UA-99087610-1"
   favicon = "images/favicon.ico"
   dateFormat = "Mon Jan 2, 2006"
   showDddByNight = true
+  image = "https://www.dddmelbourne.com/images/strip/1-talk.jpg"
 
 [Author]
   name = "DDD Melbourne"
