@@ -7,7 +7,7 @@
   <meta name="apple-mobile-web-app-title" content="DDD Melbourne">
   <meta name="format-detection" content="telephone=no">
 <!-- Site Title, Description, Author, and Favicon -->
-{{- with .Title | default "Home" }}
+{{- with .Title | default "DDD Melbourne" }}
   <title>{{ . }} - {{$.Site.Title}} | {{dateFormat $.Site.Params.dateFormat $.Site.Data.event.date}}</title>
   <meta property="og:title" content="{{ . }}" />
   <meta name="twitter:title" content="{{ . | truncate 70 }}" />

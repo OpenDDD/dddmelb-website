@@ -1,4 +1,4 @@
-baseurl = "https://dddmelbourne.com"
+baseurl = "https://www.dddmelbourne.com"
 DefaultContentLanguage = "en"
 title = "DDD Melbourne"
 metaDataFormat = "yaml"
