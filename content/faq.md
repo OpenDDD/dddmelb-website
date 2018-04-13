@@ -76,7 +76,7 @@ Please review the following frequently asked questions...
   <li>
     <a class="toggleAccordion" href="javascript:void(0);">I want to be involved. Can I help?</a>
     <div class="inner">
-      <p>We are always looking for volunteers and sometimes looking for organisers! It takes a lot of effort to organise a volunteer-run conference like DDD Perth. Shoot us an email at <a href="mailto:dddmelbourne@gmail.com">dddmelbourne@gmail.com</a> and we can work with you to figure out the best way to assist.</p>
+      <p>We are always looking for volunteers and sometimes looking for organisers! It takes a lot of effort to organise a volunteer-run conference like DDD Melbourne. Shoot us an email at <a href="mailto:dddmelbourne@gmail.com">dddmelbourne@gmail.com</a> and we can work with you to figure out the best way to assist.</p>
     </div>
   </li>
 
