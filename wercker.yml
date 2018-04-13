@@ -23,6 +23,7 @@ build:
       code: |
           git config --local user.email "dddmelbourne@gmail.com"
           git config --local user.name "Wercker Deployment"
+          git clean -d -f ""
           git checkout master
           git add -A
           git commit -m "[skip ci] Refreshing site data" || true
