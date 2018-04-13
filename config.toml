@@ -1,4 +1,4 @@
-baseurl = "https://www.dddmelbourne.com"
+baseurl = "https://ddd-staging.firebaseapp.com"
 DefaultContentLanguage = "en"
 title = "DDD Melbourne"
 metaDataFormat = "yaml"
