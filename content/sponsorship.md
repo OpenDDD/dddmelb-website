@@ -40,7 +40,7 @@ If you are interested in sponsoring DDD Melbourne, please email as at [dddmelbou
   </div>
   <div class="col">
     <h2>Coffee</h2>
-    <p>Provide sponsorship of $3,000</p>
+    <p>SOLD</p>
   </div>
   <div class="col">
     <h2>Childcare</h2>
