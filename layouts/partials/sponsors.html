@@ -7,20 +7,20 @@
   {{ if $.Site.Data.sponsors.platinum }}
     <h2>Platinum Partner</h2>
     {{ range $.Site.Data.sponsors.platinum }}
-      <a href="{{.url}}" class="targetBlank"><img src="/images/sponsors/{{.img}}" alt="{{.text}}" /></a>
+      <a href="{{.url}}" class="targetBlank"><img src="/images/logos/{{.img}}" alt="{{.text}}" /></a>
     {{ end }}
   {{ end }}
 
   {{ if $.Site.Data.sponsors.gold }}
     <h2>Gold Sponsors</h2>
     {{ range $.Site.Data.sponsors.gold }}
-      <a href="{{.url}}" class="targetBlank"><img src="/images/sponsors/{{.img}}" alt="{{.text}}" /></a>
+      <a href="{{.url}}" class="targetBlank"><img src="/images/logos/{{.img}}" alt="{{.text}}" /></a>
     {{ end }}
   {{ end }}
   {{ if $.Site.Data.sponsors.silver }}
     <h2>Silver Sponsors</h2>
     {{ range $.Site.Data.sponsors.silver }}
-      <a href="{{.url}}" class="targetBlank"><img src="/images/sponsors/{{.img}}" alt="{{.text}}" /></a>
+      <a href="{{.url}}" class="targetBlank"><img src="/images/logos/{{.img}}" alt="{{.text}}" /></a>
     {{ end }}
   {{ end }}
   {{ if $.Site.Data.sponsors.services }}
@@ -28,7 +28,7 @@
     {{ range $.Site.Data.sponsors.services }}
       <a href="{{.url}}" class="targetBlank">
         <small>{{.service}}</small>
-        <img src="/images/sponsors/{{.img}}" alt="{{.text}}" />
+        <img src="/images/logos/{{.img}}" alt="{{.text}}" />
       </a>
     {{ end }}
   {{ end }}
@@ -36,7 +36,7 @@
   {{ if $.Site.Data.sponsors.community }}
     <h2>Community Partners</h2>
     {{ range $.Site.Data.sponsors.community }}
-      <a href="{{.url}}" class="targetBlank"><img src="/images/sponsors/{{.img}}" alt="{{.text}}" /></a>
+      <a href="{{.url}}" class="targetBlank"><img src="/images/logos/{{.img}}" alt="{{.text}}" /></a>
     {{ end }}
   {{ end }}
   </section>
@@ -45,7 +45,7 @@
 {{ if $.Site.Data.sponsors.standard }}
   <section class="sponsors grey">
     {{ range $.Site.Data.sponsors.standard }}
-      <a href="{{.url}}" class="targetBlank"><img src="/images/sponsors/{{.img}}" alt="{{.text}}" /></a>
+      <a href="{{.url}}" class="targetBlank"><img src="/images/logos/{{.img}}" alt="{{.text}}" /></a>
     {{ end }}
   </section>
 {{ end }}
