@@ -13,7 +13,7 @@ If you are interested in sponsoring DDD Melbourne, please email as at [dddmelbou
 
 <div class="sponsor equal-heights">
   <div class="col">
-    <h2>Platinum</h2>
+    <h2>Platinum Partner</h2>
     <p>Provide sponsorship of $10,000</p>
   </div>
   <div class="col">
