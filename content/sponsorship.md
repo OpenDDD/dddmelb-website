@@ -44,6 +44,6 @@ If you are interested in sponsoring DDD Melbourne, please email as at [dddmelbou
   </div>
   <div class="col">
     <h2>Childcare</h2>
-    <p>Provide sponsorship of $3,000</p>
+    <img src="/images/sold.png" alt="SOLD" />
   </div>
 </div>
