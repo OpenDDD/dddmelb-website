@@ -1,7 +1,7 @@
 ---
 title: Submit a Session
 type: session-submission
-draft: true
+draft: false
 hideOpenVotingForm: false
 menu:
   main:
@@ -11,9 +11,15 @@ We welcome sessions from any tech related topic. Previously we have had a wide r
 
 Before submitting a session please consider the following:
 
+- DDD Melbourne is an inclusive non-profit conference for the software community.
+- We have an enforced code of conduct to ensure a friendly atmosphere.
+- You will likely be speaking to an audience of between 50-150 people.
+- You are welcome to submit a talk with a co-presenter or as a team. 
 - Sessions are not a sales presentation although you are welcome to have a slide or two about yourself and your company
-- You will probably not have internet access
-- We will open voting about a month prior to the event. If your session gets voted in and you agree to present, then this is a serious commitment
+- You will probably have internet access, but you should have a backup plan in case it's unavailable.
+- We will open voting to the event on Wednesday June 20. If your session gets voted in and you agree to present, then this is a serious commitment.
+- Unfortunately, we can't cover flights and accommodation for speakers, but if that's a limitation that stops you from speaking then please reach out to us to discuss.
+- You are welcome to submit more than one presentation, if you have multiple presentations that are voted in then we will either ask you to select one or select the highest voted talk to maximise the number of speaking opportunities we offer.
 - Experienced presenter, Author & MVP Guy Smith Ferrier has some great advice on [how to give a great presentation](http://guysmithferrier.com/Downloads/HowToGiveGreatPresentations.pdf)
 
 **Session submissions can only be submitted through one of the below options**

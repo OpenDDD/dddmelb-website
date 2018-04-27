@@ -48,8 +48,24 @@
                     <input type="text" name="PresenterWebsite" id="PresenterWebsite" />
                   </li>
                   <li class="form-group">
+                    <label for="PresenterWebsite">City/Town (optional)</label>
+                    <input type="text" name="PresenterCity" id="PresenterCity" />
+                  </li>
+                  <li class="form-group">
+                    <label for="PresenterWebsite">Country (optional)</label>
+                    <input type="text" name="PresenterCountry" id="PresenterCountry" />
+                  </li>
+                  <li class="form-group">
                     <label for="RecommendedAudience">Recommended audience (any pre-req knowledge etc?) <span class="required">&#42;</span></label>
                     <input type="text" name="RecommendedAudience" id="RecommendedAudience" data-error="Please provide your recommended audience" required />
+                    <span class="help-block with-errors"></span>
+                  </li>
+                  <li class="form-group">
+                    <label for="RecommendedAudience">I will uphold and exemplify the Code of Conduct <span class="required">&#42;</span></label>
+                    <select name="CodeOfConduct" id="CodeOfConduct" data-error="Please agree to the code of conduct" required >
+                      <option disabled selected value> -- Select an option -- </option>
+                      <option value="Yes">Yes</option>
+                    </select> 
                     <span class="help-block with-errors"></span>
                   </li>
                   <li>
