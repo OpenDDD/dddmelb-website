@@ -20,6 +20,11 @@
                     <span class="help-block with-errors"></span>
                   </li>
                   <li class="form-group">
+                    <label for="RecommendedAudience">Recommended audience (any pre-req knowledge etc?) <span class="required">&#42;</span></label>
+                    <input type="text" name="RecommendedAudience" id="RecommendedAudience" data-error="Please provide your recommended audience" required />
+                    <span class="help-block with-errors"></span>
+                  </li>
+                  <li class="form-group">
                     <label for="PresenterName">Presenter name <span class="required">&#42;</span></label>
                     <input type="text" name="PresenterName" id="PresenterName" data-error="Please provide your presenter name" required />
                     <span class="help-block with-errors"></span>
@@ -48,20 +53,23 @@
                     <input type="text" name="PresenterWebsite" id="PresenterWebsite" />
                   </li>
                   <li class="form-group">
-                    <label for="PresenterWebsite">City/Town (optional)</label>
+                    <label for="PresenterCity">City/Town (optional)</label>
                     <input type="text" name="PresenterCity" id="PresenterCity" />
                   </li>
                   <li class="form-group">
-                    <label for="PresenterWebsite">Country (optional)</label>
+                    <label for="PresenterCountry">Country (optional)</label>
                     <input type="text" name="PresenterCountry" id="PresenterCountry" />
                   </li>
                   <li class="form-group">
-                    <label for="RecommendedAudience">Recommended audience (any pre-req knowledge etc?) <span class="required">&#42;</span></label>
-                    <input type="text" name="RecommendedAudience" id="RecommendedAudience" data-error="Please provide your recommended audience" required />
+                    <label for="TravelAssistance">Do you require Travel Assistance?</label>
+                    <select name="TravelAssistance" id="TravelAssistance">
+                      <option selected value="No">No</option>
+                      <option value="Yes">Yes</option>
+                    </select> 
                     <span class="help-block with-errors"></span>
                   </li>
                   <li class="form-group">
-                    <label for="RecommendedAudience">I will uphold and exemplify the Code of Conduct <span class="required">&#42;</span></label>
+                    <label for="CodeOfConduct">I will uphold and exemplify the Code of Conduct <span class="required">&#42;</span></label>
                     <select name="CodeOfConduct" id="CodeOfConduct" data-error="Please agree to the code of conduct" required >
                       <option disabled selected value> -- Select an option -- </option>
                       <option value="Yes">Yes</option>
