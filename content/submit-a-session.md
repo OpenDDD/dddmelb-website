@@ -25,7 +25,7 @@ Before submitting a session please consider the following:
 **Session submissions can only be submitted through one of the below options**
 
 **1. In-House Panel**  
-You can submit to the in-house Panel [here](https://goo.gl/forms/HN2RR22JkyEsSaCI3) where a number of industry people will carefully select sessions, they will not go through the Open Voting process. 
+You can submit to the in-house Panel [here](https://docs.google.com/forms/d/e/1FAIpQLSdBm23XrjxevetKdGKAXnb2c7Hb9AeC-PMx6AZC8Zs7-UhD2g/viewform?usp=sf_link) where a number of industry people will carefully select sessions, they will not go through the Open Voting process. 
 
 **2. Open Voting**  
 Use the form below to submit your session and it will be posted on this website for voting via ticket holders!
