@@ -9,7 +9,7 @@ menu:
 ---
 We welcome sessions from any tech related topic. Previously we have had a wide range of sessions from Agile to Haskell, JavaScript to AWS, Microservices to UX. If voters or our in-house Panel think your session is relevant or interesting it’s in!
 
-This year will see the option of submitting a session to a private panel for selection. Not everyone wants to be in the spotlight of open submissions, we recognise this and provided an alternate pathway for speaker submissions. 
+This year will see the option of submitting a session to a In-House Panel for selection. Not everyone wants to be in the spotlight of open submissions, we recognise this and provided an alternate pathway for speaker submissions. 
 
 There will also be speaker training and support for all speakers, so first timers, Juniors, and the rest, are all encourage to submit and will have support!
 
