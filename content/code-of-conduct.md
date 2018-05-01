@@ -6,42 +6,59 @@ menu:
     weight: 2
 ---
 
-All attendees, speakers, sponsors and volunteers at our conference are required to agree with the following code of conduct. We are expecting cooperation from all participants to help ensuring a safe environment for everybody.
+DDD Melbourne is dedicated to providing a harassment-free experience for everyone, regardless of gender, gender identity and expression, sexual orientation, disability, physical appearance, body size, race, ethnicity, age or religion.
 
-#### __*Organisers will enforce this code throughout the event.*__
+**We do not tolerate harassment of *any* conference participants in *any* form.** Organisers will adhere to this code throughout all DDD Melbourne interactions at event venues, event-related social activities as well as social media. We expect the same cooperation from all participants to ensure a safe and inclusive environment for everyone.
 
-## Need Help?
-You have our contact details in the emails we've sent.
+Conference participants or anyone interacting with the event violating these rules may be sanctioned or expelled from the conference without a refund at the discretion of the conference organisers.
 
-## The Quick Version
-Our conference is dedicated to providing a harassment-free conference experience for everyone, regardless of gender, gender identity and expression, age, sexual orientation, disability, physical appearance, body size, race, ethnicity, or religion (or lack thereof). We do not tolerate harassment of conference participants in any form. Sexual language and imagery is not appropriate for any conference venue, including talks, workshops, parties, Twitter and other online media. Conference participants violating these rules may be sanctioned or expelled from the conference _without a refund_ at the discretion of the conference organisers.
+## Anti-harassment
+Harassment includes, but is not limited to:
 
-## The Less Quick Version
-Harassment includes offensive verbal comments related to gender, gender identity and expression, age, sexual orientation, disability, physical appearance, body size, race, ethnicity, religion, sexual images in public spaces, deliberate intimidation, stalking, following, harassing photography or recording, sustained disruption of talks or other events, inappropriate physical contact, and unwelcome sexual attention.
+- Verbal or written comments that reinforce social structures of domination related to gender, gender identity and expression, sexual orientation, disability, physical appearance, body size, race, age, religion
+- Sexual language and imagery is not appropriate for any conference venue, including talks.
+- Deliberate intimidation, stalking, or following
+- Harassing photography or recording
+- Sustained disruption of talks or other events
+- Inappropriate physical contact
+- Unwelcome sexual attention
+- Advocating for, or encouraging, any of the above behaviour
 
+## Enforcement
 Participants asked to stop any harassing behavior are expected to comply immediately.
 
-Sponsors are also subject to the anti-harassment policy. In particular, sponsors should not use sexualised images, activities, or other material. Booth staff (including volunteers) should not use sexualised clothing/uniforms/costumes, or otherwise create a sexualised environment.
+**If a participant engages in harassing behaviour, event organisers retain the right to take any actions to keep the event a welcoming environment for all participants.** This includes warning the offender or expulsion from the conference or related events with no refund.
 
-If a participant engages in harassing behavior, the conference organisers may take any action they deem appropriate, including warning the offender or expulsion from the conference with no refund.
+Event organisers may take action to redress anything designed to, or with the clear impact of, disrupting the event or making the environment hostile for any participants.
 
-If you are being harassed, notice that someone else is being harassed, or have any other concerns, please contact a member of conference staff immediately. Conference staff can be identified as they'll be wearing branded t-shirts.
+## Reporting
+If someone makes you or anyone else feel unsafe or unwelcome, please report it as soon as possible. Conference staff can be identified by t-shirts and you can familiarise yourself with our team [here](https://medium.com/ddd-melbourne/the-ddd-melbourne-crew-5f0dd3da09df). 
 
-Conference staff will be happy to help participants contact hotel/venue security or local law enforcement, provide escorts, or otherwise assist those experiencing harassment to feel safe for the duration of the conference. We value your attendance.
+Harassment and other Code of Conduct violations reduce the value of our event for everyone. We want you to be happy at our event. People like you make our event a better place. You can make a report either personally or anonymously.
 
-We expect participants to follow these rules at conference and workshop venues and conference-related social events.
+## Anonymous report
+You can [make an anonymous report here](https://goo.gl/forms/nxlw9ldDfJ06ohok2). We can't follow up an anonymous report with you directly, but we will fully investigate it and take whatever action is necessary to prevent a recurrence.
 
-## Attendance Is At Your Own Risk
-Attendance at DDD Melbourne is at your own risk and by entering DDD Melbourne you agree not to hold DDD Melbourne, it's organiser OzDec Inc, partners, subsidiaries or parent companies liable for any damage or distress incurred at an OzDev Inc event.
+## Personal report
+You can make a personal report by:
+- Contacting a staff member, identified by blue t-shirts.
+- Emailing us: dddmelbourne@gmail.com
 
-## Photography & Video
-During DDD Melbourne events any person may be photographed or filmed as part of the occasion, either as an individual or as a member of a group by media personnel authorised by Oz Dev Inc. An individual may also appear in a photograph or video inadvertently, in the background. Permission is incorporated into the entry conditions to the event. You must inform said media personnel if you do not wish to be photographed or filmed.
+When taking a personal report, [our staff](https://medium.com/ddd-melbourne/the-ddd-melbourne-crew-5f0dd3da09df) will ensure you are safe and cannot be overheard. They may involve other event staff to ensure your report is managed properly. Once safe, we'll ask you to tell us about what happened. This can be upsetting, but we'll handle it as respectfully as possible, and you can bring someone to support you. You won't be asked to confront anyone and we won't tell anyone who you are.
 
+Our team will be happy to help you contact hotel/venue security, local law enforcement, local support services, provide escorts, or otherwise assist you to feel safe for the duration of the event. We value your attendance.
+
+## Important contact numbers
+- Police: 226 Flinders Ln, Melbourne VIC 3000 ph: (03) 9637 1100
+- Centre Against Sexual Assault 24 hour line: 1800 806 292
+- Emergency Medical: Royal Melbourne Hospital, 300 Grattan Street
+- Non Emergency: Swanston Street Medical Centre, level 3/255 Bourke St, Melbourne VIC 3000
+
+<p><strong>Attribution</strong></p>
 <small>
   <em>
-    Original source and credit: <a href="http://2012.jsconf.us/#/about">http://2012.jsconf.us/#/about</a> &amp; <a href="http://geekfeminism.wikia.com/wiki/Conference_anti-harassment/Policy">The Ada Initiative</a></br>
-    Please help by translating or improving: <a href="https://github.com/leftlogic/confcodeofconduct.com">http://github.com/leftlogic/confcodeofconduct.com</a></br>
-    This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/3.0/deed.en_US">Creative Commons Attribution 3.0 Unported License</a></br>
-    "Attendance Is At Your Own Risk" and "Photography & Video" sections have been added by us to the original licensed "Conference Code of Conduct".
+  This Code of Conduct was based on [The Geek Feminism wiki](http://geekfeminism.wikia.com/wiki/Conference_anti-harassment/Policy), [JSConf's CoC](http://geekfeminism.wikia.com/wiki/Conference_anti-harassment/Policy) and Conference Code of Conduct.
   </em>
 </small>
+
+Last update: 01 May 2018
