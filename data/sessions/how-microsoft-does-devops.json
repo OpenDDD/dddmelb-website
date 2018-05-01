@@ -1,0 +1,14 @@
+{
+  "id": "ab611921-8c48-4f75-9c8a-e22579c5f1c7",
+  "title": "How Microsoft does DevOps",
+  "names": [
+    "A. Borton"
+  ],
+  "twitters": [
+    "anthonyborton"
+  ],
+  "websites": [
+    "http://www.myalmblog.com"
+  ],
+  "abstract": "This is NOT a session about MS DevOps tools. This is the story of how the VSTS team transformed from shipping an on-premise server product every couple of years, to shipping a cloud service multiple times a day. In the process, almost everything about how this team of 800 people work has changed. We had to figure out how to do agile at scale, how to transform into a microservice cloud architecture, complete restructure of teams and roles, threw out a suite of 10’s of thousands of tests and started over, went from almost 0 telemetry, to 8+TB/day and figuring out to do anything meaningful with all that data. Many mistakes were made along the way, and lessons learned that I’ll be sharing."
+}
