@@ -5,7 +5,7 @@ metaDataFormat = "yaml"
 googleAnalytics = "UA-99087610-1"
 
 [Params]
-  subtitle = "DDD Melbourne is an inclusive non-profit conference for the Melbourne software community. Our goal is to create an approachable event that appeals to the whole community, especially people that don't normally get to attend or speak at conferences."
+  subtitle = "DDD Melbourne is an inclusive non-profit conference for the Melbourne software community. Our goal is to create an approachable event that appeals to the whole community, especially people who usually don’t have the opportunity to attend, or speak at, conferences."
   favicon = "images/favicon.ico"
   dateFormat = "Mon Jan 2, 2006"
   showDddByNight = true
