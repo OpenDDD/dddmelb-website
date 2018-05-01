@@ -17,22 +17,23 @@
       <a href="{{.url}}" class="targetBlank"><img src="/images/logos/{{.img}}" alt="{{.text}}" /></a>
     {{ end }}
   {{ end }}
+  {{ if $.Site.Data.sponsors.services }}
+  <br /><br />
+  {{ range $.Site.Data.sponsors.services }}
+  <div class="services">
+    <a href="{{.url}}" class="targetBlank">
+      <small>{{.service}}</small>
+      <img src="/images/logos/{{.img}}" alt="{{.text}}" />
+    </a>
+  </div>
+  {{ end }}
+  {{ end }}
   {{ if $.Site.Data.sponsors.silver }}
     <h2>Silver Sponsors</h2>
     {{ range $.Site.Data.sponsors.silver }}
       <a href="{{.url}}" class="targetBlank"><img src="/images/logos/{{.img}}" alt="{{.text}}" /></a>
     {{ end }}
   {{ end }}
-  {{ if $.Site.Data.sponsors.services }}
-    <br /><br />
-    {{ range $.Site.Data.sponsors.services }}
-      <a href="{{.url}}" class="targetBlank">
-        <small>{{.service}}</small>
-        <img src="/images/logos/{{.img}}" alt="{{.text}}" />
-      </a>
-    {{ end }}
-  {{ end }}
-
   {{ if $.Site.Data.sponsors.community }}
     <h2>Community Partners</h2>
     {{ range $.Site.Data.sponsors.community }}
