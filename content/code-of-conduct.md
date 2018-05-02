@@ -57,8 +57,8 @@ Our team will be happy to help you contact hotel/venue security, local law enfor
 <p><strong>Attribution</strong></p>
 <small>
   <em>
-  This Code of Conduct was based on [The Geek Feminism wiki](http://geekfeminism.wikia.com/wiki/Conference_anti-harassment/Policy), [JSConf's CoC](http://geekfeminism.wikia.com/wiki/Conference_anti-harassment/Policy) and Conference Code of Conduct.
+  This Code of Conduct was based on [The Geek Feminism wiki](http://geekfeminism.wikia.com/wiki/Conference_anti-harassment/Policy), [JSConf's CoC](https://2018.jsconfau.com/code-of-conduct) and [Conference Code of Conduct](http://confcodeofconduct.com/).
   </em>
 </small>
 
-Last update: 01 May 2018
+Last update: 02 May 2018
