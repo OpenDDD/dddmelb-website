@@ -29,7 +29,7 @@ Application notification: TBC
 ## How can I tell you care about inclusion?
 Our approach to diversity and inclusion is multidimensional, spanning much further than the Opportunity Ticket program.
 
-We provide comprehensive information about our Call for Proposals process and facilitate a bias-aware system (read more here) to select our speakers. We actively reach out to underrepresented individuals encouraging them to partake in our conference. In 2016, we've welcomed an equal amount of women and men on our stage. Additionally, we offer a generous speaker package.
+We provide comprehensive information about our Call for Submissions process. We actively reach out to underrepresented individuals encouraging them to partake in our conference. Not everyone wants to be in the spotlight of open submissions, we recognise this and provided an alternate pathway for speaker submissions through an In-House selection panel.
 
 DDD Melbourne operates under an enforceable Code of Conduct. We treat harassing behavior very seriously and are committed to providing a safe, welcoming experience for everyone. We continuously train ourselves in response mechanisms.
 
