@@ -1,0 +1,21 @@
+{{ define "main" }}
+  <section class="right-sidebar">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 col-sm-7 col-md-7 col-sm-8 left-col">
+          <h1>{{ .Title }}</h1>
+          {{ .Content }}
+        </div>
+        <div class="col-xs-12 col-sm-5 col-md-5 col-lg-4 right-col">
+          <div class="inner">
+            <div class="next-event">
+              <h3><span>Wave 1 Countdown</span></h3>
+              <span id="ticketClock"></span>
+              <a class="btn book" href="https://ti.to/ddd-melbourne/ddd-2018">Buy Tickets Here</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+{{ end }}

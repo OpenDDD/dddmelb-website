@@ -57,6 +57,14 @@
       + '<span><strong>%S</strong> sec%!S </span>'));
     });
 
+    $('#ticketClock').countdown({{dateFormat "2006/01/02 15:04:05" "2018-05-07T12:00:00+10:00"}}, function(event) {
+    var $this = $(this).html(event.strftime(''
+      + '<span><strong>%n</strong> day%!n </span> '
+      + '<span><strong>%H</strong> hour%!H </span> '
+      + '<span><strong>%M</strong> min%!M </span> '
+      + '<span><strong>%S</strong> sec%!S </span>'));
+    });
+
     $('.slick.important-dates-right').slick({
       vertical: true,
       infinite: false,

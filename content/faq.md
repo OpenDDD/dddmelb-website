@@ -31,7 +31,7 @@ Please review the following frequently asked questions...
   <li>
     <a class="toggleAccordion" href="javascript:void(0);">Will wireless access be available?</a>
     <div class="inner">
-      <p>TBC</p>
+      <p>Yes! Wi-Fi is being provided courtesy of our sponsor - <a rel="nofollow" href="http://www.flexrule.com/" class="targetBlank">FlexRule</a>.<br />More information will be provided closer to the event.</p>
     </div>
   </li>
 
@@ -60,8 +60,8 @@ Please review the following frequently asked questions...
     <a class="toggleAccordion" href="javascript:void(0);">When does registration open?</a>
     <div class="inner">
       <p>Due to the popularity of last years event, we are running 2 separate ticket waves to give everyone an opportunity to obtain a ticket.<br/>
-      Wave 1: Mon 07 May @ 10am AEST<br/>
-      Wave 2: Sat 02 June @ 12pm AEST<br/>
+      Wave 1: Mon 07 May @ 12pm AEST<br/>
+      Wave 2: Sat 02 June @ 3pm AEST<br/>
       The ticket price will stay at $79 for each wave.</p>
     </div>
   </li>
