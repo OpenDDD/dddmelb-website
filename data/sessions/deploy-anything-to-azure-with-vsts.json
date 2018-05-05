@@ -1,0 +1,11 @@
+{
+  "id": "565b9618-c1c5-4e84-b068-6ea67c8187af",
+  "title": "Deploy anything to Azure with VSTS",
+  "names": [
+    "D. Brady"
+  ],
+  "twitters": [
+    "damovisa"
+  ],
+  "abstract": "Azure and Visual Studio Team Services are designed for any developer and any platform. This is a new Microsoft, one that embraces developers - not just those writing .NET for Windows. \r\n\r\nIn this session, Damian will show you the products and services that will shape your DevOps process and enable your teams to build amazing applications on Azure, no matter what language or platform you're using."
+}
