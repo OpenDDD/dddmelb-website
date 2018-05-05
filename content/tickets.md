@@ -5,6 +5,7 @@ menu:
   main:
     weight: 4
 ---
+We've made a decision to switch to the [Tito](https://ti.to) event management platform and [Stripe](https://www.stripe.com) for secure payment processing.
 
 <ul class="accordion">
   <li>
