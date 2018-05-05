@@ -1,0 +1,8 @@
+{
+  "id": "47415277-6d02-44ea-ab8b-bb0cda065ace",
+  "title": "Building Your Own Cognitive Service",
+  "names": [
+    "S. Holden"
+  ],
+  "abstract": "Neural networks are so hot right now, and APIs are always cool! Join me on an adventure of discussing, building and deploying a small and simple neural network driven API. This session assumes little to no knowledge, and will attempt to present simplified explanations, alongside code for the more adventurous."
+}

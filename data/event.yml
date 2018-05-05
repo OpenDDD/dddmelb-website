@@ -6,7 +6,7 @@ dates:
   - date: 2018-04-27T12:00:00+10:00
     text: Call for content opens
     type: content
-    done: false
+    done: true
   - date: 2018-05-07T12:00:00+10:00
     text: Ticket Wave 1 opens
     type: tickets
