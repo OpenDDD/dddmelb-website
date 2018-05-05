@@ -29,7 +29,7 @@ menu:
   <li>
     <a class="toggleAccordion" href="javascript:void(0);">Will refreshments be provided?</a>
     <div class="inner">
-      <p>Yes, delegates will receive lunch and snacks throughout the day. Sadly we are restricted from running a coffee cart by the venue but there are many cafes and coffee shops in the local area.</p>
+      <p>Yes, delegates will receive lunch and snacks throughout the day.</p>
     </div>
  </li>
   <li>
