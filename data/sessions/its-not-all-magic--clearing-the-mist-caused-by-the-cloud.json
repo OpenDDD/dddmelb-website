@@ -1,0 +1,14 @@
+{
+  "id": "a14c31c0-f9bd-4e1a-aaad-43d43d33af4c",
+  "title": "It's not all magic - clearing the mist caused by the cloud",
+  "names": [
+    "R. Haddad"
+  ],
+  "twitters": [
+    "raphhaddadaus"
+  ],
+  "websites": [
+    "http://www.raph.ws/"
+  ],
+  "abstract": "Cloud provider marketers like to tell us that the cloud is all magic. That we can provision resources, deploy our application and everything will be up 99.99% of the time. Is this completely true though? Join me as we read between the lines of your cloud terms of service and what you can do to better understand what is needed for highly available, scalable applications."
+}
