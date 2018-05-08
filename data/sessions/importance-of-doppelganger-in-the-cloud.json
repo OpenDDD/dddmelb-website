@@ -1,0 +1,11 @@
+{
+  "id": "7566ec04-8ff4-4371-ac3c-d52500a1b980",
+  "title": "Importance of doppelganger in the cloud",
+  "names": [
+    "M. Zaatar"
+  ],
+  "twitters": [
+    "mzaatar"
+  ],
+  "abstract": "From watching a tv series full of doppelgangers and vampires to learn how to design and implement a geo-replicated Azure cloud infrastructure. \r\n\r\nIn this session, I will go through my experience and lesson learned in one of my last Readify gigs to achieve solution resilience against vendor outages."
+}
