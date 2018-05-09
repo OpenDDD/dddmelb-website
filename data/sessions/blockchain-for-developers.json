@@ -1,0 +1,14 @@
+{
+  "id": "c87dec72-5bdf-4048-b3f3-2094ce2a0053",
+  "title": "Blockchain for Developers",
+  "names": [
+    "M. John Pena"
+  ],
+  "twitters": [
+    "mjtpena"
+  ],
+  "websites": [
+    "http://medium.com/@mjtpena"
+  ],
+  "abstract": "Blockchain has been a big buzz lately not only because of Bitcoin and cryptocurrencies; but also because of the disruption it brought in the ICT (Information & Communications Technology) Industry.\r\n\r\nIn this session, we will explore on what Blockchain is, in the perspective of developers. The audience will learn the fundamentals of Blockchain and how to create a \"Smart Contract\" as a form of programmable logic in the Blockchain network.\r\n\r\nIt will then be followed-up with a demo of a web application communicating with a smart contract in the Blockchain platform. Lastly, we will explore some good use cases of Blockchain in various industries."
+}
