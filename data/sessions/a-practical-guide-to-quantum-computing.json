@@ -1,0 +1,11 @@
+{
+  "id": "47f20933-65a1-48ea-a16d-d19bf71fc560",
+  "title": "A Practical Guide to Quantum Computing",
+  "names": [
+    "R. Finnegan"
+  ],
+  "twitters": [
+    "xtellurian"
+  ],
+  "abstract": "Quantum computing takes a giant leap forward from today’s technology—one that will forever alter our economic, industrial, academic, and societal landscape. This presentation will cover the theoretical basics of quantum computing; the Microsoft Quantum Development Kit and Q# programming language; and some important applications of quantum computing."
+}

@@ -1,0 +1,11 @@
+{
+  "id": "01997cb0-dceb-4704-b1d7-7aa1e97dbce4",
+  "title": "Five reasons to learn functional programming with Elixir",
+  "names": [
+    "E. Robbins"
+  ],
+  "twitters": [
+    "emma_n_robbins"
+  ],
+  "abstract": "Proponents of functional programming sometimes say that it requires you to “forget everything you know”. This can be extremely off-putting. And that is just one of the things that makes learning functional programming daunting. You might think it is too early or too late in your career to try to understand a whole new paradigm. Or that it’s all too much theory, or that lambda calculus is scary.\r\n\r\nI thought all of those things, but then I accidentally started learning Elixir. Elixir is a programming language with friendly syntax and good documentation. It is approachable, scalable, fault-tolerant and functional.\r\n\r\nThis session will cover Elixir’s powerful features, it’s approach to concurrency, and some of the popular open-source libraries that make it great to use. It will also present functional programming as a set of problem solving strategies and discuss why they are worth adding to your toolkit."
+}
