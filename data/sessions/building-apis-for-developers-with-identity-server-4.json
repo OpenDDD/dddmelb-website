@@ -1,0 +1,14 @@
+{
+  "id": "f91211b7-67a7-46ec-b142-58cb32daf2dd",
+  "title": "Building APIs for developers with Identity Server 4",
+  "names": [
+    "B. Cull"
+  ],
+  "twitters": [
+    "benwholikesbeer"
+  ],
+  "websites": [
+    "http://bencull.com"
+  ],
+  "abstract": "You might be thinking \"Duh, all APIs are for developers\", but the reality is when it comes time to expose our API to third party developers, there are a few important security and logistical problems to conquer that you might not think about before hand. In this talk we take a look at the best way to protect your API using Identity Server 4 and walk through all the configuration you'll need to get third party devs up and running in no time.\r\n\r\nSpecifically we'll cover:\r\n- API first development and designing your API with third party developers in mind\r\n- Setting up Identity Server 4 with a basic real-world configuration\r\n- Protecting our API using JWTs and Bearer Authentication\r\n- Controlling access to API endpoints based on authentication policies"
+}
