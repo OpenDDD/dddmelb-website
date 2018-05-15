@@ -1,0 +1,11 @@
+{
+  "id": "d5bfc25b-f8c6-4762-8d62-89efe3176456",
+  "title": "Modern Testing for Modern Developers",
+  "names": [
+    "A. Dean"
+  ],
+  "twitters": [
+    "msamandadean"
+  ],
+  "abstract": "Just like development tries to move away from ineffective and inefficient approaches, testing has evolved since the days of heavyweight, formal test cases, and large test teams working in isolation. Testing is no longer the exclusive task of testers, but instead is becoming a whole team responsibility, perhaps with the assistance of a test coach.\r\n\r\nAs such, developers need an understanding of modern test techniques, and how they can use them across the development lifecycle. These include exploratory testing, using customer risks to drive your testing, and what to invest your human test effort on in a world where you automate everything\r\n\r\nAt the end of this talk, audience members will have an understanding of, including applications and benefits of:\r\n* Manual, human testing\r\n* Risk-based testing\r\n* Exploratory testing\r\n* Automated testing\r\n* The benefits of all these, and how these can all be used together in waterfall, agile and DevOps environments"
+}
