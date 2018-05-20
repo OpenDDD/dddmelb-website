@@ -1,0 +1,11 @@
+{
+  "id": "6d165284-fc1a-404a-a4be-31a00bf8b702",
+  "title": "How to waste your optimisation efforts",
+  "names": [
+    "A. Ball"
+  ],
+  "twitters": [
+    "antonjb"
+  ],
+  "abstract": "You spent  hours shaking all the trees, shaving 20kb off JS bundles. You ensured gzip is enabled, all code is minified. How would if feel if one image undid all that work, 10x over.\r\n\r\nImages are the real cause for concern when you talk optimisation. I’ll run through choosing the best type of image, ensuring it’s the correct size and  compressed.\r\n\r\nEnhance your optimisation efforts, by including these image techniques."
+}
