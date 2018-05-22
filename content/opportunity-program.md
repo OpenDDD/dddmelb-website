@@ -20,12 +20,13 @@ It’s important to remember that:
 - No technology experience or knowledge is required—we’re here to learn!
 - Yes, you deserve it ✨
 
-How to apply
-All information will be kept confidential except the review committee. You’ll be notified of the result no matter the outcome.
+How to apply  
+All information will be kept confidential except the review committee.  
+You’ll be notified of the result no matter the outcome.
 
 <a href="https://goo.gl/forms/oUIJjsPuyW3RB5QB3" class="btn agenda">Apply Here</a>
 
-Applications close: 18th June
+Applications close: 18th June  
 Application notification: 25th June
 
 ## How can I tell you care about inclusion?
@@ -35,7 +36,7 @@ We provide comprehensive information about our Call for Submissions process. We 
 
 DDD Melbourne operates under an enforceable Code of Conduct. We treat harassing behavior very seriously and are committed to providing a safe, welcoming experience for everyone. We continuously train ourselves in response mechanisms.
 
-Sponsors
+Sponsors  
 The number of passes we’re able to give out relies heavily on the amount of sponsors. If your organization can help or you’re an individual willing to donate [talk](mailto:dddmelbourne@gmail.com) to us to get involved.
 
 We’re grateful for the generous support our sponsors and community for making the Opportunity Program possible.

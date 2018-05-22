@@ -23,7 +23,7 @@ We've made a decision to switch to the [Tito](https://ti.to) event management pl
       <p>In consultation with the community, this year's conference is seeing an increase in ticket pricing, because we want to do more things to make DDD Melbourne amazing.</p>
       <p>It is still exceptional value, and any proceeds will go straight back into the community.</p>
       <p>We’re dedicated to diversity, inclusion and even more so—equal opportunity. We realise that buying a ticket to a conference for many isn’t a trivial expense, but it can be a turning point in someone’s career.</p>
-      <p>That's why we've launched our <a href="./opportunity-program">Opportunity Program</a>. We're committed to bringing in as many individuals who couldn’t attend otherwise as possible.
+      <p>That's why we've launched our <a href="/opportunity-program">Opportunity Program</a>. We're committed to bringing in as many individuals who couldn’t attend otherwise as possible.
       </p>
     </div>
   </li>
