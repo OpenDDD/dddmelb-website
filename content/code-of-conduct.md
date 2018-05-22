@@ -41,8 +41,9 @@ You can [make an anonymous report here](https://goo.gl/forms/nxlw9ldDfJ06ohok2).
 
 ## Personal report
 You can make a personal report by:
+
 - Contacting a staff member, identified by blue t-shirts.
-- Emailing us: dddmelbourne@gmail.com
+- Emailing us: [dddmelbourne@gmail.com](mailto:dddmelbourne@gmail.com)
 
 When taking a personal report, [our staff](https://medium.com/ddd-melbourne/the-ddd-melbourne-crew-5f0dd3da09df) will ensure you are safe and cannot be overheard. They may involve other event staff to ensure your report is managed properly. Once safe, we'll ask you to tell us about what happened. This can be upsetting, but we'll handle it as respectfully as possible, and you can bring someone to support you. You won't be asked to confront anyone and we won't tell anyone who you are.
 
@@ -52,7 +53,7 @@ Our team will be happy to help you contact hotel/venue security, local law enfor
 - Police: 226 Flinders Ln, Melbourne VIC 3000 ph: (03) 9637 1100
 - Centre Against Sexual Assault 24 hour line: 1800 806 292
 - Emergency Medical: Royal Melbourne Hospital, 300 Grattan Street
-- Non Emergency: Swanston Street Medical Centre, level 3/255 Bourke St, Melbourne VIC 3000
+- Non Emergency: Swanston Street Medical Centre, Level 3, 255 Bourke St, Melbourne VIC 3000
 
 <p><strong>Attribution</strong></p>
 <small>
