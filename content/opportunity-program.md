@@ -4,7 +4,7 @@ fullWidth: true
 ---
 We’re dedicated to diversity, inclusion and even more so—equal opportunity. We realize that buying a ticket to a conference for many isn’t a trivial expense, but it can be a turning point in someone’s career.
 
-We’re committed to bringing in as many individuals who couldn’t attend otherwise as possible. We want you to feel like you belong and build a lasting, inclusive, safe community. As organizers, we see it as our responsibility to help diversify the face of the Australian tech industry. We strongly encourage members of underrepresented groups to apply.
+We’re committed to bringing in as many individuals who couldn’t attend otherwise as possible. We want you to feel like you belong and build a lasting, inclusive, safe community. As organisers, we see it as our responsibility to help diversify the face of the Australian tech industry. We strongly encourage members of underrepresented groups to apply.
 
 *Please note that the scholarships cover conference registration only, so you will have to arrange travel and accommodation if you live outside of Melbourne, Australia.*
 
@@ -21,8 +21,8 @@ It’s important to remember that:
 - Yes, you deserve it ✨
 
 How to apply  
-All information will be kept confidential except the review committee.  
-You’ll be notified of the result no matter the outcome.
+- All information will be kept confidential except the review committee.  
+- You’ll be notified of the result no matter the outcome.
 
 <a href="https://goo.gl/forms/oUIJjsPuyW3RB5QB3" class="btn agenda">Apply Here</a>
 
@@ -34,7 +34,7 @@ Our approach to diversity and inclusion is multidimensional, spanning much furth
 
 We provide comprehensive information about our Call for Submissions process. We actively reach out to underrepresented individuals encouraging them to partake in our conference. Not everyone wants to be in the spotlight of open submissions, we recognise this and provided an alternate pathway for speaker submissions through an In-House selection panel.
 
-DDD Melbourne operates under an enforceable Code of Conduct. We treat harassing behavior very seriously and are committed to providing a safe, welcoming experience for everyone. We continuously train ourselves in response mechanisms.
+DDD Melbourne operates under an enforceable [Code of Conduct](code-of-conduct). We treat harassing behavior very seriously and are committed to providing a safe, welcoming experience for everyone. We continuously train ourselves in response mechanisms.
 
 Sponsors  
 The number of passes we’re able to give out relies heavily on the amount of sponsors. If your organization can help or you’re an individual willing to donate [talk](mailto:dddmelbourne@gmail.com) to us to get involved.
