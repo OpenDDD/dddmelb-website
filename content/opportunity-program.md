@@ -21,6 +21,7 @@ It’s important to remember that:
 - Yes, you deserve it ✨
 
 How to apply  
+
 - All information will be kept confidential except the review committee.  
 - You’ll be notified of the result no matter the outcome.
 
@@ -34,7 +35,7 @@ Our approach to diversity and inclusion is multidimensional, spanning much furth
 
 We provide comprehensive information about our Call for Submissions process. We actively reach out to underrepresented individuals encouraging them to partake in our conference. Not everyone wants to be in the spotlight of open submissions, we recognise this and provided an alternate pathway for speaker submissions through an In-House selection panel.
 
-DDD Melbourne operates under an enforceable [Code of Conduct](code-of-conduct). We treat harassing behavior very seriously and are committed to providing a safe, welcoming experience for everyone. We continuously train ourselves in response mechanisms.
+DDD Melbourne operates under an enforceable [Code of Conduct](/code-of-conduct). We treat harassing behavior very seriously and are committed to providing a safe, welcoming experience for everyone. We continuously train ourselves in response mechanisms.
 
 Sponsors  
 The number of passes we’re able to give out relies heavily on the amount of sponsors. If your organization can help or you’re an individual willing to donate [talk](mailto:dddmelbourne@gmail.com) to us to get involved.
