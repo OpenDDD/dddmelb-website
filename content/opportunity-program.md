@@ -6,12 +6,12 @@ We’re dedicated to diversity, inclusion and even more so—equal opportunity. 
 
 We’re committed to bringing in as many individuals who couldn’t attend otherwise as possible. We want you to feel like you belong and build a lasting, inclusive, safe community. As organizers, we see it as our responsibility to help diversify the face of the Australian tech industry. We strongly encourage members of underrepresented groups to apply.
 
-_Please note that the scholarships cover conference registration only, so you will have to arrange travel and accommodation if you live outside of Melbourne, Australia._
+*Please note that the scholarships cover conference registration only, so you will have to arrange travel and accommodation if you live outside of Melbourne, Australia.*
 
 ## Eligibility
-Applicants for a free or discounted Opportunity Program ticket have to fulfill at least one of the below requirements:
+Applicants for a free Opportunity Program ticket have to fulfill at least one of the below requirements:
 
-- be a member of an underrepresented group in tech, including, but not limited to women, LGBTQI+, African-American, Indigenous Australians, Latina or Latino, people with disabilities and people facing economic or social hardships 
+- be a member of an underrepresented group in tech, including, but not limited to women, LGBTQI+, African Australian, Indigenous Australian people, people with disabilities, and people facing economic or social hardships
 - be unable to attend without financial assistance.
 
 It’s important to remember that:
@@ -23,8 +23,10 @@ It’s important to remember that:
 How to apply
 All information will be kept confidential except the review committee. You’ll be notified of the result no matter the outcome.
 
-Applications close: TBC
-Application notification: TBC
+<a href="https://goo.gl/forms/oUIJjsPuyW3RB5QB3" class="btn agenda">Apply Here</a>
+
+Applications close: 18th June
+Application notification: 25th June
 
 ## How can I tell you care about inclusion?
 Our approach to diversity and inclusion is multidimensional, spanning much further than the Opportunity Ticket program.
