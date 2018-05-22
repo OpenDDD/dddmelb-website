@@ -1,0 +1,14 @@
+{
+  "id": "bf073f3c-c131-44ac-8b14-09f5b8619cd7",
+  "title": "The beauty of stupid ideas",
+  "names": [
+    "A. Powell"
+  ],
+  "twitters": [
+    "slace"
+  ],
+  "websites": [
+    "http://www.aaron-powell.com"
+  ],
+  "abstract": "We spend all our days striving to write the perfect code, code that is well thought out and will stand the test of time.\r\n\r\nThis is not a talk about that code. This is a talk about all that code you don't write because it's stupid, it doesn't solve a \"real\" problem or doesn't make any sense.\r\n\r\nWe'll explore some of my own stupid ideas, like writing my own number system in .NET or writing an IoC container in JavaScript, what I learnt from these stupid ideas and why exploring stupidity is important."
+}

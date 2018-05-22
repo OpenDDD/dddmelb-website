@@ -1,0 +1,14 @@
+{
+  "id": "c28761b5-cb4c-4abb-9a74-ac8129203e85",
+  "title": "Securing Single Page Applications",
+  "names": [
+    "A. Powell"
+  ],
+  "twitters": [
+    "slace"
+  ],
+  "websites": [
+    "http://www.aaron-powell.com"
+  ],
+  "abstract": "We’ve been spending more and more time developing applications that run in the browser, Single Page Applications, SPA's, and more recently Progressive Web Applications, PWA’s. But with more code running client side what changes do we need to make to how we write applications, test applications and secure applications?\r\n\r\nSo how do we write a secure SPA? What do we do with our security tokens, client-side data, track vulnerabilities in our dependencies or implement trust between the client and server?\r\n\r\nIn this talk, we'll deep dive into some practical solutions on how to create secure modern web applications."
+}
