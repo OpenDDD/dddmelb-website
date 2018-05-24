@@ -1,0 +1,14 @@
+{
+  "id": "4cb6103b-7b43-4ca1-85dc-8527b495ad30",
+  "title": "Introduction to the Voice-centric Future of Interaction",
+  "names": [
+    "B. Pope"
+  ],
+  "twitters": [
+    "popecode"
+  ],
+  "websites": [
+    "http://popecode.me"
+  ],
+  "abstract": "Soon it will be hard to imagine a world without voice first interaction. Whether your on your smart phone, using an Amazon Echo, or Google Home, we are beginning to see voice first devices ubiquitously enter our homes. Voice development is not only a study of language design, but also for many, a feat for accessibility. It encompasses many data science topics such and machine learning and is a step towards achieving artificial complete intelligence. Join Benji as he introduces you to the ecosystem that is Voice, the future of this emerging technology, and shows you how to get started developing your first app. If you're interested in developing on voice applications then this talk is for you."
+}
