@@ -1,0 +1,14 @@
+{
+  "id": "29c586a6-a046-4329-bd03-b6f9c0acb974",
+  "title": "Rust for the Scala/Java/JVM developer...and everyone else!",
+  "names": [
+    "S. Policarpio"
+  ],
+  "twitters": [
+    "nothergeek"
+  ],
+  "websites": [
+    "http://policarp.io"
+  ],
+  "abstract": "For some developers (including myself), much of our work has been within \"safer\" environments, like the Java Virtual Machine (JVM). Environments like these have, with good reason, protected us from things we may have not needed to deal with in a long time—for example, error prone OS-level memory allocation and de-allocation. They have also made it in some respects easier to make our software widely available and executable; in the case of Java, the \"write once, run anywhere\" adage continues to serve its purpose, but probably more conditionally than originally thought. In any case, there continues to be a need and desire to write code for places where the JVM can be restrictive, inefficient, unavailable, or simply inappropriate. Fortunately, there exist alternatives that allow you to write code at a more native level without the need to lose all of the benefits that platforms like the JVM provide. One of those alternatives is Rust.\r\n\r\nIn the last few months, I've been exploring the Rust language as both another \"tool on my belt\" and an alternative for writing software. It is not a new language, but more recently, it has fast become a widely adopted language for a multitude of uses, including those based on the limitations I briefly described above. Quite early on, I learned to appreciate the simplicities of the language. However, more importantly, I initially realised that Rust shared common traits with some of the languages I use daily—mainly Scala and Java. In my opinion, those commonalities make it a desirable stepping stone language for people exploring the need to write software outside the JVM and/or more natively. After giving a brief \"nutshell\" introduction of Rust, the majority of the session will discuss a number of syntactic and functional comparisons that I believe could help determine if Rust is the language you want to learn next."
+}
