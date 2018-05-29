@@ -1,0 +1,11 @@
+{
+  "id": "0b6a898e-0310-4461-9374-448b58675b73",
+  "title": "Containers and Kubernetes: Why, what and how?",
+  "names": [
+    "V. Oberoi"
+  ],
+  "twitters": [
+    "ovishesh"
+  ],
+  "abstract": "Kubernetes is an open-source system for automating deployment, scaling, and management of containerized applications. It is quickly becoming a popular standard for managing and deploying software. In this session, we'll take a lap around Kubernetes to get a simplified view of the core concepts and then work our way through a demo that puts those concepts into practice using Docker containers orchestrated with Kubernetes. We'll also look into what's next and some of the open source projects that help with the maintenance of Kubernetes clusters."
+}

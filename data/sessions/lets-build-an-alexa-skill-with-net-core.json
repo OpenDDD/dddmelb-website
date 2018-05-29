@@ -1,0 +1,11 @@
+{
+  "id": "5b7facc8-f581-432e-a95f-1738f1095fd4",
+  "title": "Lets build an Alexa skill with .Net Core",
+  "names": [
+    "P. Khasnabis"
+  ],
+  "twitters": [
+    "softveda"
+  ],
+  "abstract": "Unless you have been living in a shell you must have heard about voice assisted home devices like Amazon Alexa or Google Home that perform tasks controlled through your voice. These devices are becoming popular than ever and Amazon echo was launched in Australia just a few months back.\r\n\r\nIn this fun talk I will bring a Echo Dot device and you will \r\n* Learn the fundamentals of Alexa to build conversations.\r\n* Build a simple Alexa skill using AWS Lambda and .Net Core."
+}

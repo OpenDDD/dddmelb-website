@@ -1,0 +1,11 @@
+{
+  "id": "477ef693-139e-47ea-bad4-45a75aad1340",
+  "title": "Ingesting, Processing, and Analysing Events in Real-time at Scale",
+  "names": [
+    "V. Oberoi"
+  ],
+  "twitters": [
+    "ovishesh"
+  ],
+  "abstract": "Gone are the days of waiting weeks, days, hours or even minutes to report the insights on your data from systems and, in some cases, devices. Modern data processing techniques like the Lambda Architecture help us design systems to handle millions of events by taking advantage of stream and batch processing techniques. This helps us deliver much more real-time analysis and fault detection, while giving us the ability to implement batch-processing that help us analyse and predict trends based on the data streams. In this session we will dive into an implementation of this architecture and have some fun with a tiny experiment while on stage."
+}
