@@ -1,0 +1,8 @@
+{
+  "id": "8eeedaeb-1de3-4c4e-9699-614cf7312609",
+  "title": "Big data in action : Hadoop made easy in Azure",
+  "names": [
+    "Y. Mohamed"
+  ],
+  "abstract": "Big data is one of those buzzwords that we’ve been subjected to for what seems like years now, but the hype hasn’t faded, in fact it is more relevant now than ever before. HDInsight is Microsoft’s big data offering through a managed service deployment of Hadoop. This makes it easier to query, ingest, and publish data and to create workflows that make sense for your organisation. \r\n\r\nIn this talk we will learn how to use Hadoop on Azure, create clusters, crunch data and consume the results in applications. A real world data set of 160 GB worth of data will be used to demo all major tools in Hadoop ecosystem like Pig, Hive, Storm, HBase & Spark. Lambda architecture will be briefly explained and demoed showing how to handle streaming and batch scenarios. \r\n\r\nThis talk will give you enough knowledge to tackle real world problems and you will have the knowledge of what tool can be used to solve a certain problem plus the experience of using those tools in action."
+}
