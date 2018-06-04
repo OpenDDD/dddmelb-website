@@ -1,0 +1,14 @@
+{
+  "id": "4890431b-a5a7-4500-a4ac-cf8a5f0f0487",
+  "title": "Continuous Delivery for Majestic Monoliths",
+  "names": [
+    "M. Hilton"
+  ],
+  "twitters": [
+    "mjhilton_"
+  ],
+  "websites": [
+    "http://www.mjhilton.net"
+  ],
+  "abstract": "While microservices are all the rage these days, for many organisations the overhead and complexity required to manage and orchestrate a microservices application doesn’t make sense. But just because you’re not “doing microservices” doesn’t mean you can’t go on the journey to Continuous Delivery! \r\n\r\nIn this talk, we’ll discuss a number of techniques you can use to make your monolith more majestic multiple times per day or week, rather than once or twice a year. \r\n\r\nDrawing on real-world examples, we’ll talk about feature-flags, Platform-as-a-Service, and blue-green deployments as stepping stones to deploying frequently and without downtime. The techniques are applicable to all tech-stacks, but the examples will be .NET-focused."
+}

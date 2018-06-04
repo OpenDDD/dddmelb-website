@@ -1,0 +1,14 @@
+{
+  "id": "77f6099a-2e2d-4918-8f52-7d015536595b",
+  "title": "Infrastructure-as-Code on Azure Resource Manager",
+  "names": [
+    "M. Hilton"
+  ],
+  "twitters": [
+    "mjhilton_"
+  ],
+  "websites": [
+    "http://www.mjhilton.net"
+  ],
+  "abstract": "Azure Resource Manager (ARM) provides a powerful set of tools for building Infrastructure as Code solutions - the unsung hero of automation in the PaaS world.\r\n\r\nLike any technology though, once you get past the 101 examples from the documentation, things start to get a little messier than the pretty picture in the brochure. \r\n\r\nIn this session we'll start with the basics, and then move on to a more complex architecture, orchestrating multiple different types of resources to reliably deploy full environments from scratch. We'll talk about some of the ways ARM solutions can get out-of-hand as you build out more complex infrastructures, and approaches you can use to keep things in check and maintainable for the long run.\r\n\r\nYou don't need to have any ARM experience, but it will definitely help as we'll move pretty swiftly through the entry-level bits. Some hands-on experience with Azure or AWS is highly recommended."
+}

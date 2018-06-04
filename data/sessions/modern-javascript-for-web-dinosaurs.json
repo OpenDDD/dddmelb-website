@@ -1,0 +1,11 @@
+{
+  "id": "4787c0dc-5aa1-4e17-b0de-f14294a33fb5",
+  "title": "Modern JavaScript For Web Dinosaurs",
+  "names": [
+    "R. Preece"
+  ],
+  "twitters": [
+    "preecington"
+  ],
+  "abstract": "Back in the day, you'd roll out some jQuery and build websites with the best of them. But nowadays terms like \"Webpack\" and \"React\" and \"Node\" kept cropping up, and the new code you see looks nothing like the JavaScript you thought you knew... Uh oh - you've become a web dinosaur!\r\n\r\nIf you've been out of the game for even a little in frontend development it can be a huge trial to get back in. In this session I'll take you on a trip from basic jQuery all the way up to React and explain how we got from Point A to B. It'll be packed with examples - so not matter what year your JS knowledge is from, you'll walk away feeling less like an extinct dinosaur and more like a state-of-the-art web developer."
+}

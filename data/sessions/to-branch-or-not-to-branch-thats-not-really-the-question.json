@@ -1,0 +1,14 @@
+{
+  "id": "24db184a-dc80-4a03-a355-c777df3d74d2",
+  "title": "To branch or not to branch... That's not really the question",
+  "names": [
+    "M. Hilton"
+  ],
+  "twitters": [
+    "mjhilton_"
+  ],
+  "websites": [
+    "http://www.mjhilton.net"
+  ],
+  "abstract": "How to branch though? That's a good one.\r\n\r\nThis critical aspect of developing software has massive impacts on your ability to have multiple teams working on the different parts of the same project in parallel.\r\n\r\nAs we're shifting from centralised version-control to decentralised, suddenly every developer's machine is a new branch.  Carrying over the same approaches from the centralised world is a pretty good recipe for a lot of pain. It could spell the difference between seeing your shiny new feature deployed and loved by customers, and it dying off in a lonely branch somewhere.\r\n\r\nIn this talk, we'll compare some of the most prolific branching strategies of today - where they're awesome, where they leave a bit to be desired, and where they're evolving to. We'll expect a working knowledge of source control systems and approaches, but you don't need to be a master of `git reflog` to follow along :)"
+}
