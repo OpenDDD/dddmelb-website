@@ -1,0 +1,14 @@
+{
+  "id": "f4f85a80-256b-40c4-bedb-fe9d6e520a02",
+  "title": "Ransomware 0, Admins 1",
+  "names": [
+    "K. Jacobsen"
+  ],
+  "twitters": [
+    "kjacobsen"
+  ],
+  "websites": [
+    "http://poshsecurity.com"
+  ],
+  "abstract": "Ransomware made headlines in 2017, with attacks shutting down the UK's NHS and costing Maersk shipping over $300m in lost revenue. Ransomware is a massive business for cybercriminals, driving the cost of bitcoin from $1200 to over $7000 per coin. We often see ransomware as some unbeatable force, however with some common sense controls and simple tricks, the damage can be reduced or even stopped.  Join Kieran to learn some simple, free steps you can do to stop ransomware in its tracks."
+}
