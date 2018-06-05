@@ -13,7 +13,7 @@ We've made a decision to switch to the [Tito](https://ti.to) event management pl
     <div class="inner">
       <p>Due to the popularity of last years event, we are running 2 separate ticket waves to give everyone an opportunity to obtain a ticket.<br/><br />
       Wave 1: Mon 07 May @ 12pm AEST <strong>(SOLD OUT)</strong><br/>
-      Wave 2: Sat 02 June @ 3pm AEST</p>
+      Wave 2: Sat 02 June @ 3pm AEST <strong>(Join the Waiting List)</strong></p>
     </div>
   </li>
   <li>

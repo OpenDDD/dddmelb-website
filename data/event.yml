@@ -14,7 +14,7 @@ dates:
   - date: 2018-06-02T15:00:00+10:00
     text: Ticket wave 2 opens
     type: tickets
-    done: false
+    done: true
   - date: 2018-06-19T18:00:00+10:00
     text: Call for content closes
     type: content
