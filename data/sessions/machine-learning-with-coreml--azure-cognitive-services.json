@@ -1,0 +1,14 @@
+{
+  "id": "160a72fd-a0f2-4ee6-a0f1-6ef8bbc1e674",
+  "title": "Machine Learning with CoreML & Azure Cognitive Services",
+  "names": [
+    "M. Ridland"
+  ],
+  "twitters": [
+    "rid00z"
+  ],
+  "websites": [
+    "http://www.xam-consulting.com"
+  ],
+  "abstract": "Trying to decide between using a Cloud AI or Local? Now you have the best of both worlds. Custom Vision Service recently introduced classifier export with support for CoreML. You can use the Cloud to build quality classifiers with very small training datasets and export those Models to be run locally on iOS devices. We'll show you how to can easily add real time image classification to your mobile applications."
+}

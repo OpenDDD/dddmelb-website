@@ -1,0 +1,11 @@
+{
+  "id": "11d8d483-dab0-471a-9ec9-0329cec9e760",
+  "title": "Taking the Noise Out of Distributed Systems",
+  "names": [
+    "J. Michielsen"
+  ],
+  "twitters": [
+    "jmickey_"
+  ],
+  "abstract": "We're in the age of distributed systems. Micro-service architectures and cloud computing have changed the way we create and manage our applications. As a result, distributed systems have become a key architectural concern. \r\n\r\nWhile distributed systems give us access to enormous power, this comes at the cost of increased complexity. It can be hard to know where to begin. \r\n\r\nIn this talk I will explore a number of topics including distributed data storage, computation, and messaging, with a focus on foundational concepts and common challenges. Along the way we'll take examples from popular distributed system products."
+}

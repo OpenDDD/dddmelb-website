@@ -1,0 +1,14 @@
+{
+  "id": "31dc18c0-fca3-4bec-b0b9-f97fc1496eaa",
+  "title": "Implementing Augmented Reality (AR) in Apple's ARKit",
+  "names": [
+    "M. Ridland"
+  ],
+  "twitters": [
+    "rid00z"
+  ],
+  "websites": [
+    "http://www.xam-consulting.com"
+  ],
+  "abstract": "In this session you'll learn how to implement Augmented Reality using Apple's ARKit. You'll be introduced to the ARKit framework and learn about harnessing its powerful capabilities for positional tracking and scene understanding. We'll also look into its seamless integration with SceneKit and SpriteKit, and understand how to take direct control over rendering with Metal 2."
+}
