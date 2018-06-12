@@ -1,0 +1,11 @@
+{
+  "id": "768d780a-b8ee-4d58-b175-5802886fbd6b",
+  "title": "Machine Learning with TensorFlow Lite and ML Kit",
+  "names": [
+    "P. Haralabidis"
+  ],
+  "twitters": [
+    "patharalabidis"
+  ],
+  "abstract": "Machine Learning with TensorFlow Lite and ML Kit\r\n\r\nBuilding your own AI models with transfer learning is really hot right now. \r\nJoin me, a fellow beginner in AI/ML, in this session for an introduction to TensorFlow and TensorFlow Lite and get started building your own custom models. \r\n\r\nWe'll start by exploring base models for transfer learning and extend them to meet our app requirements.\r\nWe will deploy our model locally on the device and also host it in the cloud with ML Kit.\r\nIn the end we will have a mobile app that performs real time classification.\r\n\r\nThis session assumes no previous knowledge and will present simplified examples with a small amount of code."
+}

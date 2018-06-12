@@ -1,0 +1,11 @@
+{
+  "id": "49dc7e1d-63e7-498e-944c-dabfd20c7b34",
+  "title": "Deep dive in Helm Charts - the missing parts",
+  "names": [
+    "J. Arteiro"
+  ],
+  "twitters": [
+    "jorgearteiro"
+  ],
+  "abstract": "Helm is more than a package management to Kubernetes, allowing robust deployments with nested charts, testing, dashboard with Monocular/KubeApps, revision management and rollback. Let's dive in real case scenarios, and how we moved from pure Kube yaml files to full CI/CD with Helm and Jenkins. Multiple Helm servers/Tiller on the same cluster? no problem!"
+}

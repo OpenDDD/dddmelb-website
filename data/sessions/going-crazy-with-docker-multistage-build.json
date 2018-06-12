@@ -1,0 +1,11 @@
+{
+  "id": "2a15022c-1569-4c9a-90b5-9ba3d59d6b5e",
+  "title": "Going crazy with Docker multi-stage build",
+  "names": [
+    "J. Arteiro"
+  ],
+  "twitters": [
+    "jorgearteiro"
+  ],
+  "abstract": "Docker multi-stage build gives you a sequential pipeline of container execution with a final docker image generation of your application. Let's go crazy discussing multiple examples how to pre-build/template images for real life scenarios used in CI/CD pipelines, tests, and deployments. Including new Azure Container Registry feature."
+}
