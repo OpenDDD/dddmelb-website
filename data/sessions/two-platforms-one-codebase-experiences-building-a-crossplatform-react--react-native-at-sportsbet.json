@@ -1,0 +1,11 @@
+{
+  "id": "c75c3acb-2d25-4798-a61a-a4b34ed5532b",
+  "title": "Two platforms, one codebase: Experiences building a cross-platform React & React Native at Sportsbet",
+  "names": [
+    "B. Teese"
+  ],
+  "twitters": [
+    "benteese"
+  ],
+  "abstract": "Two years ago I joined a small team on an ambitious project at Sportsbet to re-platform separate web and iOS apps into a single codebase using React and React Native. Furthermore, we had to structure the project so that the team could rapidly grow to 20 developers and beyond. This is the story of why we did it, how we did it, and what we learnt along the way.\r\n\r\nI’ll start with a quick introduction to the app and why it was important to have a unified codebase. I’ll then move onto the different options we investigated for maximising code reuse, and how we settled upon an existing React pattern to give us a simple but highly-scalable solution. I’ll use an example app to demonstrate this pattern in action.\r\n\r\nNext, I’ll move onto how we dealt with the areas where web and native UX naturally diverge, and how we dealt with these differences. I’ll mostly be talking about navigation and routing here, but we’ll also explore animations as well. Again, I’ll aim to demonstrate some of my points with examples.\r\n\r\nFinally, I’ll delve into some of the sociological challenges that came up for us on such an ambitious project. This includes how we convinced Objective-C developers to write JavaScript (!), the places where developers commonly tripped-up when adopting React and React Native for the first time, and how we managed a behemoth cross-platform build, testing and deployment process with a rapidly growing team.\r\n\r\nAttendees will leave this talk with a better understanding of the strengths (and weaknesses) of cross-platform React codebases, how to structure such a codebase to maximise code reuse whilst still having platform-specific escape hatches available, and what you need to do to keep all of your developers productive as the codebase grows."
+}

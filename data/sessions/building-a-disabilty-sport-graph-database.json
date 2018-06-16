@@ -1,0 +1,14 @@
+{
+  "id": "eb73c00d-8185-4155-93b6-8615c4d8be60",
+  "title": "Building a Disabilty Sport Graph Database",
+  "names": [
+    "M. Paraz"
+  ],
+  "twitters": [
+    "mparaz"
+  ],
+  "websites": [
+    "http://mparaz.com"
+  ],
+  "abstract": "I've been helping build a large disability sport database, running on the Wikimedia Foundation's Wikibase and the Blazegraph SPARQL database, hosted on different cloud providers. I'll show how the data can be stored, queried and visualised. I'll show how the system works inside - all the code is open source, both off the shelf and custom-written."
+}
