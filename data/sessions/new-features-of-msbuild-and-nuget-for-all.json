@@ -1,0 +1,14 @@
+{
+  "id": "5ec31307-53f4-4c57-8f4c-8a54cf62b4f4",
+  "title": "New features of MSBuild and NuGet for all",
+  "names": [
+    "D. Gardiner"
+  ],
+  "twitters": [
+    "davidrgardiner"
+  ],
+  "websites": [
+    "http://david.gardiner.net.au"
+  ],
+  "abstract": "Big changes have been happening with MSBuild and NuGet. Things are getting simpler, and it's not all just for .NET Core either! In this talk you'll see how you can update .NET Framework projects to take advantage of the more concise project files, simplify NuGet packages with transient dependencies, and even target multiple framework versions.\r\n\r\nLearn about common pitfalls, tips to diagnose problems and strategies for working with mixed solutions combining the old and new formats."
+}
