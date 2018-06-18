@@ -1,12 +1,13 @@
 ---
 title: Vote
 type: sessions
-voting: false
-draft: true
+voting: true
+draft: false
 menu:
-  main:
+  main-hidden:
     name: Vote
     weight: 2
+    hidden: true
 ---
 In order to make this the best conference we can for ticket holders, we require you to have purchased a ticket to vote. Please enter your order number and the associated ticket email address in the boxes below.
 
