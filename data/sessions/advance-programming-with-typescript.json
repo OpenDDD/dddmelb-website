@@ -1,0 +1,14 @@
+{
+  "id": "dc818ccb-639b-414a-bf6a-d4d3a8ce0f03",
+  "title": "Advance Programming with TypeScript",
+  "names": [
+    "J. Febres"
+  ],
+  "twitters": [
+    "jaimefebres"
+  ],
+  "websites": [
+    "http://blog.fullsnackdev.com"
+  ],
+  "abstract": "Discovering TypeScript for most people is a mind-blowing experience.\r\n\r\nStrong typing, refactor-friendly codebases and a pleasant language that closes the gap between full-featured backend languages and Javascript.\r\n\r\nBut it's that all TypeScript has to offer? Definitely not!!\r\n\r\nTypeScript is much more than that and I will help you discover those extra features are so that you can step-up your TypeScript skills to the next level."
+}
