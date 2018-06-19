@@ -1,11 +1,8 @@
 {
   "id": "b3718ed2-92ea-4104-92c7-03d72f3ac71e",
   "title": "Windows containers and how to modernise your existing .Net applications",
-  "names": [
-    "P. Khasnabis"
-  ],
-  "twitters": [
-    "softveda"
-  ],
+  "names": "",
+  "twitters": "",
+  "websites": "",
   "abstract": "This is continuation on the talk I did in the last DDD by Night. Not every existing .Net application is being rewritten on .Net Core and deployed on Linux containers. We still have many .Net applications build on .Net 4.5, 4.0 and even 3.5.\r\n\r\nThis talk will cover\r\n* Introducing Windows Containers using Docker on Windows.\r\n* Containerising legacy applications and modernise them.\r\n* Running Windows and Linux containers side by side."
 }

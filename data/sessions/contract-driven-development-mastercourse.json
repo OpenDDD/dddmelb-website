@@ -1,11 +1,8 @@
 {
   "id": "7c58421d-b1bb-4a84-be6b-6d37662e94fc",
   "title": "Contract Driven Development Mastercourse",
-  "names": [
-    "M. Boudreau"
-  ],
-  "websites": [
-    "http://codinghitchhiker.com"
-  ],
+  "names": "",
+  "twitters": "",
+  "websites": "",
   "abstract": "If you've ever developed a web application, you've probably had to use several APIs in some kind of way.  As we move towards microservices, some of those interactions are starting to get overly complicated and makes developing them harder.\r\n\r\nThis is where Contract Driven Development can help with testing interactions between parties to make sure none of the \"contracts\" get broken with a simple change or fix.  The aim for this session to go through some of the theory with real world examples then transition into solutions by using an open source library called Pact that helps create these interactions and test them consistently."
 }

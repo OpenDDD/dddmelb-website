@@ -1,14 +1,8 @@
 {
   "id": "70f91ae2-03b1-47c4-94f3-fef86ed782ca",
   "title": "Who's My Favourite K-POP Star? – Azure Cognitive Services",
-  "names": [
-    "J. Yoo"
-  ],
-  "twitters": [
-    "justinchronicle"
-  ],
-  "websites": [
-    "http://devkimchi.com"
-  ],
+  "names": "",
+  "twitters": "",
+  "websites": "",
   "abstract": "Do you know Gangnam Style from Psy? Do you know Fake Love from BTS? How about Red Flavour from Red Velvet? Who don't love K-POP nowadays? However, I know songs but I have no idea who's who.\r\n\r\nAzure Cognitive Services are Microsoft's Azure offering to build an AI powered application with ease, which includes Vision API that performs facial recognition. By uploading a photo, it identifies who is inside the photo.\r\n\r\nAt the end of this session, audiences will learn 1) what Azure Cognitive Service is, 2) how to let the service learn based on hundreds of photos, and 3) how to build a serverless application using Azure Cognitive Service APIs."
 }

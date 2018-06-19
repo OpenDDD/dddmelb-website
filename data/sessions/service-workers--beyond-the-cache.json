@@ -1,14 +1,8 @@
 {
   "id": "ab920c59-ced5-4756-9f1a-26fc7a05a660",
   "title": "Service workers - beyond the cache",
-  "names": [
-    "P. Nash"
-  ],
-  "twitters": [
-    "philnash"
-  ],
-  "websites": [
-    "http://philna.sh"
-  ],
+  "names": "",
+  "twitters": "",
+  "websites": "",
   "abstract": "Service workers are here to stay, they're live in (almost!) all the major browsers and all your favourite frameworks offer them out of the box for caching your application offline. This is a great start for building modern, resilient, progressive web applications. But only using the service worker's cache is like driving a sports car in 3rd gear at the most.\r\n\r\nWe'll dive into push notifications, background sync and other experimental service worker features, showing what they can be used for and how to integrate them in your app. Together we'll see how to make your web apps appier and your users happier."
 }

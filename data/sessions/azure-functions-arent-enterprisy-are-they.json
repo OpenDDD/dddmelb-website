@@ -1,14 +1,8 @@
 {
   "id": "d47b8da9-1c60-46d9-896d-362f42cdaec7",
   "title": "Azure Functions Aren't Enterprisy, Are They?",
-  "names": [
-    "T. Passos"
-  ],
-  "twitters": [
-    "thiagospassos"
-  ],
-  "websites": [
-    "http://passos.com.au"
-  ],
+  "names": "",
+  "twitters": "",
+  "websites": "",
   "abstract": "Most people think Azure Functions are only for a tiny bit of code. They will be surprised! Why not build your whole application following best practices and only expose the endpoints through functions? In this talk, I'll present a new paradigm, a new way of thinking whilst still leveraging your existing knowledge."
 }

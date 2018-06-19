@@ -1,11 +1,8 @@
 {
   "id": "5f27e3df-9dec-4ad5-8d64-1a24b705ca8b",
   "title": "Building your cloud environment with Terraform",
-  "names": [
-    "C. Scott"
-  ],
-  "twitters": [
-    "abstractcode"
-  ],
+  "names": "",
+  "twitters": "",
+  "websites": "",
   "abstract": "Writing code is insufficient to unleash your creation upon an unsuspecting world. You must also provision some form of infrastructure on which to run it. Cloud services make this easy to do manually via their web UIs. However over time this becomes extremely painful to maintain. Humans are not just not good at applying changes to many resources in a consistent, error fashion. As you start to use more cloud services and have multiple environments it becomes certain you will misconfigure something leading to errors, inconsistent behaviour or security concerns.\r\n\r\nThe obvious solution is to automate infrastructure creation. Computers are good at doing repetitive things consistently and (mostly) error free. A number of tools now exist for the creation of infrastructure. I'm partial to Hashicorp's Terraform, an open source infrastructure as code tool. My employer is adopting Terraform to handle deployment and maintenance of infrastructure across multiple AWS accounts and environments.\r\n\r\nThis talk discusses how we use the tool, lessons we've learnt and the structure we've evolved to effectively handle making repeatable changes across out environments. I'll cover such things as how to organise your Terraform projects to allow effective collaboration within and between teams. It will also include demonstrations of building and updating real cloud infrastructure live via conference WiFi."
 }

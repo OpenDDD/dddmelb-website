@@ -1,11 +1,8 @@
 {
   "id": "ca6f4f95-f515-4753-9123-9e65be0457b3",
   "title": "Blazor: Screaming Past \"Hello World\", Straight into the Mundane.",
-  "names": [
-    "B. Richards"
-  ],
-  "twitters": [
-    "brendanssw"
-  ],
+  "names": "",
+  "twitters": "",
+  "websites": "",
   "abstract": "AKA: \"Northwind in Blazor\" \r\nWow, hasn't TypeScript made client-side code so much better recently? I can sit and write code with tooling support, type checking, intellisense - why, it's almost feels like...\r\nAdmit It! What you really want is C# in the browser! And not in some plugin (nice try, Silverlight) I want C# properly in the browser! Well, with Blazor we might get just that!\r\nBut now we need to ask: Is it ready? Can I make #GenericClientApp17# with it? \r\nThis talk will attempt to answer these questions by taking the most boring database imaginable (Northwind) and smashing it into the most exciting web development project in decades (Blazor)."
 }

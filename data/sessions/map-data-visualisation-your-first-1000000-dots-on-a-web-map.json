@@ -1,14 +1,8 @@
 {
   "id": "624dbe16-e07b-4c13-aa99-00981b5d1dfb",
   "title": "Map data visualisation: your first 1,000,000 dots on a web map.",
-  "names": [
-    "S. Bennett"
-  ],
-  "twitters": [
-    "stevage1"
-  ],
-  "websites": [
-    "http://stevebennett.me"
-  ],
+  "names": "",
+  "twitters": "",
+  "websites": "",
   "abstract": "Making web maps doesn't suck any more. If you know Javascript, you can make high performance, highly interactive map-based data visualisations. You'll learn the absolute bare minimum you need to know about spatial data (not much!), how to get your first dots on a map - and then, how to add a million more. We'll even cover how to self-host your entire spatial data infrastructure, using just two commands. Finally we'll show how to turn plain dots into compelling data visualisation with ridiculously snappy user interaction. We'll use Mapbox-GL-JS, a free, open-source library with excellent documentation, and a couple of related tools."
 }

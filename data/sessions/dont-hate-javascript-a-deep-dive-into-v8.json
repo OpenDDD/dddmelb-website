@@ -1,14 +1,8 @@
 {
   "id": "6e8fe029-de1d-47db-a7c4-65cf888bcd49",
   "title": "Don't hate JavaScript, a deep dive into V8",
-  "names": [
-    "Y. Adel Mehraban"
-  ],
-  "twitters": [
-    "yashints"
-  ],
-  "websites": [
-    "http://mehraban.com.au"
-  ],
+  "names": "",
+  "twitters": "",
+  "websites": "",
   "abstract": "You might be a fan of JavaScript, or simply hate it. If later is the case, you're just like me back in the 2000. But JavaScript is changing like any other language in a way that has proved we cannot treat it like before.\r\n\r\nTo spread the love, in this talk I will explain the mechanics of the new JavaScript engine (V8) and go through some jargon like \"event loop\", \"non-blocking\", \"callback\", \"asynchronous\", \"single-threaded\". JS is not scary anymore when you understand how it works.\r\n\r\nI think 2017 was finally the year of \"JavaScript on the DESKTOP\". But DESKTOP it is not what you think, it comes from Developers Enjoy javascript now even though it Sucked compared To Other Programming languages. Nailed the abbreviation, didn't I?"
 }

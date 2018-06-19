@@ -1,14 +1,8 @@
 {
   "id": "7ae413c5-1257-4166-8e6e-38b755cf95bf",
   "title": "Using Serverless (Azure Functions) as a backend for mobile apps",
-  "names": [
-    "D. Wijesiriwardena"
-  ],
-  "twitters": [
-    "dasiths"
-  ],
-  "websites": [
-    "http://dasith.me"
-  ],
+  "names": "",
+  "twitters": "",
+  "websites": "",
   "abstract": "How you can utilize the the serverless offerings from Azure/AWS to build scalable backends for mobile apps. Talking about my experience with building an app using serverless offerings from Azure (Storage & Functions). The pros, cons and what to look out for."
 }

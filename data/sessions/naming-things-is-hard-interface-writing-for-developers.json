@@ -1,14 +1,8 @@
 {
   "id": "fd1ef7e9-fdbb-4a0a-b683-866d72727a04",
   "title": "Naming things is hard: Interface writing for developers",
-  "names": [
-    "R. Mullins"
-  ],
-  "twitters": [
-    "rachaelamullins"
-  ],
-  "websites": [
-    "http://rachaelmullins.com"
-  ],
+  "names": "",
+  "twitters": "",
+  "websites": "",
   "abstract": "We know that naming things is one of the two hard things in computer science (https://martinfowler.com/bliki/TwoHardThings.html), but it’s important to get the words in your interface right. Like good design, well-crafted content can prevent problems before they happen and make a huge difference to the user experience of your product.\r\n\r\nIn an ideal world, we’d all have a UX writer or technical writer in our team to come up with button text, field labels, error messages and other microcopy. But more often than not, developers have to do it themselves. Rachael will share some tips on putting the user first, making every word earn its place and cutting the jargon to help developers create clear, concise and helpful interfaces."
 }

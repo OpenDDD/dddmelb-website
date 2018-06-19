@@ -1,11 +1,8 @@
 {
   "id": "4ac2ad7d-b9e1-4d23-8c9e-e6811558c351",
   "title": "What's new in Visual Studio Team Services",
-  "names": [
-    "D. Brady"
-  ],
-  "twitters": [
-    "damovisa"
-  ],
+  "names": "",
+  "twitters": "",
+  "websites": "",
   "abstract": "Visual Studio Team Services is Microsoft's end-to-end DevOps solution - designed for any developer using any language on any platform.\r\n\r\nWith a 3-week delivery cadence, it's easy to lose track of the new features and capabilities. In this session I'll walk through some of the best new features that you may not know about, and highlight a few tips and tricks for getting the most out of VSTS. I have my favourites parts of the product, but they might not be yours - so make sure you bring your questions!"
 }

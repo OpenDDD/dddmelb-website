@@ -1,14 +1,8 @@
 {
   "id": "37190ddc-e0a3-4ee5-8bc3-b5844a4ae8d8",
   "title": "Lessons Learnt – Infrastructure as Code with ARM Template Best Practices",
-  "names": [
-    "J. Yoo"
-  ],
-  "twitters": [
-    "justinchronicle"
-  ],
-  "websites": [
-    "http://devkimchi.com"
-  ],
+  "names": "",
+  "twitters": "",
+  "websites": "",
   "abstract": "Believe or not, if you use Azure cloud, you have been using ARM templates explicitly or implicitly. What exactly do ARM templates do? How can we use them properly as DevOps engineers? We use ARM templates in many different ways and not all of them are considered as \"Best Practice\".\r\n\r\nARM template is a very convenient tool to manage Azure resources. But at the same time, it is very difficult to manage and time consuming, unless it is efficiently written.\r\n\r\nAt the end of this session, audiences will have ideas of 1) how to manage ARM templates in YAML, 2) what the best practices using ARM templates are, 3) how we test ARM templates before deploying, and 4) how we proactively manage ARM template deployment history."
 }

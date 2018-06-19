@@ -1,14 +1,8 @@
 {
   "id": "c9718bbf-9fdf-46b4-b6e2-8dbba5766654",
   "title": "Real-Time Analytics with Power BI",
-  "names": [
-    "M. Punna"
-  ],
-  "twitters": [
-    "manusqlgeek"
-  ],
-  "websites": [
-    "http://www.manoharpunna.com"
-  ],
+  "names": "",
+  "twitters": "",
+  "websites": "",
   "abstract": "Power BI helps you build appealing visualizations of your data. With ever growing footprint of data it is equally important to get real-time insights into your data. It can be as simple as monitoring a single metric or viewing real-time sales performance across multiple locations. Power BI real-time streaming enables you to stream data and update dashboards in real-time. Any time sensitive data can be a source of streaming data set like IoT sensor devices, social media sources, service usage metrics etc.\r\n\r\nIn this session \r\n1. I will dive deep into real-time analytics with Power BI.\r\n2. How to build streaming tiles in Power BI Dashboards.\r\n3. Demo using Power BI REST APIs.\r\n4. Demo using Azure Event Hub and Azure Stream Analytics."
 }

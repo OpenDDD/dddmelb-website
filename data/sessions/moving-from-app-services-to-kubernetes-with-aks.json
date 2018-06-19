@@ -1,11 +1,8 @@
 {
   "id": "3ab3ea9f-59eb-42af-b253-0c97a17701d9",
   "title": "Moving from App Services to Kubernetes with AKS",
-  "names": [
-    "J. Arteiro"
-  ],
-  "twitters": [
-    "jorgearteiro"
-  ],
+  "names": "",
+  "twitters": "",
+  "websites": "",
   "abstract": "Azure Kubernetes Services is a game changer for Enterprises. I am going to compare App Services with Kubernetes(Containers) to show how AKS is bringing a powerfull alternative to App Services. Including all existing tools available for developers."
 }

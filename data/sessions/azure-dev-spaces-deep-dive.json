@@ -1,11 +1,8 @@
 {
   "id": "621d6c08-bf74-4b77-a010-84654b416104",
   "title": "Azure Dev Spaces deep dive",
-  "names": [
-    "J. Arteiro"
-  ],
-  "twitters": [
-    "jorgearteiro"
-  ],
+  "names": "",
+  "twitters": "",
+  "websites": "",
   "abstract": "Azure Dev Spaces allows developers to collaborate during development using AKS development cluster on Azure and VS Code, Visual Studio or CLI.\r\nLet's see how each developer can have your own developer space, allowing live sharing of spaces during development. No more \"push all your changes to git\" to allow testing of micro services integration, just share your space with other developers!"
 }

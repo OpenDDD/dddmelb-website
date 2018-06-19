@@ -1,14 +1,8 @@
 {
   "id": "b250103d-0f8d-4183-995b-02d26e1192ec",
   "title": "Live Coding: Emulate a 3 year old with an Amazon Echo",
-  "names": [
-    "D. Wengier"
-  ],
-  "twitters": [
-    "davidwengier"
-  ],
-  "websites": [
-    "http://wengier.com"
-  ],
+  "names": "",
+  "twitters": "",
+  "websites": "",
   "abstract": "Have you ever wished you could have a conversation with a 3 year old child, but all you have is an Amazon Echo? Well this is the talk for you!\r\n\r\nStarting from scratch this session will go from File -> New Project to a working simulacra of a small child running in Azure Functions and interacting with Amazon's Alexa service. We'll cover how the Alexa Voice Service works, how to setup and train a natural language model, building the WebAPI endpoint and responding to requests.\r\n\r\nIf you've never played around with the voice technologies then this talk will give you a run through from start to finish of what it takes, and how easy it can be. You'll be able to go back to work and immediately build your own skill, regardless of whether you own an Echo device or not."
 }

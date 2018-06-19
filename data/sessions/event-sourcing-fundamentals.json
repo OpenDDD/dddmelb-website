@@ -1,14 +1,8 @@
 {
   "id": "fcc5c1ab-bdd3-46d8-9959-3fc0bc5840e2",
   "title": "Event Sourcing Fundamentals",
-  "names": [
-    "D. Wijesiriwardena"
-  ],
-  "twitters": [
-    "dasiths"
-  ],
-  "websites": [
-    "http://dasith.me"
-  ],
+  "names": "",
+  "twitters": "",
+  "websites": "",
   "abstract": "What \"Event Sourcing\" is, where it fits in, some pros and cons, pitfalls to lookout for.  Cover the workflow of an event sourced system and look at some code samples. I have 3 blog posts covering the content https://dasith.me/2016/12/02/event-sourcing-examined-part-1-of-3/"
 }

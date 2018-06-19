@@ -1,11 +1,8 @@
 {
   "id": "a70aeeca-ed19-4635-85e7-93527edd825b",
   "title": "Let’s face it, facial recognition is in your face",
-  "names": [
-    "D. McCormick"
-  ],
-  "twitters": [
-    "davemacngu"
-  ],
+  "names": "",
+  "twitters": "",
+  "websites": "",
   "abstract": "Facial recognition technologies are integrated into various products and solutions:\r\n\r\n- Facebook has the ability to automatically identify and tag people in our photos\r\n- Law enforcement and security companies can identify people in surveillance videos (video recordings as well as real-time)\r\n- Apple integrate Face ID into their iPhone X to authenticate a user\r\n\r\nThere are existing facial recognition APIs in the wild (such as Microsoft’s Face API and Amazon’s Rekognition). However, these APIs are a black box, where you pass in some input (e.g. photos), and magically get some output (predicting names of people).\r\n\r\nThis session will present an overview of how facial recognition systems work. Rather than using an existing API, we will instead explore a prototype that implements the core features. This will give us an opportunity to picture the pieces in the facial recognition puzzle, as well as provide some ideas for possibly implementing your own system (or at least understanding how the existing APIs work).\r\n\r\nTopics that will be covered include:\r\n- Basic facial recognition concepts and features\r\n- Explore a live demo of a facial recognition prototype\r\n- Analyse the core prototype pieces of the puzzle\r\n- Technologies used in the prototype\r\n- Identifying possible issues with facial recognition systems that can lead to poor results\r\n- Learning path towards implementing a facial recognition system\r\n- Useful resources, such as recommended courses, useful SDKs and links to source code\r\n\r\nTo give you a taste of what facial recognition is capable of (as well as possible shortcomings), here is a short video of the prototype at work:\r\n\r\nhttps://youtu.be/XXTHB1FZj_U"
 }

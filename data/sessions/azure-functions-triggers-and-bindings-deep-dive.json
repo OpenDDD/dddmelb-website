@@ -1,14 +1,8 @@
 {
   "id": "6ba166c0-5eb0-449c-91ec-1e6f3325459f",
   "title": "Azure Functions, Triggers and Bindings Deep Dive",
-  "names": [
-    "E. Alashi"
-  ],
-  "twitters": [
-    "emadasih"
-  ],
-  "websites": [
-    "http://emadashi.com"
-  ],
+  "names": "",
+  "twitters": "",
+  "websites": "",
   "abstract": "Since its announcement, developers have been using (and loving) Azure Functions. Part of this is due to the Trigger and Bindings concept, which facilitates the integration with additional services and technologies. \r\n\r\nNonetheless, Triggers and Bindings can be confusing, and difficult to troubleshoot, especially if dealt with like a black box. Well, the good news is that Azure Functions is Open Source! Which gives us much better understanding, and ease of troubleshooting. \r\n\r\nIn this session we will have a deep dive into Triggers and Bindings; we will look into the source code, understand how it functions behind the scenes, and demonstrate how we can extend Azure Functions using our own bindings."
 }

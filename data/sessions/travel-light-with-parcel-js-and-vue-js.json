@@ -1,8 +1,8 @@
 {
   "id": "2daf0b51-77bd-44a9-84d3-658a27907114",
   "title": "Travel light with Parcel JS and Vue JS",
-  "names": [
-    "L. Meyer"
-  ],
+  "names": "",
+  "twitters": "",
+  "websites": "",
   "abstract": "What will frontend dev be in 5 years? As Redux creator Dan Abramov says, we can only hope there will be less configuration. Instead of hoping, let's talk about how to get zero configuration today, using Vue JS and the Parcel bundler. Find out why more and more devs choose this stack over Webpack + React JS + Redux."
 }

@@ -1,11 +1,8 @@
 {
   "id": "fa39e75c-3b6d-4b7f-8179-52d096f065e7",
   "title": "CD and Pi and Docker, Oh My!",
-  "names": [
-    "R. Preece"
-  ],
-  "twitters": [
-    "preecington"
-  ],
+  "names": "",
+  "twitters": "",
+  "websites": "",
   "abstract": "Docker is the new hotness - and rightfully so. In this talk I'll show you how to go from a standard Node Raspberry Pi app to a complete continuous delivery pipeline with containers, and we'll talk about why you'd even want to do that in the first place. 100% guaranteed to have DevOps magic."
 }

@@ -1,14 +1,8 @@
 {
   "id": "b2db232d-8832-441e-aa97-e5270c7234ab",
   "title": "Zero Knowledge; Meeting the Growing Demand for Security and Privacy in a National Security World",
-  "names": [
-    "B. Dechrai"
-  ],
-  "twitters": [
-    "bendechrai"
-  ],
-  "websites": [
-    "http://bendechrai.com/"
-  ],
+  "names": "",
+  "twitters": "",
+  "websites": "",
   "abstract": "We've all read the news; we're being surveilled as a massive level. Governments are indiscriminately collecting data, and storing it for years. Even if we trust our governments, this creates a honey-pot of information that criminals would love to get their hands on.\r\n\r\nSSL certificates and encryption are important for data transport, and yet even some of the bigger companies don't get it right. Encryption is hard, and it's not end-user friendly, but the tide is changing.\r\n\r\nWhat if your business needs to work with the data? End-to-end encryption between users isn't an option. How can we increase security and privacy, when we need to see our users' data? The principle of datensparsamkeit, to store only what you absolutely need, is still subject to concern if there's a data breach.\r\n\r\nThis talk discusses and demonstrates the options for end-to-end communications encryption in web applications, so that data can only be decoded by trusted users, and remains unreadable by the web application owner, or anyone who manages to get their hands on the underlying databases."
 }

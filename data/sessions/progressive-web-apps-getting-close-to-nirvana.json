@@ -1,14 +1,8 @@
 {
   "id": "6e810243-1d4b-4b38-a23a-a77ff56c3c66",
   "title": "Progressive Web Apps, getting close to Nirvana",
-  "names": [
-    "Y. Adel Mehraban"
-  ],
-  "twitters": [
-    "yashints"
-  ],
-  "websites": [
-    "http://mehraban.com.au"
-  ],
+  "names": "",
+  "twitters": "",
+  "websites": "",
   "abstract": "Let’s talk about the progress of web apps. No, that’s not an autocorrect mistake from “progressive web apps” — let’s take a look at how the web has progressed from “a large universe of documents” to a universal application platform.\r\n\r\nIn this talk we will have a look at how far we've come in web development and how close we are to be independent of platform specific languages and tools.\r\n\r\nWe will also convert a web application to a PWA and evaluate it's performance along the way. It is going to be fun, so happy voting..."
 }

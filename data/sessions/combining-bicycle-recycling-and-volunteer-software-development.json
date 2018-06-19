@@ -1,11 +1,8 @@
 {
   "id": "54bedbdb-68a8-41e1-8399-164439468fdb",
   "title": "Combining bicycle recycling and volunteer software development",
-  "names": [
-    "M. King & Matt Wiseman"
-  ],
-  "websites": [
-    "http://www.back2bikes.com.au"
-  ],
+  "names": "",
+  "twitters": "",
+  "websites": "",
   "abstract": "Back2bikes has been operating for 5 years, and has now grown to be open 6 days a week, engages 10-15 volunteers per day, and turns out between 5 and 10 restored bikes a week.\r\n\r\nAs it grows, the need for tracking systems becomes important. This talk will explain how we went about building an attendance app, so that volunteer attendance can be recorded in the database.\r\n\r\nWe built the app using the latest development tools, and will show how we have used the best practices and tools to build a world class app (which is also open source)."
 }

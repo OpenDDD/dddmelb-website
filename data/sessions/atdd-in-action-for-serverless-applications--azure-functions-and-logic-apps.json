@@ -1,14 +1,8 @@
 {
   "id": "828d49ca-714d-4828-a6a0-8e328e2968f8",
   "title": "(A)TDD in Action for Serverless Applications – Azure Functions and Logic Apps",
-  "names": [
-    "J. Yoo"
-  ],
-  "twitters": [
-    "justinchronicle"
-  ],
-  "websites": [
-    "http://devkimchi.com"
-  ],
+  "names": "",
+  "twitters": "",
+  "websites": "",
   "abstract": "TDD is cool. TDD in developing an application is cooler. But TDD in developing a serverless application is even cooler. In Azure Functions, it is relatively easy to apply TDD because the application is actually codes. However, in Azure Logic Apps, it is a workflow consisting of bunch of API calls, which we need to consider ATDD instead of TDD because there is no code.\r\n\r\nWhat is ATDD and what are differences between TDD and ATDD? How they are applied to application developments using Azure Functions and Logic Apps?\r\n\r\nAt the end of this session, audiences will learn 1) how to apply dependency injection into Azure Functions code, 2) how to apply TDD to Azure Functions, 3) why we need to consider ATDD for Azure Logic Apps, and 4) how to apply ATDD to Azure Logic Apps."
 }

@@ -1,14 +1,8 @@
 {
   "id": "bd0815c9-a5d3-4e86-a263-b11e7d448460",
   "title": "Blockchain, Cloud and DevOps",
-  "names": [
-    "M. John Pena"
-  ],
-  "twitters": [
-    "mjtpena"
-  ],
-  "websites": [
-    "http://medium.com/@mjtpena"
-  ],
+  "names": "",
+  "twitters": "",
+  "websites": "",
   "abstract": "Blockchain is more than just Bitcoin and cryptocurrencies, it can be used as a consortium platform for your decentralised distributed systems with immutability by default. \r\n\r\nIn this session, the speaker will explain and demo how to set up your private Blockchain network in the cloud using Microsoft Azure. It will then be followed up by setting up the build and release pipeline of your \"Smart Contracts\" in VSTS (Visual Studio Team Services). Lastly, the audience will learn some roadmap strategy on how to deploy the contracts on Main (Public) Networks."
 }

@@ -1,14 +1,8 @@
 {
   "id": "b700dcb2-4e9d-4ab5-9fa3-36a65f135c59",
   "title": "Building Cross-Platform Apps with Platform.Uno",
-  "names": [
-    "N. Randolph"
-  ],
-  "twitters": [
-    "https://twitter.com/thenickrandolph"
-  ],
-  "websites": [
-    "http://nicksnettravels.builttoroam.com/"
-  ],
+  "names": "",
+  "twitters": "",
+  "websites": "",
   "abstract": "So many so called cross platform frameworks leverage the native controls offered by each target platform. Platform.Uno takes a different approach, leveraging the tooling offered by Microsoft to design and build UWP applications to create pixel perfect applications for . In this session you'll learn how to build, test and deploy a UWP application that cross-targets to iOS and Android."
 }

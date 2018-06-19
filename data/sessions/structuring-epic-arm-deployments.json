@@ -1,14 +1,8 @@
 {
   "id": "aec43249-6ad1-4c16-99d2-8f51fb0e3e4c",
   "title": "Structuring epic ARM deployments",
-  "names": [
-    "M. Hilton"
-  ],
-  "twitters": [
-    "mjhilton_"
-  ],
-  "websites": [
-    "http://www.mjhilton.net"
-  ],
+  "names": "",
+  "twitters": "",
+  "websites": "",
   "abstract": "Azure Resource Manager (ARM) - the unsung hero of automation in the PaaS world.\r\n\r\nIn this rapid-fire session, we'll run through some tips and tricks for structuring ARM templates and keeping things maintainable once you get beyond \"Hai Azure, plz create a WebApp kthxbai\". We'll convert those wastelands of undocumented JSON into a sane, sorted deployment system you'd take home to meet your mum.\r\n\r\nExperience deploying infrastructure with ARM templates will definitely help you understand the problems and appreciate the solutions presented."
 }
