@@ -1,0 +1,8 @@
+{
+  "id": "beab03f7-8660-46b0-a080-239836ab07be",
+  "title": "Continuous Compliance with Intelligent Cloud Security",
+  "names": [
+    "R. Hashem"
+  ],
+  "abstract": "Cloud computing environments can be very dynamic, autonomously shifting the scale and composition of infrastructure in response to demand. This dynamism introduces different risks and vulnerability considerations. This session will expose the security challenges with Cloud Computing at scale and discuss innovative and intelligent security detection and remediation technologies. Specifically, this session will: 1) discuss potential cloud security events and their impact, 2) explain how AI/ML and intelligent security controls work in cloud, 3) provide a technical demonstration of intelligent security control in AWS cloud including continuous compliance at scale, 4) offer tips, tricks, and tools you can use for effective and automated cloud security. As a result of attending this session, you will have greater awareness of top security threats in a cloud environment and practical mechanisms to detect, respond, and prevent threats at scale."
+}
