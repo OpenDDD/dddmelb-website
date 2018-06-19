@@ -1,0 +1,11 @@
+{
+  "id": "7d65bb6d-2f8a-429f-9bb8-25f206f716f1",
+  "title": "How one team built their first microservice",
+  "names": [
+    "J. Pelletier"
+  ],
+  "twitters": [
+    "pjimmy"
+  ],
+  "abstract": "Microservices are here. But you're still stuck in a monolith. This is one team's story of how we decided to stop contributing to a shared monolith and start building our own microservices.\r\n\r\nFrom why we chose dotnet core, AWS, Docker, Terraform and Dynamo to the business context that drove and enabled us to build a microservice, I'll talk about our choices and experiences. Most importantly I'll tell you what we would have done differently if we had our time again."
+}
