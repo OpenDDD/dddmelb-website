@@ -73,9 +73,9 @@ var getApprovedSessions = function(callback) {
       var session = {
         id: entry.RowKey._,
         title: entry.SessionTitle != null ? entry.SessionTitle._ : '',
-        names: abbreviatePresenterNames(entry.PresenterName != null ? entry.PresenterName._ : ''),
-        twitters: normaliseTwitterHandles(entry.PresenterTwitterAlias != null ? entry.PresenterTwitterAlias._ : ''),
-        websites: normaliseWebsites(entry.PresenterWebsite != null ? entry.PresenterWebsite._ : ''),
+        names: '', //abbreviatePresenterNames(entry.PresenterName != null ? entry.PresenterName._ : ''),
+        twitters: '', // normaliseTwitterHandles(entry.PresenterTwitterAlias != null ? entry.PresenterTwitterAlias._ : ''),
+        websites: '', // normaliseWebsites(entry.PresenterWebsite != null ? entry.PresenterWebsite._ : ''),
         abstract: entry.SessionAbstract != null ? entry.SessionAbstract._ : ''
       };
       sessions.push(session);

@@ -35,4 +35,3 @@ You can submit to the in-house Panel [here](https://docs.google.com/forms/d/e/1F
 Submit [here](https://goo.gl/forms/Q8HlA1K6MPhlUmHv2) to the dedicated JuniorDev track. Talks on this track will be aimed towards juniors and all levels are welcome to submit. Talks will be selected through a [JuniorDev.io](http://juniordev.io/) led panel.
 
 **3. Open Voting**  
-Use the form below to submit your session and it will be posted on this website for voting via ticket holders!
