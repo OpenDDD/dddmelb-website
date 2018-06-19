@@ -1,0 +1,11 @@
+{
+  "id": "43c6d9b4-8b10-4422-a102-cd5e5bb3a8db",
+  "title": "Coding Cross Platform Augmented Reality",
+  "names": [
+    "G. Stephens"
+  ],
+  "twitters": [
+    "glenntstephens"
+  ],
+  "abstract": "Augmented Reality (AR) is a lot of fun. Most of us have seen the video where the \"Take On Me\" video clip was recreated in AR and like many of us, you may have had an \"Aha moment\" that Augmented reality can create some pretty amazing and unique experiences.\r\n\r\nThis session will show you how you can create engaging Augmented user experiences with C# for iOS, Android and other popular augmented and mixed reality devices using UrhoSharp. \r\n\r\nWe'll touch on the fundamental concepts, how to work with the 3D space, plane detection and show how we can bring a classic retro-style game into Augmented Reality."
+}

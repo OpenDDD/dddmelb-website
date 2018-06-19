@@ -1,0 +1,11 @@
+{
+  "id": "611da509-b7a5-4023-9e0c-90425134f811",
+  "title": "Real-time communication apps and sites with ASP.NET Core SignalR",
+  "names": [
+    "G. Stephens"
+  ],
+  "twitters": [
+    "glenntstephens"
+  ],
+  "abstract": "Have you ever wanted to create a real-time communication application?\r\n\r\nASP.NET Core SignalR allows you to create applications that do just that. It's great for chat apps, collaborative data editing apps like sketching whiteboards or editing the same data record, or apps that need to notify your users of important events quickly.\r\n\r\nIn this session, you'll learn how to create an ASP.NET Core SignalR project. You'll learn about Hubs and optimising your connection with MessagePack. We'll finish with showing you how you can run it from the new Azure SignalR Service. \r\n\r\nNot only will you connect to your service from using ASP.NET Core views using Javascript and Typescript, we'll show how you can support mobile and desktop apps."
+}
