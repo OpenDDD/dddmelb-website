@@ -2,7 +2,7 @@
 title: Submit a Session
 type: session-submission
 draft: false
-hideOpenVotingForm: false
+hideOpenVotingForm: true
 menu:
   main:
     weight: 3

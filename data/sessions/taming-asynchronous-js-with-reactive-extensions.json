@@ -1,0 +1,14 @@
+{
+  "id": "a0edac30-c438-43fe-896f-6ee9d1f786c9",
+  "title": "Taming Asynchronous JS with Reactive Extensions",
+  "names": [
+    "A. Talema"
+  ],
+  "twitters": [
+    "3bdelmawla"
+  ],
+  "websites": [
+    "http://techieabdo.wordpress.com"
+  ],
+  "abstract": "If you’ve ever struggled with managing async code or felt that Promises lacks essentials features like cancellation, better composition or in general are feature-poor, here comes the Saviour — Observables and RxJS."
+}

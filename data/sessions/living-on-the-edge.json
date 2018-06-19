@@ -1,0 +1,14 @@
+{
+  "id": "4a9838d6-c975-4d25-bca7-f6f4aab09108",
+  "title": "Living on the Edge",
+  "names": [
+    "H. AlTaiar"
+  ],
+  "twitters": [
+    "hasaltaiar"
+  ],
+  "websites": [
+    "http://hasaltaiar.com.au"
+  ],
+  "abstract": "Edge computing is the way of distributing computational load in a solution (or a network). Edge and Fog computing are becoming popular and they present enormous opportunities for developers and businesses. Microsoft alone is spending more than $5B on IoT over the next 4 years. By 2020, there will be around 25 billion devices, many of which are capable of performing edge computing. \r\n\r\nThis presents a great opportunity to developers. However, the question that many developers ask is where to start? In this talk, we will look at:\r\n- what is Edge Computing? and where is it needed? \r\n- Edge Computing advantages and disadvantages? \r\n- How can we combine Edge Computing with cloud computing? \r\n- How can we design, build, and deploy Edge Computing modules? \r\n\r\nThis will be a session full of demos so you will learn by watching (or doing). Feel free to bring your computer if you like to follow along."
+}

@@ -1,0 +1,14 @@
+{
+  "id": "d039661c-91c7-4203-b26e-ae91cac848a0",
+  "title": "Let's Build an IoT Solution in 10 min",
+  "names": [
+    "H. AlTaiar"
+  ],
+  "twitters": [
+    "hasaltaiar"
+  ],
+  "websites": [
+    "http://hasaltaiar.com.au"
+  ],
+  "abstract": "The field of IoT is exploding with the number of IoT devices expected to reach 25 Billion by 2020. There are great opportunities for developers to get into the field and experiment with IoT solutions. \r\n\r\nBuilding an IoT solution could be quite challenging because of the massive volume, high throughput, and vulnerable security landscape in IoT environments. In this talk, we will look at: \r\n- What are Microsoft Azure offerings for IoT? \r\n- What are the common hardware components to get you started? \r\n- How can we accelerate building and deploying IoT solutions? \r\n\r\nFinally, we will also demo building an IoT solution using MS Azure IoT Central. This should take less than 10 min. Hopefully you get to learn more by seeing rather than just by hearing, so it sticks :)"
+}

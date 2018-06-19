@@ -1,0 +1,14 @@
+{
+  "id": "8ea6cb75-ba00-4e45-9db2-e1154d2e2f41",
+  "title": "Polling is Evil, Designing Event Based Integration Solutions",
+  "names": [
+    "B. Chesnut"
+  ],
+  "twitters": [
+    "biztalkbill"
+  ],
+  "websites": [
+    "http://www.biztalkbill.com"
+  ],
+  "abstract": "With the recent GA of Azure Event Grid and the announcement CloudEvents, Bill will look at how a typically Integration Solution can take advantage of Events over Polling.  Bill will also demonstrate how to use existing Azure Event and how to create custom events for both Event Grid and CloudEvents."
+}
