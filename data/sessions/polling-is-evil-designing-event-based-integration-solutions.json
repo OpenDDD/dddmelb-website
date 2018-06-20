@@ -4,5 +4,5 @@
   "names": "",
   "twitters": "",
   "websites": "",
-  "abstract": "With the recent GA of Azure Event Grid and the announcement CloudEvents, Bill will look at how a typically Integration Solution can take advantage of Events over Polling.  Bill will also demonstrate how to use existing Azure Event and how to create custom events for both Event Grid and CloudEvents."
+  "abstract": "With the recent GA of Azure Event Grid and the announcement CloudEvents, I will look at how a typically Integration Solution can take advantage of Events over Polling.  I will also demonstrate how to use existing Azure Event and how to create custom events for both Event Grid and CloudEvents."
 }

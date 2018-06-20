@@ -4,5 +4,5 @@
   "names": "",
   "twitters": "",
   "websites": "",
-  "abstract": "You might have been told that APIs are meant to be stateless and finish their job fast. But what if you need to implement long-running or more complex asynchronous workflows on your APIs? Learn from Paco how you can implement serverless and stateful workflows with asynchronous APIs using the brand-new Azure Durable Functions."
+  "abstract": "You might have been told that APIs are meant to be stateless and finish their job fast. But what if you need to implement long-running or more complex asynchronous workflows on your APIs? Learn how you can implement serverless and stateful workflows with asynchronous APIs using the brand-new Azure Durable Functions."
 }
