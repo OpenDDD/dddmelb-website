@@ -1,14 +1,8 @@
 {
   "id": "c912ec86-e450-41cb-80b0-11e1ba1c07d0",
   "title": "CloudEvents – A Common Way of Describing Events by CNCF",
-  "names": [
-    "J. Yoo"
-  ],
-  "twitters": [
-    "justinchronicle"
-  ],
-  "websites": [
-    "http://devkimchi.com"
-  ],
+  "names": "",
+  "twitters": "",
+  "websites": "",
   "abstract": "Events occur everywhere. But event publishers describe those events differently. There has been no way describing events in a common way, which make developers in their hard time to constantly re-learn how to consume events.\r\n\r\nCloudEvents is an open spec for event data driven by CNCF (Cloud Native Computing Foundation) and many industry vendors, including Azure, AWS, CGP, IBM and OpenStack, take part in setting up the spec. Any application implementing and/or consuming webhook can introduce this spec and Azure Event Grid is one of them.\r\n\r\nAt the end of this session, audiences will learn 1) what CloudEvents spec is, 2) how it can be implemented, 3) how Azure Event Grid copes with CloudEvents, and 4) How other popular platforms can redesign their events."
 }

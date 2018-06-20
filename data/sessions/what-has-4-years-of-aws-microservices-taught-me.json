@@ -1,14 +1,8 @@
 {
   "id": "8ef77b38-292b-46ab-ad5c-7a3c07e66146",
   "title": "What has 4 years of AWS Microservices taught me?",
-  "names": [
-    "A. Chauhan"
-  ],
-  "twitters": [
-    "abhayachauhan"
-  ],
-  "websites": [
-    "http://www.abhayachauhan.com"
-  ],
+  "names": "",
+  "twitters": "",
+  "websites": "",
   "abstract": "50+ developers pushing a 20 year old monolith towards a highly distributed system. I want to share what 8 development teams learn on this journey."
 }

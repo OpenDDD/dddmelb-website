@@ -1,14 +1,8 @@
 {
   "id": "2b1959b4-4ea7-43de-b2f9-11fcea41f240",
   "title": "All Hidden Things Distributed",
-  "names": [
-    "M. Paraz"
-  ],
-  "twitters": [
-    "mparaz"
-  ],
-  "websites": [
-    "http://mparaz.com"
-  ],
+  "names": "",
+  "twitters": "",
+  "websites": "",
   "abstract": "Modern software development \"on the cloud\" is done on distributed systems. While most developers don't need to know the details, these abstractions often leak out and surprise us in unexpected ways. I will talk about the fundamental principles of distributed systems that everyone needs to know, with some concrete examples from cloud providers"
 }

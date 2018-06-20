@@ -1,14 +1,8 @@
 {
   "id": "51257776-ba59-4283-baed-569cbade7e1a",
   "title": "When Serverless Meets Containers",
-  "names": [
-    "J. Yoo"
-  ],
-  "twitters": [
-    "justinchronicle"
-  ],
-  "websites": [
-    "http://devkimchi.com"
-  ],
+  "names": "",
+  "twitters": "",
+  "websites": "",
   "abstract": "One of benefits using serverless architecture is \"no need to worry about infrastructure management\". On the other hands, container technology is about \"no need to worry about setting up infrastructure\". They are two different directions of evolving cloud services. Now, they get together and play together. Actually they get along each other quite seamlessly.\r\n\r\nAt the end of this session, audiences will learn 1) why we need containers for serverless applications, 2) how this is possible in Azure Functions, 3) how Azure Functions application can be deployed to AWS, and 4) what other considerations we need to bring in for this combination."
 }

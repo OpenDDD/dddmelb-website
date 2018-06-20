@@ -1,14 +1,8 @@
 {
   "id": "baf24144-51fa-415f-9cc0-0cdac0adf320",
   "title": "Getting started with WinDbg",
-  "names": [
-    "G. Weyer"
-  ],
-  "twitters": [
-    "gabrielweyer"
-  ],
-  "websites": [
-    "http://gabrielweyer.github.io/"
-  ],
+  "names": "",
+  "twitters": "",
+  "websites": "",
   "abstract": "WinDbg is the most powerful debugging tool available on Windows. An austere UI, the lack of accessible documentation and tutorials make it challenging to get started. This session will focus on how you go from writing a memory dump on a production server to analysing this dump on your machine, explaining each step on the way.\r\n\r\nYou'll learn:\r\n\r\n- How to write a memory dump\r\n- The three key steps guaranteeing you'll be able to issue commands\r\n- How to troubleshoot crash, hangs and memory leaks"
 }

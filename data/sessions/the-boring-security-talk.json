@@ -1,14 +1,8 @@
 {
   "id": "77920952-0229-4430-bf7a-aee27323dd3d",
   "title": "The Boring Security Talk",
-  "names": [
-    "K. Jacobsen"
-  ],
-  "twitters": [
-    "kjacobsen"
-  ],
-  "websites": [
-    "http://poshsecurity.com"
-  ],
+  "names": "",
+  "twitters": "",
+  "websites": "",
   "abstract": "Troy Hunt and Scott Helme have spoken about all the exciting security things, so let’s talk about the boring bits! When we think about application and infrastructure security, we often think about the big shiny things and forget the boring bits. In this talk, we’ll look at the security of our package dependencies, CI/CD tools, how we send email and even resolve hostnames. Over the last few months, hackers have managed to inject cryptocurrency miners into all these places. Security incidents in these components might not result in an entry in Have I Been Pwned?, but they'll result in a bad day."
 }

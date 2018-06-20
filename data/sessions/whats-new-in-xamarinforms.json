@@ -1,14 +1,8 @@
 {
   "id": "6d079b1c-62b7-4c5b-bf54-8d83967f9a11",
   "title": "What's New In Xamarin.Forms",
-  "names": [
-    "M. Ridland"
-  ],
-  "twitters": [
-    "rid00z"
-  ],
-  "websites": [
-    "http://www.xam-consulting.com"
-  ],
+  "names": "",
+  "twitters": "",
+  "websites": "",
   "abstract": "Xamarin.Forms has changed rapidly since its release. It is more performant. More robust. Richer in features. Learn about the changes that have been introduced recently and, more importantly, how you can leverage them to build world-class apps."
 }

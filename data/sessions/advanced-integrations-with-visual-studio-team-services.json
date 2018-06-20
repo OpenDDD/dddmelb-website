@@ -1,14 +1,8 @@
 {
   "id": "84cd432b-8b57-463f-90a2-7a74910718c9",
   "title": "Advanced integrations with Visual Studio Team Services",
-  "names": [
-    "D. Gardiner"
-  ],
-  "twitters": [
-    "davidrgardiner"
-  ],
-  "websites": [
-    "http://david.gardiner.net.au"
-  ],
+  "names": "",
+  "twitters": "",
+  "websites": "",
   "abstract": "There's a lot in the box in VSTS, but sometimes it just isn't enough. Find out how you can integrate your existing applications and 3rd party services with VSTS via the VSTS API.\r\n\r\nDon't throw away all that existing infrastructure you've invested time and money in! Learn how to enable scenarios like leveraging your existing on-prem build server together with Git branch policies to ensure only code that successfully builds gets to be merged.\r\n\r\nMake VSTS work for you, so that it can help you to deliver the best quality software possible."
 }

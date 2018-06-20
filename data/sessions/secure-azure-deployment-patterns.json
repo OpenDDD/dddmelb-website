@@ -1,14 +1,8 @@
 {
   "id": "283b1349-c00d-43a5-b608-80946b8dccab",
   "title": "Secure Azure Deployment Patterns",
-  "names": [
-    "K. Jacobsen"
-  ],
-  "twitters": [
-    "kjacobsen"
-  ],
-  "websites": [
-    "http://poshsecurity.com"
-  ],
+  "names": "",
+  "twitters": "",
+  "websites": "",
   "abstract": "Microsoft has provided an almost unlimited number of ways for you to securely deploy Azure resources; but people continue to make simple mistakes. In 2017 many organisations had breaches due to poor cloud deployment practices.\r\n\r\nIn this session, you’ll learn how to use Azure Resource Manager (ARM) templates to deploy resources in a secure manner. This session will look at Azure Storage, App Services, SQL, Virtual Machines and Virtual Networks. I'll discuss the costs, benefits and trade-offs of different design patterns and how you can secure your deployment pipelines."
 }

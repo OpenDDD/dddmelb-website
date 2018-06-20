@@ -1,11 +1,8 @@
 {
   "id": "a1c08893-0444-4a89-90d0-24cef5e20bff",
   "title": "A Practical Introduction to Quantum Computing",
-  "names": [
-    "R. Finnegan"
-  ],
-  "twitters": [
-    "xtellurian"
-  ],
+  "names": "",
+  "twitters": "",
+  "websites": "",
   "abstract": "Quantum computing takes a giant leap forward from today’s technology—one that will forever alter our economic, industrial, academic, and societal landscape. This presentation will cover the theoretical basics of quantum computing; the Microsoft Quantum Development Kit and Q# programing language; and some important applications of quantum computing."
 }

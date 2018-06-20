@@ -1,14 +1,8 @@
 {
   "id": "145dad67-1334-4f75-b216-efa9e8d5211c",
   "title": "Continuous Delivery for Financial Services (and other \"impossible\" places)? Bring it!",
-  "names": [
-    "M. Hilton"
-  ],
-  "twitters": [
-    "mjhilton_"
-  ],
-  "websites": [
-    "http://www.mjhilton.net"
-  ],
+  "names": "",
+  "twitters": "",
+  "websites": "",
   "abstract": "Isn't it great being in 2018 where everything is fully automated, blue-green deployments are the norm, and we press \"release\" then go straight to the pub... Right???\r\n\r\nWhoops... I work at a bank and deploy at 2am on Sunday mornings.\r\n\r\nWhat do you do when all of this cool shiny automation sounds so enticing, but compliance gets in your road? \r\n\r\nIn this talk, we'll walk through the real life story of bringing deployment goodness to a regulated environment, depended on by multiple financial institutions and processing sensitive consumer data. \r\n\r\nIt's might not be deploying every commit straight to prod, but we'll discuss some of the challenges of regulations like PCI compliance, where the limits are, and how you can still bring sanity and smoothness to the deployment pipeline."
 }

@@ -1,11 +1,8 @@
 {
   "id": "247f0452-a9cf-4867-bef3-2112e9931886",
   "title": "Intro to Machine Learning",
-  "names": [
-    "D. Brady"
-  ],
-  "twitters": [
-    "damovisa"
-  ],
+  "names": "",
+  "twitters": "",
+  "websites": "",
   "abstract": "What exactly is machine learning? And more importantly, will I understand the answer without doing a Masters and a PhD? Sure!\r\n\r\nJoin me, a fellow AI/ML-newbie, as I walk through what machine learning is, how it can be applied in your applications, and how you can actually create predictive models without accumulating a massive HELP debt in the process.\r\n\r\nWe'll start at the basics by talking about what machine learning can and can't do, but by the end, we'll have a working example of something actually usable. Chock full of examples and a totally non-scary amount of maths, this is the session for you if you're new to ML."
 }

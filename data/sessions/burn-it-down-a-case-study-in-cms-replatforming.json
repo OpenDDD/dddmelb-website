@@ -1,14 +1,8 @@
 {
   "id": "d757a546-2507-4de9-b384-190f499c573d",
   "title": "Burn it down: A case study in CMS replatforming",
-  "names": [
-    "P. Wilson"
-  ],
-  "twitters": [
-    "pwcc"
-  ],
-  "websites": [
-    "http://peterwilson.cc"
-  ],
+  "names": "",
+  "twitters": "",
+  "websites": "",
   "abstract": "A code heavy case study into the nose-to-tail relaunch of a major media company’s CMS. Through this the audience will get an insight into how building a CMS for enterprise differs from building a CMS for a small-to-medium business.\r\n\r\nBy sharing the practices of high-end WordPress, developers will leave eager to up-skill and continue using best-practices in an enterprise friendly manner. To keep the audience interested, I’ll be sharing code examples showing how WordPress can be used in non-standard ways.\r\n\r\nI’ll return to common themes throughout the presentation to tell a story: covering more than the how, but the why."
 }
