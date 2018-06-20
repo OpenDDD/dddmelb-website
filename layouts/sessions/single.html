@@ -27,15 +27,14 @@
                         <label class="sr-only" for="OrderEmail">Order Email</label>
                         <input type="email" name="OrderEmail" id="OrderEmail" placeholder="Order Email (required)" data-error="Please provide your order email" required />
                       </li>
-                      <li class="submit"><input type="submit" value="Submit" /></li>
+                      <li class="submit" style="float: left"><input type="submit" value="Submit" /></li>
+                      <li class="submit" style="float: right"><input id="toggle-visability" style="align-content: center; border: 1px solid #00a2ff; color: #00a2ff; padding: 8px 20px" type="button" value="Show All" /></lu>                      
                     </ul>
                   </fieldset>
                 </form>
-
               </div>
             </div>
-          {{ end }}
-
+           {{ end }}
           {{ if $.Site.Data.sessions }}
             {{ range $.Site.Data.sessions }}
               <div class="submitted-session content">

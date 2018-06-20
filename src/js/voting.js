@@ -14,6 +14,19 @@ $(document).ready(function() {
     }
   });
 
+  $('#toggle-visability').click(function(e) {
+    var target = $(this);
+    if(target.hasClass('showAll')) {
+      target.removeClass('showAll');
+      target.val('Show All');
+      $('.submitted-session').removeClass('open');
+    } else {
+      target.addClass('showAll');
+      target.val('Hide All');
+      $('.submitted-session').addClass('open');
+    }
+  });
+
   if(submitVotes.length > 0) {
     var submitVotesTopOffset = submitVotes.offset().top;
 
@@ -45,7 +58,7 @@ $(document).ready(function() {
       var orderEmail = submitVotesForm.find('#OrderEmail').val();
 
       if(!orderNumber || !orderEmail) {
-        alert('You must enter an order number and email');
+        alert('You must enter an order reference and email');
         return;
       }
 
