@@ -4,7 +4,7 @@ type: sessions
 voting: true
 draft: false
 menu:
-  main-hidden:
+  main:
     name: Vote
     weight: 2
     hidden: true
