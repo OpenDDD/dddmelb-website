@@ -1,0 +1,8 @@
+{
+  "id": "d6a9e73f-ac71-4223-8502-c9a96e0bb1ff",
+  "title": "Thinkin' about WebAssembly, talkin' about Blazor",
+  "names": "",
+  "twitters": "",
+  "websites": "",
+  "abstract": "WebAssembly (Wasm)  is a binary instruction format designed as a portable target for compilation of high-level languages that can run in the browser. \r\n\r\nBlazor is an experimental web application framework out of Microsoft that provides the means to write a Single Page Application using Razor pages and C# running with Web Assembly.\r\n\r\nIn talk this we will first look at what Wasm is and its potential impact on web development.  Once we have that under our belts we will dive into Blazor and get a feel for the developer experience and how it stacks up against the current crop of web development frameworks/libraries."
+}
