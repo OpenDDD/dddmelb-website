@@ -1,0 +1,8 @@
+{
+  "id": "d9f7ced4-7820-4afd-94cd-8e328a0b5f94",
+  "title": "How to Build a Number Plate Recognition Service using Microsoft's Cognitive Services",
+  "names": "",
+  "twitters": "",
+  "websites": "",
+  "abstract": "Tired of seeing contrived demos of various AI technologies at conferences? In this session we'll take a real world problem of vehicle identification and apply the latest from Microsoft's cognitive services to solve the problem. From toll booths to parking inspectors, the challenge with automated vehicle identification is being able to successfully extract number plates information from an image. In this session you'll learn about Microsoft's custom vision and OCR services and how they can be trained, deployed and combined as a Logic App in order to deliver an Azure Function capable of vehicle identification."
+}
