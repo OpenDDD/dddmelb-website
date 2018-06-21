@@ -4,5 +4,5 @@
   "names": "",
   "twitters": "",
   "websites": "",
-  "abstract": "Docker is the new hotness - and rightfully so. In this talk I'll show you how to go from a standard Node Raspberry Pi app to a complete continuous delivery pipeline with containers, and we'll talk about why you'd even want to do that in the first place. 100% guaranteed to have DevOps magic."
+  "abstract": "Docker is the new hotness - and rightfully so. \n\nIn this talk I'll show you how to go from a standard Node Raspberry Pi app to a complete continuous delivery pipeline with containers, and we'll talk about why you'd even want to do that in the first place. 100% guaranteed to have DevOps magic."
 }

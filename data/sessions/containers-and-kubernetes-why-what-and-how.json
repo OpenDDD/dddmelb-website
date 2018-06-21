@@ -4,5 +4,5 @@
   "names": "",
   "twitters": "",
   "websites": "",
-  "abstract": "Kubernetes is an open-source system for automating deployment, scaling, and management of containerized applications. It is quickly becoming a popular standard for managing and deploying software. In this session, we'll take a lap around Kubernetes to get a simplified view of the core concepts and then work our way through a demo that puts those concepts into practice using Docker containers orchestrated with Kubernetes. We'll also look into what's next and some of the open source projects that help with the maintenance of Kubernetes clusters."
+  "abstract": "Kubernetes is an open-source system for automating deployment, scaling, and management of containerized applications. It is quickly becoming a popular standard for managing and deploying software. \n\nIn this session, we'll take a lap around Kubernetes to get a simplified view of the core concepts and then work our way through a demo that puts those concepts into practice using Docker containers orchestrated with Kubernetes. \n\nWe'll also look into what's next and some of the open source projects that help with the maintenance of Kubernetes clusters."
 }

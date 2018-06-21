@@ -4,5 +4,5 @@
   "names": "",
   "twitters": "",
   "websites": "",
-  "abstract": "How do you create your infrastructure in such a way that they are similar across regions, or accounts?  When it comes to infrastructure at scale, you can either use the AWS CLI and scripts, or you can use this neat little tool called Terraform, which will make sure you can deploy you infrastructure at scale, consistently and easily."
+  "abstract": "How do you create your infrastructure in such a way that they are similar across regions, or accounts?  \n\nWhen it comes to infrastructure at scale, you can either use the AWS CLI and scripts, or you can use this neat little tool called Terraform, which will make sure you can deploy you infrastructure at scale, consistently and easily."
 }

@@ -4,5 +4,5 @@
   "names": "",
   "twitters": "",
   "websites": "",
-  "abstract": "gRPC is already used by multiple container applications to deliver ultra fast communication using HTTP/2 and libraries already available to multiple languages. Let's learn how to apply these concepts to our micro services communications, eliminating overhead, network traffic, and accelerating stream transfers. Still need REST API? no problem, we auto generate that for you."
+  "abstract": "gRPC is already used by multiple container applications to deliver ultra fast communication using HTTP/2 and libraries already available to multiple languages. \n\nLet's learn how to apply these concepts to our micro services communications, eliminating overhead, network traffic, and accelerating stream transfers. Still need REST API? no problem, we auto generate that for you."
 }

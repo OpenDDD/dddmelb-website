@@ -4,5 +4,5 @@
   "names": "",
   "twitters": "",
   "websites": "",
-  "abstract": "In this session you'll learn how to implement Augmented Reality using Apple's ARKit. You'll be introduced to the ARKit framework and learn about harnessing its powerful capabilities for positional tracking and scene understanding. We'll also look into its seamless integration with SceneKit and SpriteKit, and understand how to take direct control over rendering with Metal 2."
+  "abstract": "In this session you'll learn how to implement Augmented Reality using Apple's ARKit. You'll be introduced to the ARKit framework and learn about harnessing its powerful capabilities for positional tracking and scene understanding. \n\nWe'll also look into its seamless integration with SceneKit and SpriteKit, and understand how to take direct control over rendering with Metal 2."
 }

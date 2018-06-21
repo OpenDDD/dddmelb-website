@@ -4,5 +4,5 @@
   "names": "",
   "twitters": "",
   "websites": "",
-  "abstract": "If you haven't heard already  Microsoft Azure Azure Kubernetes Service (#AKS) is now generally available inlcuding in Australia-East region. AKS is a managed Kubernetes service on Azure that simplifies building, deploying and running containerised apps on a Kubernetes  cluster. This talk is aimed at developers who want to taste AKS.\r\n\r\nIn this talk I will \r\n* Briefly describe the architecture of AKS\r\n* Create a Kubernetes cluster on Azure and walk through some of the  features AKS offers.\r\n* Demo showing how easy it is to deploy a ASP.Net core application to AKS from visual studio."
+  "abstract": "If you haven't heard already  Microsoft Azure Azure Kubernetes Service (#AKS) is now generally available inlcuding in Australia-East region. AKS is a managed Kubernetes service on Azure that simplifies building, deploying and running containerised apps on a Kubernetes  cluster. This talk is aimed at developers who want to taste AKS.\n\nIn this talk I will \n\n* Briefly describe the architecture of AKS\n* Create a Kubernetes cluster on Azure and walk through some of the  features AKS offers.\n* Demo showing how easy it is to deploy a ASP.Net core application to AKS from visual studio."
 }

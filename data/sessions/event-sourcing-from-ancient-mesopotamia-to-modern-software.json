@@ -4,5 +4,5 @@
   "names": "",
   "twitters": "",
   "websites": "",
-  "abstract": "Patterns are all around us, and in software, the design patterns we choose can give us the power of the ancient kings and queens. Event Sourcing is based on the idea that storing events as they happen is better than storing the current state. Imagine having the power to rewind and replay events, to debug, to generate reporting, to go back to ancient history...  We’ll get up close and personal with Command Query Responsibility Segregation (CQRS), which gives us the bonus of scalability out of the box, we’ll be designing and architecting applications at scale, just like the grand cities of the past, in no time at all!"
+  "abstract": "Patterns are all around us, and in software, the design patterns we choose can give us the power of the ancient kings and queens. Event Sourcing is based on the idea that storing events as they happen is better than storing the current state. \n\nImagine having the power to rewind and replay events, to debug, to generate reporting, to go back to ancient history...  We’ll get up close and personal with Command Query Responsibility Segregation (CQRS), which gives us the bonus of scalability out of the box, we’ll be designing and architecting applications at scale, just like the grand cities of the past, in no time at all!"
 }

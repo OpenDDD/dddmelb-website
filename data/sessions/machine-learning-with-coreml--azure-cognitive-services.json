@@ -4,5 +4,5 @@
   "names": "",
   "twitters": "",
   "websites": "",
-  "abstract": "Trying to decide between using a Cloud AI or Local? Now you have the best of both worlds. Custom Vision Service recently introduced classifier export with support for CoreML. You can use the Cloud to build quality classifiers with very small training datasets and export those Models to be run locally on iOS devices. We'll show you how to can easily add real time image classification to your mobile applications."
+  "abstract": "Trying to decide between using a Cloud AI or Local? Now you have the best of both worlds. Custom Vision Service recently introduced classifier export with support for CoreML. \n\nYou can use the Cloud to build quality classifiers with very small training datasets and export those Models to be run locally on iOS devices. We'll show you how to can easily add real time image classification to your mobile applications."
 }

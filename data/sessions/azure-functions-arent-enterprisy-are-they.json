@@ -4,5 +4,5 @@
   "names": "",
   "twitters": "",
   "websites": "",
-  "abstract": "Most people think Azure Functions are only for a tiny bit of code. They will be surprised! Why not build your whole application following best practices and only expose the endpoints through functions? In this talk, I'll present a new paradigm, a new way of thinking whilst still leveraging your existing knowledge."
+  "abstract": "Most people think Azure Functions are only for a tiny bit of code. They will be surprised! Why not build your whole application following best practices and only expose the endpoints through functions? \n\nIn this talk, I'll present a new paradigm, a new way of thinking whilst still leveraging your existing knowledge."
 }

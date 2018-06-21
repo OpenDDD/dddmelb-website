@@ -4,5 +4,5 @@
   "names": "",
   "twitters": "",
   "websites": "",
-  "abstract": "So many so called cross platform frameworks leverage the native controls offered by each target platform. Platform.Uno takes a different approach, leveraging the tooling offered by Microsoft to design and build UWP applications to create pixel perfect applications for . In this session you'll learn how to build, test and deploy a UWP application that cross-targets to iOS and Android."
+  "abstract": "So many so called cross platform frameworks leverage the native controls offered by each target platform. Platform.Uno takes a different approach, leveraging the tooling offered by Microsoft to design and build UWP applications to create pixel perfect applications for. \n\nIn this session you'll learn how to build, test and deploy a UWP application that cross-targets to iOS and Android."
 }

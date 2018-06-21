@@ -4,5 +4,5 @@
   "names": "",
   "twitters": "",
   "websites": "",
-  "abstract": "Helm is more than a package management to Kubernetes, allowing robust deployments with nested charts, testing, dashboard with Monocular/KubeApps, revision management and rollback. Let's dive in real case scenarios, and how we moved from pure Kube yaml files to full CI/CD with Helm and Jenkins. Multiple Helm servers/Tiller on the same cluster? no problem!"
+  "abstract": "Helm is more than a package management to Kubernetes, allowing robust deployments with nested charts, testing, dashboard with Monocular/KubeApps, revision management and rollback. \n\nLet's dive in real case scenarios, and how we moved from pure Kube yaml files to full CI/CD with Helm and Jenkins. Multiple Helm servers/Tiller on the same cluster? no problem!"
 }

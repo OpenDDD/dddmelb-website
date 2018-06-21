@@ -4,5 +4,5 @@
   "names": "",
   "twitters": "",
   "websites": "",
-  "abstract": "Modern software development \"on the cloud\" is done on distributed systems. While most developers don't need to know the details, these abstractions often leak out and surprise us in unexpected ways. I will talk about the fundamental principles of distributed systems that everyone needs to know, with some concrete examples from cloud providers"
+  "abstract": "Modern software development \"on the cloud\" is done on distributed systems. While most developers don't need to know the details, these abstractions often leak out and surprise us in unexpected ways. \n\nI will talk about the fundamental principles of distributed systems that everyone needs to know, with some concrete examples from cloud providers"
 }
