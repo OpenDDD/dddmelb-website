@@ -10,7 +10,7 @@ menu:
     hidden: true
 ---
 
-One of the core tenets of DDD Melbourne is that the agenda is democratically selected. Session voting is the main mechanism that we employ to achieve that.
+One of the core tenets of DDD Melbourne is that the agenda is democratically selected and represents diversity of the community. Session voting is the main mechanism that we employ to achieve that.
 
 This means that you (collectively) have the power to decide on the agenda for the day.
 
