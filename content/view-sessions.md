@@ -1,9 +1,9 @@
 ---
 title: Sessions
 type: sessions
-draft: true
+draft: false
 menu:
-  main:
+  main-draft:
     name: Sessions
     weight: 4
 ---
