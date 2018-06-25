@@ -27,8 +27,8 @@ How to apply
 
 <a href="https://goo.gl/forms/oUIJjsPuyW3RB5QB3" class="btn agenda">Apply Here</a>
 
-Applications close: 18th June  
-Application notification: 25th June
+Applications close: 31st August  
+Application notification: 2nd Septmeber
 
 ## How can I tell you care about inclusion?
 Our approach to diversity and inclusion is multidimensional, spanning much further than the Opportunity Ticket program.
