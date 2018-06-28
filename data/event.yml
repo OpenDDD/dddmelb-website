@@ -23,11 +23,11 @@ dates:
     text: Voting opens
     type: voting
     done: true
-  - date: 2018-06-29T18:00:00+10:00
+  - date: 2018-07-07T18:00:00+10:00
     text: Voting closes
     type: voting
     done: false
-  - date: 2018-07-14T12:00:00+10:00
+  - date: 2018-07-28T12:00:00+10:00
     text: Agenda Published
     type: agenda
     done: false
