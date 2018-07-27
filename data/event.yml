@@ -27,7 +27,7 @@ dates:
     text: Voting closes
     type: voting
     done: false
-  - date: 2018-07-28T12:00:00+10:00
+  - date: 2018-08-11T12:00:00+10:00
     text: Agenda Published
     type: agenda
     done: false
