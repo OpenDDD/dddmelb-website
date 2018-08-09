@@ -1,7 +1,7 @@
 ---
 title: Submit a Session
 type: session-submission
-draft: false
+draft: true
 hideOpenVotingForm: true
 menu:
   main:

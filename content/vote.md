@@ -2,7 +2,7 @@
 title: Vote
 type: sessions
 voting: false
-draft: false
+draft: true
 menu:
   main:
     name: Vote

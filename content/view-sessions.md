@@ -3,7 +3,7 @@ title: Sessions
 type: sessions
 draft: false
 menu:
-  main-draft:
+  main:
     name: Sessions
     weight: 4
 ---

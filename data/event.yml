@@ -1,5 +1,5 @@
 name: "DDD Melbourne"
-date: 2018-09-15T09:00:00+10:00
+date: 2018-09-15T08:30:00+10:00
 price: "$79"
 venue: "Melbourne Town Hall"
 dates:
@@ -26,8 +26,12 @@ dates:
   - date: 2018-07-07T18:00:00+10:00
     text: Voting closes
     type: voting
-    done: false
+    done: true
   - date: 2018-08-11T12:00:00+10:00
     text: Agenda Published
     type: agenda
+    done: false
+  - date: 2018-09-15T08:30:00+10:00
+    text: Conference Day
+    type: content
     done: false
