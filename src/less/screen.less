@@ -519,57 +519,56 @@ ul.accordion {
 
 // Agenda
 .agenda-list {
-  overflow: hidden;
-  h3 {clear: both; margin-top: 0; margin-bottom: 5px}
-  .col, a.col {
-    color: @body-color; .transition(.2s); display: block; background: @light-grey; display: block; margin: 0 0 20px 0; padding: 40px 15px; position: relative; border-bottom: 5px solid @primary-color;
-    .info {font-size: 18px; line-height: 1.3}
-    .area {position: absolute; top: 10px; left: 15px; right: 15px;}
-    .speaker {position: absolute; bottom: 10px; left: 15px; right: 15px;}
+  a {
+//    color: @body-color; .transition(.2s); display: block; display: block; padding: 40px 15px; position: relative; border-bottom: 5px solid @primary-color;
+//    .info {font-size: 18px; line-height: 1.3}
+//    .area {position: absolute; top: 10px; left: 15px; right: 15px;}
+//    .speaker {position: absolute; bottom: 10px; left: 15px; right: 15px;}
     .twitter {display: none;}
     .website {display: none;}
     .abstract {display: none;}
     .bio {display: none;}
+    .area {display: none;}
+    color: #333;
   }
-  a.col:hover {
-    color: #fff;
+  a:hover {
     text-decoration: none
   }
-
-  // Border Colours
-  .col.aqua-room {border-color: @aqua-room}
-  a.col.aqua-room:hover {background: @aqua-room}
-
-  .col.blue-room {border-color: @blue-room}
-  a.col.blue-room:hover {background: @blue-room}
-
-  .col.green-room {border-color: @green-room}
-  a.col.green-room:hover {background: @green-room}
-
-  .col.orange-room {border-color: @orange-room}
-  a.col.orange-room:hover {background: @orange-room}
-
-  .col.purple-room {border-color: @purple-room}
-  a.col.purple-room:hover {background: @purple-room}
-
-  .col.red-room {border-color: @red-room}
-  a.col.red-room:hover {background: @red-room}
-
-  .col.foyer-room {border-color: @foyer-room}
-  a.col.foyer-room:hover {background: @foyer-room}
-
-  .col.yellow-room {border-color: @yellow-room}
-  a.col.yellow-room:hover {background: @yellow-room}
-
-  .col.keynote-room {border-color: @keynote-room}
-  a.col.keynote-room:hover {background: @keynote-room}
-
-  .col.locknote-room {border-color: @locknote-room}
-  a.col.locknote-room:hover {background: @locknote-room}
-
-  .col.afterparty-room {border-color: @afterparty-room}
-  a.col.afterparty-room:hover {background: @afterparty-room}
 }
+
+// Border Colours
+.col.aqua-room {border-color: @aqua-room}
+a.col.aqua-room:hover {background: @aqua-room}
+
+.blue-room {background: @blue-room}
+a.blue-room:hover {background: @blue-room}
+
+.green-room {background: @green-room}
+a.col.green-room:hover {background: @green-room}
+
+strong.orange-room {background: @orange-room}
+a.orange-room:hover {color: @orange-room}
+
+.col.purple-room {border-color: @purple-room}
+a.col.purple-room:hover {background: @purple-room}
+
+.red-room {background: @red-room}
+a.red-room:hover {background: @red-room}
+
+.col.foyer-room {border-color: @foyer-room}
+a.col.foyer-room:hover {background: @foyer-room}
+
+.col.yellow-room {border-color: @yellow-room}
+a.col.yellow-room:hover {background: @yellow-room}
+
+.col.keynote-room {border-color: @keynote-room}
+a.col.keynote-room:hover {background: @keynote-room}
+
+.col.locknote-room {border-color: @locknote-room}
+a.col.locknote-room:hover {background: @locknote-room}
+
+.col.afterparty-room {border-color: @afterparty-room}
+a.col.afterparty-room:hover {background: @afterparty-room}
 
 
 // Directions Blocks
@@ -1564,4 +1563,89 @@ ul.accordion {
     }
   }
 
+}
+
+
+.agenda-row {
+  padding: 1em 0 7em 0;
+}
+
+.agenda-row h2 {
+  color: #333;
+  font-family: 'Lato';
+  font-weight: 900;
+  font-size: 1.75em;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 2.5em 0 0.5em 0;
+}
+
+.agenda-row table {
+  width: 100%;
+}
+
+.agenda-row th {
+  background: #333;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 300;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  text-align: center;
+}
+
+.agenda-row th strong {
+  display: block;
+  font-size: 1.25em;
+  font-weight: 800;
+  margin-bottom: 0.3em;
+}
+
+.agenda-row .breadth-row td {
+  background: #f9f9f9;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+.agenda-row .breadth-row td.session {
+  background: #fff;
+}
+
+.agenda-row .breadth,
+.agenda-row .keynote,
+.agenda-row .locknote,
+.agenda-row .lunchnote {
+  text-align: center;
+  font-size: 1.1em;
+  font-weight: 600;
+}
+
+.agenda-row .breadth em,
+.agenda-row .keynote em,
+.agenda-row .locknote em,
+.agenda-row .lunchnote em {
+  font-weight: 400;
+}
+
+.agenda-row td {
+  background: #fff;
+  width: 33%;
+  border: 1px solid #ddd;
+  line-height: 1.5;
+}
+
+.agenda-row td.session-4 {
+  width: 24%;
+}
+
+.agenda-row tbody tr {
+}
+
+.agenda-row .time {
+  color: #888;
+  width: 85px;
+}
+
+sup {
+  top: 0!important;
 }

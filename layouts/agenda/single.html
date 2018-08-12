@@ -6,14 +6,14 @@
           <h1>{{ .Title }}</h1>
           {{ .Content }}
 
-          {{ if $.Site.Data.agenda }}
+          {{ if not $.Site.Data.agenda }}
             {{ range $time, $room := $.Site.Data.agenda }}
               <div class="agenda-list equal-heights">
                 {{ $startTime := substr $time 0 4 }}
                 {{ $endTime := substr $time 5 4 }}
                 <h3>{{(slicestr $startTime 0 2)}}:{{slicestr $startTime 2 4}} - {{if eq $endTime "Late"}}{{$endTime}}{{else}}{{(slicestr $endTime 0 2)}}:{{slicestr $endTime 2 4}}{{end}}</h3>
                 {{ range $roomName, $sessions := $room }}
-                  {{ $roomLength := $sessions | len }}
+                  {{ $sessionsLength := $sessions | len }}
                   {{ range $sessions }}
                     {{ $roomText := (index $.Site.Data.rooms $roomName).text }}
                     {{ if not .abstract }}
@@ -21,7 +21,7 @@
                     {{ else }}
                     <a id="{{.id}}" class="col {{$roomName}}-room" href="#" data-toggle="modal" data-target="#agenda-modal">
                     {{ end }}
-                      <span class="area">{{$roomText}}{{if gt ($roomLength) 1}} - {{.length}}mins{{end}}</span>
+                      <span class="area">{{$roomText}}{{if gt ($sessionsLength) 1}} - {{.length}}mins{{end}}</span>
                       <span class="info">{{.title}}</span>
                       {{ if .names }}
                         <span class="speaker">{{ range $index, $names := .names }}{{if $index}},&nbsp;{{end}}{{.}}{{ end }}</span>
