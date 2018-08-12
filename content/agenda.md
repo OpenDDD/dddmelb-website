@@ -47,8 +47,6 @@ menu:
                   <a href="#" class="orange-room" data-toggle="modal" data-target="#agenda-modal">
                     <strong class="speaker">Valentin Carmignac</strong><br><em class="info">TDD, Coding Dojo and stuff</em>
                     <span class="area">Junior Dev</span>
-                      <span class="twitter">[&lt;a href="https://twitter.com/rhianaheath" class="targetBlank"&gt;@rhianaheath&lt;/a&gt;]</span>
-                      <span class="website">&lt;a href="http://rhiana.heath.cc/" class="targetBlank"&gt;http://rhiana.heath.cc&lt;/a&gt;</span>
                       <span class="abstract"><p>Ever wondered how to get better at coding but didn't know where to start?<br /> Would you rather learn as a group with like-minded developers? <br />
                       During 45 min I'll introduce you to Test Driven Development (TDD) and will talk to you about Coding Dojos, the learn-by-doing practice groups</p></span>
                       <span class="bio"><p><em>Fullstack developer @ Ippon Australia, I Have a strong interest in frontend technologies and coding best practices. Mentor at NodeGirls Melbourne, I run the monthly Coding Dojos</em></p></span>
@@ -157,8 +155,6 @@ menu:
                   <a href="#" class="orange-room" data-toggle="modal" data-target="#agenda-modal">
                     <strong class="speaker">Jennie Rosenbaum</strong><br><em class="info">Mixed Reality and Art</em>
                     <span class="area">Junior Dev</span>
-                      <span class="twitter">[&lt;a href="https://twitter.com/minxdragon" class="targetBlank"&gt;@minxdragon&lt;/a&gt;]</span>
-                      <span class="website">&lt;a href="https://www.jennierosenbaum.com" class="targetBlank"&gt;https://www.jennierosenbaum.com&lt;/a&gt;</span>
                       <span class="abstract"><p>This talk is about mixed reality technologies, Virtual Reality, Augmented Reality and how they can be beneficial to artists and exploring art in depth. I will go behind the code to the amazing things this technology currently does, what it can reveal and how it is currently being used for good and for ill. I will also discuss how easy it is to get off track on your project, as an artist or as a developer and what we need to bear in mind as we navigate the different streams of development and art</p>
                       <p>
                       I am an artist and a developer, and will be pitching this talk for people who are interested in both or who would like a new way to look at existing technologies to see the potential beneath. I speak with the experience of someone who has developed my own Augmented Reality applications and used it to create award winning art.</p>
