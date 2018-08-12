@@ -6,10 +6,11 @@ menu:
   main:
     weight: 3
 ---
-Click on a session to display more detail.
+<div style="display: none">Click on a session to display more detail.</div>
 
 <div class="agenda-list">
     <p style="margin-top: 0px;">Welcoming, keynote and closing are held in the Main Hall.</p>
+    <p>We're still in the process of finalising our agenda for 2018:</p>
     <table class="agenda-row table">
         <thead>
             <tr>
@@ -39,7 +40,7 @@ Click on a session to display more detail.
             </tr>
             <tr>
                 <td class="time">10:30</td>
-                <td class="session session-4"><strong>Mai Nguyen</strong><br><em>Let’s go Serverless</em></td>
+                <td class="session session-4"><strong>Jason Taylor</strong><br><em>Clean Architecture with ASP.NET Core 2.1</em></td>
                 <td class="session session-4"><strong>Laura Summers</strong><br><em>UX for Developers</em></td>
                 <td class="session session-4"><strong>Rian Finnegan</strong><br><em>A Practical Introduction to Quantum Computing</em><br /><br /></td>
                 <td class="session session-4">
@@ -60,7 +61,7 @@ Click on a session to display more detail.
             </tr>
             <tr>
                 <td class="time">11:30</td>
-                <td class="session session-4"><strong>Jason Taylor</strong><br><em>Clean Architecture with ASP.NET Core 2.1</em></td>
+                <td class="session session-4"><strong>Mai Nguyen</strong><br><em>Let’s go Serverless</em></td>
                 <td class="session session-4"><strong>Jaime Febres</strong><br><em>Advance Programming with TypeScript</em></td>
                 <td class="session session-4"><strong>Ben Cull</strong><br><em>This Startup Life: A Developer's Mistakes and Tips</em><br /><br /></td>
                 <td class="session session-4">
