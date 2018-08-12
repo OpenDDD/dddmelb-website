@@ -1,7 +1,7 @@
 ---
 title: Sessions
 type: sessions
-draft: false
+draft: true
 menu:
   main:
     name: Sessions
