@@ -6,7 +6,7 @@ menu:
   main:
     weight: 3
 ---
-<div style="display: none">Click on a session to display more detail.</div>
+Click on a session to display more detail.
 
 <div class="agenda-list">
     <p style="margin-top: 0px;">Welcoming, keynote and closing are held in the Main Hall.</p>
@@ -250,7 +250,7 @@ menu:
                   </a>
                 </td>
                 <td class="session session-4">
-<a href="#" class="red-room" data-toggle="modal" data-target="#agenda-modal">
+                  <a href="#" class="red-room" data-toggle="modal" data-target="#agenda-modal">
                     <strong class="speaker">Abhaya Chauhan</strong><br><em class="info">What has 4 years of AWS Microservices taught me?</em>
                     <span class="area">Supper Room</span>
                       <span class="twitter">[&lt;a href="https://twitter.com/abhayachauhan" class="targetBlank"&gt;@abhayachauhan&lt;/a&gt;]</span>
