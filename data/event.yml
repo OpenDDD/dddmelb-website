@@ -30,7 +30,7 @@ dates:
   - date: 2018-08-11T21:00:00+10:00
     text: Agenda Published
     type: agenda
-    done: false
+    done: true
   - date: 2018-09-15T08:30:00+10:00
     text: Conference Day
     type: content
