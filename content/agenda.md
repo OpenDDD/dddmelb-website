@@ -92,8 +92,6 @@ menu:
                   <a href="#" class="orange-room" data-toggle="modal" data-target="#agenda-modal">
                     <strong class="speaker">Andrew Hore</strong><br><em class="info">Getting Started With Git</em>
                     <span class="area">Junior Dev</span>
-                      <span class="twitter">[&lt;a href="https://twitter.com/minxdragon" class="targetBlank"&gt;@minxdragon&lt;/a&gt;]</span>
-                      <span class="website">&lt;a href="https://www.jennierosenbaum.com" class="targetBlank"&gt;https://www.jennierosenbaum.com&lt;/a&gt;</span>
                       <span class="abstract"><p>Git is an extremely popular tool in the software development world, but due to its sometimes confusing command line syntax and general reputation for being unfriendly, it can be difficult and intimidating for newer developers to learn and understand how to use it.
                       </p><p>
                       In this talk, I’ll explain how to use Git from the ground up. I’ll explain commits, branching, merging, rebasing, and maybe more, with lots of examples to show what’s really happening when you tell git to do something, and which situations you would use these commands in.
@@ -155,6 +153,8 @@ menu:
                   <a href="#" class="orange-room" data-toggle="modal" data-target="#agenda-modal">
                     <strong class="speaker">Jennie Rosenbaum</strong><br><em class="info">Mixed Reality and Art</em>
                     <span class="area">Junior Dev</span>
+                      <span class="twitter">[&lt;a href="https://twitter.com/minxdragon" class="targetBlank"&gt;@minxdragon&lt;/a&gt;]</span>
+                      <span class="website">&lt;a href="http://www.jennierosenbaum.com" class="targetBlank"&gt;http://www.jennierosenbaum.com&lt;/a&gt;</span>
                       <span class="abstract"><p>This talk is about mixed reality technologies, Virtual Reality, Augmented Reality and how they can be beneficial to artists and exploring art in depth. I will go behind the code to the amazing things this technology currently does, what it can reveal and how it is currently being used for good and for ill. I will also discuss how easy it is to get off track on your project, as an artist or as a developer and what we need to bear in mind as we navigate the different streams of development and art</p>
                       <p>
                       I am an artist and a developer, and will be pitching this talk for people who are interested in both or who would like a new way to look at existing technologies to see the potential beneath. I speak with the experience of someone who has developed my own Augmented Reality applications and used it to create award winning art.</p>
