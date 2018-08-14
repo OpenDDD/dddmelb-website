@@ -195,16 +195,16 @@ Click on a session to display more detail.
                 </td>
                 <td class="session session-4">
                     <a href="#" class="red-room" data-toggle="modal" data-target="#agenda-modal">
-                    <strong class="speaker">Prakriti Mateti</strong><br><em class="info">7 lessons in 7 years</em>
+                    <strong class="speaker">Prakriti Mateti</strong><br><em class="info">8 lessons in 8 years</em>
                     <span class="area">Supper Room</span>
                       <span class="twitter">[&lt;a href="https://twitter.com/PrakritiMateti" class="targetBlank"&gt@PrakritiMateti&lt;/a&gt;]</span>
-                      <span class="abstract"><p>Want to know the 7 toughest obstacles I faced in my first 7 years in tech and what I learnt from them?</p><p> 
-                      Some of the stories I will tell are very close to my heart. Some touch on the most vulnerable situations of my life and career. Join me in examining my failures and discussing what I’ve learnt.</p><p>
-                      I’ll share my experience with finding my voice, learning how to recognise that a job isn’t working out, figuring out what I want and learning to ask for it, dealing with personal problems that affect work, and navigating the confusing world of imposter syndrome.
+                      <span class="abstract"><p>Want to know the 8 toughest obstacles I faced in my first 8 years in tech and what I learned from them?</p><p> 
+                      Some of the stories I will tell are very close to my heart. Some touch on the most vulnerable situations of my life and career. Join me in examining my failures and discussing what I’ve learned.</p><p>
+                      I’ll share my experience with finding my voice, learning how to recognise that a job isn’t working out, figuring out what I want and learning to ask for it, dealing with personal problems that affect work, and navigating the confusing world of self worth and imposter syndrome.
                       </p></span>
                       <span class="bio"><p><em>I am an Engineering Team Lead at Zendesk. I care deeply about gender diversity and inclusion in tech, code quality, engineering culture, and what makes a team work well together.<br /> 
                       I’ve been fortunate to work with a diverse group of people in my time in tech so far and have journeyed across hugely different tech cultures. I’ve made plenty of mistakes along this journey and this talk was born out of my introspection of those mistakes.<br />
-                      I like travelling, food, reading, and dream of flying my own airplane (if I can get away from Netflix</em></p></span>
+                      I like travelling, food, reading, and dream of flying my own airplane (if I can get away from Netflix)</em></p></span>
                   </a>
                 </td>
                 <td class="session session-4">
@@ -379,7 +379,7 @@ Click on a session to display more detail.
                 </td>
                 <td class="session session-4" rowspan="2">
                   <a href="#" class="red-room" data-toggle="modal" data-target="#agenda-modal">
-                    <strong class="speaker">Tamma Waddell</strong><br><em class="info">Railway Oriented Programming: C# Edition</em>
+                    <strong class="speaker">Tama Waddell</strong><br><em class="info">Railway Oriented Programming: C# Edition</em>
                     <span class="area">Supper Room</span>
                       <span class="twitter">[&lt;a href="https://twitter.com/twaddell_" class="targetBlank"&gt;@twaddell_&lt;/a&gt;]</span>
                       <span class="abstract"><p>Do you ever feel dirty when adding if statements and try catches to your code to handle basic errors, catch exceptions and/or log events?</p><p>
