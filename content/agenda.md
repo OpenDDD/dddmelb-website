@@ -398,7 +398,7 @@ Click on a session to display more detail.
                 </td>
                 <td class="session session-4">
                   <a href="#" class="orange-room" data-toggle="modal" data-target="#agenda-modal">
-                    <strong class="speaker">Jennie Rosenbaum</strong><br><em class="info">Mixed Reality and Art</em>
+                    <strong class="speaker">J. Rosenbaum</strong><br><em class="info">Mixed Reality and Art</em>
                     <span class="area">Junior Dev</span>
                       <span class="twitter">[&lt;a href="https://twitter.com/minxdragon" class="targetBlank"&gt;@minxdragon&lt;/a&gt;]</span>
                       <span class="website">&lt;a href="http://www.jennierosenbaum.com" class="targetBlank"&gt;http://www.jennierosenbaum.com&lt;/a&gt;</span>
