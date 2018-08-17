@@ -40,7 +40,7 @@ Click on a session to display more detail.
             </tr>
             <tr>
                 <td class="time">10:30</td>
-                <td class="session session-4">
+                <td class="session session-4" rowspan="2">
                 <a href="#" class="blue-room" data-toggle="modal" data-target="#agenda-modal">
                     <strong class="speaker">Jason Taylor</strong><br><em class="info">Clean Architecture with ASP.NET Core 2.1</em>
                     <span class="area">Main Hall</span>
@@ -51,7 +51,7 @@ Click on a session to display more detail.
                       <span class="bio"><p><em>Jason is an SSW Solution Architect and full stack developer with over 17 years professional experience. He is currently specializing in teaching and building awesome applications utilizing ASP.NET Core, EF Core and Angular. Jason loves a challenge and is skilled at progressing from a proposal into a well-defined, coded, and tested solution.</em></p></span>
                   </a><br /><br />
                 </td>
-                <td class="session session-4">
+                <td class="session session-4" rowspan="2">
                   <a href="#" class="green-room" data-toggle="modal" data-target="#agenda-modal">
                     <strong class="speaker">Laura Summers</strong><br><em class="info">UX for Developers</em>
                     <span class="area">Yarra Room</span>
@@ -62,7 +62,7 @@ Click on a session to display more detail.
                       <span class="bio"><p><em>Laura is a multi-disciplinary designer working across user experience research, design and front-end development for startups. Asking questions, unpacking assumptions and trying to get to the bottom of things are some of her favourite activities - supported by methodologies all the cool kids are using, such as Lean, Agile and Design Thinking. She's a passionate advocate for improving diversity in technology and ensuring our workplaces are welcoming and inclusive. Also: cats rule, dogs drool.</em></p></span>
                   </a>
                 </td>
-                <td class="session session-4">
+                <td class="session session-4" rowspan="2">
                   <a href="#" class="red-room" data-toggle="modal" data-target="#agenda-modal">
                     <strong class="speaker">Rian Finnegan</strong><br><em class="info">A Practical Introduction to Quantum Computing</em>
                     <span class="area">Supper Room</span>
@@ -74,11 +74,17 @@ Click on a session to display more detail.
                 </td>
                 <td class="session session-4">
                   <a href="#" class="orange-room" data-toggle="modal" data-target="#agenda-modal">
-                    <strong class="speaker">Valentin Carmignac</strong><br><em class="info">TDD, Coding Dojo and stuff</em>
+                    <strong class="speaker">J. Rosenbaum</strong><br><em class="info">Mixed Reality and Art</em>
                     <span class="area">Junior Dev</span>
-                      <span class="abstract"><p>Ever wondered how to get better at coding but didn't know where to start?<br /> Would you rather learn as a group with like-minded developers? <br />
-                      During 45 min I'll introduce you to Test Driven Development (TDD) and will talk to you about Coding Dojos, the learn-by-doing practice groups</p></span>
-                      <span class="bio"><p><em>Fullstack developer @ Ippon Australia, I Have a strong interest in frontend technologies and coding best practices. Mentor at NodeGirls Melbourne, I run the monthly Coding Dojos</em></p></span>
+                      <span class="twitter">[&lt;a href="https://twitter.com/minxdragon" class="targetBlank"&gt;@minxdragon&lt;/a&gt;]</span>
+                      <span class="website">&lt;a href="http://www.jennierosenbaum.com" class="targetBlank"&gt;http://www.jennierosenbaum.com&lt;/a&gt;</span>
+                      <span class="abstract"><p>This talk is about mixed reality technologies, Virtual Reality, Augmented Reality and how they can be beneficial to artists and exploring art in depth. I will go behind the code to the amazing things this technology currently does, what it can reveal and how it is currently being used for good and for ill. I will also discuss how easy it is to get off track on your project, as an artist or as a developer and what we need to bear in mind as we navigate the different streams of development and art</p>
+                      <p>
+                      I am an artist and a developer, and will be pitching this talk for people who are interested in both or who would like a new way to look at existing technologies to see the potential beneath. I speak with the experience of someone who has developed my own Augmented Reality applications and used it to create award winning art.</p>
+                      <p>This talk brings value in terms of looking at the way we currently approach technologies as to how we could be approaching them and is a light and fun introduction to mixed and immersive reality options.</p></span>
+                      <span class="bio"><p><em>J. Rosenbaum is a contemporary figurative artist working in 3D modeling and exploring the boundaries of technology and art. Their most recent work has been in exploring the nature of Non Binary Transness and their own genders and sexuality. Well known for being a painter of nudes, Rosenbaum has recently undertaken a masters degree and changed focus to more technologically based digital art using physics based rendering, Deep Neural Networks and Unity to develop an Augmented Reality mobile application.
+                      Following a car accident that impaired Rosenbaum’s mobility they have turned their mind inwards exploring the nature of humanity, religion and gender through art. The human body has always been a source of fascination in Rosenbaum’s art with a focus on mythical and archaeological stories driving their progress. This fascination has continued with their newest Computer Generated works with a basis in classical art and history.
+                      J is an American working from their home in Victoria, Australia with their partner and child and two cats.</em></p></span>
                   </a>
                 </td>
             </tr>
@@ -351,7 +357,7 @@ Click on a session to display more detail.
             </tr>
             <tr>
                 <td class="time" rowspan="2">16:30</td>
-                <td class="session session-4" rowspan="2">
+                <td class="session session-4">
                   <a href="#" class="blue-room" data-toggle="modal" data-target="#agenda-modal">
                     <strong class="speaker">Anthony Borton</strong><br><em class="info">How Microsoft does devops</em>
                     <span class="area">Main Hall</span>
@@ -363,7 +369,7 @@ Click on a session to display more detail.
                       <span class="bio"><p><em>Anthony is a DevOps Architect in the Global DevOps Customer Advisory Team at Microsoft. He is passionate about helping teams succeed in their DevOps transformations and he been a community advocate for many years.He's an avid traveller and enjoys flying his drone when he can find the time.</em></p></span>
                   </a>                
                 </td>
-                <td class="session session-4" rowspan="2">
+                <td class="session session-4">
                   <a href="#" class="green-room" data-toggle="modal" data-target="#agenda-modal">
                     <strong class="speaker">Aaron Powell</strong><br><em class="info">Securing Single Page Applications</em>
                     <span class="area">Yarra Room</span>
@@ -377,7 +383,7 @@ Click on a session to display more detail.
                       <span class="bio"><p><em>Aaron is a technical person at Readify and Microsoft Front End Web Dev MVP. By day he spends his time in all facets of .NET development and by night he explores crazy ideas like writing your own implementation of numbers in .NET, creating IoC in JavaScript or implementing tic-tac-toe using git commits.</em></p></span>
                   </a>                
                 </td>
-                <td class="session session-4" rowspan="2">
+                <td class="session session-4">
                   <a href="#" class="red-room" data-toggle="modal" data-target="#agenda-modal">
                     <strong class="speaker">Tama Waddell</strong><br><em class="info">Railway Oriented Programming: C# Edition</em>
                     <span class="area">Supper Room</span>
@@ -398,17 +404,11 @@ Click on a session to display more detail.
                 </td>
                 <td class="session session-4">
                   <a href="#" class="orange-room" data-toggle="modal" data-target="#agenda-modal">
-                    <strong class="speaker">J. Rosenbaum</strong><br><em class="info">Mixed Reality and Art</em>
+                    <strong class="speaker">Valentin Carmignac</strong><br><em class="info">TDD, Coding Dojo and stuff</em>
                     <span class="area">Junior Dev</span>
-                      <span class="twitter">[&lt;a href="https://twitter.com/minxdragon" class="targetBlank"&gt;@minxdragon&lt;/a&gt;]</span>
-                      <span class="website">&lt;a href="http://www.jennierosenbaum.com" class="targetBlank"&gt;http://www.jennierosenbaum.com&lt;/a&gt;</span>
-                      <span class="abstract"><p>This talk is about mixed reality technologies, Virtual Reality, Augmented Reality and how they can be beneficial to artists and exploring art in depth. I will go behind the code to the amazing things this technology currently does, what it can reveal and how it is currently being used for good and for ill. I will also discuss how easy it is to get off track on your project, as an artist or as a developer and what we need to bear in mind as we navigate the different streams of development and art</p>
-                      <p>
-                      I am an artist and a developer, and will be pitching this talk for people who are interested in both or who would like a new way to look at existing technologies to see the potential beneath. I speak with the experience of someone who has developed my own Augmented Reality applications and used it to create award winning art.</p>
-                      <p>This talk brings value in terms of looking at the way we currently approach technologies as to how we could be approaching them and is a light and fun introduction to mixed and immersive reality options.</p></span>
-                      <span class="bio"><p><em>J. Rosenbaum is a contemporary figurative artist working in 3D modeling and exploring the boundaries of technology and art. Their most recent work has been in exploring the nature of Non Binary Transness and their own genders and sexuality. Well known for being a painter of nudes, Rosenbaum has recently undertaken a masters degree and changed focus to more technologically based digital art using physics based rendering, Deep Neural Networks and Unity to develop an Augmented Reality mobile application.
-                      Following a car accident that impaired Rosenbaum’s mobility they have turned their mind inwards exploring the nature of humanity, religion and gender through art. The human body has always been a source of fascination in Rosenbaum’s art with a focus on mythical and archaeological stories driving their progress. This fascination has continued with their newest Computer Generated works with a basis in classical art and history.
-                      J is an American working from their home in Victoria, Australia with their partner and child and two cats.</em></p></span>
+                      <span class="abstract"><p>Ever wondered how to get better at coding but didn't know where to start?<br /> Would you rather learn as a group with like-minded developers? <br />
+                      During 45 min I'll introduce you to Test Driven Development (TDD) and will talk to you about Coding Dojos, the learn-by-doing practice groups</p></span>
+                      <span class="bio"><p><em>Fullstack developer @ Ippon Australia, I Have a strong interest in frontend technologies and coding best practices. Mentor at NodeGirls Melbourne, I run the monthly Coding Dojos</em></p></span>
                   </a>
                 </td>
             </tr>
