@@ -88,6 +88,17 @@ Click on a session to display more detail.
                   </a>
                 </td>
             </tr>
+            <tr>
+                <td class="session session-4"> 
+                  <a href="#" class="orange-room" data-toggle="modal" data-target="#agenda-modal">
+                    <strong class="speaker">Mike Nam-Lee</strong><br><em class="info">Finding your soul-workplace</em>
+                    <span class="area">Junior Dev</span>
+                      <span class="website">&lt;a href="https://qwilr.com" class="targetBlank"&gt;https://qwilr.com&lt;/a&gt;</span>
+                      <span class="abstract"><p>Choosing where to work is stressful and it's tempting to go with the first company that gives you an offer. I'll go through key factors you should consider when making this hard choice such as company culture and tech infrastructure.</p></span>
+                      <span class="bio"><p><em>Mike is a Software Engineer at Qwilr.</em></p></span>
+                  </a>
+                </td>
+            </tr>
             <tr class="breadth-row">
                 <td class="time">11:15</td>
                 <td colspan="4" class="breadth">Changeover</td>
@@ -409,17 +420,6 @@ Click on a session to display more detail.
                       <span class="abstract"><p>Ever wondered how to get better at coding but didn't know where to start?<br /> Would you rather learn as a group with like-minded developers? <br />
                       During 45 min I'll introduce you to Test Driven Development (TDD) and will talk to you about Coding Dojos, the learn-by-doing practice groups</p></span>
                       <span class="bio"><p><em>Fullstack developer @ Ippon Australia, I Have a strong interest in frontend technologies and coding best practices. Mentor at NodeGirls Melbourne, I run the monthly Coding Dojos</em></p></span>
-                  </a>
-                </td>
-            </tr>
-            <tr>
-                <td class="session session-4"> 
-                  <a href="#" class="orange-room" data-toggle="modal" data-target="#agenda-modal">
-                    <strong class="speaker">Mike Nam-Lee</strong><br><em class="info">Finding your soul-workplace</em>
-                    <span class="area">Junior Dev</span>
-                      <span class="website">&lt;a href="https://qwilr.com" class="targetBlank"&gt;https://qwilr.com&lt;/a&gt;</span>
-                      <span class="abstract"><p>Choosing where to work is stressful and it's tempting to go with the first company that gives you an offer. I'll go through key factors you should consider when making this hard choice such as company culture and tech infrastructure.</p></span>
-                      <span class="bio"><p><em>Mike is a Software Engineer at Qwilr.</em></p></span>
                   </a>
                 </td>
             </tr>
