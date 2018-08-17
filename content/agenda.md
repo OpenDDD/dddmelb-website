@@ -49,7 +49,7 @@ Click on a session to display more detail.
                       <span class="abstract"><p>The explosive growth of web frameworks and the demands of users have changed the approach to building web applications. Many challenges exist, and getting started can be a daunting prospect. Let's change that now.</p><p>
                       This talk provides practical guidance and recommendations. We will cover architecture, technologies, tools, and frameworks. We will examine strategies for organizing your projects, folders and files. We will design a system that is simple to build and maintain - all the way from development to production. You leave this talk inspired and prepared to take your enterprise application development to the next level.</p></span>
                       <span class="bio"><p><em>Jason is an SSW Solution Architect and full stack developer with over 17 years professional experience. He is currently specializing in teaching and building awesome applications utilizing ASP.NET Core, EF Core and Angular. Jason loves a challenge and is skilled at progressing from a proposal into a well-defined, coded, and tested solution.</em></p></span>
-                  </a><br /><br />
+                  </a>
                 </td>
                 <td class="session session-4" rowspan="2">
                   <a href="#" class="green-room" data-toggle="modal" data-target="#agenda-modal">
@@ -411,7 +411,7 @@ Click on a session to display more detail.
                       </p><p>
                       By the end of this talk, you'll be able to streamline your code to write clean, happy path programming where the business objective can be quickly understood.</p></span>
                       <span class="bio"><p><em>Tama is a 30 year old software developer who's been programming since he was 15. He's currently working as a consultant at Readify and has spent the past year educating, uplifting teams and solving business problems. He would like to share what experiences he's has introduced to the team and the feedback he's had from his community.</em></p></span>
-                  </a>                
+                  </a><br /><br />                
                 </td>
                 <td class="session session-4">
                   <a href="#" class="orange-room" data-toggle="modal" data-target="#agenda-modal">
