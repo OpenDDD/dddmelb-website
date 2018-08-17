@@ -39,7 +39,7 @@ Click on a session to display more detail.
                 <td colspan="4" class="breadth">Morning Tea</td>
             </tr>
             <tr>
-                <td class="time">10:30</td>
+                <td class="time" rowspan="2">10:30</td>
                 <td class="session session-4" rowspan="2">
                 <a href="#" class="blue-room" data-toggle="modal" data-target="#agenda-modal">
                     <strong class="speaker">Jason Taylor</strong><br><em class="info">Clean Architecture with ASP.NET Core 2.1</em>
@@ -367,7 +367,7 @@ Click on a session to display more detail.
                 <td colspan="4" class="breadth">Changeover</td>
             </tr>
             <tr>
-                <td class="time" rowspan="2">16:30</td>
+                <td class="time">16:30</td>
                 <td class="session session-4">
                   <a href="#" class="blue-room" data-toggle="modal" data-target="#agenda-modal">
                     <strong class="speaker">Anthony Borton</strong><br><em class="info">How Microsoft does devops</em>
