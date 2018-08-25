@@ -33,7 +33,7 @@ Click on a session to display more detail.
             <tr class="breadth-row">
                 <td class="time">9:15</td>
                 <td class="session keynote" colspan="4"><a href="#" class="blue-room" data-toggle="modal" data-target="#agenda-modal">
-                    <strong class="speaker">Keynote - Dayle Steven</strong><br><em class="info">A Day in the Life of a CIO: what’s on my mind & what I look for</em><br /><br />
+                    <strong class="speaker">Keynote - Dayle Stevens</strong><br><em class="info">A Day in the Life of a CIO: what’s on my mind & what I look for</em><br /><br />
                     <span class="area">Main Hall</span>
                       <span class="twitter">[&lt;a href="https://twitter.com/Dayle_Stevens" class="targetBlank"&gt;@Dayle_Stevens&lt;/a&gt;]</span>
                       <span class="website">&lt;a href="https://daylestevens.com/" class="targetBlank"&gt;daylestevens.com&lt;/a&gt;</span>
