@@ -33,14 +33,15 @@ Click on a session to display more detail.
             <tr class="breadth-row">
                 <td class="time">9:15</td>
                 <td class="session keynote" colspan="4"><a href="#" class="blue-room" data-toggle="modal" data-target="#agenda-modal">
-                    <strong class="speaker">Keynote - Dayle Stevens</strong><br><em class="info">A Day in the Life of a CIO: what’s on my mind & what I look for</em><br /><br />
+                    <strong class="speaker">Keynote - Dayle Stevens</strong><br><em class="info">A Day in the Life of a CIO</em><br /><br />
                     <span class="area">Main Hall</span>
                       <span class="twitter">[&lt;a href="https://twitter.com/Dayle_Stevens" class="targetBlank"&gt;@Dayle_Stevens&lt;/a&gt;]</span>
                       <span class="website">&lt;a href="https://daylestevens.com/" class="targetBlank"&gt;daylestevens.com&lt;/a&gt;</span>
-                      <span class="abstract"><p> Dayle Stevens is an award winning technology executive, being named in the CIO50 list as one of Australia’s top CIOs, twice winning the Australian Computer Society Digital Disruptor Award, twice a finalist in Australia’s premiere business women’s awards, and winning a #TechDiversity Award.
+                      <span class="abstract"><p>In this keynote Dayle will share her insights into a day in the life of a CIO, what she does each day, & what she needs & looks for in her teams & those around her.  You will learn about the mindset of a CIO, what engages them & what distracts them, and how to approach them & grab their attention on the things that you care most about.</p></span>
+                      <span class="bio"><em><p>Dayle Stevens is an award winning technology executive, being named in the CIO50 list as one of Australia’s top CIOs, twice winning the Australian Computer Society Digital Disruptor Award, twice a finalist in Australia’s premiere business women’s awards, and winning a #TechDiversity Award.
 </p><p>Dayle joined AGL in Februrary 2018 as a Divisional CIO, leading the transformation of the Corporate & Operations technology services and part of the larger transformation taking place at AGL.</p>
 <p>
-Previously Dayle was at NAB, where she was a Divisional CIO providing the technology services for NAB’s Corporate Operations divisions.  Outside of work Dayle is a Non-Executive Director at Robogals Global, an international not-for-profit volunteer organisation aiming to engage young women in engineering and technical education and careers.</p><p>Dayle is also an Ambassador at Girl Geek Academy, a global movement encouraging women to learn technology, create startups and build more of the internet.  Dayle has been a personal mentor in the Queen’s Young Leaders Programme since 2016, and in 2018 is a tutor for the Programme based at Cambridge University in the UK</p></span>
+Previously Dayle was at NAB, where she was a Divisional CIO providing the technology services for NAB’s Corporate Operations divisions.  Outside of work Dayle is a Non-Executive Director at Robogals Global, an international not-for-profit volunteer organisation aiming to engage young women in engineering and technical education and careers.</p><p>Dayle is also an Ambassador at Girl Geek Academy, a global movement encouraging women to learn technology, create startups and build more of the internet.  Dayle has been a personal mentor in the Queen’s Young Leaders Programme since 2016, and in 2018 is a tutor for the Programme based at Cambridge University in the UK</p></em></span>
                   </a></td>
             </tr>
             <tr class="breadth-row">
