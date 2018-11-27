@@ -38,4 +38,4 @@ deploy:
       name: deploy to firebase
       code: |
           node ./node_modules/firebase-tools/lib/bin/firebase use production
-          node ./node_modules/firebase-tools/lib/bin/firebase deploy --debugc1766f75a93fc412f117ad07a5263149cfe6e36f --token $FIREBASE_TOKEN
+          node ./node_modules/firebase-tools/lib/bin/firebase deploy --debug --token $FIREBASE_TOKEN
