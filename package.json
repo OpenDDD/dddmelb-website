@@ -4,7 +4,7 @@
   "description": "The DDD Melbourne Website",
   "devDependencies": {
     "azure-storage": "2.1.0",
-    "firebase-tools": "3.7.0",
+    "firebase-tools": "^6.1.1",
     "gulp": "^3.9.1",
     "gulp-clean-css": "3.4.1",
     "gulp-concat": "2.6.1",
