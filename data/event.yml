@@ -3,7 +3,7 @@ date: 2019-08-10T08:30:00+10:00
 price: "$79"
 venue: "Melbourne Convention Exhibition Centre"
 dates:
-  - date: 2019-03-30T12:00:00+10:00
+  - date: 2019-04-13T17:00:00+10:00
     text: Call for content opens
     type: content
     done: false
@@ -23,7 +23,7 @@ dates:
     text: Voting opens
     type: voting
     done: false
-  - date: 2019-06-30T18:00:00+10:00
+  - date: 2019-06-22T18:00:00+10:00
     text: Voting closes
     type: voting
     done: false
